@@ -9,7 +9,7 @@ import pandas as pd
 st.set_page_config(layout="wide")
 
 # Data import
-country_imports = pd.read_csv("/data/UNSDfinal.csv")
+country_imports = pd.read_csv("UNSDfinal.csv")
 
 # Page design
 st.title('Supply Chain Analysis')
