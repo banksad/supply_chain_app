@@ -1,0 +1,216 @@
+Value,ID,Country
+16112901,04,Afghanistan
+17700901,08,Albania
+482395262,012,Algeria
+8461349,020,Andorra
+369697129,024,Angola
+15987033,028,Antigua and Barbuda
+390426330,031,Azerbaijan
+306904130,032,Argentina
+3977045970,036,Australia
+1499680428,040,Austria
+24811269,044,Bahamas
+374283060,048,Bahrain
+207293160,050,Bangladesh
+13221692,051,Armenia
+47271343,052,Barbados
+9771333240,058,Belgium
+22256229,060,Bermuda
+1303347,064,Bhutan
+17504529,068,Bolivia
+22167037,070,Bosnia and Herzegovina
+49787065,072,Botswana
+1897392467,076,Brazil
+14199844,084,Belize
+467193,090,Other Australasia and Oceania
+42328912,092,British Virgin Islands
+94293265,096,Brunei Darussalam
+320613636,100,Bulgaria
+32358829,104,Burma
+2043070,108,Burundi
+54502625,112,Belarus
+17690076,116,Cambodia
+42364636,120,Cameroon
+4616593545,124,Canada
+4468248,132,Cape Verde
+216783999,136,Cayman Islands
+2046543,140,Central African Republic
+204987959,144,Sri Lanka
+2589067,148,Chad
+453073964,152,Chile
+13520763560,156,China
+1153731285,158,Taiwan
+229842,166,Cocos (Keeling) Islands
+263980675,170,Colombia
+979926,174,Comoros
+127311566,178,Congo
+91417,184,Cook Islands
+64888399,188,Costa Rica
+122599740,191,Croatia
+25380755,192,Cuba
+260169612,196,Cyprus
+1985733216,203,Czech Republic
+20558916,204,Benin
+2060519280,208,Denmark
+8767225,212,Dominica
+103146585,214,Dominican Republic
+40586218,218,Ecuador
+19315572,222,El Salvador
+20870644,226,Equatorial Guinea
+184164494,231,Ethiopia
+1844517,232,Eritrea
+180911748,233,Estonia
+9701241,234,Faroe Islands
+48373075,238,Falkland Islands
+10157664,242,Fiji
+1128201804,246,Finland
+16272871932,250,France
+492780,254,French Guiana
+7416900,258,French Polynesia
+80413,260,French Southern Antartic territories
+9085006,262,Djibouti
+23411300,266,Gabon
+103996609,268,Georgia
+20245275,270,Gambia
+28868597568,276,Germany
+555036752,288,Ghana
+360113508,292,Gibraltar
+10498,296,Kiribati
+746603124,300,Greece
+2345038,304,Greenland
+8114457,308,Grenada
+3587916,312,Guadeloupe
+28732713,320,Guatemala
+21488697,324,Guinea
+32642043,328,Guyana
+12469009,332,Haiti
+11399968,340,Honduras
+6921852424,344,Hong Kong
+1063933356,348,Hungary
+560802355,352,Iceland
+3302298910,356,India
+538943451,360,Indonesia
+148191836,364,Iran
+227576683,368,Iraq
+14606711856,372,Ireland
+1142154359,376,Israel
+8128076724,380,Italy
+84667244,384,Côte d'Ivoire
+52848052,388,Jamaica
+4844918706,392,Japan
+250036269,398,Kazakstan
+262730882,400,Jordan
+311315512,404,Kenya
+52121,408,"Korea, Dem. People's Rep. of"
+4427425210,410,South Korea
+510619021,414,Kuwait
+3863228,417,Kyrgyzstan
+5746924,418,Lao People's Democratic Republic
+341332223,422,Other Near & Middle Eastern Countries
+2035761,426,Lesotho
+166969248,428,Latvia
+13429659,430,Liberia
+155604594,434,Libyan Arab Jamahiriya
+242334900,440,Lithuania
+186647988,442,Luxembourg
+42064314,446,Macau (Aomen)
+15211851,450,Madagascar
+13368546,454,Malawi
+1316783661,458,Malaysia
+14023464,462,Maldives
+20706361,466,Mali
+338200476,470,Malta
+5005296,474,Martinique
+9368425,478,Mauritania
+68072836,480,Mauritius
+1285423521,484,Mexico
+5918033,496,Mongolia
+42940010,498,"Moldova, Rep.of"
+15108436,500,Montserrat
+843809141,504,Morocco
+13423106,508,Mozambique
+491795648,512,Oman
+133846,520,Nauru
+11423639,524,Nepal
+15754793796,528,Netherlands
+17934648,533,Aruba
+11512128,540,New Caledonia
+380255,548,Vanuatu
+711115380,554,New Zealand
+7208882,558,Nicaragua
+3817429,562,Niger
+968580426,566,Nigeria
+8938,570,Niue
+3072798166,578,Norway
+1159122,580,Northern Mariana Islands
+34709,583,Micronesia (Federated States of)
+432768,584,Marshall Islands
+258074,585,Palau
+627675746,586,Pakistan
+129420635,591,Panama
+47727465,598,Papua New Guinea
+29338229,600,Paraguay
+159326153,604,Peru
+400867435,608,Philippines
+148787,612,Pitcairn
+3099293244,616,Poland
+1150419096,620,Portugal
+952477,624,Guinea-Bissau
+1906917481,634,Qatar
+8319972,638,Reunion
+988264692,642,Romania
+2624271421,643,Russia
+7302349,646,Rwanda
+16564937,654,Saint Helena
+5975963,659,Saint Kitts and Nevis
+1882373,660,Anguilla
+19184291,662,Saint Lucia
+24440,666,St. Pierre and Miquelon
+10818901,670,Saint Vincent and the Grenadines
+3534023,674,San Marino
+148115,678,Sao Tome and Principe
+4920071986,682,Saudi Arabia
+89673272,686,Senegal
+21311757,690,Seychelles
+28757940,694,Sierra Leone
+4618036152,702,Singapore
+436397700,703,Slovakia
+490021958,704,Viet Nam
+191340180,705,Slovenia
+8216784,706,Somalia
+1985416663,710,South Africa
+27205730,716,Zimbabwe
+7459709244,724,Spain
+68619146,729,Sudan
+17717,732,Western Sahara
+12065473,740,Suriname
+3014949,748,Swaziland
+3791584524,752,Sweden
+14975449750,756,Switzerland
+5477250,760,Syrian Arab Republic
+1741214,762,Tajikistan
+1107025661,764,Thailand
+123306217,768,Togo
+396714,776,Tonga
+124758596,780,Trinidad and Tobago
+6797893559,784,Residual Gulf Arabian Countries
+182652157,788,"Algeria, Tunisia and Libya"
+4606650798,792,Turkey
+38069716,795,Turkmenistan
+2755118,796,Turks and Caicos Islands
+49605,798,Tuvalu
+44080603,800,Uganda
+375469730,804,Ukraine
+662618592,807,Macedonia (the former Yugoslav Rep. of)
+1230349504,818,Egypt
+102522642,834,"Tanzania, United Rep. of "
+46010616336,840,United States of America
+9052437,854,Burkina Faso
+123971555,858,Uruguay
+32445285,860,Uzbekistan
+104878039,862,Venezuela
+26356,876,Wallis and Futuna
+172329,882,Samoa
+36033343,887,Yemen
+45887366,894,Zambia
+7496929,931,Palestine
