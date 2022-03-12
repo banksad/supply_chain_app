@@ -12,11 +12,11 @@ st.title('Supply Chain Analysis')
 
 st.subheader('Streamlit App by [Andy Banks](https://github.com/banksad)')
 
-st.markdown('''This is a prototype dashboard to present a range of publicly available information on supply chains.
+st.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
             
-            You can find the source code [here](https://github.com/banksad/supply_chain_app)
+st.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app)')
             
-            Feel free to do a pull request :smile:''')
+st.markdown('Feel free to do a pull request :smile:')
 
 df = pd.DataFrame({
   'first column': [1, 2, 3, 4],
