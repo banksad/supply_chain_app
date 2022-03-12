@@ -6,6 +6,8 @@ Here's our first attempt at using data to create a table:
 import streamlit as st
 import pandas as pd
 
+st.progress(progress_variable_1_to_100)
+
 st.set_page_config(layout="wide")
 
 st.title('Supply Chain Analysis')
