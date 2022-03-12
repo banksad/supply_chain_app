@@ -9,7 +9,7 @@ import pandas as pd
 st.set_page_config(layout="wide")
 
 # Data import
-country_imports = pd.read_json("top_10.json")
+country_imports = pd.read_json("data/top_10.json")
 
 # Page design
 st.title('Supply Chain Analysis')
