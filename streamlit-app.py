@@ -26,3 +26,7 @@ df = pd.DataFrame({
 })
 
 df
+
+st.subheader('Exports')
+
+st.radio('Pick a country',set(list(country_imports['Name'])))
