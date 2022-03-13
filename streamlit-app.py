@@ -42,7 +42,7 @@ st.subheader('Exports')
 
 st.markdown('This is a list of the top ten exports for the country selected')
 
-export_subset = country_imports[country_imports['Name']==country][['VALUE','TEXT','Name']]
+export_subset = country_imports[country_imports['Name']==country][['VALUE','TEXT','Name']].sort_values(by=['VALUE'])
 
 c = alt.Chart(export_subset).mark_bar().encode(
      x='VALUE', 
