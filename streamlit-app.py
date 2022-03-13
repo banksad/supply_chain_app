@@ -25,15 +25,15 @@ st.markdown('You can find the source code [here](https://github.com/banksad/supp
 
 st.subheader('Imports')
 
-st.sidebar.markdown("**Select a product you want to analyze:** 👇")
+st.markdown("**Select a product you want to analyze:** 👇")
 
-product = st.sidebar.selectbox('Pick a country',set(list(country_imports['TEXT'])))
+product = st.selectbox('Pick a country',set(list(country_imports['TEXT'])))
 
 st.subheader('Exports')
 
-st.sidebar.markdown("**Select a country you want to analyze:** 👇")
+st.markdown("**Select a country you want to analyze:** 👇")
 
-country = st.sidebar.selectbox('Pick a country',set(list(country_imports['Name'])))
+country = st.selectbox('Pick a country',set(list(country_imports['Name'])))
 
 st.markdown('This is a list of the top ten exports for the country selected')
 
