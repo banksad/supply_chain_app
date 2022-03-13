@@ -6,13 +6,12 @@ Here's our first attempt at using data to create a table:
 import streamlit as st
 import pandas as pd
 import altair as alt
-import vega_datasets as vg#
 
 st.set_page_config(layout="wide")
 
 # Data import
 country_imports = pd.read_json("data/top_10.json")
-#country_total = pd.read_csv("data/UNSDfinal.csv")
+country_total = pd.read_csv("data/UNSDfinal.csv")
 
 # Page design
 st.title('Supply Chain Analysis')
@@ -54,21 +53,5 @@ c = alt.Chart(export_subset).mark_bar().encode(
      ).configure_view(
        continuousWidth=1350
      )
-
-st.altair_chart(c)
-
-# World map
-
-topo_countries = alt.topo_feature(vg.data.world_110m.url, 'countries')
-
-c = alt.Chart(topo_countries).mark_geoshape(
-    fill='lightgray',
-    stroke='white'
-).project(
-    "equirectangular"
-).properties(
-    width=500,
-    height=300
-)
 
 st.altair_chart(c)
