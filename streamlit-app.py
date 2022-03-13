@@ -20,6 +20,16 @@ st.markdown('This is a prototype dashboard to present a range of publicly availa
             
 st.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
+# Sidebar
+
+st.sidebar.text('')
+st.sidebar.text('')
+st.sidebar.text('')
+
+st.sidebar.markdown("**First select a country you want to analyze:** 👇")
+
+country = st.sidebar.radio('Pick a country',set(list(country_imports['Name'])))
+
 df = pd.DataFrame({
   'first column': [1, 2, 3, 4],
   'second column': [10, 20, 30, 40]
@@ -29,4 +39,4 @@ df
 
 st.subheader('Exports')
 
-st.radio('Pick a country',set(list(country_imports['Name'])))
+
