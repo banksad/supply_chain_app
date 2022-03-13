@@ -45,8 +45,8 @@ st.markdown('This is a list of the top ten exports for the country selected')
 export_subset = country_imports[country_imports['Name']==country][['VALUE','TEXT','Name']]
 
 c = alt.Chart(export_subset).mark_bar().encode(
-     x='TEXT', 
-     y='VALUE'
+     x='VALUE', 
+     y='TEXT'
      )
 
 st.altair_chart(c, use_container_width=True)
