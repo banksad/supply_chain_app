@@ -6,8 +6,6 @@ Here's our first attempt at using data to create a table:
 import streamlit as st
 import pandas as pd
 import altair as alt
-from matplotlib import pyplot as plt
-import seaborn as sns
 
 st.set_page_config(layout="wide")
 
@@ -49,8 +47,3 @@ c = alt.Chart(export_subset).mark_bar().encode(
      )
 
 st.altair_chart(c, use_container_width=True)
-
-fig, ax = plt.subplots()
-ax = sns.barplot(x="VALUE", y='TEXT', data=export_subset)
-
-st.pyplot(fig)
