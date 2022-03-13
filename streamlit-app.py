@@ -6,7 +6,7 @@ Here's our first attempt at using data to create a table:
 import streamlit as st
 import pandas as pd
 import altair as alt
-from vega_datasets import data
+import vega_datasets as vg
 
 st.set_page_config(layout="wide")
 
@@ -59,7 +59,7 @@ st.altair_chart(c)
 
 # World map
 
-topo_countries = alt.topo_feature(data.world_110m.url, 'countries')
+topo_countries = alt.topo_feature(vg.data.world_110m.url, 'countries')
 
 c = alt.Chart(topo_countries).mark_geoshape(
     fill='lightgray',

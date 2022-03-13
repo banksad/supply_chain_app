@@ -1,4 +1,5 @@
 matplotlib
+vega_datasets
 streamlit
 numpy==1.18.5
 pandas
