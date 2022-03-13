@@ -44,6 +44,8 @@ c = alt.Chart(export_subset).mark_bar().encode(
      alt.Y('TEXT', axis=alt.Axis(title='Product exported'))
      ).configure_axis(
        labelFontSize=2
+     ).configure_view(
+       continuousWidth=200
      )
 
 st.altair_chart(c, use_container_width=True)
