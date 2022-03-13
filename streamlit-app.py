@@ -11,7 +11,6 @@ st.set_page_config(layout="wide")
 
 # Data import
 country_imports = pd.read_json("data/top_10.json")
-country_total = pd.read_csv("data/UNSDfinal.csv")
 
 # Page design
 st.title('Supply Chain Analysis')
