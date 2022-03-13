@@ -45,7 +45,7 @@ c = alt.Chart(export_subset).mark_bar().encode(
      ).configure_axis(
        labelFontSize=8
      ).configure_view(
-       continuousWidth=1600
+       continuousWidth=1350
      )
 
 st.altair_chart(c)
