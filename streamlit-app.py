@@ -6,13 +6,13 @@ Here's our first attempt at using data to create a table:
 import streamlit as st
 import pandas as pd
 import altair as alt
-import vega_datasets as vg
+import vega_datasets as vg#
 
 st.set_page_config(layout="wide")
 
 # Data import
 country_imports = pd.read_json("data/top_10.json")
-country_total = pd.read_csv("data/UNSDfinal.csv")
+#country_total = pd.read_csv("data/UNSDfinal.csv")
 
 # Page design
 st.title('Supply Chain Analysis')
