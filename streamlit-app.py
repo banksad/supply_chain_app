@@ -5,6 +5,7 @@ Here's our first attempt at using data to create a table:
 
 import streamlit as st
 import pandas as pd
+import altair as alt
 
 st.set_page_config(layout="wide")
 
@@ -28,7 +29,7 @@ st.sidebar.text('')
 
 st.sidebar.markdown("**First select a country you want to analyze:** 👇")
 
-country = st.sidebar.radio('Pick a country',set(list(country_imports['Name'])))
+country = st.sidebar.selectbox('Pick a country',set(list(country_imports['Name'])))
 
 df = pd.DataFrame({
   'first column': [1, 2, 3, 4],
@@ -39,4 +40,13 @@ df
 
 st.subheader('Exports')
 
+st.markdown('This is a list of the top ten exports for the country selected')
 
+export_subset = country_imports[country_imports['Name']==country][['VALUE','TEXT','Name']]
+
+c = alt.Chart(export_subset).mark_bar().encode(
+     x='TEXT', 
+     y='VALUE'
+     )
+
+st.altair_chart(c, use_container_width=True)
