@@ -48,4 +48,4 @@ c = alt.Chart(export_subset).mark_bar().encode(
        continuousWidth=200
      )
 
-st.altair_chart(c, use_container_width=True)
+st.altair_chart(c)
