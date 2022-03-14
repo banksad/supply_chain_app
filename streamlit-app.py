@@ -48,7 +48,7 @@ nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
 nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black', width=edge_widths)
 nx.draw_networkx_labels(G, pos, font_color = 'white')
 
-st.pyplot(fig, use_container_width=True)
+st.pyplot(fig, use_container_width=False)
 
 
 # Imports section
