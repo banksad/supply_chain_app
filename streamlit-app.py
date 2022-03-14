@@ -6,11 +6,13 @@ Here's our first attempt at using data to create an app
 import streamlit as st
 import pandas as pd
 import altair as alt
+import networkx as nx
 
 st.set_page_config(layout="wide")
 
 # Data import
 country_imports = pd.read_json("data/top_10.json")
+iosut_section_edges = pd.read_csv('data/iosut_section_edges.csv')
 
 # Page design
 st.title('Supply Chain Analysis')
@@ -20,6 +22,22 @@ st.subheader('Streamlit App by [Andy Banks](https://github.com/banksad)')
 st.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
             
 st.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
+
+# Industry to industry relationships
+
+st.subheader('Industry to industry relationships')
+
+st.markdown("**Select an Industry you want to analyze:** 👇")
+
+industry = st.selectbox('Pick an industry',set(list(iosut_section_edges['industry'])))
+
+G = nx.from_pandas_edgelist(
+    iosut_section_edges, target='industry', source='product_stripped', 
+    edge_attr = 'value',       # this adds weighting to the edges based on transaction values
+    create_using = nx.DiGraph  # this gives the network directionality
+)
+
+G
 
 # Imports section
 
