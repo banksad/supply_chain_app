@@ -27,12 +27,14 @@ st.sidebar.markdown('You can find the source code [here](https://github.com/bank
 
 st.subheader('Industry to industry relationships')
 
-st.markdown("**Select an Industry you want to analyze:** 👇")
+st.markdown("**Select industries you want to analyze:** 👇")
 
-industry = st.selectbox('Pick an industry',set(list(iosut_section_edges['industry'])))
+industry = st.multiselect('Pick a set of industries',set(sorted(list(iosut_section_edges['industry']))))
+
+iosut_section_edges1 = iosut_section_edges[iosut_section_edges['industry'].isin(industry)]
 
 G = nx.from_pandas_edgelist(
-    iosut_section_edges, target='industry', source='product_stripped', 
+    iosut_section_edges1, target='industry', source='product_stripped', 
     edge_attr = 'value',       # this adds weighting to the edges based on transaction values
     create_using = nx.DiGraph  # this gives the network directionality
 )
