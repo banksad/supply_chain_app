@@ -7,6 +7,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import networkx as nx
+import matplotlib as plt
 
 st.set_page_config(layout="wide")
 
@@ -37,7 +38,12 @@ G = nx.from_pandas_edgelist(
     create_using = nx.DiGraph  # this gives the network directionality
 )
 
-G
+plt.figure(figsize=(16, 16))
+pos = nx.spring_layout(G_sub)
+nx.draw_networkx_nodes(G_sub, pos, node_size=500, node_color = 'royalblue')
+nx.draw_networkx_edges(G_sub, pos, edgelist=G_sub.edges(), edge_color='black')
+nx.draw_networkx_labels(G_sub, pos, font_color = 'white')
+plt.show()
 
 # Imports section
 
