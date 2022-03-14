@@ -31,6 +31,9 @@ st.markdown("**Select industries you want to analyze:** 👇")
 
 industry = st.multiselect('Pick a set of industries',set(sorted(list(iosut_section_edges['industry']))))
 
+st.markdown("")
+st.markdown("The network graph below shows the value of inputs that the given industry uses from other industries")
+
 iosut_section_edges1 = iosut_section_edges[iosut_section_edges['industry'].isin(industry)]
 
 G = nx.from_pandas_edgelist(
