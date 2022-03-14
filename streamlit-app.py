@@ -41,16 +41,11 @@ G = nx.from_pandas_edgelist(
 
 G
 
-#plt.figure(figsize=(16, 16))
-#pos = nx.spring_layout(G)
-#nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
-#nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black')
-#nx.draw_networkx_labels(G, pos, font_color = 'white')
-#st.pyplot()
-
-arr = np.random.normal(1,1, size=100)
-fig, ax = plt.subplots()
-ax.hist(arr, bins=20)
+fig = plt.figure(figsize=(16, 16))
+pos = nx.spring_layout(G)
+nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
+nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black')
+nx.draw_networkx_labels(G, pos, font_color = 'white')
 
 st.pyplot(fig)
 
