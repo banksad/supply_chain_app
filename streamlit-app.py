@@ -9,6 +9,7 @@ import altair as alt
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
+import plotly.express as px
 
 st.set_page_config(layout="centered")
 
@@ -72,9 +73,12 @@ export_subset = country_imports[country_imports['Name']==country][['VALUE','TEXT
 
 # Bar chart
 
-c = alt.Chart(export_subset).mark_bar().encode(
-     alt.X('VALUE', axis=alt.Axis(title='Value of exports')),
-     alt.Y('TEXT', axis=alt.Axis(title='Product exported'))
-)
+#c = alt.Chart(export_subset).mark_bar().encode(
+#     alt.X('VALUE', axis=alt.Axis(title='Value of exports')),
+#     alt.Y('TEXT', axis=alt.Axis(title='Product exported'))
+#)
 
-st.altair_chart(c)
+#st.altair_chart(c)
+
+fig = px.bar(export_subset, x='VALUE', y='TEXT')
+st.plotly_chart(fig, use_container_width=True)
