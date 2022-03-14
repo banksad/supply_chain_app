@@ -19,8 +19,6 @@ iosut_section_edges = pd.read_csv('data/iosut_section_edges.csv')
 # Page design
 st.title('Supply Chain Analysis')
 
-st.subheader('Streamlit App by [Andy Banks](https://github.com/banksad)')
-
 st.sidebar.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
             
 st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
@@ -38,8 +36,6 @@ G = nx.from_pandas_edgelist(
     edge_attr = 'value',       # this adds weighting to the edges based on transaction values
     create_using = nx.DiGraph  # this gives the network directionality
 )
-
-G
 
 fig = plt.figure(figsize=(16,16))
 pos = nx.spring_layout(G)
