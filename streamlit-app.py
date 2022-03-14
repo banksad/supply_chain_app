@@ -15,7 +15,7 @@ st.set_page_config(layout="centered")
 # Data import
 country_imports = pd.read_json("data/top_10.json")
 iosut_section_edges = pd.read_csv('data/iosut_section_edges.csv')
-iosut_section_long = pd.read_csv('data/iosut_long.csv')
+iosut_long = pd.read_csv('data/iosut_long.csv')
 
 # Page design
 st.title('Supply Chain Analysis')
