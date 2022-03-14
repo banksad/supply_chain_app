@@ -148,9 +148,9 @@ st.subheader('Imports')
 
 st.markdown("**Select a product and country you want to analyze:** 👇")
 
-product = st.selectbox('Pick a product',set(list(country_imports['TEXT'])))
+product_static = st.selectbox('Pick a product',set(list(country_imports['TEXT'])))
 
-country = st.selectbox('Pick a country',set(list(country_imports['Name'])))
+country_static = st.selectbox('Pick a country',set(list(country_imports['Name'])))
 
 st.image('data/vis.png')
 
