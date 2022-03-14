@@ -98,7 +98,7 @@ if detail=='All sections':
     iosut_section_edges1 = iosut_section_edges
 
     G = nx.from_pandas_edgelist(
-        iosut_section_edges1, target='variable', source='product_stripped', 
+        iosut_section_edges1, target='industry', source='product_stripped', 
         edge_attr = 'value',       # this adds weighting to the edges based on transaction values
         create_using = nx.DiGraph  # this gives the network directionality
     )
@@ -110,7 +110,7 @@ if detail=='All sections':
     ax = plt.axes()
 
     pos = nx.spring_layout(G)
-    nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
+    nx.draw_networkx_nodes(G, pos, node_size=50, node_color = 'royalblue')
     nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black', width=edge_widths)
     nx.draw_networkx_labels(G, pos, font_color = 'white')
 
@@ -136,7 +136,7 @@ if detail=='All 114 industries':
     ax = plt.axes()
 
     pos = nx.spring_layout(G)
-    nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
+    nx.draw_networkx_nodes(G, pos, node_size=50, node_color = 'royalblue')
     nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black', width=edge_widths)
     nx.draw_networkx_labels(G, pos, font_color = 'white')
 
