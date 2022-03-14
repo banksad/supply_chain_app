@@ -37,7 +37,7 @@ G = nx.from_pandas_edgelist(
     create_using = nx.DiGraph  # this gives the network directionality
 )
 
-fig = plt.figure(figsize=(16,16))
+fig = plt.figure(figsize=(8,8))
 pos = nx.spring_layout(G)
 nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
 nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black')
