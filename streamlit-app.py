@@ -15,6 +15,7 @@ st.set_page_config(layout="centered")
 # Data import
 country_imports = pd.read_json("data/top_10.json")
 iosut_section_edges = pd.read_csv('data/iosut_section_edges.csv')
+iosut_section_long = pd.read_csv('data/iosut_long.csv')
 
 # Page design
 st.title('Supply Chain Analysis')
@@ -27,33 +28,69 @@ st.sidebar.markdown('You can find the source code [here](https://github.com/bank
 
 st.subheader('Industry to industry relationships')
 
-st.markdown("**Select industries you want to analyze:** 👇")
+st.markdown("**Select level of detail you want to analyze:** 👇")
 
-industry = st.multiselect('Pick a set of industries',set(sorted(list(iosut_section_edges['industry']))))
+detail = st.multiselect('Pick a level of detail',['Section','114 industry'])
 
-st.markdown("")
-st.markdown("The network graph below shows the value of inputs that the given industry uses from other industries")
+if detail=='114 industry':
+    
+    st.markdown("**Select industries you want to analyze:** 👇")
 
-iosut_section_edges1 = iosut_section_edges[iosut_section_edges['industry'].isin(industry)]
+    industry = st.multiselect('Pick a set of industries',set(sorted(list(iosut_long['variable']))))
 
-G = nx.from_pandas_edgelist(
-    iosut_section_edges1, target='industry', source='product_stripped', 
-    edge_attr = 'value',       # this adds weighting to the edges based on transaction values
-    create_using = nx.DiGraph  # this gives the network directionality
-)
+    st.markdown("")
+    st.markdown("The network graph below shows the value of inputs that the given industry uses from other industries")
 
-edge_weights = [G.edges[edge]['value'] for edge in G.edges]
-edge_widths = [weight / max(edge_weights) * 10 for weight in edge_weights]
+    iosut_section_edges1 = iosut_long[iosut_long['variable'].isin(industry)]
 
-fig = plt.figure(figsize=(8,8))
-ax = plt.axes()
+    G = nx.from_pandas_edgelist(
+        iosut_section_edges1, target='variable', source='product_stripped', 
+        edge_attr = 'value',       # this adds weighting to the edges based on transaction values
+        create_using = nx.DiGraph  # this gives the network directionality
+    )
 
-pos = nx.spring_layout(G)
-nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
-nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black', width=edge_widths)
-nx.draw_networkx_labels(G, pos, font_color = 'white')
+    edge_weights = [G.edges[edge]['value'] for edge in G.edges]
+    edge_widths = [weight / max(edge_weights) * 10 for weight in edge_weights]
 
-st.pyplot(fig, use_container_width=False)
+    fig = plt.figure(figsize=(8,8))
+    ax = plt.axes()
+
+    pos = nx.spring_layout(G)
+    nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
+    nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black', width=edge_widths)
+    nx.draw_networkx_labels(G, pos, font_color = 'white')
+
+    st.pyplot(fig, use_container_width=False)
+    
+elif detail=='Section':
+    
+    st.markdown("**Select industries you want to analyze:** 👇")
+
+    industry = st.multiselect('Pick a set of industries',set(sorted(list(iosut_section_edges['industry']))))
+
+    st.markdown("")
+    st.markdown("The network graph below shows the value of inputs that the given industry uses from other industries")
+
+    iosut_section_edges1 = iosut_section_edges[iosut_section_edges['industry'].isin(industry)]
+
+    G = nx.from_pandas_edgelist(
+        iosut_section_edges1, target='industry', source='product_stripped', 
+        edge_attr = 'value',       # this adds weighting to the edges based on transaction values
+        create_using = nx.DiGraph  # this gives the network directionality
+    )
+
+    edge_weights = [G.edges[edge]['value'] for edge in G.edges]
+    edge_widths = [weight / max(edge_weights) * 10 for weight in edge_weights]
+
+    fig = plt.figure(figsize=(8,8))
+    ax = plt.axes()
+
+    pos = nx.spring_layout(G)
+    nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
+    nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black', width=edge_widths)
+    nx.draw_networkx_labels(G, pos, font_color = 'white')
+
+    st.pyplot(fig, use_container_width=False)    
 
 
 # Imports section
