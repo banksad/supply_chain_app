@@ -30,7 +30,7 @@ st.subheader('Industry to industry relationships')
 
 st.markdown("**Select level of detail you want to analyze:** 👇")
 
-detail = st.radio('Pick a level of detail',['Section','114 industry'])
+detail = st.radio('Pick a level of detail',['Section','114 industry','All sections','All 114 industries'])
 
 st.markdown("**Select industries you want to analyze:** 👇")
 
@@ -90,6 +90,57 @@ elif detail=='Section':
 
     st.pyplot(fig, use_container_width=False)    
 
+if detail=='All sections': 
+
+    st.markdown("")
+    st.markdown("The network graph below shows the value of inputs that the given industry uses from other industries")
+
+    iosut_section_edges1 = iosut_section_edges
+
+    G = nx.from_pandas_edgelist(
+        iosut_section_edges1, target='variable', source='product_stripped', 
+        edge_attr = 'value',       # this adds weighting to the edges based on transaction values
+        create_using = nx.DiGraph  # this gives the network directionality
+    )
+
+    edge_weights = [G.edges[edge]['value'] for edge in G.edges]
+    edge_widths = [weight / max(edge_weights) * 10 for weight in edge_weights]
+
+    fig = plt.figure(figsize=(8,8))
+    ax = plt.axes()
+
+    pos = nx.spring_layout(G)
+    nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
+    nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black', width=edge_widths)
+    nx.draw_networkx_labels(G, pos, font_color = 'white')
+
+    st.pyplot(fig, use_container_width=False)
+
+if detail=='All 114 industries': 
+
+    st.markdown("")
+    st.markdown("The network graph below shows the value of inputs that the given industry uses from other industries")
+
+    iosut_section_edges1 = iosut_long
+
+    G = nx.from_pandas_edgelist(
+        iosut_section_edges1, target='variable', source='product_stripped', 
+        edge_attr = 'value',       # this adds weighting to the edges based on transaction values
+        create_using = nx.DiGraph  # this gives the network directionality
+    )
+
+    edge_weights = [G.edges[edge]['value'] for edge in G.edges]
+    edge_widths = [weight / max(edge_weights) * 10 for weight in edge_weights]
+
+    fig = plt.figure(figsize=(8,8))
+    ax = plt.axes()
+
+    pos = nx.spring_layout(G)
+    nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
+    nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black', width=edge_widths)
+    nx.draw_networkx_labels(G, pos, font_color = 'white')
+
+    st.pyplot(fig, use_container_width=False)
 
 # Imports section
 
