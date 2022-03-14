@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="centered")
 
 # Data import
 country_imports = pd.read_json("data/top_10.json")
