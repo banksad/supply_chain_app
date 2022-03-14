@@ -150,7 +150,7 @@ st.markdown("**Select a product and country you want to analyze:** 👇")
 
 product_static = st.selectbox('Pick a product',set(list(country_imports['TEXT'])))
 
-country_static = st.selectbox('Pick a country',set(list(country_imports['Name'])))
+country_static = st.selectbox('Pick a country',['France','Germany'])
 
 st.image('data/vis.png')
 
