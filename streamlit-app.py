@@ -5,7 +5,6 @@ Here's our first attempt at using data to create an app
 
 import streamlit as st
 import pandas as pd
-import altair as alt
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
@@ -41,7 +40,9 @@ G = nx.from_pandas_edgelist(
 edge_weights = [G.edges[edge]['value'] for edge in G.edges]
 edge_widths = [weight / max(edge_weights) * 10 for weight in edge_weights]
 
-fig, ax = plt.subplots(figsize=(8,8))
+fig = plt.figure(figsize=(8,8))
+ax = plt.axes()
+
 pos = nx.spring_layout(G)
 nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
 nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black', width=edge_widths)
@@ -70,15 +71,6 @@ country = st.selectbox('Pick a country',set(list(country_imports['Name'])))
 st.markdown('This is a list of the top ten exports for the country selected')
 
 export_subset = country_imports[country_imports['Name']==country][['VALUE','TEXT','Name']].sort_values(by=['VALUE'])
-
-# Bar chart
-
-#c = alt.Chart(export_subset).mark_bar().encode(
-#     alt.X('VALUE', axis=alt.Axis(title='Value of exports')),
-#     alt.Y('TEXT', axis=alt.Axis(title='Product exported'))
-#)
-
-#st.altair_chart(c)
 
 fig = px.bar(export_subset, x='VALUE', y='TEXT')
 st.plotly_chart(fig, use_container_width=True)
