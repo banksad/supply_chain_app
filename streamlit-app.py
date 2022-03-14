@@ -1,6 +1,6 @@
 """
 # My first app
-Here's our first attempt at using data to create a table:
+Here's our first attempt at using data to create an app
 """
 
 import streamlit as st
