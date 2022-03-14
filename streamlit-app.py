@@ -30,11 +30,11 @@ st.subheader('Industry to industry relationships')
 
 st.markdown("**Select level of detail you want to analyze:** 👇")
 
-detail = st.multiselect('Pick a level of detail',['Section','114 industry'])
+detail = st.radio('Pick a level of detail',['Section','114 industry'])
 
-if detail=='114 industry':
-    
-    st.markdown("**Select industries you want to analyze:** 👇")
+st.markdown("**Select industries you want to analyze:** 👇")
+
+if detail=='114 industry': 
 
     industry = st.multiselect('Pick a set of industries',set(sorted(list(iosut_long['variable']))))
 
@@ -63,8 +63,6 @@ if detail=='114 industry':
     st.pyplot(fig, use_container_width=False)
     
 elif detail=='Section':
-    
-    st.markdown("**Select industries you want to analyze:** 👇")
 
     industry = st.multiselect('Pick a set of industries',set(sorted(list(iosut_section_edges['industry']))))
 
