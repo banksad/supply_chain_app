@@ -37,10 +37,13 @@ G = nx.from_pandas_edgelist(
     create_using = nx.DiGraph  # this gives the network directionality
 )
 
+edge_weights = [G.edges[edge]['value'] for edge in G.edges]
+edge_widths = [weight / max(edge_weights) * 10 for weight in edge_weights]
+
 fig, ax = plt.subplots(figsize=(8,8))
 pos = nx.spring_layout(G)
 nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
-nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black')
+nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black', width=edge_widths)
 nx.draw_networkx_labels(G, pos, font_color = 'white')
 
 st.pyplot(fig)
