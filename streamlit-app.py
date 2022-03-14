@@ -41,7 +41,7 @@ G = nx.from_pandas_edgelist(
 
 G
 
-fig = plt.figure()
+fig = plt.figure(figsize=(16,16))
 pos = nx.spring_layout(G)
 nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
 nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black')
