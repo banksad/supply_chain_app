@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
 
-st.set_page_config(layout="centered")
+st.set_page_config(layout="wide")
 
 # Data import
 country_imports = pd.read_json("data/top_10.json")
@@ -47,7 +47,7 @@ nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
 nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black', width=edge_widths)
 nx.draw_networkx_labels(G, pos, font_color = 'white')
 
-st.pyplot(fig)
+st.pyplot(fig, use_container_width=True)
 
 
 # Imports section
@@ -81,4 +81,4 @@ export_subset = country_imports[country_imports['Name']==country][['VALUE','TEXT
 #st.altair_chart(c)
 
 fig = px.bar(export_subset, x='VALUE', y='TEXT')
-st.plotly_chart(fig)
+st.plotly_chart(fig, use_container_width=True)
