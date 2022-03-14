@@ -146,9 +146,13 @@ if detail=='All 114 industries':
 
 st.subheader('Imports')
 
-st.markdown("**Select a product you want to analyze:** 👇")
+st.markdown("**Select a product and country you want to analyze:** 👇")
 
 product = st.selectbox('Pick a product',set(list(country_imports['TEXT'])))
+
+country = st.selectbox('Pick a country',set(list(country_imports['Name'])))
+
+st.image('data/vis.png')
 
 # Exports section
 # -----------------
