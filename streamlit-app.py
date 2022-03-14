@@ -41,7 +41,7 @@ G = nx.from_pandas_edgelist(
 
 G
 
-fig = plt.figure(figsize=(16, 16))
+fig = plt.figure()
 pos = nx.spring_layout(G)
 nx.draw_networkx_nodes(G, pos, node_size=500, node_color = 'royalblue')
 nx.draw_networkx_edges(G, pos, edgelist=G.edges(), edge_color='black')
@@ -76,10 +76,6 @@ export_subset = country_imports[country_imports['Name']==country][['VALUE','TEXT
 c = alt.Chart(export_subset).mark_bar().encode(
      alt.X('VALUE', axis=alt.Axis(title='Value of exports')),
      alt.Y('TEXT', axis=alt.Axis(title='Product exported'))
-     ).configure_axis(
-       labelFontSize=8
-     ).configure_view(
-       continuousWidth=1350
-     )
+)
 
 st.altair_chart(c)
