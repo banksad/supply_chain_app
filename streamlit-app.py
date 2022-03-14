@@ -81,4 +81,4 @@ export_subset = country_imports[country_imports['Name']==country][['VALUE','TEXT
 #st.altair_chart(c)
 
 fig = px.bar(export_subset, x='VALUE', y='TEXT')
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig)
