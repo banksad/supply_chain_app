@@ -167,5 +167,5 @@ st.markdown('This is a list of the top ten exports for the country selected')
 
 export_subset = country_imports[country_imports['Name']==country][['VALUE','TEXT','Name']].sort_values(by=['VALUE'])
 
-fig = px.bar(export_subset, x='VALUE', y='TEXT', width=1600)
+fig = px.bar(export_subset, x='TEXT', y='VALUE')
 st.plotly_chart(fig, use_container_width=False)
