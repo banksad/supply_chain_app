@@ -127,7 +127,7 @@ else:
         st.markdown("")
         see_import_data3 = st.expander('You can click here to see the raw data 👉')
         with see_import_data3:
-            st.dataframe(data=combined_subset)
+            st.dataframe(data=combined_subset[['input product','value']])
 
     with col2:
         
