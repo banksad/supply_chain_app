@@ -51,7 +51,7 @@ with col2:
 col1_2, col2_2 = st.columns(2)
 
 with col1_2:
-    st.subheader('Imported products used in domestic production')
+    st.subheader('Imported products used in the domestic production of {} products'.format(import_product.lower()))
 
     st.markdown('This section examines the types of imported products that are used to domestically produce the product selected')
 
