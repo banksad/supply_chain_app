@@ -1,0 +1,350 @@
+Code,Parent,Description
+1,A,"Products of agriculture, hunting and related services"
+1.1,1,Non-perennial crops
+1.2,1,Perennial crops
+1.3,1,"Planting material: live plants, bulbs, tubers and roots, cuttings and slips; mushroom spawn"
+1.4,1,Live animals and animal products
+1.6,1,Agricultural and animal husbandry services (except veterinary services)
+1.7,1,Hunting and trapping and related services
+2,A,"Products of forestry, logging and related services"
+2.1,2,Forest trees and nursery services
+2.2,2,Wood in the rough
+2.3,2,Wild growing non-wood products
+2.4,2,Support services to forestry
+3,A,Fish and other fishing products; aquaculture products; support services to fishing
+3,3,Fish and other fishing products; aquaculture products; support services to fishing
+5,B,Coal and lignite
+5.1,5,Hard coal
+5.2,5,Lignite
+6,B,Crude petroleum and natural gas
+6.1,6,Crude petroleum
+6.2,6,"Natural gas, liquefied or in gaseous state"
+7,B,Metal ores
+7.1,7,Iron ores
+7.2,7,Non-ferrous metal ores
+8,B,Other mining and quarrying products
+8.1,8,"Stone, sand and clay"
+8.9,8,Mining and quarrying products n.e.c.
+9,B,Mining support services
+9.1,9,Support services to petroleum and natural gas extraction
+9.9,9,Support services to other mining and quarrying
+10,C,Food products
+10.1,10,Preserved meat and meat products
+10.2,10,"Processed and preserved fish, crustaceans and molluscs"
+10.3,10,Processed and preserved fruit and vegetables
+10.4,10,Vegetable and animal oils and fats
+10.5,10,Dairy products
+10.6,10,"Grain mill products, starches and starch products"
+10.7,10,Bakery and farinaceous products
+10.8,10,Other food products
+10.9,10,Prepared animal feeds
+11,C,Beverages
+11,11,Beverages
+12,C,Tobacco products
+12,12,Tobacco products
+13,C,Textiles
+13.1,13,Textile yarn and thread
+13.2,13,Woven textiles
+13.3,13,Textile finishing services
+13.9,13,Other textiles
+14,C,Wearing apparel
+14.1,14,"Wearing apparel, except fur apparel"
+14.2,14,Articles of fur
+14.3,14,Knitted and crocheted apparel
+15,C,Leather and related products
+15.1,15,"Tanned and dressed leather; luggage, handbags, saddlery and harness; dressed and dyed fur"
+15.2,15,Footwear
+16,C,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials"
+16.1,16,"Wood, sawn and planed"
+16.2,16,"Products of wood, cork, straw and plaiting materials"
+17,C,Paper and paper products
+17.1,17,"Pulp, paper and paperboard"
+17.2,17,Articles of paper and paperboard
+18,C,Printing and recording services
+18.1,18,Printing services and services related to printing
+18.2,18,Reproduction services of recorded media
+19,C,Coke and refined petroleum products
+19.1,19,Coke oven products
+19.2,19,Refined petroleum products
+20,C,Chemicals and chemical products
+20.1,20,"Basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms"
+20.2,20,Pesticides and other agrochemical products
+20.3,20,"Paints, varnishes and similar coatings, printing ink and mastics"
+20.4,20,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations"
+20.5,20,Other chemical products
+20.6,20,Man-made fibres
+21,C,Basic pharmaceutical products and pharmaceutical preparations
+21.1,21,Basic pharmaceutical products
+21.2,21,Pharmaceutical preparations
+22,C,Rubber and plastic products
+22.1,22,Rubber products
+22.2,22,Plastic products
+23,C,Other non-metallic mineral products
+23.1,23,Glass and glass products
+23.2,23,Refractory products
+23.3,23,Clay building materials
+23.4,23,Other porcelain and ceramic products
+23.5,23,"Cement, lime and plaster"
+23.6,23,"Articles of concrete, cement and plaster"
+23.7,23,"Cut, shaped and finished stone"
+23.9,23,Other non-metallic mineral products
+24,C,Basic metals
+24.1,24,Basic iron and steel and ferro-alloys
+24.2,24,"Tubes, pipes, hollow profiles and related fittings, of steel"
+24.3,24,Other products of the first processing of steel
+24.4,24,Basic precious and other non-ferrous metals
+24.5,24,Casting services of metals
+25,C,"Fabricated metal products, except machinery and equipment"
+25.1,25,Structural metal products
+25.2,25,"Tanks, reservoirs and containers of metal"
+25.3,25,"Steam generators, except central heating hot water boilers"
+25.4,25,Weapons and ammunition
+25.5,25,"Forging, pressing, stamping and roll-forming services of metal; powder metallurgy"
+25.6,25,Treatment and coating services of metals; machining
+25.7,25,"Cutlery, tools and general hardware"
+25.9,25,Other fabricated metal products
+26,C,"Computer, electronic and optical products"
+26.1,26,Electronic components and boards
+26.2,26,Computers and peripheral equipment
+26.3,26,Communication equipment
+26.4,26,Consumer electronics
+26.5,26,"Measuring, testing and navigating equipment; watches and clocks"
+26.6,26,"Irradiation, electromedical and electrotherapeutic equipment"
+26.7,26,Optical instruments and photographic equipment
+26.8,26,Magnetic and optical media
+27,C,Electrical equipment
+27.1,27,"Electric motors, generators, transformers and electricity distribution and control apparatus"
+27.2,27,Batteries and accumulators
+27.3,27,Wiring and wiring devices
+27.4,27,Electric lighting equipment
+27.5,27,Domestic appliances
+27.9,27,Other electrical equipment
+28,C,Machinery and equipment n.e.c.
+28.1,28,General-purpose machinery
+28.2,28,Other general-purpose machinery
+28.3,28,Agricultural and forestry machinery
+28.4,28,Metal forming machinery and machine tools
+28.9,28,Other special-purpose machinery
+29,C,"Motor vehicles, trailers and semi-trailers"
+29.1,29,Motor vehicles
+29.2,29,Bodies (coachwork) for motor vehicles; trailers and semi-trailers
+29.3,29,Parts and accessories for motor vehicles
+30,C,Other transport equipment
+30.1,30,Ships and boats
+30.2,30,Railway locomotives and rolling stock
+30.3,30,Air and spacecraft and related machinery
+30.4,30,Military fighting vehicles
+30.9,30,Transport equipment n.e.c.
+31,C,Furniture
+31,31,Furniture
+32,C,Other manufactured goods
+32.1,32,"Jewellery, bijouterie and related articles"
+32.2,32,Musical instruments
+32.3,32,Sports goods
+32.4,32,Games and toys
+32.5,32,Medical and dental instruments and supplies
+32.9,32,Manufactured goods n.e.c.
+33,C,Repair and installation services of machinery and equipment
+33.1,33,"Repair services of fabricated metal products, machinery and equipment"
+33.2,33,Installation services of industrial machinery and equipment
+35,D,"Electricity, gas, steam and air conditioning"
+35.1,35,"Electricity, transmission and distribution services"
+35.2,35,Manufactured gas; distribution services of gaseous fuels through mains
+35.3,35,Steam and air conditioning supply services
+36,E,Natural water; water treatment and supply services
+36,36,Natural water; water treatment and supply services
+37,E,Sewerage services; sewage sludge
+37,37,Sewerage services; sewage sludge
+38,E,"Waste collection, treatment and disposal services; materials recovery services"
+38.1,38,Waste; waste collection services
+38.2,38,Waste treatment and disposal services
+38.3,38,Materials recovery services; secondary raw materials
+39,E,Remediation services and other waste management services
+39,39,Remediation services and other waste management services
+41,F,Buildings and building construction works
+41,41,Buildings and building construction works
+42,F,Constructions and construction works for civil engineering
+42.1,42,Roads and railways; construction works for roads and railways
+42.2,42,Constructions and construction works for utility projects
+42.9,42,Constructions and construction works for other civil engineering projects
+43,F,Specialised construction works
+43.1,43,Demolition and site preparation works
+43.2,43,"Electrical, plumbing and other construction installation works"
+43.3,43,Building completion and finishing works
+43.9,43,Other specialised construction works
+45,G,Wholesale and retail trade and repair services of motor vehicles and motorcycles
+45.1,45,Trade services of motor vehicles
+45.2,45,Maintenance and repair services of motor vehicles
+45.3,45,Trade services of motor vehicle parts and accessories
+45.4,45,"Trade, maintenance and repair services of motorcycles and related parts and accessories"
+46,G,"Wholesale trade services, except of motor vehicles and motorcycles"
+46.1,46,Wholesale trade services on a fee or contract basis
+46.2,46,Wholesale trade services of agricultural raw materials and live animals
+46.3,46,"Wholesale trade services of food, beverages and tobacco"
+46.4,46,Wholesale trade services of household goods
+46.5,46,Wholesale trade services of information and communication equipment
+46.6,46,"Wholesale trade services of other machinery, equipment and supplies"
+46.7,46,Other specialised wholesale trade services
+46.9,46,Non-specialised wholesale trade services
+47,G,"Retail trade services, except of motor vehicles and motorcycles"
+47,47,"Retail trade services, except of motor vehicles and motorcycles"
+49,H,Land transport services and transport services via pipelines
+49.1,49,"Passenger rail transport services, interurban"
+49.2,49,Freight rail transport services
+49.3,49,Other passenger land transport services
+49.4,49,Freight transport services by road and removal services
+49.5,49,Transport services via pipeline
+50,H,Water transport services
+50.1,50,Sea and coastal passenger water transport services
+50.2,50,Sea and coastal freight water transport services
+50.3,50,Inland passenger water transport services
+50.4,50,Inland freight water transport services
+51,H,Air transport services
+51.1,51,Passenger air transport services
+51.2,51,Freight air transport and space transport services
+52,H,Warehousing and support services for transportation
+52.1,52,Warehousing and storage services
+52.2,52,Support services for transportation
+53,H,Postal and courier services
+53.1,53,Postal services under universal service obligation
+53.2,53,Other postal and courier services
+55,I,Accommodation services
+55.1,55,Hotel and similar accommodation services
+55.2,55,Holiday and other short stay accommodation services
+55.3,55,"Camping ground, recreational and vacation camp services"
+55.9,55,Other accommodation services
+56,I,Food and beverage serving services
+56.1,56,Restaurant and mobile food serving services
+56.2,56,Event catering services and other food serving services
+56.3,56,Beverage serving services
+58,J,Publishing services
+58.1,58,"Publishing services of books, periodicals and other publishing services"
+58.2,58,Software publishing services
+59,J,"Motion picture, video and television programme production services, sound recording and music publishing"
+59.1,59,"Motion picture, video and television programme services"
+59.2,59,Sound recording and music publishing services
+60,J,Programming and broadcasting services
+60.1,60,Radio broadcasting services
+60.2,60,Television programming and broadcasting services; broadcasting originals
+61,J,Telecommunications services
+61.1,61,Wired telecommunications services
+61.2,61,Wireless telecommunications services
+61.3,61,Satellite telecommunications services
+61.9,61,Other telecommunications services
+62,J,"Computer programming, consultancy and related services"
+62,62,"Computer programming, consultancy and related services"
+63,J,Information services
+63.1,63,"Data processing, hosting and related services; web portals"
+63.9,63,Other information services
+64,K,"Financial services, except insurance and pension funding"
+64.1,64,Monetary intermediation services
+64.2,64,Services of holding companies
+64.3,64,"Services of trusts, funds and similar financial entities"
+64.9,64,"Other financial services, except insurance and pension funding"
+65,K,"Insurance, reinsurance and pension funding services, except compulsory social security"
+65.1,65,Insurance services
+65.2,65,Reinsurance services
+65.3,65,Pension funding services
+66,K,Services auxiliary to financial services and insurance services
+66.1,66,"Services auxiliary to financial services, except insurance and pension funding"
+66.2,66,Services auxiliary to insurance and pension funding
+66.3,66,Fund management services
+68,L,Real estate services
+68.1,68,Buying and selling services of own real estate
+68.2,68,Rental and operating services of own or leased real estate
+68.3,68,Real estate services on a fee or contract basis
+69,M,Legal and accounting services
+69.1,69,Legal services
+69.2,69,"Accounting, bookkeeping and auditing services; tax consulting services"
+70,M,Services of head offices; management consulting services
+70.1,70,Services of head offices
+70.2,70,Management consulting services
+71,M,Architectural and engineering services; technical testing and analysis services
+71.1,71,Architectural and engineering services and related technical consulting services
+71.2,71,Technical testing and analysis services
+72,M,Scientific research and development services
+72.1,72,Research and experimental development services in natural sciences and engineering
+72.2,72,Research and experimental development services in social sciences and humanities
+73,M,Advertising and market research services
+73.1,73,Advertising services
+73.2,73,Market research and public opinion polling services
+74,M,"Other professional, scientific and technical services"
+74.1,74,Specialised design services
+74.2,74,Photographic services
+74.3,74,Translation and interpretation services
+74.9,74,"Other professional, scientific and technical services n.e.c."
+75,M,Veterinary services
+75,75,Veterinary services
+77,N,Rental and leasing services
+77.1,77,Rental and leasing services of motor vehicles
+77.2,77,Rental and leasing services of personal and household goods
+77.3,77,"Rental and leasing services of other machinery, equipment and tangible goods"
+77.4,77,"Licensing services for the right to use intellectual property and similar products, except copyrighted works"
+78,N,Employment services
+78.1,78,Services provided by employment placement agencies
+78.2,78,Temporary employment agency services
+78.3,78,Other human resources provision services
+79,N,"Travel agency, tour operator and other reservation services and related services"
+79.1,79,Travel agency and tour operator services
+79.9,79,Other reservation services and related services
+80,N,Security and investigation services
+80.1,80,Private security services
+80.2,80,Security systems services
+80.3,80,Investigation services
+81,N,Services to buildings and landscape
+81.1,81,Combined facilities support services
+81.2,81,Cleaning services
+81.3,81,Landscape services
+82,N,"Office administrative, office support and other business support services"
+82.1,82,Office administrative and support services
+82.2,82,Call centre services
+82.3,82,Convention and trade show organisation services
+82.9,82,Business support services n.e.c.
+84,O,Public administration and defence services; compulsory social security services
+84.1,84,Administration services of the State and the economic and social policy of the community
+84.2,84,Provision of services to the community as a whole
+84.3,84,Compulsory social security services
+85,P,Education services
+85.1,85,Pre-primary education services
+85.2,85,Primary education services
+85.3,85,Secondary education services
+85.4,85,Higher education services
+85.5,85,Other education services
+85.6,85,Educational support services
+86,Q,Human health services
+86.1,86,Hospital services
+86.2,86,Medical and dental practice services
+86.9,86,Other human health services
+87,Q,Residential care services
+87.1,87,Residential nursing care services
+87.2,87,"Residential care services for mental retardation, mental health and substance abuse"
+87.3,87,Residential care services for the elderly and disabled
+87.9,87,Other residential care services
+88,Q,Social work services without accommodation
+88.1,88,Social work services without accommodation for the elderly and disabled
+88.9,88,Other social work services without accommodation
+90,R,"Creative, arts and entertainment services"
+90,90,"Creative, arts and entertainment services"
+91,R,"Library, archive, museum and other cultural services"
+91,91,"Library, archive, museum and other cultural services"
+92,R,Gambling and betting services
+92,92,Gambling and betting services
+93,R,Sporting services and amusement and recreation services
+93.1,93,Sporting services 
+93.2,93,Amusement and recreation services
+94,S,Services furnished by membership organisations
+94.1,94,"Services furnished by business, employers and professional membership organisations"
+94.2,94,Services furnished by trade unions
+94.9,94,Services furnished by other membership organisations
+95,S,Repair services of computers and personal and household goods
+95.1,95,Repair services of computers and communication equipment
+95.2,95,Repair services of personal and household goods
+96,S,Other personal services
+96,96,Other personal services
+97,T,Services of households as employers of domestic personnel
+97,97,Services of households as employers of domestic personnel
+98,T,Undifferentiated goods and services produced by private households for own use
+98.1,98,Undifferentiated goods produced by private households for own use
+98.2,98,Undifferentiated services produced by private households for own use
+99,U,Services provided by extraterritorial organisations and bodies
+99,99,Services provided by extraterritorial organisations and bodies

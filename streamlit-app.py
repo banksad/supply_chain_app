@@ -13,6 +13,7 @@ import plotly.express as px
 iot_use = pd.read_csv('data/iot_cleaned.csv')
 imports_use = pd.read_csv('data/imports_use_cleaned.csv')
 combined = pd.read_csv('data/combined.csv')
+cpa_classification = pd.read_csv('data/cpa_classification.csv')
 
 # Page design
 st.title('Supply Chain Analysis')
@@ -25,6 +26,11 @@ st.markdown('You can find the source code [here](https://github.com/banksad/supp
 iot_product = st.sidebar.selectbox('Search for a product that you wish to analyse',set(list(imports_use['output product'])))
 import_product = iot_product
 combined_product = iot_product
+
+st.sidebar.markdown('')
+see_cpa = st.expander('You can click here to see the cpa product classification 👉')
+        with see_cpa:
+            st.dataframe(data=cpa_classification)
             
 # Input intensity of products
 # ----------------------------
