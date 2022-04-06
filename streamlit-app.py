@@ -134,7 +134,7 @@ else:
         st.markdown("")
         see_import_data3 = st.expander('You can click here to see the raw data 👉')
         with see_import_data3:
-            st.dataframe(data=combined_subset[['input product','value']].sort_values(by='value',ascending=False))
+            st.dataframe(data=combined_subset[['component','input product','value']].sort_values(by='value',ascending=False))
 
     with col2:
         
