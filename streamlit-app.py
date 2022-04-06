@@ -87,9 +87,18 @@ elif chart_choice=='Imported':
         see_import_data = st.expander('You can click here to see the raw data 👉')
         with see_import_data:
             st.dataframe(data=import_subset)
+            
+        legend_indicator2 = st.selectbox('Add / remove legend',['No legend','Add Legend'])
 
     with col2:
-        fig = px.pie(import_subset, values='proportion', names='import requirements')
-        fig.update_traces(textposition='inside')
-        fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide')
-        st.plotly_chart(fig)
+        
+        if legend_indicator2=='No legend':
+            fig = px.pie(import_subset, values='proportion', names='import requirements')
+            fig.update_traces(textposition='inside')
+            fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=False)
+            st.plotly_chart(fig)
+        else: 
+            fig = px.pie(import_subset, values='proportion', names='import requirements')
+            fig.update_traces(textposition='inside')
+            fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=True)
+            st.plotly_chart(fig)
