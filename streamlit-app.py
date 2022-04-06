@@ -1,6 +1,5 @@
 """
-# My first app
-Here's our first attempt at using data to create an app
+# author = Andy Banks
 """
 
 import streamlit as st
@@ -33,6 +32,11 @@ st.markdown('This section examines the types of domestically produced inputs tha
 iot_subset = iot_use[iot_use['output product']==iot_product]
 iot_subset = iot_subset[iot_subset['proportion']>0]
 
+st.markdown("")
+see_iot_data = st.expander('You can click here to see the raw data first 👉')
+with see_iot_data:
+    st.dataframe(data=iot_subset)
+
 fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
 fig.update_traces(textposition='inside')
 fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide')
@@ -46,6 +50,11 @@ st.markdown('This section examines the types of imported products that are used 
 
 import_subset = imports_use[imports_use['output product']==import_product]
 import_subset = import_subset[import_subset['proportion']>0]
+
+st.markdown("")
+see_import_data = st.expander('You can click here to see the raw data first 👉')
+with see_import_data:
+    st.dataframe(data=import_subset)
 
 fig = px.pie(import_subset, values='proportion', names='import requirements')
 fig.update_traces(textposition='inside')
