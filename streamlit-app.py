@@ -17,9 +17,9 @@ imports_use = pd.read_csv('data/imports_use_pxp_cleaned.csv')
 # Page design
 st.title('Supply Chain Analysis')
 
-st.sidebar.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
+#st.sidebar.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
             
-st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
+#st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
 # Domestic input intensity of products
 
