@@ -41,7 +41,7 @@ st.subheader('Inputs into the production process: Analysis of {} products'.forma
 
 st.markdown('This section examines the types products that are used in the production process, and the degree to which these products are imported.')
 
-st.markdown('The total production of *{}* products required *£{}m* of raw inputs in 2018. Of this, *£{}m* was domestically produced inputs (i.e. from other UK producers), while *£{}m* was imported from inputs'.format(
+st.markdown('The total production of {} products required **£{}m** of raw inputs in 2018. Of this, **£{}m** was domestically produced inputs (i.e. from other UK producers), while **£{}m** was imported from inputs'.format(
     combined_product.lower(),total_inputs,domestic_inputs,imported_inputs))
 
 chart_choice = st.selectbox('Choose whether to view domestically produced inputs, imported inputs, or both', ['Both','Domestically produced','Imported'])
