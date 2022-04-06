@@ -48,19 +48,23 @@ with col2:
 
 # Import intensity of products
 
-st.subheader('Imported products used in domestic production')
+col1_2, col2_2 = st.columns(2)
 
-st.markdown('This section examines the types of imported products that are used to domestically produce the product selected')
+with col1_2:
+    st.subheader('Imported products used in domestic production')
 
-import_subset = imports_use[imports_use['output product']==import_product]
-import_subset = import_subset[import_subset['proportion']>0]
+    st.markdown('This section examines the types of imported products that are used to domestically produce the product selected')
 
-st.markdown("")
-see_import_data = st.expander('You can click here to see the raw data 👉')
-with see_import_data:
-    st.dataframe(data=import_subset)
+    import_subset = imports_use[imports_use['output product']==import_product]
+    import_subset = import_subset[import_subset['proportion']>0]
 
-fig = px.pie(import_subset, values='proportion', names='import requirements')
-fig.update_traces(textposition='inside')
-fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide')
-st.plotly_chart(fig)
+    st.markdown("")
+    see_import_data = st.expander('You can click here to see the raw data 👉')
+    with see_import_data:
+        st.dataframe(data=import_subset)
+
+with col2_2:
+    fig = px.pie(import_subset, values='proportion', names='import requirements')
+    fig.update_traces(textposition='inside')
+    fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide')
+    st.plotly_chart(fig)
