@@ -28,7 +28,7 @@ st.sidebar.markdown('You can find the source code [here](https://github.com/bank
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader('Domestic inputs used in UK production')
+    st.subheader('Domestic inputs used in the UK production of {} products'.format(iot_product))
 
     st.markdown('This section examines the types of domestically produced inputs that are used to produce the product selected')
 
