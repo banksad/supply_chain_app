@@ -31,9 +31,6 @@ st.markdown("**Select level of detail you want to analyze:** 👇")
 product = st.multiselect('Search for a product',set(list(imports_use['output product'])))
 
 import_subset = imports_use[imports_use['output product']==product]
-
-import_sum = import_subset['value'].sum()
-import_subset['proportion'] = import_subset['value'] / import_sum
 import_subset = import_subset[import_subset['proportion']>0]
 
 fig = px.pie(import_subset, values='proportion', names='import requirements')
