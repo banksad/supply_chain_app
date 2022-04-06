@@ -12,7 +12,7 @@ import plotly.express as px
 # Data import
 
 iot_use = pd.read_csv('data/iot_cleaned.csv')
-imports_use = pd.read_csv('data/imports_use_pxp_cleaned.csv')
+imports_use = pd.read_csv('data/imports_use_cleaned.csv')
 
 # Page design
 st.title('Supply Chain Analysis')
