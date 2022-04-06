@@ -22,16 +22,19 @@ st.sidebar.markdown('This is a prototype dashboard to present a range of publicl
             
 st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
-# Industry to industry relationships
+# Import intensity of products
 
 st.subheader('Import content of domestically produced products')
 
 st.markdown("**Select level of detail you want to analyze:** 👇")
 
-detail = st.multiselect('Search for a product',set(list(imports_use['output product'])))
+product = st.multiselect('Search for a product',set(list(imports_use['output product'])))
 
-import_subset = imports_use[imports_use['output product']==detail]
-import_subset['proportion'] = import_subset['value'] / import_subset['value'].sum()
+import_subset = imports_use[imports_use['output product']==product]
+
+import_sum = import_subset['value'].sum()
+import_subset['proportion'] = import_subset['value'] / import_sum
+import_subset = import_subset[import_subset['proportion']>0]
 
 fig = px.pie(import_subset, values='proportion', names='import requirements')
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig)
