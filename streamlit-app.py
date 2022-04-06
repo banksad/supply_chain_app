@@ -41,10 +41,18 @@ with col1:
         st.dataframe(data=iot_subset)
 
 with col2:
-    fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
-    fig.update_traces(textposition='inside',hoverlabel_namelength=15)
-    fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=False)
-    st.plotly_chart(fig)
+    legend_indicator1 = st.selectbox('Add / remove legend',['No legend','Add Legend'])
+    
+    if legend_indicator1=='No legend':
+        fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
+        fig.update_traces(textposition='inside',hoverlabel_namelength=15)
+        fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=False)
+        st.plotly_chart(fig)
+    else:
+        fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
+        fig.update_traces(textposition='inside',hoverlabel_namelength=15)
+        fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=True)
+        st.plotly_chart(fig)
 
 # Import intensity of products
 
