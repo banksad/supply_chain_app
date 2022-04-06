@@ -46,7 +46,6 @@ col1, col2 = st.columns(2)
 if chart_choice=='Domestically produced':
     
     with col1:
-        st.subheader('Domestic inputs used in the UK production of {} products'.format(iot_product.lower()))
 
         st.markdown('This section examines the types of domestically produced inputs that are used in the domestic production of the product selected')
 
@@ -61,6 +60,8 @@ if chart_choice=='Domestically produced':
         legend_indicator1 = st.selectbox('Add / remove legend',['No legend','Add Legend'])
 
     with col2:
+        
+        st.subheader('Domestic inputs used in the UK production of {} products'.format(iot_product.lower()))
         
         if legend_indicator1=='No legend':
             fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
@@ -78,7 +79,6 @@ elif chart_choice=='Imported':
 # Import intensity of products
 
     with col1:
-        st.subheader('Imported products used in the domestic production of {} products'.format(import_product.lower()))
 
         st.markdown('This section examines the types of imported products that are used in the domestic production of the product selected')
 
@@ -93,6 +93,8 @@ elif chart_choice=='Imported':
         legend_indicator2 = st.selectbox('Add / remove legend',['No legend','Add Legend'])
 
     with col2:
+        
+        st.subheader('Imported products used in the domestic production of {} products'.format(import_product.lower()))
         
         if legend_indicator2=='No legend':
             fig = px.pie(import_subset, values='proportion', names='import requirements')
@@ -110,8 +112,6 @@ else:
 # Total inputs
 
     with col1:
-        st.subheader('Imported and domestically produced products used in the domestic production of {} products'.format(import_product.lower()))
-
         st.markdown('This section examines both domestically produced and imported products that are used in the domestic production of the product selected')
 
         combined_subset = combined[combined['output product']==combined_product]
@@ -125,6 +125,8 @@ else:
         legend_indicator3 = st.selectbox('Add / remove legend',['No legend','Add Legend'])
 
     with col2:
+        
+        st.subheader('Imported and domestically produced products used in the domestic production of {} products'.format(import_product.lower()))
         
         if legend_indicator3=='No legend':
             fig = px.sunburst(combined_subset, path=['component','input product'], values='value')
