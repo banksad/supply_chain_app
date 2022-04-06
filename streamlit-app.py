@@ -25,8 +25,19 @@ combined_product = iot_product
             
 st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
-
 # Input intensity of products
+# ----------------------------
+
+# Calculations
+
+total_inputs = combined[combined['output product']==combined_product]['value'].sum()
+domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='domestic use')]['value'].sum()
+imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='imports')]['value'].sum()
+
+st.markdown('The total production of {} products required £{}m of raw inputs in 2018. Of this, £{}m was domestically produced inputs (i.e. from other UK producers), while £{}m was imported from inputs'.format(
+    combined_product,total_inputs,domestic_inputs,imported_inputs))
+
+# Inputs section
 
 st.subheader('Inputs into the production process: Analysis of {} products'.format(iot_product.lower()))
 
