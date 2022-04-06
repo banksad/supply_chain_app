@@ -27,5 +27,5 @@ st.subheader('Import content of domestically produced products')
 
 st.markdown("**Select level of detail you want to analyze:** 👇")
 
-detail = st.multiselect('Pick a product',list(data_long['output product']))
+detail = st.multiselect('Pick a product',set(list(imports_use['output product'])))
 
