@@ -28,7 +28,7 @@ import_product = iot_product
 combined_product = iot_product
 
 st.sidebar.markdown('')
-see_cpa = st.expander('You can click here to see the cpa product classification 👉')
+see_cpa = st.sidebar.expander('You can click here to see the cpa product classification 👉')
 with see_cpa:
     st.sidebar.dataframe(data=cpa_classification)
             
