@@ -12,6 +12,7 @@ import plotly.express as px
 
 iot_use = pd.read_csv('data/iot_cleaned.csv')
 imports_use = pd.read_csv('data/imports_use_cleaned.csv')
+combined = pd.read_csv('data/combined.csv')
 
 # Page design
 st.title('Supply Chain Analysis')
@@ -20,6 +21,7 @@ st.sidebar.markdown('This is a prototype dashboard to present a range of publicl
 
 iot_product = st.sidebar.selectbox('Search for a product that you wish to analyse',set(list(imports_use['output product'])))
 import_product = iot_product
+combined_product = iot_product
             
 st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
@@ -46,7 +48,7 @@ if chart_choice=='Domestically produced':
     with col1:
         st.subheader('Domestic inputs used in the UK production of {} products'.format(iot_product.lower()))
 
-        st.markdown('This section examines the types of domestically produced inputs that are used to produce the product selected')
+        st.markdown('This section examines the types of domestically produced inputs that are used in the domestic production of the product selected')
 
         iot_subset = iot_use[iot_use['output product']==iot_product]
         iot_subset = iot_subset[iot_subset['proportion']>0]
@@ -78,14 +80,14 @@ elif chart_choice=='Imported':
     with col1:
         st.subheader('Imported products used in the domestic production of {} products'.format(import_product.lower()))
 
-        st.markdown('This section examines the types of imported products that are used to domestically produce the product selected')
+        st.markdown('This section examines the types of imported products that are used in the domestic production of the product selected')
 
         import_subset = imports_use[imports_use['output product']==import_product]
         import_subset = import_subset[import_subset['proportion']>0]
 
         st.markdown("")
-        see_import_data = st.expander('You can click here to see the raw data 👉')
-        with see_import_data:
+        see_import_data2 = st.expander('You can click here to see the raw data 👉')
+        with see_import_data2:
             st.dataframe(data=import_subset)
             
         legend_indicator2 = st.selectbox('Add / remove legend',['No legend','Add Legend'])
@@ -101,4 +103,36 @@ elif chart_choice=='Imported':
             fig = px.pie(import_subset, values='proportion', names='import requirements')
             fig.update_traces(textposition='inside')
             fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=True)
+            st.plotly_chart(fig)
+            
+else:
+
+# Total inputs
+
+    with col1:
+        st.subheader('Imported and domestically produced products used in the domestic production of {} products'.format(import_product.lower()))
+
+        st.markdown('This section examines both domestically produced and imported products that are used in the domestic production of the product selected')
+
+        combined_subset = combined[combined['output product']==combined_product]
+        combined_subset = combined_subset[combined_subset['proportion']>0]
+
+        st.markdown("")
+        see_import_data3 = st.expander('You can click here to see the raw data 👉')
+        with see_import_data3:
+            st.dataframe(data=combined_subset)
+            
+        legend_indicator3 = st.selectbox('Add / remove legend',['No legend','Add Legend'])
+
+    with col2:
+        
+        if legend_indicator3=='No legend':
+            fig = px.sunburst(combined_subset, path=['component','input product'], values='value')
+            #fig.update_traces(textposition='inside')
+            #fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=False)
+            st.plotly_chart(fig)
+        else: 
+            fig = px.sunburst(combined_subset, path=['component','input product'], values='value')
+            #fig.update_traces(textposition='inside')
+            #fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=True)
             st.plotly_chart(fig)
