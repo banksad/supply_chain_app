@@ -12,6 +12,7 @@ st.set_page_config(layout="centered")
 
 # Data import
 
+imports_use = pd.read_csv('data/imports_use_pxp_cleaned.csv')
 
 # Page design
 st.title('Supply Chain Analysis')
@@ -22,9 +23,9 @@ st.sidebar.markdown('You can find the source code [here](https://github.com/bank
 
 # Industry to industry relationships
 
-st.subheader('Industry to industry relationships')
+st.subheader('Import content of domestically produced products')
 
 st.markdown("**Select level of detail you want to analyze:** 👇")
 
-detail = st.radio('Pick a level of detail',['Section','114 industry','All sections','All 114 industries'])
+detail = st.multiselect('Pick a product',list(data_long['output product']))
 
