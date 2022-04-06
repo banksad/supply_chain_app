@@ -62,7 +62,7 @@ if chart_choice=='Domestically produced':
         st.markdown("")
         see_iot_data = st.expander('You can click here to see the raw data 👉')
         with see_iot_data:
-            st.dataframe(data=iot_subset)
+            st.dataframe(data=iot_subset[['domestic input requirements','value']])
 
         legend_indicator1 = st.selectbox('Add / remove legend',['No legend','Add Legend'])
 
