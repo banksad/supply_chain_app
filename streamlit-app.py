@@ -46,12 +46,12 @@ with col1:
 with col2:
     
     if legend_indicator1=='No legend':
-        fig = px.pie(iot_subset, values='proportion', names='domestic input requirements',title='Proportion of domestically produced inputs used for domestic production')
+        fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
         fig.update_traces(textposition='inside',hoverlabel_namelength=10)
         fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=False)
         st.plotly_chart(fig)
     else:
-        fig = px.pie(iot_subset, values='proportion', names='domestic input requirements',title='Proportion of domestically produced inputs used for domestic production')
+        fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
         fig.update_traces(textposition='inside',hoverlabel_namelength=10)
         fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=True)
         st.plotly_chart(fig)
