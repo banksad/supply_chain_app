@@ -95,7 +95,7 @@ elif chart_choice=='Imported':
         st.markdown("")
         see_import_data2 = st.expander('You can click here to see the raw data 👉')
         with see_import_data2:
-            st.dataframe(data=import_subset)
+            st.dataframe(data=import_subset[['import requirements','value']])
             
         legend_indicator2 = st.selectbox('Add / remove legend',['No legend','Add Legend'])
 
