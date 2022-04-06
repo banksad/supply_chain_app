@@ -23,7 +23,19 @@ import_product = iot_product
             
 st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
+# Effects of an increase in demand on whole economy output
+
+st.subheader('Effects of an increase in demand for {} on the economy'.format(iot_product.lower()))
+
+st.markdown('The Input Output tables show the indirect and direct effects of an increase in demand for a product on the whole economy and employment income (compensation of employees)')
+
 # Domestic input intensity of products
+
+st.subheader('Inputs into the production process: Analysis of {}'.format(iot_product.lower()))
+
+st.markdown('This section examines the types products that are used in the production process, and the degree to which these products are imported')
+
+chart_choice = st.selectbox('Choose whether to view domestically produced inputs, imported inputs, or both', ['Both','Domestically produced','Imported'])
 
 col1, col2 = st.columns(2)
 
