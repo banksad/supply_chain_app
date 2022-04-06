@@ -128,21 +128,13 @@ else:
         see_import_data3 = st.expander('You can click here to see the raw data 👉')
         with see_import_data3:
             st.dataframe(data=combined_subset)
-            
-        legend_indicator3 = st.selectbox('Add / remove legend',['No legend','Add Legend'])
 
     with col2:
         
         st.markdown('*Imported and domestically produced products used in the domestic production of {} products*'.format(import_product.lower()))
         
-        if legend_indicator3=='No legend':
-            fig = px.sunburst(combined_subset, path=['component','input product'], values='value')
-            fig.update_layout(uniformtext_mode='hide', showlegend=False)
-            st.plotly_chart(fig)
-        else: 
-            fig = px.sunburst(combined_subset, path=['component','input product'], values='value')
-            fig.update_layout(uniformtext_mode='hide', showlegend=True)
-            st.plotly_chart(fig)
+        fig = px.sunburst(combined_subset, path=['component','input product'], values='value')
+        st.plotly_chart(fig)
             
             
 # Effects of an increase in demand on whole economy output
