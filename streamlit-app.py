@@ -19,7 +19,7 @@ st.title('Supply Chain Analysis')
 
 st.sidebar.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
 
-st.sidebar.selectbox('Search for a product that you wish to analyse',set(list(iot_use['output product'])))
+product = st.sidebar.selectbox('Search for a product that you wish to analyse',set(list(iot_use['output product'])))
             
 st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
