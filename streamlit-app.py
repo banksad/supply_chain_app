@@ -17,14 +17,13 @@ combined = pd.read_csv('data/combined.csv')
 # Page design
 st.title('Supply Chain Analysis')
 
-st.sidebar.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
+st.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
+st.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
 iot_product = st.sidebar.selectbox('Search for a product that you wish to analyse',set(list(imports_use['output product'])))
 import_product = iot_product
 combined_product = iot_product
             
-st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
-
 # Input intensity of products
 # ----------------------------
 
@@ -34,14 +33,14 @@ total_inputs = combined[combined['output product']==combined_product]['value'].s
 domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='domestic use')]['value'].sum()
 imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='imports')]['value'].sum()
 
-st.markdown('The total production of {} products required £{}m of raw inputs in 2018. Of this, £{}m was domestically produced inputs (i.e. from other UK producers), while £{}m was imported from inputs'.format(
-    combined_product,total_inputs,domestic_inputs,imported_inputs))
-
 # Inputs section
 
 st.subheader('Inputs into the production process: Analysis of {} products'.format(iot_product.lower()))
 
 st.markdown('This section examines the types products that are used in the production process, and the degree to which these products are imported')
+
+st.markdown('The total production of {} products required £{}m of raw inputs in 2018. Of this, £{}m was domestically produced inputs (i.e. from other UK producers), while £{}m was imported from inputs'.format(
+    combined_product,total_inputs,domestic_inputs,imported_inputs))
 
 chart_choice = st.selectbox('Choose whether to view domestically produced inputs, imported inputs, or both', ['Both','Domestically produced','Imported'])
 
