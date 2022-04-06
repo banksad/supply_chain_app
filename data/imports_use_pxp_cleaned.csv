@@ -2119,7 +2119,7 @@
 2117,Textiles,"Manufacture Of Wood & Products Of Wood & Cork, Except Furniture; Manuf. Of Articles Of Straw",2
 2118,Wearing apparel,"Manufacture Of Wood & Products Of Wood & Cork, Except Furniture; Manuf. Of Articles Of Straw",0
 2119,Leather and related products,"Manufacture Of Wood & Products Of Wood & Cork, Except Furniture; Manuf. Of Articles Of Straw",0
-2120,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials","Manufacture Of Wood & Products Of Wood & Cork, Except Furniture; Manuf. Of Articles Of Straw","1,910"
+2120,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials","Manufacture Of Wood & Products Of Wood & Cork, Except Furniture; Manuf. Of Articles Of Straw",1910
 2121,Paper and paper products,"Manufacture Of Wood & Products Of Wood & Cork, Except Furniture; Manuf. Of Articles Of Straw",25
 2122,Printing and recording services,"Manufacture Of Wood & Products Of Wood & Cork, Except Furniture; Manuf. Of Articles Of Straw",0
 2123,Coke and refined petroleum products,"Manufacture Of Wood & Products Of Wood & Cork, Except Furniture; Manuf. Of Articles Of Straw",0
@@ -2225,7 +2225,7 @@
 2223,Wearing apparel,Manufacture Of Paper And Paper Products,0
 2224,Leather and related products,Manufacture Of Paper And Paper Products,0
 2225,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Manufacture Of Paper And Paper Products,32
-2226,Paper and paper products,Manufacture Of Paper And Paper Products,"1,830"
+2226,Paper and paper products,Manufacture Of Paper And Paper Products,1830
 2227,Printing and recording services,Manufacture Of Paper And Paper Products,1
 2228,Coke and refined petroleum products,Manufacture Of Paper And Paper Products,0
 2229,"Paints, varnishes and similar coatings, printing ink and mastics",Manufacture Of Paper And Paper Products,132
@@ -2330,7 +2330,7 @@
 2328,Wearing apparel,Printing And Reproduction Of Recorded Media,0
 2329,Leather and related products,Printing And Reproduction Of Recorded Media,0
 2330,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Printing And Reproduction Of Recorded Media,7
-2331,Paper and paper products,Printing And Reproduction Of Recorded Media,"1,222"
+2331,Paper and paper products,Printing And Reproduction Of Recorded Media,1222
 2332,Printing and recording services,Printing And Reproduction Of Recorded Media,7
 2333,Coke and refined petroleum products,Printing And Reproduction Of Recorded Media,0
 2334,"Paints, varnishes and similar coatings, printing ink and mastics",Printing And Reproduction Of Recorded Media,217
@@ -2418,7 +2418,7 @@
 2416,"Products of forestry, logging and related services",Manufacture Of Coke And Refined Petroleum Products,0
 2417,Fish and other fishing products; aquaculture products; support services to fishing,Manufacture Of Coke And Refined Petroleum Products,0
 2418,Coal and lignite,Manufacture Of Coke And Refined Petroleum Products,0
-2419,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Manufacture Of Coke And Refined Petroleum Products,"23,148"
+2419,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Manufacture Of Coke And Refined Petroleum Products,23148
 2420,Other mining and quarrying products,Manufacture Of Coke And Refined Petroleum Products,0
 2421,Mining support services,Manufacture Of Coke And Refined Petroleum Products,0
 2422,Preserved meat and meat products,Manufacture Of Coke And Refined Petroleum Products,0
@@ -2437,7 +2437,7 @@
 2435,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Manufacture Of Coke And Refined Petroleum Products,0
 2436,Paper and paper products,Manufacture Of Coke And Refined Petroleum Products,2
 2437,Printing and recording services,Manufacture Of Coke And Refined Petroleum Products,0
-2438,Coke and refined petroleum products,Manufacture Of Coke And Refined Petroleum Products,"1,389"
+2438,Coke and refined petroleum products,Manufacture Of Coke And Refined Petroleum Products,1389
 2439,"Paints, varnishes and similar coatings, printing ink and mastics",Manufacture Of Coke And Refined Petroleum Products,0
 2440,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Manufacture Of Coke And Refined Petroleum Products,0
 2441,Other chemical products,Manufacture Of Coke And Refined Petroleum Products,163
@@ -2967,7 +2967,7 @@
 2965,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Manufacture of petrochemicals - 20.14/16/17/60,0
 2966,Other chemical products,Manufacture of petrochemicals - 20.14/16/17/60,125
 2967,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Manufacture of petrochemicals - 20.14/16/17/60,829
-2968,Petrochemicals - 20.14/16/17/60,Manufacture of petrochemicals - 20.14/16/17/60,"2,088"
+2968,Petrochemicals - 20.14/16/17/60,Manufacture of petrochemicals - 20.14/16/17/60,2088
 2969,"Dyestuffs, agro-chemicals - 20.12/20",Manufacture of petrochemicals - 20.14/16/17/60,52
 2970,Basic pharmaceutical products and pharmaceutical preparations,Manufacture of petrochemicals - 20.14/16/17/60,5
 2971,Rubber and plastic products,Manufacture of petrochemicals - 20.14/16/17/60,59
@@ -3179,7 +3179,7 @@
 3177,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Manufacture Of Basic Pharmaceutical Products And Pharmaceutical Preparations,41
 3178,Petrochemicals - 20.14/16/17/60,Manufacture Of Basic Pharmaceutical Products And Pharmaceutical Preparations,185
 3179,"Dyestuffs, agro-chemicals - 20.12/20",Manufacture Of Basic Pharmaceutical Products And Pharmaceutical Preparations,1
-3180,Basic pharmaceutical products and pharmaceutical preparations,Manufacture Of Basic Pharmaceutical Products And Pharmaceutical Preparations,"2,636"
+3180,Basic pharmaceutical products and pharmaceutical preparations,Manufacture Of Basic Pharmaceutical Products And Pharmaceutical Preparations,2636
 3181,Rubber and plastic products,Manufacture Of Basic Pharmaceutical Products And Pharmaceutical Preparations,142
 3182,"Cement, lime, plaster and articles of concrete, cement and plaster",Manufacture Of Basic Pharmaceutical Products And Pharmaceutical Preparations,0
 3183,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Manufacture Of Basic Pharmaceutical Products And Pharmaceutical Preparations,28
@@ -3282,10 +3282,10 @@
 3280,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Manufacture Of Rubber And Plastic Products,0
 3281,Other chemical products,Manufacture Of Rubber And Plastic Products,259
 3282,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Manufacture Of Rubber And Plastic Products,57
-3283,Petrochemicals - 20.14/16/17/60,Manufacture Of Rubber And Plastic Products,"1,864"
+3283,Petrochemicals - 20.14/16/17/60,Manufacture Of Rubber And Plastic Products,1864
 3284,"Dyestuffs, agro-chemicals - 20.12/20",Manufacture Of Rubber And Plastic Products,33
 3285,Basic pharmaceutical products and pharmaceutical preparations,Manufacture Of Rubber And Plastic Products,1
-3286,Rubber and plastic products,Manufacture Of Rubber And Plastic Products,"3,134"
+3286,Rubber and plastic products,Manufacture Of Rubber And Plastic Products,3134
 3287,"Cement, lime, plaster and articles of concrete, cement and plaster",Manufacture Of Rubber And Plastic Products,1
 3288,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Manufacture Of Rubber And Plastic Products,157
 3289,Basic iron and steel,Manufacture Of Rubber And Plastic Products,36
@@ -3603,7 +3603,7 @@
 3601,Rubber and plastic products,Manufacture of basic iron and steel,3
 3602,"Cement, lime, plaster and articles of concrete, cement and plaster",Manufacture of basic iron and steel,0
 3603,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Manufacture of basic iron and steel,19
-3604,Basic iron and steel,Manufacture of basic iron and steel,"1,207"
+3604,Basic iron and steel,Manufacture of basic iron and steel,1207
 3605,Other basic metals and casting,Manufacture of basic iron and steel,329
 3606,Weapons and ammunition,Manufacture of basic iron and steel,0
 3607,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Manufacture of basic iron and steel,86
@@ -3709,7 +3709,7 @@
 3707,"Cement, lime, plaster and articles of concrete, cement and plaster",Manufacture of other basic metals and casting,1
 3708,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Manufacture of other basic metals and casting,7
 3709,Basic iron and steel,Manufacture of other basic metals and casting,122
-3710,Other basic metals and casting,Manufacture of other basic metals and casting,"1,810"
+3710,Other basic metals and casting,Manufacture of other basic metals and casting,1810
 3711,Weapons and ammunition,Manufacture of other basic metals and casting,0
 3712,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Manufacture of other basic metals and casting,93
 3713,"Computer, electronic and optical products",Manufacture of other basic metals and casting,3
@@ -3918,10 +3918,10 @@
 3916,Rubber and plastic products,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9",173
 3917,"Cement, lime, plaster and articles of concrete, cement and plaster","Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9",9
 3918,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9","Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9",77
-3919,Basic iron and steel,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9","1,754"
-3920,Other basic metals and casting,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9","1,008"
+3919,Basic iron and steel,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9",1754
+3920,Other basic metals and casting,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9",1008
 3921,Weapons and ammunition,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9",3
-3922,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9","Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9","1,930"
+3922,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9","Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9",1930
 3923,"Computer, electronic and optical products","Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9",68
 3924,Electrical equipment,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9",80
 3925,Machinery and equipment n.e.c.,"Manufacture of fabricated metal products, excluding weapons & ammunition - 25.1-3/5-9",416
@@ -4133,7 +4133,7 @@
 4131,Weapons and ammunition,Manufacture Of Electrical Equipment,0
 4132,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Manufacture Of Electrical Equipment,186
 4133,"Computer, electronic and optical products",Manufacture Of Electrical Equipment,254
-4134,Electrical equipment,Manufacture Of Electrical Equipment,"1,314"
+4134,Electrical equipment,Manufacture Of Electrical Equipment,1314
 4135,Machinery and equipment n.e.c.,Manufacture Of Electrical Equipment,146
 4136,"Motor vehicles, trailers and semi-trailers",Manufacture Of Electrical Equipment,33
 4137,Ships and boats,Manufacture Of Electrical Equipment,0
@@ -4233,13 +4233,13 @@
 4231,Rubber and plastic products,Manufacture Of Machinery And Equipment N.E.C.,184
 4232,"Cement, lime, plaster and articles of concrete, cement and plaster",Manufacture Of Machinery And Equipment N.E.C.,1
 4233,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Manufacture Of Machinery And Equipment N.E.C.,9
-4234,Basic iron and steel,Manufacture Of Machinery And Equipment N.E.C.,"1,131"
+4234,Basic iron and steel,Manufacture Of Machinery And Equipment N.E.C.,1131
 4235,Other basic metals and casting,Manufacture Of Machinery And Equipment N.E.C.,170
 4236,Weapons and ammunition,Manufacture Of Machinery And Equipment N.E.C.,29
 4237,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Manufacture Of Machinery And Equipment N.E.C.,717
 4238,"Computer, electronic and optical products",Manufacture Of Machinery And Equipment N.E.C.,321
 4239,Electrical equipment,Manufacture Of Machinery And Equipment N.E.C.,324
-4240,Machinery and equipment n.e.c.,Manufacture Of Machinery And Equipment N.E.C.,"1,822"
+4240,Machinery and equipment n.e.c.,Manufacture Of Machinery And Equipment N.E.C.,1822
 4241,"Motor vehicles, trailers and semi-trailers",Manufacture Of Machinery And Equipment N.E.C.,295
 4242,Ships and boats,Manufacture Of Machinery And Equipment N.E.C.,0
 4243,Air and spacecraft and related machinery,Manufacture Of Machinery And Equipment N.E.C.,21
@@ -4335,17 +4335,17 @@
 4333,Petrochemicals - 20.14/16/17/60,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",401
 4334,"Dyestuffs, agro-chemicals - 20.12/20","Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",0
 4335,Basic pharmaceutical products and pharmaceutical preparations,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",0
-4336,Rubber and plastic products,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers","1,039"
+4336,Rubber and plastic products,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",1039
 4337,"Cement, lime, plaster and articles of concrete, cement and plaster","Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",0
 4338,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9","Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",649
-4339,Basic iron and steel,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers","1,185"
-4340,Other basic metals and casting,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers","1,487"
+4339,Basic iron and steel,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",1185
+4340,Other basic metals and casting,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",1487
 4341,Weapons and ammunition,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",0
-4342,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9","Manufacture Of Motor Vehicles, Trailers And Semi-Trailers","1,257"
+4342,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9","Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",1257
 4343,"Computer, electronic and optical products","Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",899
 4344,Electrical equipment,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",210
-4345,Machinery and equipment n.e.c.,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers","1,840"
-4346,"Motor vehicles, trailers and semi-trailers","Manufacture Of Motor Vehicles, Trailers And Semi-Trailers","8,750"
+4345,Machinery and equipment n.e.c.,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",1840
+4346,"Motor vehicles, trailers and semi-trailers","Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",8750
 4347,Ships and boats,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",0
 4348,Air and spacecraft and related machinery,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",19
 4349,Other transport equipment - 30.2/4/9,"Manufacture Of Motor Vehicles, Trailers And Semi-Trailers",0
@@ -4557,7 +4557,7 @@
 4555,Machinery and equipment n.e.c.,Manufacture of air and spacecraft and related machinery,232
 4556,"Motor vehicles, trailers and semi-trailers",Manufacture of air and spacecraft and related machinery,4
 4557,Ships and boats,Manufacture of air and spacecraft and related machinery,0
-4558,Air and spacecraft and related machinery,Manufacture of air and spacecraft and related machinery,"1,581"
+4558,Air and spacecraft and related machinery,Manufacture of air and spacecraft and related machinery,1581
 4559,Other transport equipment - 30.2/4/9,Manufacture of air and spacecraft and related machinery,0
 4560,Furniture,Manufacture of air and spacecraft and related machinery,0
 4561,Other manufactured goods,Manufacture of air and spacecraft and related machinery,0
@@ -5253,7 +5253,7 @@
 5251,"Products of forestry, logging and related services","Electric power generation, transmission and distribution",0
 5252,Fish and other fishing products; aquaculture products; support services to fishing,"Electric power generation, transmission and distribution",0
 5253,Coal and lignite,"Electric power generation, transmission and distribution",619
-5254,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,"Electric power generation, transmission and distribution","2,073"
+5254,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,"Electric power generation, transmission and distribution",2073
 5255,Other mining and quarrying products,"Electric power generation, transmission and distribution",0
 5256,Mining support services,"Electric power generation, transmission and distribution",0
 5257,Preserved meat and meat products,"Electric power generation, transmission and distribution",0
@@ -5299,7 +5299,7 @@
 5297,Repair and maintenance of ships and boats,"Electric power generation, transmission and distribution",0
 5298,Repair and maintenance of aircraft and spacecraft,"Electric power generation, transmission and distribution",0
 5299,Rest of repair; Installation - 33.11-14/17/19/20,"Electric power generation, transmission and distribution",0
-5300,"Electricity, transmission and distribution","Electric power generation, transmission and distribution","1,032"
+5300,"Electricity, transmission and distribution","Electric power generation, transmission and distribution",1032
 5301,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,"Electric power generation, transmission and distribution",1
 5302,Natural water; water treatment and supply services,"Electric power generation, transmission and distribution",0
 5303,Sewerage services; sewage sludge,"Electric power generation, transmission and distribution",0
@@ -5358,7 +5358,7 @@
 5356,"Products of forestry, logging and related services",Manufacture of gas; distribution of gaseous fuels through mains; steam and aircon supply,0
 5357,Fish and other fishing products; aquaculture products; support services to fishing,Manufacture of gas; distribution of gaseous fuels through mains; steam and aircon supply,0
 5358,Coal and lignite,Manufacture of gas; distribution of gaseous fuels through mains; steam and aircon supply,107
-5359,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Manufacture of gas; distribution of gaseous fuels through mains; steam and aircon supply,"5,115"
+5359,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Manufacture of gas; distribution of gaseous fuels through mains; steam and aircon supply,5115
 5360,Other mining and quarrying products,Manufacture of gas; distribution of gaseous fuels through mains; steam and aircon supply,0
 5361,Mining support services,Manufacture of gas; distribution of gaseous fuels through mains; steam and aircon supply,0
 5362,Preserved meat and meat products,Manufacture of gas; distribution of gaseous fuels through mains; steam and aircon supply,0
@@ -5723,7 +5723,7 @@
 5721,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,"Waste Collection, Treatment And Disposal Activities; Materials Recovery",0
 5722,Natural water; water treatment and supply services,"Waste Collection, Treatment And Disposal Activities; Materials Recovery",0
 5723,Sewerage services; sewage sludge,"Waste Collection, Treatment And Disposal Activities; Materials Recovery",1
-5724,"Waste collection, treatment and disposal services; materials recovery services","Waste Collection, Treatment And Disposal Activities; Materials Recovery","2,005"
+5724,"Waste collection, treatment and disposal services; materials recovery services","Waste Collection, Treatment And Disposal Activities; Materials Recovery",2005
 5725,Remediation services and other waste management services,"Waste Collection, Treatment And Disposal Activities; Materials Recovery",0
 5726,Construction,"Waste Collection, Treatment And Disposal Activities; Materials Recovery",0
 5727,Wholesale and retail trade and repair services of motor vehicles and motorcycles,"Waste Collection, Treatment And Disposal Activities; Materials Recovery",0
@@ -5916,7 +5916,7 @@
 5914,Basic iron and steel,Construction,171
 5915,Other basic metals and casting,Construction,71
 5916,Weapons and ammunition,Construction,0
-5917,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Construction,"1,313"
+5917,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Construction,1313
 5918,"Computer, electronic and optical products",Construction,776
 5919,Electrical equipment,Construction,293
 5920,Machinery and equipment n.e.c.,Construction,335
@@ -5935,7 +5935,7 @@
 5933,Sewerage services; sewage sludge,Construction,0
 5934,"Waste collection, treatment and disposal services; materials recovery services",Construction,37
 5935,Remediation services and other waste management services,Construction,0
-5936,Construction,Construction,"1,427"
+5936,Construction,Construction,1427
 5937,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Construction,0
 5938,"Wholesale trade services, except of motor vehicles and motorcycles",Construction,0
 5939,"Retail trade services, except of motor vehicles and motorcycles",Construction,0
@@ -5961,7 +5961,7 @@
 5959,Legal services,Construction,5
 5960,"Accounting, bookkeeping and auditing services; tax consulting services",Construction,20
 5961,Services of head offices; management consulting services,Construction,50
-5962,Architectural and engineering services; technical testing and analysis services,Construction,"1,806"
+5962,Architectural and engineering services; technical testing and analysis services,Construction,1806
 5963,Scientific research and development services,Construction,0
 5964,Advertising and market research services,Construction,0
 5965,"Other professional, scientific and technical services",Construction,1
@@ -6025,7 +6025,7 @@
 6023,"Computer, electronic and optical products",Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles,60
 6024,Electrical equipment,Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles,73
 6025,Machinery and equipment n.e.c.,Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles,158
-6026,"Motor vehicles, trailers and semi-trailers",Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles,"2,256"
+6026,"Motor vehicles, trailers and semi-trailers",Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles,2256
 6027,Ships and boats,Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles,0
 6028,Air and spacecraft and related machinery,Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles,0
 6029,Other transport equipment - 30.2/4/9,Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles,0
@@ -6181,7 +6181,7 @@
 6179,"Travel agency, tour operator and other reservation services and related services","Wholesale Trade, Except Of Motor Vehicles And Motorcycles",0
 6180,Security and investigation services,"Wholesale Trade, Except Of Motor Vehicles And Motorcycles",0
 6181,Services to buildings and landscape,"Wholesale Trade, Except Of Motor Vehicles And Motorcycles",0
-6182,"Office administrative, office support and other business support services","Wholesale Trade, Except Of Motor Vehicles And Motorcycles","1,789"
+6182,"Office administrative, office support and other business support services","Wholesale Trade, Except Of Motor Vehicles And Motorcycles",1789
 6183,Public administration and defence services; compulsory social security services,"Wholesale Trade, Except Of Motor Vehicles And Motorcycles",2
 6184,Education services,"Wholesale Trade, Except Of Motor Vehicles And Motorcycles",2
 6185,Human health services,"Wholesale Trade, Except Of Motor Vehicles And Motorcycles",0
@@ -6427,7 +6427,7 @@
 6425,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials","Land transport services and transport services via pipelines, excluding rail transport",5
 6426,Paper and paper products,"Land transport services and transport services via pipelines, excluding rail transport",4
 6427,Printing and recording services,"Land transport services and transport services via pipelines, excluding rail transport",0
-6428,Coke and refined petroleum products,"Land transport services and transport services via pipelines, excluding rail transport","2,712"
+6428,Coke and refined petroleum products,"Land transport services and transport services via pipelines, excluding rail transport",2712
 6429,"Paints, varnishes and similar coatings, printing ink and mastics","Land transport services and transport services via pipelines, excluding rail transport",2
 6430,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations","Land transport services and transport services via pipelines, excluding rail transport",0
 6431,Other chemical products,"Land transport services and transport services via pipelines, excluding rail transport",15
@@ -6571,9 +6571,9 @@
 6569,"Retail trade services, except of motor vehicles and motorcycles",Water Transport,0
 6570,Rail transport services,Water Transport,0
 6571,"Land transport services and transport services via pipelines, excluding rail transport",Water Transport,9
-6572,Water transport services,Water Transport,"1,589"
+6572,Water transport services,Water Transport,1589
 6573,Air transport services,Water Transport,0
-6574,Warehousing and support services for transportation,Water Transport,"1,056"
+6574,Warehousing and support services for transportation,Water Transport,1056
 6575,Postal and courier services,Water Transport,2
 6576,Accommodation services,Water Transport,0
 6577,Food and beverage serving services,Water Transport,46
@@ -6637,7 +6637,7 @@
 6635,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Air Transport,0
 6636,Paper and paper products,Air Transport,2
 6637,Printing and recording services,Air Transport,0
-6638,Coke and refined petroleum products,Air Transport,"4,096"
+6638,Coke and refined petroleum products,Air Transport,4096
 6639,"Paints, varnishes and similar coatings, printing ink and mastics",Air Transport,0
 6640,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Air Transport,0
 6641,Other chemical products,Air Transport,0
@@ -7049,7 +7049,7 @@
 7047,Bakery and farinaceous products,Food And Beverage Service Activities,1
 7048,Other food products,Food And Beverage Service Activities,9
 7049,Prepared animal feeds,Food And Beverage Service Activities,1
-7050,Alcoholic beverages  & Tobacco products,Food And Beverage Service Activities,"1,343"
+7050,Alcoholic beverages  & Tobacco products,Food And Beverage Service Activities,1343
 7051,Soft drinks,Food And Beverage Service Activities,1
 7052,Textiles,Food And Beverage Service Activities,8
 7053,Wearing apparel,Food And Beverage Service Activities,18
@@ -7282,7 +7282,7 @@
 7280,Other basic metals and casting,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",0
 7281,Weapons and ammunition,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",0
 7282,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9","Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",0
-7283,"Computer, electronic and optical products","Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities","1,197"
+7283,"Computer, electronic and optical products","Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",1197
 7284,Electrical equipment,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",0
 7285,Machinery and equipment n.e.c.,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",0
 7286,"Motor vehicles, trailers and semi-trailers","Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",0
@@ -7313,7 +7313,7 @@
 7311,Accommodation services,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",0
 7312,Food and beverage serving services,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",0
 7313,Publishing services,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",0
-7314,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities","Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities","2,579"
+7314,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities","Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",2579
 7315,Telecommunications services,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",0
 7316,"Computer programming, consultancy and related services","Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",1
 7317,Information services,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",0
@@ -7419,7 +7419,7 @@
 7417,Food and beverage serving services,Telecommunications,0
 7418,Publishing services,Telecommunications,0
 7419,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Telecommunications,0
-7420,Telecommunications services,Telecommunications,"3,830"
+7420,Telecommunications services,Telecommunications,3830
 7421,"Computer programming, consultancy and related services",Telecommunications,111
 7422,Information services,Telecommunications,66
 7423,"Financial services, except insurance and pension funding",Telecommunications,0
@@ -7525,7 +7525,7 @@
 7523,Publishing services,"Computer Programming, Consultancy And Related Activities",52
 7524,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities","Computer Programming, Consultancy And Related Activities",40
 7525,Telecommunications services,"Computer Programming, Consultancy And Related Activities",134
-7526,"Computer programming, consultancy and related services","Computer Programming, Consultancy And Related Activities","2,086"
+7526,"Computer programming, consultancy and related services","Computer Programming, Consultancy And Related Activities",2086
 7527,Information services,"Computer Programming, Consultancy And Related Activities",793
 7528,"Financial services, except insurance and pension funding","Computer Programming, Consultancy And Related Activities",99
 7529,"Insurance, reinsurance and pension funding services, except compulsory social security","Computer Programming, Consultancy And Related Activities",19
@@ -7546,7 +7546,7 @@
 7544,"Travel agency, tour operator and other reservation services and related services","Computer Programming, Consultancy And Related Activities",0
 7545,Security and investigation services,"Computer Programming, Consultancy And Related Activities",0
 7546,Services to buildings and landscape,"Computer Programming, Consultancy And Related Activities",0
-7547,"Office administrative, office support and other business support services","Computer Programming, Consultancy And Related Activities","1,540"
+7547,"Office administrative, office support and other business support services","Computer Programming, Consultancy And Related Activities",1540
 7548,Public administration and defence services; compulsory social security services,"Computer Programming, Consultancy And Related Activities",12
 7549,Education services,"Computer Programming, Consultancy And Related Activities",22
 7550,Human health services,"Computer Programming, Consultancy And Related Activities",0
@@ -7737,7 +7737,7 @@
 7735,Telecommunications services,"Financial Service Activities, Except Insurance And Pension Funding",1
 7736,"Computer programming, consultancy and related services","Financial Service Activities, Except Insurance And Pension Funding",0
 7737,Information services,"Financial Service Activities, Except Insurance And Pension Funding",0
-7738,"Financial services, except insurance and pension funding","Financial Service Activities, Except Insurance And Pension Funding","4,347"
+7738,"Financial services, except insurance and pension funding","Financial Service Activities, Except Insurance And Pension Funding",4347
 7739,"Insurance, reinsurance and pension funding services, except compulsory social security","Financial Service Activities, Except Insurance And Pension Funding",0
 7740,Services auxiliary to financial services and insurance services,"Financial Service Activities, Except Insurance And Pension Funding",899
 7741,Real estate services on a fee or contract basis,"Financial Service Activities, Except Insurance And Pension Funding",0
@@ -7745,7 +7745,7 @@
 7743,"Real estate services, excluding on a fee or contract basis and imputed rent","Financial Service Activities, Except Insurance And Pension Funding",0
 7744,Legal services,"Financial Service Activities, Except Insurance And Pension Funding",0
 7745,"Accounting, bookkeeping and auditing services; tax consulting services","Financial Service Activities, Except Insurance And Pension Funding",0
-7746,Services of head offices; management consulting services,"Financial Service Activities, Except Insurance And Pension Funding","4,351"
+7746,Services of head offices; management consulting services,"Financial Service Activities, Except Insurance And Pension Funding",4351
 7747,Architectural and engineering services; technical testing and analysis services,"Financial Service Activities, Except Insurance And Pension Funding",2
 7748,Scientific research and development services,"Financial Service Activities, Except Insurance And Pension Funding",0
 7749,Advertising and market research services,"Financial Service Activities, Except Insurance And Pension Funding",0
@@ -7756,7 +7756,7 @@
 7754,"Travel agency, tour operator and other reservation services and related services","Financial Service Activities, Except Insurance And Pension Funding",0
 7755,Security and investigation services,"Financial Service Activities, Except Insurance And Pension Funding",0
 7756,Services to buildings and landscape,"Financial Service Activities, Except Insurance And Pension Funding",0
-7757,"Office administrative, office support and other business support services","Financial Service Activities, Except Insurance And Pension Funding","3,435"
+7757,"Office administrative, office support and other business support services","Financial Service Activities, Except Insurance And Pension Funding",3435
 7758,Public administration and defence services; compulsory social security services,"Financial Service Activities, Except Insurance And Pension Funding",0
 7759,Education services,"Financial Service Activities, Except Insurance And Pension Funding",0
 7760,Human health services,"Financial Service Activities, Except Insurance And Pension Funding",0
@@ -7843,8 +7843,8 @@
 7841,"Computer programming, consultancy and related services","Insurance, reinsurance and pension funding services, except compulsory social security",481
 7842,Information services,"Insurance, reinsurance and pension funding services, except compulsory social security",0
 7843,"Financial services, except insurance and pension funding","Insurance, reinsurance and pension funding services, except compulsory social security",307
-7844,"Insurance, reinsurance and pension funding services, except compulsory social security","Insurance, reinsurance and pension funding services, except compulsory social security","1,575"
-7845,Services auxiliary to financial services and insurance services,"Insurance, reinsurance and pension funding services, except compulsory social security","1,651"
+7844,"Insurance, reinsurance and pension funding services, except compulsory social security","Insurance, reinsurance and pension funding services, except compulsory social security",1575
+7845,Services auxiliary to financial services and insurance services,"Insurance, reinsurance and pension funding services, except compulsory social security",1651
 7846,Real estate services on a fee or contract basis,"Insurance, reinsurance and pension funding services, except compulsory social security",0
 7847,Owner-Occupiers' Housing Services,"Insurance, reinsurance and pension funding services, except compulsory social security",0
 7848,"Real estate services, excluding on a fee or contract basis and imputed rent","Insurance, reinsurance and pension funding services, except compulsory social security",171
@@ -7949,7 +7949,7 @@
 7947,Information services,Activities Auxiliary To Financial Services And Insurance Activities,0
 7948,"Financial services, except insurance and pension funding",Activities Auxiliary To Financial Services And Insurance Activities,20
 7949,"Insurance, reinsurance and pension funding services, except compulsory social security",Activities Auxiliary To Financial Services And Insurance Activities,0
-7950,Services auxiliary to financial services and insurance services,Activities Auxiliary To Financial Services And Insurance Activities,"1,563"
+7950,Services auxiliary to financial services and insurance services,Activities Auxiliary To Financial Services And Insurance Activities,1563
 7951,Real estate services on a fee or contract basis,Activities Auxiliary To Financial Services And Insurance Activities,0
 7952,Owner-Occupiers' Housing Services,Activities Auxiliary To Financial Services And Insurance Activities,0
 7953,"Real estate services, excluding on a fee or contract basis and imputed rent",Activities Auxiliary To Financial Services And Insurance Activities,0
@@ -8262,7 +8262,7 @@
 8260,Telecommunications services,"Buying and selling, renting and operating of own or leased real estate, excluding imputed rent",37
 8261,"Computer programming, consultancy and related services","Buying and selling, renting and operating of own or leased real estate, excluding imputed rent",83
 8262,Information services,"Buying and selling, renting and operating of own or leased real estate, excluding imputed rent",10
-8263,"Financial services, except insurance and pension funding","Buying and selling, renting and operating of own or leased real estate, excluding imputed rent","1,711"
+8263,"Financial services, except insurance and pension funding","Buying and selling, renting and operating of own or leased real estate, excluding imputed rent",1711
 8264,"Insurance, reinsurance and pension funding services, except compulsory social security","Buying and selling, renting and operating of own or leased real estate, excluding imputed rent",162
 8265,Services auxiliary to financial services and insurance services,"Buying and selling, renting and operating of own or leased real estate, excluding imputed rent",217
 8266,Real estate services on a fee or contract basis,"Buying and selling, renting and operating of own or leased real estate, excluding imputed rent",1
@@ -8585,7 +8585,7 @@
 8583,"Real estate services, excluding on a fee or contract basis and imputed rent",Activities Of Head Offices; Management Consultancy Activities,0
 8584,Legal services,Activities Of Head Offices; Management Consultancy Activities,8
 8585,"Accounting, bookkeeping and auditing services; tax consulting services",Activities Of Head Offices; Management Consultancy Activities,189
-8586,Services of head offices; management consulting services,Activities Of Head Offices; Management Consultancy Activities,"2,190"
+8586,Services of head offices; management consulting services,Activities Of Head Offices; Management Consultancy Activities,2190
 8587,Architectural and engineering services; technical testing and analysis services,Activities Of Head Offices; Management Consultancy Activities,96
 8588,Scientific research and development services,Activities Of Head Offices; Management Consultancy Activities,29
 8589,Advertising and market research services,Activities Of Head Offices; Management Consultancy Activities,81
@@ -8596,7 +8596,7 @@
 8594,"Travel agency, tour operator and other reservation services and related services",Activities Of Head Offices; Management Consultancy Activities,0
 8595,Security and investigation services,Activities Of Head Offices; Management Consultancy Activities,0
 8596,Services to buildings and landscape,Activities Of Head Offices; Management Consultancy Activities,0
-8597,"Office administrative, office support and other business support services",Activities Of Head Offices; Management Consultancy Activities,"1,201"
+8597,"Office administrative, office support and other business support services",Activities Of Head Offices; Management Consultancy Activities,1201
 8598,Public administration and defence services; compulsory social security services,Activities Of Head Offices; Management Consultancy Activities,11
 8599,Education services,Activities Of Head Offices; Management Consultancy Activities,2
 8600,Human health services,Activities Of Head Offices; Management Consultancy Activities,0
@@ -8903,7 +8903,7 @@
 8901,Services of head offices; management consulting services,Advertising And Market Research,332
 8902,Architectural and engineering services; technical testing and analysis services,Advertising And Market Research,7
 8903,Scientific research and development services,Advertising And Market Research,0
-8904,Advertising and market research services,Advertising And Market Research,"2,347"
+8904,Advertising and market research services,Advertising And Market Research,2347
 8905,"Other professional, scientific and technical services",Advertising And Market Research,47
 8906,Veterinary services,Advertising And Market Research,0
 8907,Rental and leasing services,Advertising And Market Research,42
@@ -9751,7 +9751,7 @@
 9749,"Travel agency, tour operator and other reservation services and related services","Office Administrative, Office Support And Other Business Support Activities",0
 9750,Security and investigation services,"Office Administrative, Office Support And Other Business Support Activities",0
 9751,Services to buildings and landscape,"Office Administrative, Office Support And Other Business Support Activities",0
-9752,"Office administrative, office support and other business support services","Office Administrative, Office Support And Other Business Support Activities","4,178"
+9752,"Office administrative, office support and other business support services","Office Administrative, Office Support And Other Business Support Activities",4178
 9753,Public administration and defence services; compulsory social security services,"Office Administrative, Office Support And Other Business Support Activities",1
 9754,Education services,"Office Administrative, Office Support And Other Business Support Activities",2
 9755,Human health services,"Office Administrative, Office Support And Other Business Support Activities",0
@@ -9802,12 +9802,12 @@
 9800,Other basic metals and casting,Public Administration And Defence; Compulsory Social Security,0
 9801,Weapons and ammunition,Public Administration And Defence; Compulsory Social Security,56
 9802,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Public Administration And Defence; Compulsory Social Security,7
-9803,"Computer, electronic and optical products",Public Administration And Defence; Compulsory Social Security,"4,359"
+9803,"Computer, electronic and optical products",Public Administration And Defence; Compulsory Social Security,4359
 9804,Electrical equipment,Public Administration And Defence; Compulsory Social Security,18
 9805,Machinery and equipment n.e.c.,Public Administration And Defence; Compulsory Social Security,41
 9806,"Motor vehicles, trailers and semi-trailers",Public Administration And Defence; Compulsory Social Security,207
 9807,Ships and boats,Public Administration And Defence; Compulsory Social Security,0
-9808,Air and spacecraft and related machinery,Public Administration And Defence; Compulsory Social Security,"1,012"
+9808,Air and spacecraft and related machinery,Public Administration And Defence; Compulsory Social Security,1012
 9809,Other transport equipment - 30.2/4/9,Public Administration And Defence; Compulsory Social Security,0
 9810,Furniture,Public Administration And Defence; Compulsory Social Security,0
 9811,Other manufactured goods,Public Administration And Defence; Compulsory Social Security,0
@@ -9837,7 +9837,7 @@
 9835,Telecommunications services,Public Administration And Defence; Compulsory Social Security,0
 9836,"Computer programming, consultancy and related services",Public Administration And Defence; Compulsory Social Security,5
 9837,Information services,Public Administration And Defence; Compulsory Social Security,0
-9838,"Financial services, except insurance and pension funding",Public Administration And Defence; Compulsory Social Security,"1,322"
+9838,"Financial services, except insurance and pension funding",Public Administration And Defence; Compulsory Social Security,1322
 9839,"Insurance, reinsurance and pension funding services, except compulsory social security",Public Administration And Defence; Compulsory Social Security,1
 9840,Services auxiliary to financial services and insurance services,Public Administration And Defence; Compulsory Social Security,3
 9841,Real estate services on a fee or contract basis,Public Administration And Defence; Compulsory Social Security,0
@@ -10004,7 +10004,7 @@
 10002,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Human Health Activities,4
 10003,Petrochemicals - 20.14/16/17/60,Human Health Activities,0
 10004,"Dyestuffs, agro-chemicals - 20.12/20",Human Health Activities,1
-10005,Basic pharmaceutical products and pharmaceutical preparations,Human Health Activities,"3,306"
+10005,Basic pharmaceutical products and pharmaceutical preparations,Human Health Activities,3306
 10006,Rubber and plastic products,Human Health Activities,1
 10007,"Cement, lime, plaster and articles of concrete, cement and plaster",Human Health Activities,0
 10008,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Human Health Activities,0
@@ -10012,7 +10012,7 @@
 10010,Other basic metals and casting,Human Health Activities,0
 10011,Weapons and ammunition,Human Health Activities,0
 10012,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Human Health Activities,1
-10013,"Computer, electronic and optical products",Human Health Activities,"5,232"
+10013,"Computer, electronic and optical products",Human Health Activities,5232
 10014,Electrical equipment,Human Health Activities,1
 10015,Machinery and equipment n.e.c.,Human Health Activities,0
 10016,"Motor vehicles, trailers and semi-trailers",Human Health Activities,0
