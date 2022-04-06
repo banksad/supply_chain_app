@@ -61,7 +61,7 @@ if chart_choice=='Domestically produced':
 
     with col2:
         
-        st.subheader('Domestic inputs used in the UK production of {} products'.format(iot_product.lower()))
+        st.markdown('*Domestic inputs used in the UK production of {} products*'.format(iot_product.lower()))
         
         if legend_indicator1=='No legend':
             fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
