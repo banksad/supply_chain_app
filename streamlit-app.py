@@ -25,22 +25,26 @@ st.sidebar.markdown('You can find the source code [here](https://github.com/bank
 
 # Domestic input intensity of products
 
-st.subheader('Domestic inputs used in UK production')
+col1, col2 = st.columns(2)
 
-st.markdown('This section examines the types of domestically produced inputs that are used to produce the product selected')
+with col1:
+    st.subheader('Domestic inputs used in UK production')
 
-iot_subset = iot_use[iot_use['output product']==iot_product]
-iot_subset = iot_subset[iot_subset['proportion']>0]
+    st.markdown('This section examines the types of domestically produced inputs that are used to produce the product selected')
 
-st.markdown("")
-see_iot_data = st.expander('You can click here to see the raw data first 👉')
-with see_iot_data:
-    st.dataframe(data=iot_subset)
+    iot_subset = iot_use[iot_use['output product']==iot_product]
+    iot_subset = iot_subset[iot_subset['proportion']>0]
 
-fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
-fig.update_traces(textposition='inside')
-fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide')
-st.plotly_chart(fig)
+    st.markdown("")
+    see_iot_data = st.expander('You can click here to see the raw data 👉')
+    with see_iot_data:
+        st.dataframe(data=iot_subset)
+
+with col2:
+    fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
+    fig.update_traces(textposition='inside')
+    fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide')
+    st.plotly_chart(fig)
 
 # Import intensity of products
 
@@ -52,7 +56,7 @@ import_subset = imports_use[imports_use['output product']==import_product]
 import_subset = import_subset[import_subset['proportion']>0]
 
 st.markdown("")
-see_import_data = st.expander('You can click here to see the raw data first 👉')
+see_import_data = st.expander('You can click here to see the raw data 👉')
 with see_import_data:
     st.dataframe(data=import_subset)
 
