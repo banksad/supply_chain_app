@@ -28,7 +28,7 @@ st.subheader('Import content of domestically produced products')
 
 st.markdown("**Select level of detail you want to analyze:** 👇")
 
-product = st.multiselect('Search for a product',set(list(imports_use['output product'])))
+product = st.selectbox('Search for a product',set(list(imports_use['output product'])))
 
 st.write(product)
 #import_subset = imports_use[imports_use['output product']==product]
