@@ -28,9 +28,11 @@ import_product = iot_product
 combined_product = iot_product
 
 st.sidebar.markdown('')
-see_cpa = st.sidebar.expander('You can click here to see the cpa product classification 👉')
-with see_cpa:
+see_cpa = st.sidebar.selectbox('Click here to see the cpa product classification 👉',['See CPA classification, Hide CPA classification'])
+if see_cpa=='See CPA classification':
     st.sidebar.dataframe(data=cpa_classification)
+else:
+    pass
             
 # Input intensity of products
 # ----------------------------
