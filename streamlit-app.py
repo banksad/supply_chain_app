@@ -34,4 +34,6 @@ import_subset = imports_use[imports_use['output product']==product]
 import_subset = import_subset[import_subset['proportion']>0]
 
 fig = px.pie(import_subset, values='proportion', names='import requirements')
+fig.update_traces(textposition='inside')
+fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide')
 st.plotly_chart(fig)
