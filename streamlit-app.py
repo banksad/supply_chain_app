@@ -24,7 +24,9 @@ st.sidebar.markdown('You can find the source code [here](https://github.com/bank
 
 # Import intensity of products
 
-st.subheader('Import content of domestically produced products')
+st.subheader('Imported products used in domestic production')
+
+st.markdown('This section examines the types of imported products that are used to domestically produce the product selected')
 
 st.markdown("**Select level of detail you want to analyze:** 👇")
 
