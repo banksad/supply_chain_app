@@ -17,19 +17,17 @@ imports_use = pd.read_csv('data/imports_use_pxp_cleaned.csv')
 # Page design
 st.title('Supply Chain Analysis')
 
-#st.sidebar.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
+st.sidebar.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
+
+st.sidebar.selectbox('Search for a product that you wish to analyse',set(list(iot_use['output product'])))
             
-#st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
+st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
 # Domestic input intensity of products
 
 st.subheader('Domestic inputs used in UK production')
 
 st.markdown('This section examines the types of domestically produced inputs that are used to produce the product selected')
-
-st.markdown("**Select level of detail you want to analyze:** 👇")
-
-product = st.selectbox('Search for a product',set(list(iot_use['output product'])))
 
 iot_subset = iot_use[iot_use['output product']==product]
 iot_subset = iot_subset[iot_subset['proportion']>0]
@@ -44,10 +42,6 @@ st.plotly_chart(fig)
 st.subheader('Imported products used in domestic production')
 
 st.markdown('This section examines the types of imported products that are used to domestically produce the product selected')
-
-st.markdown("**Select level of detail you want to analyze:** 👇")
-
-product = st.selectbox('Search for a product',set(list(imports_use['output product'])))
 
 import_subset = imports_use[imports_use['output product']==product]
 import_subset = import_subset[import_subset['proportion']>0]
