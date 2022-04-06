@@ -28,10 +28,10 @@ import_product = iot_product
 combined_product = iot_product
 
 st.sidebar.markdown('')
-if st.button('Click here to see the cpa product classification'):
+if st.sidebar.button('Click here to see the cpa product classification'):
     st.sidebar.dataframe(data=cpa_classification)
 else:
-    st.write('')
+    st.sidebar.write('')
             
 # Input intensity of products
 # ----------------------------
