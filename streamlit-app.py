@@ -19,7 +19,7 @@ st.title('Supply Chain Analysis')
 
 st.sidebar.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
 
-product = st.sidebar.selectbox('Search for a product that you wish to analyse',set(list(iot_use['output product'])))
+iot_product, import_product = st.sidebar.selectbox('Search for a product that you wish to analyse',set(list(iot_use['output product'])))
             
 st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
@@ -29,7 +29,7 @@ st.subheader('Domestic inputs used in UK production')
 
 st.markdown('This section examines the types of domestically produced inputs that are used to produce the product selected')
 
-iot_subset = iot_use[iot_use['output product']==product]
+iot_subset = iot_use[iot_use['output product']==iot_product]
 iot_subset = iot_subset[iot_subset['proportion']>0]
 
 fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
@@ -43,7 +43,7 @@ st.subheader('Imported products used in domestic production')
 
 st.markdown('This section examines the types of imported products that are used to domestically produce the product selected')
 
-import_subset = imports_use[imports_use['output product']==product]
+import_subset = imports_use[imports_use['output product']==import_product]
 import_subset = import_subset[import_subset['proportion']>0]
 
 fig = px.pie(import_subset, values='proportion', names='import requirements')
