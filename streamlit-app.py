@@ -30,9 +30,8 @@ st.markdown("**Select level of detail you want to analyze:** 👇")
 
 product = st.selectbox('Search for a product',set(list(imports_use['output product'])))
 
-st.write(product)
-#import_subset = imports_use[imports_use['output product']==product]
-#import_subset = import_subset[import_subset['proportion']>0]
+import_subset = imports_use[imports_use['output product']==product]
+import_subset = import_subset[import_subset['proportion']>0]
 
-#fig = px.pie(import_subset, values='proportion', names='import requirements')
-#st.plotly_chart(fig)
+fig = px.pie(import_subset, values='proportion', names='import requirements')
+st.plotly_chart(fig)
