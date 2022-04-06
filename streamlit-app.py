@@ -25,11 +25,6 @@ combined_product = iot_product
             
 st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
-# Effects of an increase in demand on whole economy output
-
-st.subheader('Effects of an increase in demand for {} on the economy'.format(iot_product.lower()))
-
-st.markdown('The Input Output tables show the indirect and direct effects of an increase in demand for a product on the whole economy and employment income (compensation of employees)')
 
 # Input intensity of products
 
@@ -61,7 +56,7 @@ if chart_choice=='Domestically produced':
 
     with col2:
         
-        st.markdown('*Domestic inputs used in the UK production of {} products*'.format(iot_product.lower()))
+        st.markdown('*Domestically produced inputs used in the UK production of {} products*'.format(iot_product.lower()))
         
         if legend_indicator1=='No legend':
             fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
@@ -94,7 +89,7 @@ elif chart_choice=='Imported':
 
     with col2:
         
-        st.subheader('Imported products used in the domestic production of {} products'.format(import_product.lower()))
+        st.markdown('*Imported products used in the domestic production of {} products*'.format(import_product.lower()))
         
         if legend_indicator2=='No legend':
             fig = px.pie(import_subset, values='proportion', names='import requirements')
@@ -126,7 +121,7 @@ else:
 
     with col2:
         
-        st.subheader('Imported and domestically produced products used in the domestic production of {} products'.format(import_product.lower()))
+        st.markdown('*Imported and domestically produced products used in the domestic production of {} products*'.format(import_product.lower()))
         
         if legend_indicator3=='No legend':
             fig = px.sunburst(combined_subset, path=['component','input product'], values='value')
@@ -138,3 +133,10 @@ else:
             #fig.update_traces(textposition='inside')
             #fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=True)
             st.plotly_chart(fig)
+            
+            
+# Effects of an increase in demand on whole economy output
+
+st.subheader('Effects of an increase in demand for {} on the economy'.format(iot_product.lower()))
+
+st.markdown('The Input Output tables show the indirect and direct effects of an increase in demand for a product on the whole economy and employment income (compensation of employees)')
