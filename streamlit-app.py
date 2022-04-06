@@ -40,8 +40,9 @@ with col1:
     with see_iot_data:
         st.dataframe(data=iot_subset)
 
-with col2:
     legend_indicator1 = st.selectbox('Add / remove legend',['No legend','Add Legend'])
+
+with col2:
     
     if legend_indicator1=='No legend':
         fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
