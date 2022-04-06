@@ -29,9 +29,9 @@ combined_product = iot_product
 
 st.sidebar.markdown('')
 if st.button('Click here to see the cpa product classification'):
-     st.sidebar.dataframe(data=cpa_classification)
- else:
-     st.write('')
+    st.sidebar.dataframe(data=cpa_classification)
+else:
+    st.write('')
             
 # Input intensity of products
 # ----------------------------
