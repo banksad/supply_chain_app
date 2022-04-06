@@ -137,13 +137,11 @@ else:
         
         if legend_indicator3=='No legend':
             fig = px.sunburst(combined_subset, path=['component','input product'], values='value')
-            fig.update_traces(textposition='inside')
-            fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=False)
+            fig.update_layout(uniformtext_mode='hide', showlegend=False)
             st.plotly_chart(fig)
         else: 
             fig = px.sunburst(combined_subset, path=['component','input product'], values='value')
-            fig.update_traces(textposition='inside')
-            fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=True)
+            fig.update_layout(uniformtext_mode='hide', showlegend=True)
             st.plotly_chart(fig)
             
             
