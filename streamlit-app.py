@@ -30,8 +30,9 @@ st.markdown("**Select level of detail you want to analyze:** 👇")
 
 product = st.multiselect('Search for a product',set(list(imports_use['output product'])))
 
-import_subset = imports_use[imports_use['output product']==product]
-import_subset = import_subset[import_subset['proportion']>0]
+st.write(product)
+#import_subset = imports_use[imports_use['output product']==product]
+#import_subset = import_subset[import_subset['proportion']>0]
 
 #fig = px.pie(import_subset, values='proportion', names='import requirements')
 #st.plotly_chart(fig)
