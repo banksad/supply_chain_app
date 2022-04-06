@@ -35,7 +35,7 @@ iot_subset = iot_subset[iot_subset['proportion']>0]
 st.markdown("")
 see_iot_data = st.expander('You can click here to see the raw data first 👉')
 with see_iot_data:
-    st.dataframe(data=iot_subset[['domestic input requirement','proportion']])
+    st.dataframe(data=iot_subset)
 
 fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
 fig.update_traces(textposition='inside')
@@ -54,7 +54,7 @@ import_subset = import_subset[import_subset['proportion']>0]
 st.markdown("")
 see_import_data = st.expander('You can click here to see the raw data first 👉')
 with see_import_data:
-    st.dataframe(data=import_subset[['import requirement','proportion']])
+    st.dataframe(data=import_subset)
 
 fig = px.pie(import_subset, values='proportion', names='import requirements')
 fig.update_traces(textposition='inside')
