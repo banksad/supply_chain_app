@@ -61,7 +61,7 @@ see_import_data3 = st.expander('You can click here to see the raw data 👉')
 with see_import_data3:
     st.dataframe(data=combined_subset[['component','input product','value']].sort_values(by='value',ascending=False))
         
-st.markdown('*Imported and domestically produced products used in the domestic production of {} products*'.format(import_product.lower()))
+st.markdown('*Imported and domestically produced products used in the domestic production of {} products*'.format(combined_product.lower()))
 
 fig = px.treemap(combined_subset, path=['component','input product'], values='value',
                 color='value',color_continuous_scale='OrRd')
@@ -69,6 +69,6 @@ st.plotly_chart(fig, use_container_width=True)
                         
 # Effects of an increase in demand on whole economy output
 
-st.subheader('Effects of an increase in demand for {} on the economy'.format(iot_product.lower()))
+st.subheader('Effects of an increase in demand for {} on the economy'.format(combined_product.lower()))
 
 st.markdown('The Input Output tables show the indirect and direct effects of an increase in demand for a product on the whole economy and employment income (compensation of employees)')
