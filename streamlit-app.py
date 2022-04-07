@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
 
+st.set_page_config(layout="wide")
+
 # Data import
 
 iot_use = pd.read_csv('data/iot_cleaned.csv')
