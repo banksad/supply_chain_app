@@ -12,8 +12,6 @@ st.set_page_config(layout="wide")
 
 # Data import
 
-iot_use = pd.read_csv('data/iot_cleaned.csv')
-imports_use = pd.read_csv('data/imports_use_cleaned.csv')
 combined = pd.read_csv('data/combined.csv')
 cpa_classification = pd.read_csv('data/cpa_classification.csv')
 
