@@ -42,7 +42,7 @@ imported_inputs = combined[(combined['output product']==combined_product)&(combi
 
 # Inputs section
 
-st.subheader('Inputs into the production process: Analysis of {} products'.format(iot_product.lower()))
+st.subheader('Inputs into the production process: Analysis of {} products'.format(combined_product.lower()))
 
 st.markdown('This section examines the types products that are used in the production process, and the degree to which these products are imported.')
 
