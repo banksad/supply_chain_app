@@ -19,7 +19,6 @@ cpa_classification = pd.read_csv('data/cpa_classification.csv')
 # Sidebar
 
 st.sidebar.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
-st.sidebar.markdown('The dashboard uses publicly available information on the Input Output tables to understand the inputs into the production process.')
 st.sidebar.markdown('The text and charts automatically update depending on the options chosen in the selection boxes.')
 st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
@@ -126,11 +125,11 @@ total_coe = (effects_subset[(effects_subset['factor']=='total impact')&(effects_
 
 if change<0:
     
-    st.write('The change in gross value added is -£', round(total_gva, 2), 'm')
+    st.write('The change in gross value added is -£', round(total_gva*-1, 2), 'm')
 
-    st.write('This is because there is a corresponding change to imports of -£', round(total_imports,2), 'm')
+    st.write('This is because there is a corresponding change to imports of -£', round(total_imports*-1,2), 'm')
 
-    st.write('Employee compensation would increase by -£', round(total_coe,2), 'm')
+    st.write('Employee compensation would increase by -£', round(total_coe*-1,2), 'm')
     
 else:
 
