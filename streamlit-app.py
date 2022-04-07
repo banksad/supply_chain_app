@@ -69,7 +69,7 @@ st.markdown('*Imported and domestically produced products used in the domestic p
 
 fig = px.treemap(combined_subset, path=['component','input product'], values='value',
                 color='value',color_continuous_scale='OrRd')
-fig.update_layout(uniformtext=dict(minsize=7, mode='show'))
+fig.update_layout(uniformtext=dict(minsize=7, mode='hide'))
 st.plotly_chart(fig, use_container_width=True)
                         
 # Effects of an increase in demand on whole economy output
