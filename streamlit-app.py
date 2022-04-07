@@ -55,7 +55,7 @@ st.markdown('The total production of {} products required **£{}m** of raw input
 
 # Total inputs
 
-st.markdown('This section examines both domestically produced and imported products that are used in the domestic production of the product selected')
+st.markdown('This section examines both domestically produced and imported products that are used in the domestic production of the product selected.')
 
 combined_subset = combined[combined['output product']==combined_product]
 combined_subset = combined_subset[combined_subset['proportion']>0]
