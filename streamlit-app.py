@@ -142,7 +142,7 @@ else:
         
         fig = px.treemap(combined_subset, path=['component','input product'], values='value',
                         color='value', color_continuous_scale='RdBu',
-                        color_continuous_midpoint=np.average(df['weights']))
+                        color_continuous_midpoint=np.average(combined_subset['value']))
         st.plotly_chart(fig)
             
             
