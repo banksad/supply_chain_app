@@ -52,10 +52,9 @@ imported_inputs = combined[(combined['output product']==combined_product)&(combi
 
 st.write('The total production of ', combined_product.lower(), 'required £',total_inputs,'bn of raw inputs in 2018.')
             
-#            Of this, **£{}bn** was domestically produced inputs (i.e. from other UK producers)
-#            
-#            while **£{}bn** was imported inputs.'.format(
-#    combined_product.lower(),total_inputs,domestic_inputs,imported_inputs))
+st.write('Of this, £',domestic_inputs,'bn were domestically produced inputs (i.e. from other UK producers)')
+     
+st.write('By contrast, £',imported_inputs,'bn were imported inputs.')
 
 # Total inputs
 
