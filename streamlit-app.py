@@ -23,9 +23,7 @@ st.markdown('The dashboard uses publicly available information on the Input Outp
 st.markdown('The text and charts automatically update depending on the product chosen in the sidebar.')
 st.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
-iot_product = st.sidebar.selectbox('Search for a product that you wish to analyse',set(list(imports_use['output product'])))
-import_product = iot_product
-combined_product = iot_product
+combined_product = st.sidebar.selectbox('Search for a product that you wish to analyse',set(list(combined['output product'])))
 
 st.sidebar.markdown('')
 if st.sidebar.button('Click here to see the cpa product classification'):
