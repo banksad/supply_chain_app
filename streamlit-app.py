@@ -46,11 +46,11 @@ combined_product = st.selectbox('',set(list(combined['output product'])))
 
 # Calculations
 
-total_inputs = combined[combined['output product']==combined_product]['value'].sum()
-domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()
-imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()
+total_inputs = combined[combined['output product']==combined_product]['value'].sum()/1000
+domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()/1000
+imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()/1000
 
-st.markdown('The total production of {} products required **£{}m** of raw inputs in 2018. Of this, **£{}m** was domestically produced inputs (i.e. from other UK producers), while **£{}m** was imported inputs.'.format(
+st.markdown('The total production of {} products required **£{}bn** of raw inputs in 2018. Of this, **£{}bn** was domestically produced inputs (i.e. from other UK producers), while **£{}bn** was imported inputs.'.format(
     combined_product.lower(),total_inputs,domestic_inputs,imported_inputs))
 
 # Total inputs
@@ -58,7 +58,7 @@ st.markdown('The total production of {} products required **£{}m** of raw input
 combined_subset = combined[combined['output product']==combined_product]
 combined_subset = combined_subset[combined_subset['proportion']>0]
         
-st.markdown('Choose whether to view total inputs, or a breakdown of domestically produced and imported inputs')
+st.markdown('Choose whether to view total inputs, or a breakdown of domestically produced and imported inputs. You can also choose whether to view data in £m or proportions of total inputs.')
 
 col1, col2 = st.columns(2)
 
@@ -103,6 +103,10 @@ with see_import_data3:
                         
 # Effects of an increase in demand on whole economy output
 
-st.subheader('Effects of an increase in demand for {} on the economy'.format(combined_product.lower()))
+st.subheader('Effects of a change in demand for a product on the economy')
 
 st.markdown('The Input Output tables show the indirect and direct effects of an increase in demand for a product on the whole economy and employment income (compensation of employees)')
+
+
+number = st.number_input('Input change in demand for the product')
+st.write('The current number is ', number)
