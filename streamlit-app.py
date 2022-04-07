@@ -50,8 +50,12 @@ total_inputs = combined[combined['output product']==combined_product]['value'].s
 domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()/1000
 imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()/1000
 
-st.markdown('The total production of {} products required **£{}bn** of raw inputs in 2018. Of this, **£{}bn** was domestically produced inputs (i.e. from other UK producers), while **£{}bn** was imported inputs.'.format(
-    combined_product.lower(),total_inputs,domestic_inputs,imported_inputs))
+st.write('The total production of ', combined_product.lower(), 'required £',total_inputs,'bn of raw inputs in 2018.')
+            
+#            Of this, **£{}bn** was domestically produced inputs (i.e. from other UK producers)
+#            
+#            while **£{}bn** was imported inputs.'.format(
+#    combined_product.lower(),total_inputs,domestic_inputs,imported_inputs))
 
 # Total inputs
 
@@ -129,7 +133,7 @@ if change<0:
 
     st.write('This is because there is a corresponding change to imports of -£', round(total_imports*-1,2), 'm')
 
-    st.write('Employee compensation would increase by -£', round(total_coe*-1,2), 'm')
+    st.write('Employee compensation would change by -£', round(total_coe*-1,2), 'm')
     
 else:
 
@@ -137,4 +141,4 @@ else:
 
     st.write('This is because there is a corresponding change to imports of £', round(total_imports,2), 'm')
 
-    st.write('Employee compensation would increase by £', round(total_coe,2), 'm')
+    st.write('Employee compensation would change by £', round(total_coe,2), 'm')
