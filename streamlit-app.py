@@ -2,6 +2,7 @@
 # author = Andy Banks
 """
 
+from math import prod
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -110,5 +111,22 @@ st.markdown('The Input Output tables show the indirect and direct effects of an 
 
 multiplier_product = st.selectbox('Select a product',set(list(detailed_effects['product'])))
 
-number = st.number_input('Input change in demand for the product')
-st.write('The current number is ', number)
+number = st.number_input('Input change in demand for the product (£m)')
+
+# Calculations
+
+effects_subset = detailed_effects[detailed_effects['product']==multiplier_product]
+
+total_gva = (effects_subset[(effects_subset['factor']=='total impact')&(effects_subset['variable']=='Gross value added')]['value']*change).values[0]
+
+total_imports = (effects_subset[(effects_subset['factor']=='total impact')&(effects_subset['variable']=='Use of imported products, cif')]['value']*change).values[0]
+
+total_coe = (effects_subset[(effects_subset['factor']=='total impact')&(effects_subset['variable']=='Compensation of employees')]['value']*change).values[0]
+
+# Writing
+
+st.write('The change in gross value added is £', total_gva, 'm')
+
+st.write('This is because there is a corresponding change to imports of £', total_imports, 'm')
+
+st.write('Employee compensation would increase by', total_coe, 'm')
