@@ -51,101 +51,24 @@ st.markdown('This section examines the types products that are used in the produ
 st.markdown('The total production of {} products required **£{}m** of raw inputs in 2018. Of this, **£{}m** was domestically produced inputs (i.e. from other UK producers), while **£{}m** was imported from inputs'.format(
     combined_product.lower(),total_inputs,domestic_inputs,imported_inputs))
 
-chart_choice = st.selectbox('Choose whether to view domestically produced inputs, imported inputs, or both', ['Both','Domestically produced','Imported'])
-
-col1, col2 = st.columns(2)
-
-# Domestic input intensity of products
-
-if chart_choice=='Domestically produced':
-    
-    with col1:
-
-        st.markdown('This section examines the types of domestically produced inputs that are used in the domestic production of the product selected')
-
-        iot_subset = iot_use[iot_use['output product']==iot_product]
-        iot_subset = iot_subset[iot_subset['proportion']>0]
-
-        st.markdown("")
-        see_iot_data = st.expander('You can click here to see the raw data 👉')
-        with see_iot_data:
-            st.dataframe(data=iot_subset[['domestic input requirements','value']].sort_values(by='value',ascending=False))
-
-        legend_indicator1 = st.selectbox('Add / remove legend',['No legend','Add Legend'])
-
-    with col2:
-        
-        st.markdown('*Domestically produced inputs used in the UK production of {} products*'.format(iot_product.lower()))
-        
-        if legend_indicator1=='No legend':
-            fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
-            fig.update_traces(textposition='inside',hoverlabel_namelength=10)
-            fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=False)
-            st.plotly_chart(fig)
-        else:
-            fig = px.pie(iot_subset, values='proportion', names='domestic input requirements')
-            fig.update_traces(textposition='inside',hoverlabel_namelength=10)
-            fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=True)
-            st.plotly_chart(fig)
-
-elif chart_choice=='Imported':
-
-# Import intensity of products
-
-    with col1:
-
-        st.markdown('This section examines the types of imported products that are used in the domestic production of the product selected')
-
-        import_subset = imports_use[imports_use['output product']==import_product]
-        import_subset = import_subset[import_subset['proportion']>0]
-
-        st.markdown("")
-        see_import_data2 = st.expander('You can click here to see the raw data 👉')
-        with see_import_data2:
-            st.dataframe(data=import_subset[['import requirements','value']].sort_values(by='value',ascending=False))
-            
-        legend_indicator2 = st.selectbox('Add / remove legend',['No legend','Add Legend'])
-
-    with col2:
-        
-        st.markdown('*Imported products used in the domestic production of {} products*'.format(import_product.lower()))
-        
-        if legend_indicator2=='No legend':
-            fig = px.pie(import_subset, values='proportion', names='import requirements')
-            fig.update_traces(textposition='inside')
-            fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=False)
-            st.plotly_chart(fig)
-        else: 
-            fig = px.pie(import_subset, values='proportion', names='import requirements')
-            fig.update_traces(textposition='inside')
-            fig.update_layout(uniformtext_minsize=12, uniformtext_mode='hide', showlegend=True)
-            st.plotly_chart(fig)
-            
-else:
-
 # Total inputs
 
-    with col1:
-        st.markdown('This section examines both domestically produced and imported products that are used in the domestic production of the product selected')
+st.markdown('This section examines both domestically produced and imported products that are used in the domestic production of the product selected')
 
-        combined_subset = combined[combined['output product']==combined_product]
-        combined_subset = combined_subset[combined_subset['proportion']>0]
+combined_subset = combined[combined['output product']==combined_product]
+combined_subset = combined_subset[combined_subset['proportion']>0]
 
-        st.markdown("")
-        see_import_data3 = st.expander('You can click here to see the raw data 👉')
-        with see_import_data3:
-            st.dataframe(data=combined_subset[['component','input product','value']].sort_values(by='value',ascending=False))
-
-    with col2:
+st.markdown("")
+see_import_data3 = st.expander('You can click here to see the raw data 👉')
+with see_import_data3:
+    st.dataframe(data=combined_subset[['component','input product','value']].sort_values(by='value',ascending=False))
         
-        st.markdown('*Imported and domestically produced products used in the domestic production of {} products*'.format(import_product.lower()))
-        
-        fig = px.treemap(combined_subset, path=['component','input product'], values='value',
-                        color='value', color_continuous_scale='RdBu',
-                        color_continuous_midpoint=np.average(combined_subset['value']))
-        st.plotly_chart(fig)
-            
-            
+st.markdown('*Imported and domestically produced products used in the domestic production of {} products*'.format(import_product.lower()))
+
+fig = px.treemap(combined_subset, path=['component','input product'], values='value',
+                color='value')
+st.plotly_chart(fig)
+                        
 # Effects of an increase in demand on whole economy output
 
 st.subheader('Effects of an increase in demand for {} on the economy'.format(iot_product.lower()))
