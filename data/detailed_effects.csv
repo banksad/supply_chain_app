@@ -1,0 +1,1786 @@
+,product,variable,value,factor
+0,"Products of agriculture, hunting and related services",Intermediate consumption at basic prices,1.769,Ratio of direct to total
+1,"Products of forestry, logging and related services",Intermediate consumption at basic prices,1.803,Ratio of direct to total
+2,Fish and other fishing products; aquaculture products; support services to fishing,Intermediate consumption at basic prices,1.881,Ratio of direct to total
+3,Coal and lignite,Intermediate consumption at basic prices,1.678,Ratio of direct to total
+4,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Intermediate consumption at basic prices,1.749,Ratio of direct to total
+5,Other mining and quarrying products,Intermediate consumption at basic prices,1.786,Ratio of direct to total
+6,Mining support services,Intermediate consumption at basic prices,1.839,Ratio of direct to total
+7,Preserved meat and meat products,Intermediate consumption at basic prices,2.021,Ratio of direct to total
+8,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Intermediate consumption at basic prices,1.914,Ratio of direct to total
+9,Vegetable and animal oils and fats,Intermediate consumption at basic prices,1.895,Ratio of direct to total
+10,Dairy products,Intermediate consumption at basic prices,1.922,Ratio of direct to total
+11,"Grain mill products, starches and starch products",Intermediate consumption at basic prices,1.938,Ratio of direct to total
+12,Bakery and farinaceous products,Intermediate consumption at basic prices,1.892,Ratio of direct to total
+13,Other food products,Intermediate consumption at basic prices,1.905,Ratio of direct to total
+14,Prepared animal feeds,Intermediate consumption at basic prices,2.049,Ratio of direct to total
+15,Alcoholic beverages  & Tobacco products,Intermediate consumption at basic prices,1.796,Ratio of direct to total
+16,Soft drinks,Intermediate consumption at basic prices,1.765,Ratio of direct to total
+17,Textiles,Intermediate consumption at basic prices,1.7,Ratio of direct to total
+18,Wearing apparel,Intermediate consumption at basic prices,1.615,Ratio of direct to total
+19,Leather and related products,Intermediate consumption at basic prices,1.699,Ratio of direct to total
+20,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Intermediate consumption at basic prices,1.767,Ratio of direct to total
+21,Paper and paper products,Intermediate consumption at basic prices,1.737,Ratio of direct to total
+22,Printing and recording services,Intermediate consumption at basic prices,1.68,Ratio of direct to total
+23,Coke and refined petroleum products,Intermediate consumption at basic prices,1.806,Ratio of direct to total
+24,"Paints, varnishes and similar coatings, printing ink and mastics",Intermediate consumption at basic prices,1.707,Ratio of direct to total
+25,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Intermediate consumption at basic prices,1.704,Ratio of direct to total
+26,Other chemical products,Intermediate consumption at basic prices,1.716,Ratio of direct to total
+27,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Intermediate consumption at basic prices,1.929,Ratio of direct to total
+28,Petrochemicals - 20.14/16/17/60,Intermediate consumption at basic prices,1.77,Ratio of direct to total
+29,"Dyestuffs, agro-chemicals - 20.12/20",Intermediate consumption at basic prices,1.746,Ratio of direct to total
+30,Basic pharmaceutical products and pharmaceutical preparations,Intermediate consumption at basic prices,1.653,Ratio of direct to total
+31,Rubber and plastic products,Intermediate consumption at basic prices,1.764,Ratio of direct to total
+32,"Cement, lime, plaster and articles of concrete, cement and plaster",Intermediate consumption at basic prices,1.747,Ratio of direct to total
+33,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Intermediate consumption at basic prices,1.723,Ratio of direct to total
+34,Basic iron and steel,Intermediate consumption at basic prices,1.698,Ratio of direct to total
+35,Other basic metals and casting,Intermediate consumption at basic prices,1.765,Ratio of direct to total
+36,Weapons and ammunition,Intermediate consumption at basic prices,1.606,Ratio of direct to total
+37,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Intermediate consumption at basic prices,1.7,Ratio of direct to total
+38,"Computer, electronic and optical products",Intermediate consumption at basic prices,1.623,Ratio of direct to total
+39,Electrical equipment,Intermediate consumption at basic prices,1.68,Ratio of direct to total
+40,Machinery and equipment n.e.c.,Intermediate consumption at basic prices,1.65,Ratio of direct to total
+41,"Motor vehicles, trailers and semi-trailers",Intermediate consumption at basic prices,1.663,Ratio of direct to total
+42,Ships and boats,Intermediate consumption at basic prices,1.732,Ratio of direct to total
+43,Air and spacecraft and related machinery,Intermediate consumption at basic prices,1.73,Ratio of direct to total
+44,Other transport equipment - 30.2/4/9,Intermediate consumption at basic prices,1.744,Ratio of direct to total
+45,Furniture,Intermediate consumption at basic prices,1.664,Ratio of direct to total
+46,Other manufactured goods,Intermediate consumption at basic prices,1.662,Ratio of direct to total
+47,Repair and maintenance of ships and boats,Intermediate consumption at basic prices,1.622,Ratio of direct to total
+48,Repair and maintenance of aircraft and spacecraft,Intermediate consumption at basic prices,1.902,Ratio of direct to total
+49,Rest of repair; Installation - 33.11-14/17/19/20,Intermediate consumption at basic prices,1.665,Ratio of direct to total
+50,"Electricity, transmission and distribution",Intermediate consumption at basic prices,2.372,Ratio of direct to total
+51,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Intermediate consumption at basic prices,2.358,Ratio of direct to total
+52,Natural water; water treatment and supply services,Intermediate consumption at basic prices,1.78,Ratio of direct to total
+53,Sewerage services; sewage sludge,Intermediate consumption at basic prices,1.638,Ratio of direct to total
+54,"Waste collection, treatment and disposal services; materials recovery services",Intermediate consumption at basic prices,1.634,Ratio of direct to total
+55,Remediation services and other waste management services,Intermediate consumption at basic prices,1.633,Ratio of direct to total
+56,Construction,Intermediate consumption at basic prices,1.882,Ratio of direct to total
+57,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Intermediate consumption at basic prices,1.656,Ratio of direct to total
+58,"Wholesale trade services, except of motor vehicles and motorcycles",Intermediate consumption at basic prices,1.692,Ratio of direct to total
+59,"Retail trade services, except of motor vehicles and motorcycles",Intermediate consumption at basic prices,1.716,Ratio of direct to total
+60,Rail transport services,Intermediate consumption at basic prices,1.764,Ratio of direct to total
+61,"Land transport services and transport services via pipelines, excluding rail transport",Intermediate consumption at basic prices,1.686,Ratio of direct to total
+62,Water transport services,Intermediate consumption at basic prices,1.665,Ratio of direct to total
+63,Air transport services,Intermediate consumption at basic prices,1.755,Ratio of direct to total
+64,Warehousing and support services for transportation,Intermediate consumption at basic prices,1.719,Ratio of direct to total
+65,Postal and courier services,Intermediate consumption at basic prices,1.645,Ratio of direct to total
+66,Accommodation services,Intermediate consumption at basic prices,1.858,Ratio of direct to total
+67,Food and beverage serving services,Intermediate consumption at basic prices,1.84,Ratio of direct to total
+68,Publishing services,Intermediate consumption at basic prices,1.649,Ratio of direct to total
+69,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Intermediate consumption at basic prices,1.665,Ratio of direct to total
+70,Telecommunications services,Intermediate consumption at basic prices,1.625,Ratio of direct to total
+71,"Computer programming, consultancy and related services",Intermediate consumption at basic prices,1.599,Ratio of direct to total
+72,Information services,Intermediate consumption at basic prices,1.64,Ratio of direct to total
+73,"Financial services, except insurance and pension funding",Intermediate consumption at basic prices,1.609,Ratio of direct to total
+74,"Insurance, reinsurance and pension funding services, except compulsory social security",Intermediate consumption at basic prices,1.668,Ratio of direct to total
+75,Services auxiliary to financial services and insurance services,Intermediate consumption at basic prices,1.605,Ratio of direct to total
+76,Real estate services on a fee or contract basis,Intermediate consumption at basic prices,1.64,Ratio of direct to total
+77,Owner-Occupiers' Housing Services,Intermediate consumption at basic prices,1.792,Ratio of direct to total
+78,"Real estate services, excluding on a fee or contract basis and imputed rent",Intermediate consumption at basic prices,1.741,Ratio of direct to total
+79,Legal services,Intermediate consumption at basic prices,1.576,Ratio of direct to total
+80,"Accounting, bookkeeping and auditing services; tax consulting services",Intermediate consumption at basic prices,1.591,Ratio of direct to total
+81,Services of head offices; management consulting services,Intermediate consumption at basic prices,1.617,Ratio of direct to total
+82,Architectural and engineering services; technical testing and analysis services,Intermediate consumption at basic prices,1.724,Ratio of direct to total
+83,Scientific research and development services,Intermediate consumption at basic prices,1.673,Ratio of direct to total
+84,Advertising and market research services,Intermediate consumption at basic prices,1.661,Ratio of direct to total
+85,"Other professional, scientific and technical services",Intermediate consumption at basic prices,1.742,Ratio of direct to total
+86,Veterinary services,Intermediate consumption at basic prices,1.589,Ratio of direct to total
+87,Rental and leasing services,Intermediate consumption at basic prices,1.612,Ratio of direct to total
+88,Employment services,Intermediate consumption at basic prices,1.528,Ratio of direct to total
+89,"Travel agency, tour operator and other reservation services and related services",Intermediate consumption at basic prices,1.732,Ratio of direct to total
+90,Security and investigation services,Intermediate consumption at basic prices,1.634,Ratio of direct to total
+91,Services to buildings and landscape,Intermediate consumption at basic prices,1.801,Ratio of direct to total
+92,"Office administrative, office support and other business support services",Intermediate consumption at basic prices,1.651,Ratio of direct to total
+93,Public administration and defence services; compulsory social security services,Intermediate consumption at basic prices,1.669,Ratio of direct to total
+94,Education services,Intermediate consumption at basic prices,1.615,Ratio of direct to total
+95,Human health services,Intermediate consumption at basic prices,1.649,Ratio of direct to total
+96,Residential Care  & Social Work Activities,Intermediate consumption at basic prices,1.641,Ratio of direct to total
+97,"Creative, arts and entertainment services",Intermediate consumption at basic prices,1.656,Ratio of direct to total
+98,"Libraries, archives, museums and other cultural services",Intermediate consumption at basic prices,1.709,Ratio of direct to total
+99,Gambling and betting services,Intermediate consumption at basic prices,1.629,Ratio of direct to total
+100,Sports services and amusement and recreation services,Intermediate consumption at basic prices,1.737,Ratio of direct to total
+101,Services furnished by membership organisations,Intermediate consumption at basic prices,1.685,Ratio of direct to total
+102,Repair services of computers and personal and household goods,Intermediate consumption at basic prices,1.567,Ratio of direct to total
+103,Other personal services,Intermediate consumption at basic prices,1.533,Ratio of direct to total
+104,Services of households as employers of domestic personnel,Intermediate consumption at basic prices,,Ratio of direct to total
+105,"Products of agriculture, hunting and related services","Use of imported products, cif",6.42,Ratio of direct to total
+106,"Products of forestry, logging and related services","Use of imported products, cif",12.425,Ratio of direct to total
+107,Fish and other fishing products; aquaculture products; support services to fishing,"Use of imported products, cif",1.69,Ratio of direct to total
+108,Coal and lignite,"Use of imported products, cif",4.826,Ratio of direct to total
+109,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,"Use of imported products, cif",4.096,Ratio of direct to total
+110,Other mining and quarrying products,"Use of imported products, cif",1.543,Ratio of direct to total
+111,Mining support services,"Use of imported products, cif",2.081,Ratio of direct to total
+112,Preserved meat and meat products,"Use of imported products, cif",4.967,Ratio of direct to total
+113,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables","Use of imported products, cif",8.812,Ratio of direct to total
+114,Vegetable and animal oils and fats,"Use of imported products, cif",1.335,Ratio of direct to total
+115,Dairy products,"Use of imported products, cif",6.632,Ratio of direct to total
+116,"Grain mill products, starches and starch products","Use of imported products, cif",2.546,Ratio of direct to total
+117,Bakery and farinaceous products,"Use of imported products, cif",3.416,Ratio of direct to total
+118,Other food products,"Use of imported products, cif",1.756,Ratio of direct to total
+119,Prepared animal feeds,"Use of imported products, cif",2.856,Ratio of direct to total
+120,Alcoholic beverages  & Tobacco products,"Use of imported products, cif",3.424,Ratio of direct to total
+121,Soft drinks,"Use of imported products, cif",5.374,Ratio of direct to total
+122,Textiles,"Use of imported products, cif",1.267,Ratio of direct to total
+123,Wearing apparel,"Use of imported products, cif",1.794,Ratio of direct to total
+124,Leather and related products,"Use of imported products, cif",1.323,Ratio of direct to total
+125,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials","Use of imported products, cif",1.197,Ratio of direct to total
+126,Paper and paper products,"Use of imported products, cif",1.366,Ratio of direct to total
+127,Printing and recording services,"Use of imported products, cif",1.393,Ratio of direct to total
+128,Coke and refined petroleum products,"Use of imported products, cif",1.018,Ratio of direct to total
+129,"Paints, varnishes and similar coatings, printing ink and mastics","Use of imported products, cif",1.42,Ratio of direct to total
+130,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations","Use of imported products, cif",1.679,Ratio of direct to total
+131,Other chemical products,"Use of imported products, cif",1.238,Ratio of direct to total
+132,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15","Use of imported products, cif",1.179,Ratio of direct to total
+133,Petrochemicals - 20.14/16/17/60,"Use of imported products, cif",1.485,Ratio of direct to total
+134,"Dyestuffs, agro-chemicals - 20.12/20","Use of imported products, cif",1.192,Ratio of direct to total
+135,Basic pharmaceutical products and pharmaceutical preparations,"Use of imported products, cif",1.354,Ratio of direct to total
+136,Rubber and plastic products,"Use of imported products, cif",1.286,Ratio of direct to total
+137,"Cement, lime, plaster and articles of concrete, cement and plaster","Use of imported products, cif",1.451,Ratio of direct to total
+138,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9","Use of imported products, cif",1.423,Ratio of direct to total
+139,Basic iron and steel,"Use of imported products, cif",1.315,Ratio of direct to total
+140,Other basic metals and casting,"Use of imported products, cif",1.12,Ratio of direct to total
+141,Weapons and ammunition,"Use of imported products, cif",1.875,Ratio of direct to total
+142,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9","Use of imported products, cif",1.221,Ratio of direct to total
+143,"Computer, electronic and optical products","Use of imported products, cif",1.407,Ratio of direct to total
+144,Electrical equipment,"Use of imported products, cif",1.383,Ratio of direct to total
+145,Machinery and equipment n.e.c.,"Use of imported products, cif",1.395,Ratio of direct to total
+146,"Motor vehicles, trailers and semi-trailers","Use of imported products, cif",1.225,Ratio of direct to total
+147,Ships and boats,"Use of imported products, cif",2.468,Ratio of direct to total
+148,Air and spacecraft and related machinery,"Use of imported products, cif",1.802,Ratio of direct to total
+149,Other transport equipment - 30.2/4/9,"Use of imported products, cif",1.684,Ratio of direct to total
+150,Furniture,"Use of imported products, cif",1.588,Ratio of direct to total
+151,Other manufactured goods,"Use of imported products, cif",1.255,Ratio of direct to total
+152,Repair and maintenance of ships and boats,"Use of imported products, cif",3.212,Ratio of direct to total
+153,Repair and maintenance of aircraft and spacecraft,"Use of imported products, cif",3.056,Ratio of direct to total
+154,Rest of repair; Installation - 33.11-14/17/19/20,"Use of imported products, cif",1.502,Ratio of direct to total
+155,"Electricity, transmission and distribution","Use of imported products, cif",3.167,Ratio of direct to total
+156,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,"Use of imported products, cif",2.043,Ratio of direct to total
+157,Natural water; water treatment and supply services,"Use of imported products, cif",6.662,Ratio of direct to total
+158,Sewerage services; sewage sludge,"Use of imported products, cif",9.314,Ratio of direct to total
+159,"Waste collection, treatment and disposal services; materials recovery services","Use of imported products, cif",1.596,Ratio of direct to total
+160,Remediation services and other waste management services,"Use of imported products, cif",5.642,Ratio of direct to total
+161,Construction,"Use of imported products, cif",4.116,Ratio of direct to total
+162,Wholesale and retail trade and repair services of motor vehicles and motorcycles,"Use of imported products, cif",2.043,Ratio of direct to total
+163,"Wholesale trade services, except of motor vehicles and motorcycles","Use of imported products, cif",1.885,Ratio of direct to total
+164,"Retail trade services, except of motor vehicles and motorcycles","Use of imported products, cif",2.568,Ratio of direct to total
+165,Rail transport services,"Use of imported products, cif",4.157,Ratio of direct to total
+166,"Land transport services and transport services via pipelines, excluding rail transport","Use of imported products, cif",1.866,Ratio of direct to total
+167,Water transport services,"Use of imported products, cif",1.269,Ratio of direct to total
+168,Air transport services,"Use of imported products, cif",1.306,Ratio of direct to total
+169,Warehousing and support services for transportation,"Use of imported products, cif",4.407,Ratio of direct to total
+170,Postal and courier services,"Use of imported products, cif",3.085,Ratio of direct to total
+171,Accommodation services,"Use of imported products, cif",4.153,Ratio of direct to total
+172,Food and beverage serving services,"Use of imported products, cif",2.738,Ratio of direct to total
+173,Publishing services,"Use of imported products, cif",2.305,Ratio of direct to total
+174,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities","Use of imported products, cif",1.53,Ratio of direct to total
+175,Telecommunications services,"Use of imported products, cif",1.279,Ratio of direct to total
+176,"Computer programming, consultancy and related services","Use of imported products, cif",1.54,Ratio of direct to total
+177,Information services,"Use of imported products, cif",1.803,Ratio of direct to total
+178,"Financial services, except insurance and pension funding","Use of imported products, cif",1.473,Ratio of direct to total
+179,"Insurance, reinsurance and pension funding services, except compulsory social security","Use of imported products, cif",1.548,Ratio of direct to total
+180,Services auxiliary to financial services and insurance services,"Use of imported products, cif",2.21,Ratio of direct to total
+181,Real estate services on a fee or contract basis,"Use of imported products, cif",4.944,Ratio of direct to total
+182,Owner-Occupiers' Housing Services,"Use of imported products, cif",,Ratio of direct to total
+183,"Real estate services, excluding on a fee or contract basis and imputed rent","Use of imported products, cif",2.198,Ratio of direct to total
+184,Legal services,"Use of imported products, cif",2.289,Ratio of direct to total
+185,"Accounting, bookkeeping and auditing services; tax consulting services","Use of imported products, cif",1.428,Ratio of direct to total
+186,Services of head offices; management consulting services,"Use of imported products, cif",1.557,Ratio of direct to total
+187,Architectural and engineering services; technical testing and analysis services,"Use of imported products, cif",1.967,Ratio of direct to total
+188,Scientific research and development services,"Use of imported products, cif",1.774,Ratio of direct to total
+189,Advertising and market research services,"Use of imported products, cif",1.504,Ratio of direct to total
+190,"Other professional, scientific and technical services","Use of imported products, cif",2.162,Ratio of direct to total
+191,Veterinary services,"Use of imported products, cif",3.843,Ratio of direct to total
+192,Rental and leasing services,"Use of imported products, cif",2.703,Ratio of direct to total
+193,Employment services,"Use of imported products, cif",1.724,Ratio of direct to total
+194,"Travel agency, tour operator and other reservation services and related services","Use of imported products, cif",12.071,Ratio of direct to total
+195,Security and investigation services,"Use of imported products, cif",2.424,Ratio of direct to total
+196,Services to buildings and landscape,"Use of imported products, cif",2.963,Ratio of direct to total
+197,"Office administrative, office support and other business support services","Use of imported products, cif",1.401,Ratio of direct to total
+198,Public administration and defence services; compulsory social security services,"Use of imported products, cif",1.833,Ratio of direct to total
+199,Education services,"Use of imported products, cif",2.704,Ratio of direct to total
+200,Human health services,"Use of imported products, cif",1.617,Ratio of direct to total
+201,Residential Care  & Social Work Activities,"Use of imported products, cif",5.445,Ratio of direct to total
+202,"Creative, arts and entertainment services","Use of imported products, cif",2.804,Ratio of direct to total
+203,"Libraries, archives, museums and other cultural services","Use of imported products, cif",2.733,Ratio of direct to total
+204,Gambling and betting services,"Use of imported products, cif",2.501,Ratio of direct to total
+205,Sports services and amusement and recreation services,"Use of imported products, cif",2.868,Ratio of direct to total
+206,Services furnished by membership organisations,"Use of imported products, cif",3.747,Ratio of direct to total
+207,Repair services of computers and personal and household goods,"Use of imported products, cif",1.584,Ratio of direct to total
+208,Other personal services,"Use of imported products, cif",1.516,Ratio of direct to total
+209,Services of households as employers of domestic personnel,"Use of imported products, cif",,Ratio of direct to total
+210,"Products of agriculture, hunting and related services",Taxes less subsidies on products,1.739,Ratio of direct to total
+211,"Products of forestry, logging and related services",Taxes less subsidies on products,1.867,Ratio of direct to total
+212,Fish and other fishing products; aquaculture products; support services to fishing,Taxes less subsidies on products,2.099,Ratio of direct to total
+213,Coal and lignite,Taxes less subsidies on products,3.067,Ratio of direct to total
+214,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Taxes less subsidies on products,3.122,Ratio of direct to total
+215,Other mining and quarrying products,Taxes less subsidies on products,1.833,Ratio of direct to total
+216,Mining support services,Taxes less subsidies on products,7.409,Ratio of direct to total
+217,Preserved meat and meat products,Taxes less subsidies on products,15.773,Ratio of direct to total
+218,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Taxes less subsidies on products,23.84,Ratio of direct to total
+219,Vegetable and animal oils and fats,Taxes less subsidies on products,9.535,Ratio of direct to total
+220,Dairy products,Taxes less subsidies on products,,Ratio of direct to total
+221,"Grain mill products, starches and starch products",Taxes less subsidies on products,11.837,Ratio of direct to total
+222,Bakery and farinaceous products,Taxes less subsidies on products,5.382,Ratio of direct to total
+223,Other food products,Taxes less subsidies on products,7.333,Ratio of direct to total
+224,Prepared animal feeds,Taxes less subsidies on products,6.866,Ratio of direct to total
+225,Alcoholic beverages  & Tobacco products,Taxes less subsidies on products,1.637,Ratio of direct to total
+226,Soft drinks,Taxes less subsidies on products,4.288,Ratio of direct to total
+227,Textiles,Taxes less subsidies on products,5.015,Ratio of direct to total
+228,Wearing apparel,Taxes less subsidies on products,10.072,Ratio of direct to total
+229,Leather and related products,Taxes less subsidies on products,9.225,Ratio of direct to total
+230,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Taxes less subsidies on products,3.668,Ratio of direct to total
+231,Paper and paper products,Taxes less subsidies on products,4.516,Ratio of direct to total
+232,Printing and recording services,Taxes less subsidies on products,4.468,Ratio of direct to total
+233,Coke and refined petroleum products,Taxes less subsidies on products,1.123,Ratio of direct to total
+234,"Paints, varnishes and similar coatings, printing ink and mastics",Taxes less subsidies on products,4.761,Ratio of direct to total
+235,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Taxes less subsidies on products,5.002,Ratio of direct to total
+236,Other chemical products,Taxes less subsidies on products,3.315,Ratio of direct to total
+237,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Taxes less subsidies on products,2.69,Ratio of direct to total
+238,Petrochemicals - 20.14/16/17/60,Taxes less subsidies on products,1.706,Ratio of direct to total
+239,"Dyestuffs, agro-chemicals - 20.12/20",Taxes less subsidies on products,3.175,Ratio of direct to total
+240,Basic pharmaceutical products and pharmaceutical preparations,Taxes less subsidies on products,5.694,Ratio of direct to total
+241,Rubber and plastic products,Taxes less subsidies on products,3.704,Ratio of direct to total
+242,"Cement, lime, plaster and articles of concrete, cement and plaster",Taxes less subsidies on products,2.056,Ratio of direct to total
+243,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Taxes less subsidies on products,1.682,Ratio of direct to total
+244,Basic iron and steel,Taxes less subsidies on products,2.488,Ratio of direct to total
+245,Other basic metals and casting,Taxes less subsidies on products,3.555,Ratio of direct to total
+246,Weapons and ammunition,Taxes less subsidies on products,5.284,Ratio of direct to total
+247,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Taxes less subsidies on products,2.917,Ratio of direct to total
+248,"Computer, electronic and optical products",Taxes less subsidies on products,5.178,Ratio of direct to total
+249,Electrical equipment,Taxes less subsidies on products,4.765,Ratio of direct to total
+250,Machinery and equipment n.e.c.,Taxes less subsidies on products,3.949,Ratio of direct to total
+251,"Motor vehicles, trailers and semi-trailers",Taxes less subsidies on products,3.448,Ratio of direct to total
+252,Ships and boats,Taxes less subsidies on products,2.564,Ratio of direct to total
+253,Air and spacecraft and related machinery,Taxes less subsidies on products,6.394,Ratio of direct to total
+254,Other transport equipment - 30.2/4/9,Taxes less subsidies on products,5.187,Ratio of direct to total
+255,Furniture,Taxes less subsidies on products,3.923,Ratio of direct to total
+256,Other manufactured goods,Taxes less subsidies on products,2.887,Ratio of direct to total
+257,Repair and maintenance of ships and boats,Taxes less subsidies on products,3.272,Ratio of direct to total
+258,Repair and maintenance of aircraft and spacecraft,Taxes less subsidies on products,7.155,Ratio of direct to total
+259,Rest of repair; Installation - 33.11-14/17/19/20,Taxes less subsidies on products,2.302,Ratio of direct to total
+260,"Electricity, transmission and distribution",Taxes less subsidies on products,2.583,Ratio of direct to total
+261,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Taxes less subsidies on products,3.71,Ratio of direct to total
+262,Natural water; water treatment and supply services,Taxes less subsidies on products,3.353,Ratio of direct to total
+263,Sewerage services; sewage sludge,Taxes less subsidies on products,1.338,Ratio of direct to total
+264,"Waste collection, treatment and disposal services; materials recovery services",Taxes less subsidies on products,1.213,Ratio of direct to total
+265,Remediation services and other waste management services,Taxes less subsidies on products,2.475,Ratio of direct to total
+266,Construction,Taxes less subsidies on products,1.808,Ratio of direct to total
+267,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Taxes less subsidies on products,2.579,Ratio of direct to total
+268,"Wholesale trade services, except of motor vehicles and motorcycles",Taxes less subsidies on products,1.904,Ratio of direct to total
+269,"Retail trade services, except of motor vehicles and motorcycles",Taxes less subsidies on products,2.83,Ratio of direct to total
+270,Rail transport services,Taxes less subsidies on products,6.96,Ratio of direct to total
+271,"Land transport services and transport services via pipelines, excluding rail transport",Taxes less subsidies on products,1.42,Ratio of direct to total
+272,Water transport services,Taxes less subsidies on products,1.434,Ratio of direct to total
+273,Air transport services,Taxes less subsidies on products,1.217,Ratio of direct to total
+274,Warehousing and support services for transportation,Taxes less subsidies on products,2.295,Ratio of direct to total
+275,Postal and courier services,Taxes less subsidies on products,1.359,Ratio of direct to total
+276,Accommodation services,Taxes less subsidies on products,1.447,Ratio of direct to total
+277,Food and beverage serving services,Taxes less subsidies on products,1.319,Ratio of direct to total
+278,Publishing services,Taxes less subsidies on products,8.611,Ratio of direct to total
+279,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Taxes less subsidies on products,8.47,Ratio of direct to total
+280,Telecommunications services,Taxes less subsidies on products,3.861,Ratio of direct to total
+281,"Computer programming, consultancy and related services",Taxes less subsidies on products,2.239,Ratio of direct to total
+282,Information services,Taxes less subsidies on products,2.76,Ratio of direct to total
+283,"Financial services, except insurance and pension funding",Taxes less subsidies on products,1.269,Ratio of direct to total
+284,"Insurance, reinsurance and pension funding services, except compulsory social security",Taxes less subsidies on products,1.493,Ratio of direct to total
+285,Services auxiliary to financial services and insurance services,Taxes less subsidies on products,1.374,Ratio of direct to total
+286,Real estate services on a fee or contract basis,Taxes less subsidies on products,3.139,Ratio of direct to total
+287,Owner-Occupiers' Housing Services,Taxes less subsidies on products,9.779,Ratio of direct to total
+288,"Real estate services, excluding on a fee or contract basis and imputed rent",Taxes less subsidies on products,2.34,Ratio of direct to total
+289,Legal services,Taxes less subsidies on products,4.094,Ratio of direct to total
+290,"Accounting, bookkeeping and auditing services; tax consulting services",Taxes less subsidies on products,2.929,Ratio of direct to total
+291,Services of head offices; management consulting services,Taxes less subsidies on products,2.467,Ratio of direct to total
+292,Architectural and engineering services; technical testing and analysis services,Taxes less subsidies on products,3.998,Ratio of direct to total
+293,Scientific research and development services,Taxes less subsidies on products,2.414,Ratio of direct to total
+294,Advertising and market research services,Taxes less subsidies on products,3.211,Ratio of direct to total
+295,"Other professional, scientific and technical services",Taxes less subsidies on products,3.259,Ratio of direct to total
+296,Veterinary services,Taxes less subsidies on products,2.698,Ratio of direct to total
+297,Rental and leasing services,Taxes less subsidies on products,1.927,Ratio of direct to total
+298,Employment services,Taxes less subsidies on products,5.364,Ratio of direct to total
+299,"Travel agency, tour operator and other reservation services and related services",Taxes less subsidies on products,2.651,Ratio of direct to total
+300,Security and investigation services,Taxes less subsidies on products,2.599,Ratio of direct to total
+301,Services to buildings and landscape,Taxes less subsidies on products,3.354,Ratio of direct to total
+302,"Office administrative, office support and other business support services",Taxes less subsidies on products,2.552,Ratio of direct to total
+303,Public administration and defence services; compulsory social security services,Taxes less subsidies on products,1.191,Ratio of direct to total
+304,Education services,Taxes less subsidies on products,1.273,Ratio of direct to total
+305,Human health services,Taxes less subsidies on products,1.165,Ratio of direct to total
+306,Residential Care  & Social Work Activities,Taxes less subsidies on products,1.307,Ratio of direct to total
+307,"Creative, arts and entertainment services",Taxes less subsidies on products,1.287,Ratio of direct to total
+308,"Libraries, archives, museums and other cultural services",Taxes less subsidies on products,2.751,Ratio of direct to total
+309,Gambling and betting services,Taxes less subsidies on products,1.351,Ratio of direct to total
+310,Sports services and amusement and recreation services,Taxes less subsidies on products,1.196,Ratio of direct to total
+311,Services furnished by membership organisations,Taxes less subsidies on products,2.135,Ratio of direct to total
+312,Repair services of computers and personal and household goods,Taxes less subsidies on products,2.873,Ratio of direct to total
+313,Other personal services,Taxes less subsidies on products,1.19,Ratio of direct to total
+314,Services of households as employers of domestic personnel,Taxes less subsidies on products,,Ratio of direct to total
+315,"Products of agriculture, hunting and related services",Intermediate consumption at purchaser's prices,1.947,Ratio of direct to total
+316,"Products of forestry, logging and related services",Intermediate consumption at purchaser's prices,1.959,Ratio of direct to total
+317,Fish and other fishing products; aquaculture products; support services to fishing,Intermediate consumption at purchaser's prices,1.846,Ratio of direct to total
+318,Coal and lignite,Intermediate consumption at purchaser's prices,1.843,Ratio of direct to total
+319,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Intermediate consumption at purchaser's prices,1.891,Ratio of direct to total
+320,Other mining and quarrying products,Intermediate consumption at purchaser's prices,1.721,Ratio of direct to total
+321,Mining support services,Intermediate consumption at purchaser's prices,1.884,Ratio of direct to total
+322,Preserved meat and meat products,Intermediate consumption at purchaser's prices,2.153,Ratio of direct to total
+323,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Intermediate consumption at purchaser's prices,2.084,Ratio of direct to total
+324,Vegetable and animal oils and fats,Intermediate consumption at purchaser's prices,1.717,Ratio of direct to total
+325,Dairy products,Intermediate consumption at purchaser's prices,2.076,Ratio of direct to total
+326,"Grain mill products, starches and starch products",Intermediate consumption at purchaser's prices,2.02,Ratio of direct to total
+327,Bakery and farinaceous products,Intermediate consumption at purchaser's prices,2.01,Ratio of direct to total
+328,Other food products,Intermediate consumption at purchaser's prices,1.893,Ratio of direct to total
+329,Prepared animal feeds,Intermediate consumption at purchaser's prices,2.132,Ratio of direct to total
+330,Alcoholic beverages  & Tobacco products,Intermediate consumption at purchaser's prices,1.893,Ratio of direct to total
+331,Soft drinks,Intermediate consumption at purchaser's prices,1.942,Ratio of direct to total
+332,Textiles,Intermediate consumption at purchaser's prices,1.545,Ratio of direct to total
+333,Wearing apparel,Intermediate consumption at purchaser's prices,1.659,Ratio of direct to total
+334,Leather and related products,Intermediate consumption at purchaser's prices,1.588,Ratio of direct to total
+335,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Intermediate consumption at purchaser's prices,1.512,Ratio of direct to total
+336,Paper and paper products,Intermediate consumption at purchaser's prices,1.617,Ratio of direct to total
+337,Printing and recording services,Intermediate consumption at purchaser's prices,1.589,Ratio of direct to total
+338,Coke and refined petroleum products,Intermediate consumption at purchaser's prices,1.092,Ratio of direct to total
+339,"Paints, varnishes and similar coatings, printing ink and mastics",Intermediate consumption at purchaser's prices,1.623,Ratio of direct to total
+340,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Intermediate consumption at purchaser's prices,1.71,Ratio of direct to total
+341,Other chemical products,Intermediate consumption at purchaser's prices,1.512,Ratio of direct to total
+342,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Intermediate consumption at purchaser's prices,1.56,Ratio of direct to total
+343,Petrochemicals - 20.14/16/17/60,Intermediate consumption at purchaser's prices,1.663,Ratio of direct to total
+344,"Dyestuffs, agro-chemicals - 20.12/20",Intermediate consumption at purchaser's prices,1.488,Ratio of direct to total
+345,Basic pharmaceutical products and pharmaceutical preparations,Intermediate consumption at purchaser's prices,1.569,Ratio of direct to total
+346,Rubber and plastic products,Intermediate consumption at purchaser's prices,1.557,Ratio of direct to total
+347,"Cement, lime, plaster and articles of concrete, cement and plaster",Intermediate consumption at purchaser's prices,1.667,Ratio of direct to total
+348,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Intermediate consumption at purchaser's prices,1.627,Ratio of direct to total
+349,Basic iron and steel,Intermediate consumption at purchaser's prices,1.566,Ratio of direct to total
+350,Other basic metals and casting,Intermediate consumption at purchaser's prices,1.405,Ratio of direct to total
+351,Weapons and ammunition,Intermediate consumption at purchaser's prices,1.669,Ratio of direct to total
+352,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Intermediate consumption at purchaser's prices,1.487,Ratio of direct to total
+353,"Computer, electronic and optical products",Intermediate consumption at purchaser's prices,1.572,Ratio of direct to total
+354,Electrical equipment,Intermediate consumption at purchaser's prices,1.59,Ratio of direct to total
+355,Machinery and equipment n.e.c.,Intermediate consumption at purchaser's prices,1.573,Ratio of direct to total
+356,"Motor vehicles, trailers and semi-trailers",Intermediate consumption at purchaser's prices,1.48,Ratio of direct to total
+357,Ships and boats,Intermediate consumption at purchaser's prices,1.806,Ratio of direct to total
+358,Air and spacecraft and related machinery,Intermediate consumption at purchaser's prices,1.757,Ratio of direct to total
+359,Other transport equipment - 30.2/4/9,Intermediate consumption at purchaser's prices,1.745,Ratio of direct to total
+360,Furniture,Intermediate consumption at purchaser's prices,1.655,Ratio of direct to total
+361,Other manufactured goods,Intermediate consumption at purchaser's prices,1.504,Ratio of direct to total
+362,Repair and maintenance of ships and boats,Intermediate consumption at purchaser's prices,1.755,Ratio of direct to total
+363,Repair and maintenance of aircraft and spacecraft,Intermediate consumption at purchaser's prices,2.033,Ratio of direct to total
+364,Rest of repair; Installation - 33.11-14/17/19/20,Intermediate consumption at purchaser's prices,1.624,Ratio of direct to total
+365,"Electricity, transmission and distribution",Intermediate consumption at purchaser's prices,2.444,Ratio of direct to total
+366,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Intermediate consumption at purchaser's prices,2.309,Ratio of direct to total
+367,Natural water; water treatment and supply services,Intermediate consumption at purchaser's prices,1.911,Ratio of direct to total
+368,Sewerage services; sewage sludge,Intermediate consumption at purchaser's prices,1.702,Ratio of direct to total
+369,"Waste collection, treatment and disposal services; materials recovery services",Intermediate consumption at purchaser's prices,1.581,Ratio of direct to total
+370,Remediation services and other waste management services,Intermediate consumption at purchaser's prices,1.722,Ratio of direct to total
+371,Construction,Intermediate consumption at purchaser's prices,1.989,Ratio of direct to total
+372,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Intermediate consumption at purchaser's prices,1.72,Ratio of direct to total
+373,"Wholesale trade services, except of motor vehicles and motorcycles",Intermediate consumption at purchaser's prices,1.726,Ratio of direct to total
+374,"Retail trade services, except of motor vehicles and motorcycles",Intermediate consumption at purchaser's prices,1.794,Ratio of direct to total
+375,Rail transport services,Intermediate consumption at purchaser's prices,1.888,Ratio of direct to total
+376,"Land transport services and transport services via pipelines, excluding rail transport",Intermediate consumption at purchaser's prices,1.698,Ratio of direct to total
+377,Water transport services,Intermediate consumption at purchaser's prices,1.482,Ratio of direct to total
+378,Air transport services,Intermediate consumption at purchaser's prices,1.529,Ratio of direct to total
+379,Warehousing and support services for transportation,Intermediate consumption at purchaser's prices,1.86,Ratio of direct to total
+380,Postal and courier services,Intermediate consumption at purchaser's prices,1.714,Ratio of direct to total
+381,Accommodation services,Intermediate consumption at purchaser's prices,1.928,Ratio of direct to total
+382,Food and beverage serving services,Intermediate consumption at purchaser's prices,1.872,Ratio of direct to total
+383,Publishing services,Intermediate consumption at purchaser's prices,1.734,Ratio of direct to total
+384,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Intermediate consumption at purchaser's prices,1.647,Ratio of direct to total
+385,Telecommunications services,Intermediate consumption at purchaser's prices,1.524,Ratio of direct to total
+386,"Computer programming, consultancy and related services",Intermediate consumption at purchaser's prices,1.596,Ratio of direct to total
+387,Information services,Intermediate consumption at purchaser's prices,1.673,Ratio of direct to total
+388,"Financial services, except insurance and pension funding",Intermediate consumption at purchaser's prices,1.556,Ratio of direct to total
+389,"Insurance, reinsurance and pension funding services, except compulsory social security",Intermediate consumption at purchaser's prices,1.635,Ratio of direct to total
+390,Services auxiliary to financial services and insurance services,Intermediate consumption at purchaser's prices,1.632,Ratio of direct to total
+391,Real estate services on a fee or contract basis,Intermediate consumption at purchaser's prices,1.752,Ratio of direct to total
+392,Owner-Occupiers' Housing Services,Intermediate consumption at purchaser's prices,1.964,Ratio of direct to total
+393,"Real estate services, excluding on a fee or contract basis and imputed rent",Intermediate consumption at purchaser's prices,1.796,Ratio of direct to total
+394,Legal services,Intermediate consumption at purchaser's prices,1.643,Ratio of direct to total
+395,"Accounting, bookkeeping and auditing services; tax consulting services",Intermediate consumption at purchaser's prices,1.566,Ratio of direct to total
+396,Services of head offices; management consulting services,Intermediate consumption at purchaser's prices,1.616,Ratio of direct to total
+397,Architectural and engineering services; technical testing and analysis services,Intermediate consumption at purchaser's prices,1.768,Ratio of direct to total
+398,Scientific research and development services,Intermediate consumption at purchaser's prices,1.697,Ratio of direct to total
+399,Advertising and market research services,Intermediate consumption at purchaser's prices,1.638,Ratio of direct to total
+400,"Other professional, scientific and technical services",Intermediate consumption at purchaser's prices,1.799,Ratio of direct to total
+401,Veterinary services,Intermediate consumption at purchaser's prices,1.717,Ratio of direct to total
+402,Rental and leasing services,Intermediate consumption at purchaser's prices,1.706,Ratio of direct to total
+403,Employment services,Intermediate consumption at purchaser's prices,1.556,Ratio of direct to total
+404,"Travel agency, tour operator and other reservation services and related services",Intermediate consumption at purchaser's prices,1.951,Ratio of direct to total
+405,Security and investigation services,Intermediate consumption at purchaser's prices,1.694,Ratio of direct to total
+406,Services to buildings and landscape,Intermediate consumption at purchaser's prices,1.885,Ratio of direct to total
+407,"Office administrative, office support and other business support services",Intermediate consumption at purchaser's prices,1.595,Ratio of direct to total
+408,Public administration and defence services; compulsory social security services,Intermediate consumption at purchaser's prices,1.645,Ratio of direct to total
+409,Education services,Intermediate consumption at purchaser's prices,1.654,Ratio of direct to total
+410,Human health services,Intermediate consumption at purchaser's prices,1.597,Ratio of direct to total
+411,Residential Care  & Social Work Activities,Intermediate consumption at purchaser's prices,1.691,Ratio of direct to total
+412,"Creative, arts and entertainment services",Intermediate consumption at purchaser's prices,1.683,Ratio of direct to total
+413,"Libraries, archives, museums and other cultural services",Intermediate consumption at purchaser's prices,1.796,Ratio of direct to total
+414,Gambling and betting services,Intermediate consumption at purchaser's prices,1.679,Ratio of direct to total
+415,Sports services and amusement and recreation services,Intermediate consumption at purchaser's prices,1.757,Ratio of direct to total
+416,Services furnished by membership organisations,Intermediate consumption at purchaser's prices,1.789,Ratio of direct to total
+417,Repair services of computers and personal and household goods,Intermediate consumption at purchaser's prices,1.579,Ratio of direct to total
+418,Other personal services,Intermediate consumption at purchaser's prices,1.499,Ratio of direct to total
+419,Services of households as employers of domestic personnel,Intermediate consumption at purchaser's prices,,Ratio of direct to total
+420,"Products of agriculture, hunting and related services",Compensation of employees,2.83,Ratio of direct to total
+421,"Products of forestry, logging and related services",Compensation of employees,1.985,Ratio of direct to total
+422,Fish and other fishing products; aquaculture products; support services to fishing,Compensation of employees,2.842,Ratio of direct to total
+423,Coal and lignite,Compensation of employees,2.102,Ratio of direct to total
+424,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Compensation of employees,2.962,Ratio of direct to total
+425,Other mining and quarrying products,Compensation of employees,2.495,Ratio of direct to total
+426,Mining support services,Compensation of employees,2.506,Ratio of direct to total
+427,Preserved meat and meat products,Compensation of employees,2.766,Ratio of direct to total
+428,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Compensation of employees,2.701,Ratio of direct to total
+429,Vegetable and animal oils and fats,Compensation of employees,2.995,Ratio of direct to total
+430,Dairy products,Compensation of employees,3.465,Ratio of direct to total
+431,"Grain mill products, starches and starch products",Compensation of employees,3.176,Ratio of direct to total
+432,Bakery and farinaceous products,Compensation of employees,1.946,Ratio of direct to total
+433,Other food products,Compensation of employees,2.114,Ratio of direct to total
+434,Prepared animal feeds,Compensation of employees,4.547,Ratio of direct to total
+435,Alcoholic beverages  & Tobacco products,Compensation of employees,2.92,Ratio of direct to total
+436,Soft drinks,Compensation of employees,3.005,Ratio of direct to total
+437,Textiles,Compensation of employees,1.434,Ratio of direct to total
+438,Wearing apparel,Compensation of employees,1.47,Ratio of direct to total
+439,Leather and related products,Compensation of employees,1.708,Ratio of direct to total
+440,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Compensation of employees,1.717,Ratio of direct to total
+441,Paper and paper products,Compensation of employees,1.784,Ratio of direct to total
+442,Printing and recording services,Compensation of employees,1.563,Ratio of direct to total
+443,Coke and refined petroleum products,Compensation of employees,2.433,Ratio of direct to total
+444,"Paints, varnishes and similar coatings, printing ink and mastics",Compensation of employees,1.703,Ratio of direct to total
+445,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Compensation of employees,1.841,Ratio of direct to total
+446,Other chemical products,Compensation of employees,1.991,Ratio of direct to total
+447,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Compensation of employees,2.377,Ratio of direct to total
+448,Petrochemicals - 20.14/16/17/60,Compensation of employees,2.66,Ratio of direct to total
+449,"Dyestuffs, agro-chemicals - 20.12/20",Compensation of employees,1.551,Ratio of direct to total
+450,Basic pharmaceutical products and pharmaceutical preparations,Compensation of employees,1.801,Ratio of direct to total
+451,Rubber and plastic products,Compensation of employees,1.636,Ratio of direct to total
+452,"Cement, lime, plaster and articles of concrete, cement and plaster",Compensation of employees,1.917,Ratio of direct to total
+453,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Compensation of employees,1.771,Ratio of direct to total
+454,Basic iron and steel,Compensation of employees,2.126,Ratio of direct to total
+455,Other basic metals and casting,Compensation of employees,1.735,Ratio of direct to total
+456,Weapons and ammunition,Compensation of employees,1.974,Ratio of direct to total
+457,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Compensation of employees,1.396,Ratio of direct to total
+458,"Computer, electronic and optical products",Compensation of employees,1.396,Ratio of direct to total
+459,Electrical equipment,Compensation of employees,1.703,Ratio of direct to total
+460,Machinery and equipment n.e.c.,Compensation of employees,1.751,Ratio of direct to total
+461,"Motor vehicles, trailers and semi-trailers",Compensation of employees,2.415,Ratio of direct to total
+462,Ships and boats,Compensation of employees,1.747,Ratio of direct to total
+463,Air and spacecraft and related machinery,Compensation of employees,2.238,Ratio of direct to total
+464,Other transport equipment - 30.2/4/9,Compensation of employees,2.346,Ratio of direct to total
+465,Furniture,Compensation of employees,1.523,Ratio of direct to total
+466,Other manufactured goods,Compensation of employees,1.47,Ratio of direct to total
+467,Repair and maintenance of ships and boats,Compensation of employees,1.378,Ratio of direct to total
+468,Repair and maintenance of aircraft and spacecraft,Compensation of employees,2.197,Ratio of direct to total
+469,Rest of repair; Installation - 33.11-14/17/19/20,Compensation of employees,1.588,Ratio of direct to total
+470,"Electricity, transmission and distribution",Compensation of employees,4.981,Ratio of direct to total
+471,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Compensation of employees,4.23,Ratio of direct to total
+472,Natural water; water treatment and supply services,Compensation of employees,1.664,Ratio of direct to total
+473,Sewerage services; sewage sludge,Compensation of employees,1.443,Ratio of direct to total
+474,"Waste collection, treatment and disposal services; materials recovery services",Compensation of employees,1.939,Ratio of direct to total
+475,Remediation services and other waste management services,Compensation of employees,2.073,Ratio of direct to total
+476,Construction,Compensation of employees,2.495,Ratio of direct to total
+477,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Compensation of employees,1.446,Ratio of direct to total
+478,"Wholesale trade services, except of motor vehicles and motorcycles",Compensation of employees,1.612,Ratio of direct to total
+479,"Retail trade services, except of motor vehicles and motorcycles",Compensation of employees,1.451,Ratio of direct to total
+480,Rail transport services,Compensation of employees,2.229,Ratio of direct to total
+481,"Land transport services and transport services via pipelines, excluding rail transport",Compensation of employees,1.658,Ratio of direct to total
+482,Water transport services,Compensation of employees,1.55,Ratio of direct to total
+483,Air transport services,Compensation of employees,2.237,Ratio of direct to total
+484,Warehousing and support services for transportation,Compensation of employees,1.713,Ratio of direct to total
+485,Postal and courier services,Compensation of employees,1.493,Ratio of direct to total
+486,Accommodation services,Compensation of employees,1.592,Ratio of direct to total
+487,Food and beverage serving services,Compensation of employees,1.504,Ratio of direct to total
+488,Publishing services,Compensation of employees,1.645,Ratio of direct to total
+489,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Compensation of employees,2.014,Ratio of direct to total
+490,Telecommunications services,Compensation of employees,1.384,Ratio of direct to total
+491,"Computer programming, consultancy and related services",Compensation of employees,1.469,Ratio of direct to total
+492,Information services,Compensation of employees,1.532,Ratio of direct to total
+493,"Financial services, except insurance and pension funding",Compensation of employees,1.71,Ratio of direct to total
+494,"Insurance, reinsurance and pension funding services, except compulsory social security",Compensation of employees,3.492,Ratio of direct to total
+495,Services auxiliary to financial services and insurance services,Compensation of employees,1.612,Ratio of direct to total
+496,Real estate services on a fee or contract basis,Compensation of employees,1.374,Ratio of direct to total
+497,Owner-Occupiers' Housing Services,Compensation of employees,,Ratio of direct to total
+498,"Real estate services, excluding on a fee or contract basis and imputed rent",Compensation of employees,2.175,Ratio of direct to total
+499,Legal services,Compensation of employees,1.31,Ratio of direct to total
+500,"Accounting, bookkeeping and auditing services; tax consulting services",Compensation of employees,1.153,Ratio of direct to total
+501,Services of head offices; management consulting services,Compensation of employees,1.52,Ratio of direct to total
+502,Architectural and engineering services; technical testing and analysis services,Compensation of employees,1.779,Ratio of direct to total
+503,Scientific research and development services,Compensation of employees,1.69,Ratio of direct to total
+504,Advertising and market research services,Compensation of employees,1.6,Ratio of direct to total
+505,"Other professional, scientific and technical services",Compensation of employees,1.838,Ratio of direct to total
+506,Veterinary services,Compensation of employees,1.21,Ratio of direct to total
+507,Rental and leasing services,Compensation of employees,1.507,Ratio of direct to total
+508,Employment services,Compensation of employees,1.425,Ratio of direct to total
+509,"Travel agency, tour operator and other reservation services and related services",Compensation of employees,2.053,Ratio of direct to total
+510,Security and investigation services,Compensation of employees,1.562,Ratio of direct to total
+511,Services to buildings and landscape,Compensation of employees,1.859,Ratio of direct to total
+512,"Office administrative, office support and other business support services",Compensation of employees,1.576,Ratio of direct to total
+513,Public administration and defence services; compulsory social security services,Compensation of employees,1.409,Ratio of direct to total
+514,Education services,Compensation of employees,1.252,Ratio of direct to total
+515,Human health services,Compensation of employees,1.314,Ratio of direct to total
+516,Residential Care  & Social Work Activities,Compensation of employees,1.395,Ratio of direct to total
+517,"Creative, arts and entertainment services",Compensation of employees,1.81,Ratio of direct to total
+518,"Libraries, archives, museums and other cultural services",Compensation of employees,1.452,Ratio of direct to total
+519,Gambling and betting services,Compensation of employees,1.754,Ratio of direct to total
+520,Sports services and amusement and recreation services,Compensation of employees,1.408,Ratio of direct to total
+521,Services furnished by membership organisations,Compensation of employees,1.406,Ratio of direct to total
+522,Repair services of computers and personal and household goods,Compensation of employees,1.39,Ratio of direct to total
+523,Other personal services,Compensation of employees,1.283,Ratio of direct to total
+524,Services of households as employers of domestic personnel,Compensation of employees,1.0,Ratio of direct to total
+525,"Products of agriculture, hunting and related services",Gross operating surplus and mixed income,1.584,Ratio of direct to total
+526,"Products of forestry, logging and related services",Gross operating surplus and mixed income,2.358,Ratio of direct to total
+527,Fish and other fishing products; aquaculture products; support services to fishing,Gross operating surplus and mixed income,2.508,Ratio of direct to total
+528,Coal and lignite,Gross operating surplus and mixed income,1.579,Ratio of direct to total
+529,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Gross operating surplus and mixed income,1.191,Ratio of direct to total
+530,Other mining and quarrying products,Gross operating surplus and mixed income,1.867,Ratio of direct to total
+531,Mining support services,Gross operating surplus and mixed income,6.419,Ratio of direct to total
+532,Preserved meat and meat products,Gross operating surplus and mixed income,5.417,Ratio of direct to total
+533,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Gross operating surplus and mixed income,3.981,Ratio of direct to total
+534,Vegetable and animal oils and fats,Gross operating surplus and mixed income,3.259,Ratio of direct to total
+535,Dairy products,Gross operating surplus and mixed income,3.338,Ratio of direct to total
+536,"Grain mill products, starches and starch products",Gross operating surplus and mixed income,3.648,Ratio of direct to total
+537,Bakery and farinaceous products,Gross operating surplus and mixed income,2.653,Ratio of direct to total
+538,Other food products,Gross operating surplus and mixed income,2.249,Ratio of direct to total
+539,Prepared animal feeds,Gross operating surplus and mixed income,4.495,Ratio of direct to total
+540,Alcoholic beverages  & Tobacco products,Gross operating surplus and mixed income,1.811,Ratio of direct to total
+541,Soft drinks,Gross operating surplus and mixed income,1.612,Ratio of direct to total
+542,Textiles,Gross operating surplus and mixed income,1.405,Ratio of direct to total
+543,Wearing apparel,Gross operating surplus and mixed income,1.508,Ratio of direct to total
+544,Leather and related products,Gross operating surplus and mixed income,1.984,Ratio of direct to total
+545,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Gross operating surplus and mixed income,1.718,Ratio of direct to total
+546,Paper and paper products,Gross operating surplus and mixed income,2.353,Ratio of direct to total
+547,Printing and recording services,Gross operating surplus and mixed income,1.741,Ratio of direct to total
+548,Coke and refined petroleum products,Gross operating surplus and mixed income,1.326,Ratio of direct to total
+549,"Paints, varnishes and similar coatings, printing ink and mastics",Gross operating surplus and mixed income,2.603,Ratio of direct to total
+550,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Gross operating surplus and mixed income,1.492,Ratio of direct to total
+551,Other chemical products,Gross operating surplus and mixed income,1.746,Ratio of direct to total
+552,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Gross operating surplus and mixed income,2.379,Ratio of direct to total
+553,Petrochemicals - 20.14/16/17/60,Gross operating surplus and mixed income,2.447,Ratio of direct to total
+554,"Dyestuffs, agro-chemicals - 20.12/20",Gross operating surplus and mixed income,1.445,Ratio of direct to total
+555,Basic pharmaceutical products and pharmaceutical preparations,Gross operating surplus and mixed income,1.377,Ratio of direct to total
+556,Rubber and plastic products,Gross operating surplus and mixed income,2.5,Ratio of direct to total
+557,"Cement, lime, plaster and articles of concrete, cement and plaster",Gross operating surplus and mixed income,1.663,Ratio of direct to total
+558,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Gross operating surplus and mixed income,2.281,Ratio of direct to total
+559,Basic iron and steel,Gross operating surplus and mixed income,4.202,Ratio of direct to total
+560,Other basic metals and casting,Gross operating surplus and mixed income,1.565,Ratio of direct to total
+561,Weapons and ammunition,Gross operating surplus and mixed income,4.648,Ratio of direct to total
+562,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Gross operating surplus and mixed income,1.59,Ratio of direct to total
+563,"Computer, electronic and optical products",Gross operating surplus and mixed income,1.607,Ratio of direct to total
+564,Electrical equipment,Gross operating surplus and mixed income,2.202,Ratio of direct to total
+565,Machinery and equipment n.e.c.,Gross operating surplus and mixed income,1.666,Ratio of direct to total
+566,"Motor vehicles, trailers and semi-trailers",Gross operating surplus and mixed income,1.992,Ratio of direct to total
+567,Ships and boats,Gross operating surplus and mixed income,1.988,Ratio of direct to total
+568,Air and spacecraft and related machinery,Gross operating surplus and mixed income,2.089,Ratio of direct to total
+569,Other transport equipment - 30.2/4/9,Gross operating surplus and mixed income,2.154,Ratio of direct to total
+570,Furniture,Gross operating surplus and mixed income,1.831,Ratio of direct to total
+571,Other manufactured goods,Gross operating surplus and mixed income,1.498,Ratio of direct to total
+572,Repair and maintenance of ships and boats,Gross operating surplus and mixed income,1.304,Ratio of direct to total
+573,Repair and maintenance of aircraft and spacecraft,Gross operating surplus and mixed income,2.074,Ratio of direct to total
+574,Rest of repair; Installation - 33.11-14/17/19/20,Gross operating surplus and mixed income,1.706,Ratio of direct to total
+575,"Electricity, transmission and distribution",Gross operating surplus and mixed income,2.965,Ratio of direct to total
+576,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Gross operating surplus and mixed income,3.026,Ratio of direct to total
+577,Natural water; water treatment and supply services,Gross operating surplus and mixed income,1.256,Ratio of direct to total
+578,Sewerage services; sewage sludge,Gross operating surplus and mixed income,1.153,Ratio of direct to total
+579,"Waste collection, treatment and disposal services; materials recovery services",Gross operating surplus and mixed income,2.554,Ratio of direct to total
+580,Remediation services and other waste management services,Gross operating surplus and mixed income,1.709,Ratio of direct to total
+581,Construction,Gross operating surplus and mixed income,1.952,Ratio of direct to total
+582,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Gross operating surplus and mixed income,1.757,Ratio of direct to total
+583,"Wholesale trade services, except of motor vehicles and motorcycles",Gross operating surplus and mixed income,1.861,Ratio of direct to total
+584,"Retail trade services, except of motor vehicles and motorcycles",Gross operating surplus and mixed income,1.622,Ratio of direct to total
+585,Rail transport services,Gross operating surplus and mixed income,3.367,Ratio of direct to total
+586,"Land transport services and transport services via pipelines, excluding rail transport",Gross operating surplus and mixed income,2.071,Ratio of direct to total
+587,Water transport services,Gross operating surplus and mixed income,1.46,Ratio of direct to total
+588,Air transport services,Gross operating surplus and mixed income,3.331,Ratio of direct to total
+589,Warehousing and support services for transportation,Gross operating surplus and mixed income,2.651,Ratio of direct to total
+590,Postal and courier services,Gross operating surplus and mixed income,1.771,Ratio of direct to total
+591,Accommodation services,Gross operating surplus and mixed income,1.709,Ratio of direct to total
+592,Food and beverage serving services,Gross operating surplus and mixed income,2.167,Ratio of direct to total
+593,Publishing services,Gross operating surplus and mixed income,1.588,Ratio of direct to total
+594,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Gross operating surplus and mixed income,1.604,Ratio of direct to total
+595,Telecommunications services,Gross operating surplus and mixed income,1.296,Ratio of direct to total
+596,"Computer programming, consultancy and related services",Gross operating surplus and mixed income,1.865,Ratio of direct to total
+597,Information services,Gross operating surplus and mixed income,1.492,Ratio of direct to total
+598,"Financial services, except insurance and pension funding",Gross operating surplus and mixed income,1.528,Ratio of direct to total
+599,"Insurance, reinsurance and pension funding services, except compulsory social security",Gross operating surplus and mixed income,1.666,Ratio of direct to total
+600,Services auxiliary to financial services and insurance services,Gross operating surplus and mixed income,1.504,Ratio of direct to total
+601,Real estate services on a fee or contract basis,Gross operating surplus and mixed income,1.817,Ratio of direct to total
+602,Owner-Occupiers' Housing Services,Gross operating surplus and mixed income,1.057,Ratio of direct to total
+603,"Real estate services, excluding on a fee or contract basis and imputed rent",Gross operating surplus and mixed income,1.266,Ratio of direct to total
+604,Legal services,Gross operating surplus and mixed income,1.204,Ratio of direct to total
+605,"Accounting, bookkeeping and auditing services; tax consulting services",Gross operating surplus and mixed income,1.17,Ratio of direct to total
+606,Services of head offices; management consulting services,Gross operating surplus and mixed income,1.982,Ratio of direct to total
+607,Architectural and engineering services; technical testing and analysis services,Gross operating surplus and mixed income,2.498,Ratio of direct to total
+608,Scientific research and development services,Gross operating surplus and mixed income,1.688,Ratio of direct to total
+609,Advertising and market research services,Gross operating surplus and mixed income,1.443,Ratio of direct to total
+610,"Other professional, scientific and technical services",Gross operating surplus and mixed income,2.248,Ratio of direct to total
+611,Veterinary services,Gross operating surplus and mixed income,1.281,Ratio of direct to total
+612,Rental and leasing services,Gross operating surplus and mixed income,1.298,Ratio of direct to total
+613,Employment services,Gross operating surplus and mixed income,1.67,Ratio of direct to total
+614,"Travel agency, tour operator and other reservation services and related services",Gross operating surplus and mixed income,1.915,Ratio of direct to total
+615,Security and investigation services,Gross operating surplus and mixed income,1.544,Ratio of direct to total
+616,Services to buildings and landscape,Gross operating surplus and mixed income,1.826,Ratio of direct to total
+617,"Office administrative, office support and other business support services",Gross operating surplus and mixed income,1.653,Ratio of direct to total
+618,Public administration and defence services; compulsory social security services,Gross operating surplus and mixed income,1.658,Ratio of direct to total
+619,Education services,Gross operating surplus and mixed income,1.489,Ratio of direct to total
+620,Human health services,Gross operating surplus and mixed income,1.638,Ratio of direct to total
+621,Residential Care  & Social Work Activities,Gross operating surplus and mixed income,2.327,Ratio of direct to total
+622,"Creative, arts and entertainment services",Gross operating surplus and mixed income,1.468,Ratio of direct to total
+623,"Libraries, archives, museums and other cultural services",Gross operating surplus and mixed income,1.727,Ratio of direct to total
+624,Gambling and betting services,Gross operating surplus and mixed income,1.357,Ratio of direct to total
+625,Sports services and amusement and recreation services,Gross operating surplus and mixed income,1.804,Ratio of direct to total
+626,Services furnished by membership organisations,Gross operating surplus and mixed income,2.153,Ratio of direct to total
+627,Repair services of computers and personal and household goods,Gross operating surplus and mixed income,1.348,Ratio of direct to total
+628,Other personal services,Gross operating surplus and mixed income,1.135,Ratio of direct to total
+629,Services of households as employers of domestic personnel,Gross operating surplus and mixed income,,Ratio of direct to total
+630,"Products of agriculture, hunting and related services",Gross value added,2.096,Ratio of direct to total
+631,"Products of forestry, logging and related services",Gross value added,2.115,Ratio of direct to total
+632,Fish and other fishing products; aquaculture products; support services to fishing,Gross value added,2.685,Ratio of direct to total
+633,Coal and lignite,Gross value added,1.883,Ratio of direct to total
+634,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Gross value added,1.43,Ratio of direct to total
+635,Other mining and quarrying products,Gross value added,2.174,Ratio of direct to total
+636,Mining support services,Gross value added,3.038,Ratio of direct to total
+637,Preserved meat and meat products,Gross value added,3.348,Ratio of direct to total
+638,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Gross value added,3.06,Ratio of direct to total
+639,Vegetable and animal oils and fats,Gross value added,3.356,Ratio of direct to total
+640,Dairy products,Gross value added,3.34,Ratio of direct to total
+641,"Grain mill products, starches and starch products",Gross value added,3.365,Ratio of direct to total
+642,Bakery and farinaceous products,Gross value added,2.135,Ratio of direct to total
+643,Other food products,Gross value added,2.166,Ratio of direct to total
+644,Prepared animal feeds,Gross value added,4.546,Ratio of direct to total
+645,Alcoholic beverages  & Tobacco products,Gross value added,2.251,Ratio of direct to total
+646,Soft drinks,Gross value added,2.119,Ratio of direct to total
+647,Textiles,Gross value added,1.431,Ratio of direct to total
+648,Wearing apparel,Gross value added,1.499,Ratio of direct to total
+649,Leather and related products,Gross value added,1.874,Ratio of direct to total
+650,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Gross value added,1.722,Ratio of direct to total
+651,Paper and paper products,Gross value added,1.942,Ratio of direct to total
+652,Printing and recording services,Gross value added,1.619,Ratio of direct to total
+653,Coke and refined petroleum products,Gross value added,1.595,Ratio of direct to total
+654,"Paints, varnishes and similar coatings, printing ink and mastics",Gross value added,1.926,Ratio of direct to total
+655,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Gross value added,1.675,Ratio of direct to total
+656,Other chemical products,Gross value added,1.904,Ratio of direct to total
+657,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Gross value added,2.432,Ratio of direct to total
+658,Petrochemicals - 20.14/16/17/60,Gross value added,2.599,Ratio of direct to total
+659,"Dyestuffs, agro-chemicals - 20.12/20",Gross value added,1.526,Ratio of direct to total
+660,Basic pharmaceutical products and pharmaceutical preparations,Gross value added,1.572,Ratio of direct to total
+661,Rubber and plastic products,Gross value added,1.823,Ratio of direct to total
+662,"Cement, lime, plaster and articles of concrete, cement and plaster",Gross value added,1.808,Ratio of direct to total
+663,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Gross value added,1.918,Ratio of direct to total
+664,Basic iron and steel,Gross value added,2.488,Ratio of direct to total
+665,Other basic metals and casting,Gross value added,1.68,Ratio of direct to total
+666,Weapons and ammunition,Gross value added,2.344,Ratio of direct to total
+667,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Gross value added,1.456,Ratio of direct to total
+668,"Computer, electronic and optical products",Gross value added,1.456,Ratio of direct to total
+669,Electrical equipment,Gross value added,1.837,Ratio of direct to total
+670,Machinery and equipment n.e.c.,Gross value added,1.728,Ratio of direct to total
+671,"Motor vehicles, trailers and semi-trailers",Gross value added,2.265,Ratio of direct to total
+672,Ships and boats,Gross value added,1.832,Ratio of direct to total
+673,Air and spacecraft and related machinery,Gross value added,2.203,Ratio of direct to total
+674,Other transport equipment - 30.2/4/9,Gross value added,2.326,Ratio of direct to total
+675,Furniture,Gross value added,1.608,Ratio of direct to total
+676,Other manufactured goods,Gross value added,1.487,Ratio of direct to total
+677,Repair and maintenance of ships and boats,Gross value added,1.362,Ratio of direct to total
+678,Repair and maintenance of aircraft and spacecraft,Gross value added,2.174,Ratio of direct to total
+679,Rest of repair; Installation - 33.11-14/17/19/20,Gross value added,1.634,Ratio of direct to total
+680,"Electricity, transmission and distribution",Gross value added,3.445,Ratio of direct to total
+681,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Gross value added,3.356,Ratio of direct to total
+682,Natural water; water treatment and supply services,Gross value added,1.357,Ratio of direct to total
+683,Sewerage services; sewage sludge,Gross value added,1.21,Ratio of direct to total
+684,"Waste collection, treatment and disposal services; materials recovery services",Gross value added,2.149,Ratio of direct to total
+685,Remediation services and other waste management services,Gross value added,1.853,Ratio of direct to total
+686,Construction,Gross value added,2.199,Ratio of direct to total
+687,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Gross value added,1.518,Ratio of direct to total
+688,"Wholesale trade services, except of motor vehicles and motorcycles",Gross value added,1.682,Ratio of direct to total
+689,"Retail trade services, except of motor vehicles and motorcycles",Gross value added,1.48,Ratio of direct to total
+690,Rail transport services,Gross value added,2.461,Ratio of direct to total
+691,"Land transport services and transport services via pipelines, excluding rail transport",Gross value added,1.749,Ratio of direct to total
+692,Water transport services,Gross value added,1.508,Ratio of direct to total
+693,Air transport services,Gross value added,2.56,Ratio of direct to total
+694,Warehousing and support services for transportation,Gross value added,1.876,Ratio of direct to total
+695,Postal and courier services,Gross value added,1.561,Ratio of direct to total
+696,Accommodation services,Gross value added,1.606,Ratio of direct to total
+697,Food and beverage serving services,Gross value added,1.635,Ratio of direct to total
+698,Publishing services,Gross value added,1.63,Ratio of direct to total
+699,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Gross value added,1.82,Ratio of direct to total
+700,Telecommunications services,Gross value added,1.342,Ratio of direct to total
+701,"Computer programming, consultancy and related services",Gross value added,1.569,Ratio of direct to total
+702,Information services,Gross value added,1.525,Ratio of direct to total
+703,"Financial services, except insurance and pension funding",Gross value added,1.616,Ratio of direct to total
+704,"Insurance, reinsurance and pension funding services, except compulsory social security",Gross value added,2.09,Ratio of direct to total
+705,Services auxiliary to financial services and insurance services,Gross value added,1.567,Ratio of direct to total
+706,Real estate services on a fee or contract basis,Gross value added,1.471,Ratio of direct to total
+707,Owner-Occupiers' Housing Services,Gross value added,1.126,Ratio of direct to total
+708,"Real estate services, excluding on a fee or contract basis and imputed rent",Gross value added,1.471,Ratio of direct to total
+709,Legal services,Gross value added,1.251,Ratio of direct to total
+710,"Accounting, bookkeeping and auditing services; tax consulting services",Gross value added,1.161,Ratio of direct to total
+711,Services of head offices; management consulting services,Gross value added,1.636,Ratio of direct to total
+712,Architectural and engineering services; technical testing and analysis services,Gross value added,1.925,Ratio of direct to total
+713,Scientific research and development services,Gross value added,1.696,Ratio of direct to total
+714,Advertising and market research services,Gross value added,1.529,Ratio of direct to total
+715,"Other professional, scientific and technical services",Gross value added,1.96,Ratio of direct to total
+716,Veterinary services,Gross value added,1.244,Ratio of direct to total
+717,Rental and leasing services,Gross value added,1.399,Ratio of direct to total
+718,Employment services,Gross value added,1.475,Ratio of direct to total
+719,"Travel agency, tour operator and other reservation services and related services",Gross value added,2.005,Ratio of direct to total
+720,Security and investigation services,Gross value added,1.558,Ratio of direct to total
+721,Services to buildings and landscape,Gross value added,1.852,Ratio of direct to total
+722,"Office administrative, office support and other business support services",Gross value added,1.602,Ratio of direct to total
+723,Public administration and defence services; compulsory social security services,Gross value added,1.49,Ratio of direct to total
+724,Education services,Gross value added,1.307,Ratio of direct to total
+725,Human health services,Gross value added,1.399,Ratio of direct to total
+726,Residential Care  & Social Work Activities,Gross value added,1.51,Ratio of direct to total
+727,"Creative, arts and entertainment services",Gross value added,1.613,Ratio of direct to total
+728,"Libraries, archives, museums and other cultural services",Gross value added,1.537,Ratio of direct to total
+729,Gambling and betting services,Gross value added,1.49,Ratio of direct to total
+730,Sports services and amusement and recreation services,Gross value added,1.506,Ratio of direct to total
+731,Services furnished by membership organisations,Gross value added,1.548,Ratio of direct to total
+732,Repair services of computers and personal and household goods,Gross value added,1.374,Ratio of direct to total
+733,Other personal services,Gross value added,1.18,Ratio of direct to total
+734,Services of households as employers of domestic personnel,Gross value added,1.0,Ratio of direct to total
+735,"Products of agriculture, hunting and related services",Output,2.005,Ratio of direct to total
+736,"Products of forestry, logging and related services",Output,2.022,Ratio of direct to total
+737,Fish and other fishing products; aquaculture products; support services to fishing,Output,2.071,Ratio of direct to total
+738,Coal and lignite,Output,1.861,Ratio of direct to total
+739,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Output,1.599,Ratio of direct to total
+740,Other mining and quarrying products,Output,1.865,Ratio of direct to total
+741,Mining support services,Output,2.183,Ratio of direct to total
+742,Preserved meat and meat products,Output,2.453,Ratio of direct to total
+743,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Output,2.354,Ratio of direct to total
+744,Vegetable and animal oils and fats,Output,2.017,Ratio of direct to total
+745,Dairy products,Output,2.396,Ratio of direct to total
+746,"Grain mill products, starches and starch products",Output,2.329,Ratio of direct to total
+747,Bakery and farinaceous products,Output,2.06,Ratio of direct to total
+748,Other food products,Output,1.992,Ratio of direct to total
+749,Prepared animal feeds,Output,2.548,Ratio of direct to total
+750,Alcoholic beverages  & Tobacco products,Output,2.025,Ratio of direct to total
+751,Soft drinks,Output,2.012,Ratio of direct to total
+752,Textiles,Output,1.484,Ratio of direct to total
+753,Wearing apparel,Output,1.566,Ratio of direct to total
+754,Leather and related products,Output,1.697,Ratio of direct to total
+755,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Output,1.59,Ratio of direct to total
+756,Paper and paper products,Output,1.729,Ratio of direct to total
+757,Printing and recording services,Output,1.602,Ratio of direct to total
+758,Coke and refined petroleum products,Output,1.146,Ratio of direct to total
+759,"Paints, varnishes and similar coatings, printing ink and mastics",Output,1.729,Ratio of direct to total
+760,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Output,1.693,Ratio of direct to total
+761,Other chemical products,Output,1.637,Ratio of direct to total
+762,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Output,1.746,Ratio of direct to total
+763,Petrochemicals - 20.14/16/17/60,Output,1.854,Ratio of direct to total
+764,"Dyestuffs, agro-chemicals - 20.12/20",Output,1.505,Ratio of direct to total
+765,Basic pharmaceutical products and pharmaceutical preparations,Output,1.571,Ratio of direct to total
+766,Rubber and plastic products,Output,1.644,Ratio of direct to total
+767,"Cement, lime, plaster and articles of concrete, cement and plaster",Output,1.724,Ratio of direct to total
+768,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Output,1.73,Ratio of direct to total
+769,Basic iron and steel,Output,1.795,Ratio of direct to total
+770,Other basic metals and casting,Output,1.498,Ratio of direct to total
+771,Weapons and ammunition,Output,1.88,Ratio of direct to total
+772,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Output,1.472,Ratio of direct to total
+773,"Computer, electronic and optical products",Output,1.507,Ratio of direct to total
+774,Electrical equipment,Output,1.684,Ratio of direct to total
+775,Machinery and equipment n.e.c.,Output,1.637,Ratio of direct to total
+776,"Motor vehicles, trailers and semi-trailers",Output,1.688,Ratio of direct to total
+777,Ships and boats,Output,1.818,Ratio of direct to total
+778,Air and spacecraft and related machinery,Output,1.903,Ratio of direct to total
+779,Other transport equipment - 30.2/4/9,Output,1.934,Ratio of direct to total
+780,Furniture,Output,1.633,Ratio of direct to total
+781,Other manufactured goods,Output,1.496,Ratio of direct to total
+782,Repair and maintenance of ships and boats,Output,1.492,Ratio of direct to total
+783,Repair and maintenance of aircraft and spacecraft,Output,2.084,Ratio of direct to total
+784,Rest of repair; Installation - 33.11-14/17/19/20,Output,1.629,Ratio of direct to total
+785,"Electricity, transmission and distribution",Output,2.664,Ratio of direct to total
+786,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Output,2.521,Ratio of direct to total
+787,Natural water; water treatment and supply services,Output,1.526,Ratio of direct to total
+788,Sewerage services; sewage sludge,Output,1.312,Ratio of direct to total
+789,"Waste collection, treatment and disposal services; materials recovery services",Output,1.77,Ratio of direct to total
+790,Remediation services and other waste management services,Output,1.788,Ratio of direct to total
+791,Construction,Output,2.069,Ratio of direct to total
+792,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Output,1.605,Ratio of direct to total
+793,"Wholesale trade services, except of motor vehicles and motorcycles",Output,1.704,Ratio of direct to total
+794,"Retail trade services, except of motor vehicles and motorcycles",Output,1.6,Ratio of direct to total
+795,Rail transport services,Output,2.089,Ratio of direct to total
+796,"Land transport services and transport services via pipelines, excluding rail transport",Output,1.722,Ratio of direct to total
+797,Water transport services,Output,1.493,Ratio of direct to total
+798,Air transport services,Output,1.731,Ratio of direct to total
+799,Warehousing and support services for transportation,Output,1.867,Ratio of direct to total
+800,Postal and courier services,Output,1.63,Ratio of direct to total
+801,Accommodation services,Output,1.748,Ratio of direct to total
+802,Food and beverage serving services,Output,1.746,Ratio of direct to total
+803,Publishing services,Output,1.678,Ratio of direct to total
+804,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Output,1.725,Ratio of direct to total
+805,Telecommunications services,Output,1.409,Ratio of direct to total
+806,"Computer programming, consultancy and related services",Output,1.581,Ratio of direct to total
+807,Information services,Output,1.587,Ratio of direct to total
+808,"Financial services, except insurance and pension funding",Output,1.586,Ratio of direct to total
+809,"Insurance, reinsurance and pension funding services, except compulsory social security",Output,1.803,Ratio of direct to total
+810,Services auxiliary to financial services and insurance services,Output,1.595,Ratio of direct to total
+811,Real estate services on a fee or contract basis,Output,1.573,Ratio of direct to total
+812,Owner-Occupiers' Housing Services,Output,1.237,Ratio of direct to total
+813,"Real estate services, excluding on a fee or contract basis and imputed rent",Output,1.597,Ratio of direct to total
+814,Legal services,Output,1.344,Ratio of direct to total
+815,"Accounting, bookkeeping and auditing services; tax consulting services",Output,1.243,Ratio of direct to total
+816,Services of head offices; management consulting services,Output,1.626,Ratio of direct to total
+817,Architectural and engineering services; technical testing and analysis services,Output,1.837,Ratio of direct to total
+818,Scientific research and development services,Output,1.696,Ratio of direct to total
+819,Advertising and market research services,Output,1.578,Ratio of direct to total
+820,"Other professional, scientific and technical services",Output,1.869,Ratio of direct to total
+821,Veterinary services,Output,1.357,Ratio of direct to total
+822,Rental and leasing services,Output,1.506,Ratio of direct to total
+823,Employment services,Output,1.505,Ratio of direct to total
+824,"Travel agency, tour operator and other reservation services and related services",Output,1.973,Ratio of direct to total
+825,Security and investigation services,Output,1.613,Ratio of direct to total
+826,Services to buildings and landscape,Output,1.869,Ratio of direct to total
+827,"Office administrative, office support and other business support services",Output,1.599,Ratio of direct to total
+828,Public administration and defence services; compulsory social security services,Output,1.556,Ratio of direct to total
+829,Education services,Output,1.407,Ratio of direct to total
+830,Human health services,Output,1.477,Ratio of direct to total
+831,Residential Care  & Social Work Activities,Output,1.582,Ratio of direct to total
+832,"Creative, arts and entertainment services",Output,1.646,Ratio of direct to total
+833,"Libraries, archives, museums and other cultural services",Output,1.644,Ratio of direct to total
+834,Gambling and betting services,Output,1.565,Ratio of direct to total
+835,Sports services and amusement and recreation services,Output,1.611,Ratio of direct to total
+836,Services furnished by membership organisations,Output,1.647,Ratio of direct to total
+837,Repair services of computers and personal and household goods,Output,1.447,Ratio of direct to total
+838,Other personal services,Output,1.252,Ratio of direct to total
+839,Services of households as employers of domestic personnel,Output,1.0,Ratio of direct to total
+0,"Products of agriculture, hunting and related services",Intermediate consumption at basic prices,1.005,total impact
+1,"Products of forestry, logging and related services",Intermediate consumption at basic prices,1.022,total impact
+2,Fish and other fishing products; aquaculture products; support services to fishing,Intermediate consumption at basic prices,1.071,total impact
+3,Coal and lignite,Intermediate consumption at basic prices,0.861,total impact
+4,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Intermediate consumption at basic prices,0.599,total impact
+5,Other mining and quarrying products,Intermediate consumption at basic prices,0.865,total impact
+6,Mining support services,Intermediate consumption at basic prices,1.183,total impact
+7,Preserved meat and meat products,Intermediate consumption at basic prices,1.453,total impact
+8,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Intermediate consumption at basic prices,1.354,total impact
+9,Vegetable and animal oils and fats,Intermediate consumption at basic prices,1.017,total impact
+10,Dairy products,Intermediate consumption at basic prices,1.396,total impact
+11,"Grain mill products, starches and starch products",Intermediate consumption at basic prices,1.329,total impact
+12,Bakery and farinaceous products,Intermediate consumption at basic prices,1.06,total impact
+13,Other food products,Intermediate consumption at basic prices,0.992,total impact
+14,Prepared animal feeds,Intermediate consumption at basic prices,1.548,total impact
+15,Alcoholic beverages  & Tobacco products,Intermediate consumption at basic prices,1.025,total impact
+16,Soft drinks,Intermediate consumption at basic prices,1.012,total impact
+17,Textiles,Intermediate consumption at basic prices,0.484,total impact
+18,Wearing apparel,Intermediate consumption at basic prices,0.566,total impact
+19,Leather and related products,Intermediate consumption at basic prices,0.697,total impact
+20,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Intermediate consumption at basic prices,0.59,total impact
+21,Paper and paper products,Intermediate consumption at basic prices,0.729,total impact
+22,Printing and recording services,Intermediate consumption at basic prices,0.602,total impact
+23,Coke and refined petroleum products,Intermediate consumption at basic prices,0.146,total impact
+24,"Paints, varnishes and similar coatings, printing ink and mastics",Intermediate consumption at basic prices,0.729,total impact
+25,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Intermediate consumption at basic prices,0.693,total impact
+26,Other chemical products,Intermediate consumption at basic prices,0.637,total impact
+27,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Intermediate consumption at basic prices,0.746,total impact
+28,Petrochemicals - 20.14/16/17/60,Intermediate consumption at basic prices,0.854,total impact
+29,"Dyestuffs, agro-chemicals - 20.12/20",Intermediate consumption at basic prices,0.505,total impact
+30,Basic pharmaceutical products and pharmaceutical preparations,Intermediate consumption at basic prices,0.571,total impact
+31,Rubber and plastic products,Intermediate consumption at basic prices,0.644,total impact
+32,"Cement, lime, plaster and articles of concrete, cement and plaster",Intermediate consumption at basic prices,0.724,total impact
+33,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Intermediate consumption at basic prices,0.73,total impact
+34,Basic iron and steel,Intermediate consumption at basic prices,0.795,total impact
+35,Other basic metals and casting,Intermediate consumption at basic prices,0.498,total impact
+36,Weapons and ammunition,Intermediate consumption at basic prices,0.88,total impact
+37,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Intermediate consumption at basic prices,0.472,total impact
+38,"Computer, electronic and optical products",Intermediate consumption at basic prices,0.507,total impact
+39,Electrical equipment,Intermediate consumption at basic prices,0.684,total impact
+40,Machinery and equipment n.e.c.,Intermediate consumption at basic prices,0.637,total impact
+41,"Motor vehicles, trailers and semi-trailers",Intermediate consumption at basic prices,0.688,total impact
+42,Ships and boats,Intermediate consumption at basic prices,0.818,total impact
+43,Air and spacecraft and related machinery,Intermediate consumption at basic prices,0.903,total impact
+44,Other transport equipment - 30.2/4/9,Intermediate consumption at basic prices,0.934,total impact
+45,Furniture,Intermediate consumption at basic prices,0.633,total impact
+46,Other manufactured goods,Intermediate consumption at basic prices,0.496,total impact
+47,Repair and maintenance of ships and boats,Intermediate consumption at basic prices,0.492,total impact
+48,Repair and maintenance of aircraft and spacecraft,Intermediate consumption at basic prices,1.084,total impact
+49,Rest of repair; Installation - 33.11-14/17/19/20,Intermediate consumption at basic prices,0.629,total impact
+50,"Electricity, transmission and distribution",Intermediate consumption at basic prices,1.664,total impact
+51,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Intermediate consumption at basic prices,1.521,total impact
+52,Natural water; water treatment and supply services,Intermediate consumption at basic prices,0.526,total impact
+53,Sewerage services; sewage sludge,Intermediate consumption at basic prices,0.312,total impact
+54,"Waste collection, treatment and disposal services; materials recovery services",Intermediate consumption at basic prices,0.77,total impact
+55,Remediation services and other waste management services,Intermediate consumption at basic prices,0.788,total impact
+56,Construction,Intermediate consumption at basic prices,1.069,total impact
+57,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Intermediate consumption at basic prices,0.605,total impact
+58,"Wholesale trade services, except of motor vehicles and motorcycles",Intermediate consumption at basic prices,0.704,total impact
+59,"Retail trade services, except of motor vehicles and motorcycles",Intermediate consumption at basic prices,0.6,total impact
+60,Rail transport services,Intermediate consumption at basic prices,1.089,total impact
+61,"Land transport services and transport services via pipelines, excluding rail transport",Intermediate consumption at basic prices,0.722,total impact
+62,Water transport services,Intermediate consumption at basic prices,0.493,total impact
+63,Air transport services,Intermediate consumption at basic prices,0.731,total impact
+64,Warehousing and support services for transportation,Intermediate consumption at basic prices,0.867,total impact
+65,Postal and courier services,Intermediate consumption at basic prices,0.63,total impact
+66,Accommodation services,Intermediate consumption at basic prices,0.748,total impact
+67,Food and beverage serving services,Intermediate consumption at basic prices,0.746,total impact
+68,Publishing services,Intermediate consumption at basic prices,0.678,total impact
+69,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Intermediate consumption at basic prices,0.725,total impact
+70,Telecommunications services,Intermediate consumption at basic prices,0.409,total impact
+71,"Computer programming, consultancy and related services",Intermediate consumption at basic prices,0.581,total impact
+72,Information services,Intermediate consumption at basic prices,0.587,total impact
+73,"Financial services, except insurance and pension funding",Intermediate consumption at basic prices,0.586,total impact
+74,"Insurance, reinsurance and pension funding services, except compulsory social security",Intermediate consumption at basic prices,0.803,total impact
+75,Services auxiliary to financial services and insurance services,Intermediate consumption at basic prices,0.595,total impact
+76,Real estate services on a fee or contract basis,Intermediate consumption at basic prices,0.573,total impact
+77,Owner-Occupiers' Housing Services,Intermediate consumption at basic prices,0.237,total impact
+78,"Real estate services, excluding on a fee or contract basis and imputed rent",Intermediate consumption at basic prices,0.597,total impact
+79,Legal services,Intermediate consumption at basic prices,0.344,total impact
+80,"Accounting, bookkeeping and auditing services; tax consulting services",Intermediate consumption at basic prices,0.243,total impact
+81,Services of head offices; management consulting services,Intermediate consumption at basic prices,0.626,total impact
+82,Architectural and engineering services; technical testing and analysis services,Intermediate consumption at basic prices,0.837,total impact
+83,Scientific research and development services,Intermediate consumption at basic prices,0.696,total impact
+84,Advertising and market research services,Intermediate consumption at basic prices,0.578,total impact
+85,"Other professional, scientific and technical services",Intermediate consumption at basic prices,0.869,total impact
+86,Veterinary services,Intermediate consumption at basic prices,0.357,total impact
+87,Rental and leasing services,Intermediate consumption at basic prices,0.506,total impact
+88,Employment services,Intermediate consumption at basic prices,0.505,total impact
+89,"Travel agency, tour operator and other reservation services and related services",Intermediate consumption at basic prices,0.973,total impact
+90,Security and investigation services,Intermediate consumption at basic prices,0.613,total impact
+91,Services to buildings and landscape,Intermediate consumption at basic prices,0.869,total impact
+92,"Office administrative, office support and other business support services",Intermediate consumption at basic prices,0.599,total impact
+93,Public administration and defence services; compulsory social security services,Intermediate consumption at basic prices,0.556,total impact
+94,Education services,Intermediate consumption at basic prices,0.407,total impact
+95,Human health services,Intermediate consumption at basic prices,0.477,total impact
+96,Residential Care  & Social Work Activities,Intermediate consumption at basic prices,0.582,total impact
+97,"Creative, arts and entertainment services",Intermediate consumption at basic prices,0.646,total impact
+98,"Libraries, archives, museums and other cultural services",Intermediate consumption at basic prices,0.644,total impact
+99,Gambling and betting services,Intermediate consumption at basic prices,0.565,total impact
+100,Sports services and amusement and recreation services,Intermediate consumption at basic prices,0.611,total impact
+101,Services furnished by membership organisations,Intermediate consumption at basic prices,0.647,total impact
+102,Repair services of computers and personal and household goods,Intermediate consumption at basic prices,0.447,total impact
+103,Other personal services,Intermediate consumption at basic prices,0.252,total impact
+104,Services of households as employers of domestic personnel,Intermediate consumption at basic prices,0.0,total impact
+105,"Products of agriculture, hunting and related services","Use of imported products, cif",0.151,total impact
+106,"Products of forestry, logging and related services","Use of imported products, cif",0.106,total impact
+107,Fish and other fishing products; aquaculture products; support services to fishing,"Use of imported products, cif",0.252,total impact
+108,Coal and lignite,"Use of imported products, cif",0.126,total impact
+109,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,"Use of imported products, cif",0.083,total impact
+110,Other mining and quarrying products,"Use of imported products, cif",0.283,total impact
+111,Mining support services,"Use of imported products, cif",0.2,total impact
+112,Preserved meat and meat products,"Use of imported products, cif",0.139,total impact
+113,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables","Use of imported products, cif",0.137,total impact
+114,Vegetable and animal oils and fats,"Use of imported products, cif",0.372,total impact
+115,Dairy products,"Use of imported products, cif",0.134,total impact
+116,"Grain mill products, starches and starch products","Use of imported products, cif",0.211,total impact
+117,Bakery and farinaceous products,"Use of imported products, cif",0.141,total impact
+118,Other food products,"Use of imported products, cif",0.203,total impact
+119,Prepared animal feeds,"Use of imported products, cif",0.197,total impact
+120,Alcoholic beverages  & Tobacco products,"Use of imported products, cif",0.137,total impact
+121,Soft drinks,"Use of imported products, cif",0.148,total impact
+122,Textiles,"Use of imported products, cif",0.227,total impact
+123,Wearing apparel,"Use of imported products, cif",0.119,total impact
+124,Leather and related products,"Use of imported products, cif",0.273,total impact
+125,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials","Use of imported products, cif",0.35,total impact
+126,Paper and paper products,"Use of imported products, cif",0.317,total impact
+127,Printing and recording services,"Use of imported products, cif",0.269,total impact
+128,Coke and refined petroleum products,"Use of imported products, cif",0.804,total impact
+129,"Paints, varnishes and similar coatings, printing ink and mastics","Use of imported products, cif",0.313,total impact
+130,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations","Use of imported products, cif",0.195,total impact
+131,Other chemical products,"Use of imported products, cif",0.377,total impact
+132,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15","Use of imported products, cif",0.464,total impact
+133,Petrochemicals - 20.14/16/17/60,"Use of imported products, cif",0.437,total impact
+134,"Dyestuffs, agro-chemicals - 20.12/20","Use of imported products, cif",0.322,total impact
+135,Basic pharmaceutical products and pharmaceutical preparations,"Use of imported products, cif",0.224,total impact
+136,Rubber and plastic products,"Use of imported products, cif",0.393,total impact
+137,"Cement, lime, plaster and articles of concrete, cement and plaster","Use of imported products, cif",0.252,total impact
+138,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9","Use of imported products, cif",0.292,total impact
+139,Basic iron and steel,"Use of imported products, cif",0.363,total impact
+140,Other basic metals and casting,"Use of imported products, cif",0.421,total impact
+141,Weapons and ammunition,"Use of imported products, cif",0.256,total impact
+142,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9","Use of imported products, cif",0.292,total impact
+143,"Computer, electronic and optical products","Use of imported products, cif",0.173,total impact
+144,Electrical equipment,"Use of imported products, cif",0.292,total impact
+145,Machinery and equipment n.e.c.,"Use of imported products, cif",0.273,total impact
+146,"Motor vehicles, trailers and semi-trailers","Use of imported products, cif",0.389,total impact
+147,Ships and boats,"Use of imported products, cif",0.113,total impact
+148,Air and spacecraft and related machinery,"Use of imported products, cif",0.267,total impact
+149,Other transport equipment - 30.2/4/9,"Use of imported products, cif",0.228,total impact
+150,Furniture,"Use of imported products, cif",0.232,total impact
+151,Other manufactured goods,"Use of imported products, cif",0.26,total impact
+152,Repair and maintenance of ships and boats,"Use of imported products, cif",0.08,total impact
+153,Repair and maintenance of aircraft and spacecraft,"Use of imported products, cif",0.205,total impact
+154,Rest of repair; Installation - 33.11-14/17/19/20,"Use of imported products, cif",0.234,total impact
+155,"Electricity, transmission and distribution","Use of imported products, cif",0.216,total impact
+156,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,"Use of imported products, cif",0.302,total impact
+157,Natural water; water treatment and supply services,"Use of imported products, cif",0.049,total impact
+158,Sewerage services; sewage sludge,"Use of imported products, cif",0.021,total impact
+159,"Waste collection, treatment and disposal services; materials recovery services","Use of imported products, cif",0.194,total impact
+160,Remediation services and other waste management services,"Use of imported products, cif",0.057,total impact
+161,Construction,"Use of imported products, cif",0.125,total impact
+162,Wholesale and retail trade and repair services of motor vehicles and motorcycles,"Use of imported products, cif",0.126,total impact
+163,"Wholesale trade services, except of motor vehicles and motorcycles","Use of imported products, cif",0.147,total impact
+164,"Retail trade services, except of motor vehicles and motorcycles","Use of imported products, cif",0.075,total impact
+165,Rail transport services,"Use of imported products, cif",0.123,total impact
+166,"Land transport services and transport services via pipelines, excluding rail transport","Use of imported products, cif",0.144,total impact
+167,Water transport services,"Use of imported products, cif",0.316,total impact
+168,Air transport services,"Use of imported products, cif",0.393,total impact
+169,Warehousing and support services for transportation,"Use of imported products, cif",0.115,total impact
+170,Postal and courier services,"Use of imported products, cif",0.088,total impact
+171,Accommodation services,"Use of imported products, cif",0.072,total impact
+172,Food and beverage serving services,"Use of imported products, cif",0.094,total impact
+173,Publishing services,"Use of imported products, cif",0.117,total impact
+174,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities","Use of imported products, cif",0.178,total impact
+175,Telecommunications services,"Use of imported products, cif",0.151,total impact
+176,"Computer programming, consultancy and related services","Use of imported products, cif",0.125,total impact
+177,Information services,"Use of imported products, cif",0.106,total impact
+178,"Financial services, except insurance and pension funding","Use of imported products, cif",0.137,total impact
+179,"Insurance, reinsurance and pension funding services, except compulsory social security","Use of imported products, cif",0.161,total impact
+180,Services auxiliary to financial services and insurance services,"Use of imported products, cif",0.072,total impact
+181,Real estate services on a fee or contract basis,"Use of imported products, cif",0.051,total impact
+182,Owner-Occupiers' Housing Services,"Use of imported products, cif",0.018,total impact
+183,"Real estate services, excluding on a fee or contract basis and imputed rent","Use of imported products, cif",0.078,total impact
+184,Legal services,"Use of imported products, cif",0.041,total impact
+185,"Accounting, bookkeeping and auditing services; tax consulting services","Use of imported products, cif",0.068,total impact
+186,Services of head offices; management consulting services,"Use of imported products, cif",0.141,total impact
+187,Architectural and engineering services; technical testing and analysis services,"Use of imported products, cif",0.134,total impact
+188,Scientific research and development services,"Use of imported products, cif",0.143,total impact
+189,Advertising and market research services,"Use of imported products, cif",0.143,total impact
+190,"Other professional, scientific and technical services","Use of imported products, cif",0.13,total impact
+191,Veterinary services,"Use of imported products, cif",0.048,total impact
+192,Rental and leasing services,"Use of imported products, cif",0.077,total impact
+193,Employment services,"Use of imported products, cif",0.063,total impact
+194,"Travel agency, tour operator and other reservation services and related services","Use of imported products, cif",0.132,total impact
+195,Security and investigation services,"Use of imported products, cif",0.066,total impact
+196,Services to buildings and landscape,"Use of imported products, cif",0.095,total impact
+197,"Office administrative, office support and other business support services","Use of imported products, cif",0.183,total impact
+198,Public administration and defence services; compulsory social security services,"Use of imported products, cif",0.099,total impact
+199,Education services,"Use of imported products, cif",0.046,total impact
+200,Human health services,"Use of imported products, cif",0.107,total impact
+201,Residential Care  & Social Work Activities,"Use of imported products, cif",0.045,total impact
+202,"Creative, arts and entertainment services","Use of imported products, cif",0.074,total impact
+203,"Libraries, archives, museums and other cultural services","Use of imported products, cif",0.083,total impact
+204,Gambling and betting services,"Use of imported products, cif",0.071,total impact
+205,Sports services and amusement and recreation services,"Use of imported products, cif",0.076,total impact
+206,Services furnished by membership organisations,"Use of imported products, cif",0.072,total impact
+207,Repair services of computers and personal and household goods,"Use of imported products, cif",0.11,total impact
+208,Other personal services,"Use of imported products, cif",0.059,total impact
+209,Services of households as employers of domestic personnel,"Use of imported products, cif",0.0,total impact
+210,"Products of agriculture, hunting and related services",Taxes less subsidies on products,0.031,total impact
+211,"Products of forestry, logging and related services",Taxes less subsidies on products,0.031,total impact
+212,Fish and other fishing products; aquaculture products; support services to fishing,Taxes less subsidies on products,0.026,total impact
+213,Coal and lignite,Taxes less subsidies on products,0.016,total impact
+214,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Taxes less subsidies on products,0.01,total impact
+215,Other mining and quarrying products,Taxes less subsidies on products,0.029,total impact
+216,Mining support services,Taxes less subsidies on products,0.014,total impact
+217,Preserved meat and meat products,Taxes less subsidies on products,0.018,total impact
+218,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Taxes less subsidies on products,0.017,total impact
+219,Vegetable and animal oils and fats,Taxes less subsidies on products,0.013,total impact
+220,Dairy products,Taxes less subsidies on products,0.02,total impact
+221,"Grain mill products, starches and starch products",Taxes less subsidies on products,0.015,total impact
+222,Bakery and farinaceous products,Taxes less subsidies on products,0.014,total impact
+223,Other food products,Taxes less subsidies on products,0.013,total impact
+224,Prepared animal feeds,Taxes less subsidies on products,0.019,total impact
+225,Alcoholic beverages  & Tobacco products,Taxes less subsidies on products,0.036,total impact
+226,Soft drinks,Taxes less subsidies on products,0.013,total impact
+227,Textiles,Taxes less subsidies on products,0.008,total impact
+228,Wearing apparel,Taxes less subsidies on products,0.008,total impact
+229,Leather and related products,Taxes less subsidies on products,0.011,total impact
+230,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Taxes less subsidies on products,0.012,total impact
+231,Paper and paper products,Taxes less subsidies on products,0.012,total impact
+232,Printing and recording services,Taxes less subsidies on products,0.008,total impact
+233,Coke and refined petroleum products,Taxes less subsidies on products,0.024,total impact
+234,"Paints, varnishes and similar coatings, printing ink and mastics",Taxes less subsidies on products,0.014,total impact
+235,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Taxes less subsidies on products,0.009,total impact
+236,Other chemical products,Taxes less subsidies on products,0.014,total impact
+237,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Taxes less subsidies on products,0.016,total impact
+238,Petrochemicals - 20.14/16/17/60,Taxes less subsidies on products,0.032,total impact
+239,"Dyestuffs, agro-chemicals - 20.12/20",Taxes less subsidies on products,0.01,total impact
+240,Basic pharmaceutical products and pharmaceutical preparations,Taxes less subsidies on products,0.009,total impact
+241,Rubber and plastic products,Taxes less subsidies on products,0.013,total impact
+242,"Cement, lime, plaster and articles of concrete, cement and plaster",Taxes less subsidies on products,0.023,total impact
+243,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Taxes less subsidies on products,0.027,total impact
+244,Basic iron and steel,Taxes less subsidies on products,0.02,total impact
+245,Other basic metals and casting,Taxes less subsidies on products,0.009,total impact
+246,Weapons and ammunition,Taxes less subsidies on products,0.009,total impact
+247,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Taxes less subsidies on products,0.009,total impact
+248,"Computer, electronic and optical products",Taxes less subsidies on products,0.006,total impact
+249,Electrical equipment,Taxes less subsidies on products,0.01,total impact
+250,Machinery and equipment n.e.c.,Taxes less subsidies on products,0.009,total impact
+251,"Motor vehicles, trailers and semi-trailers",Taxes less subsidies on products,0.01,total impact
+252,Ships and boats,Taxes less subsidies on products,0.015,total impact
+253,Air and spacecraft and related machinery,Taxes less subsidies on products,0.011,total impact
+254,Other transport equipment - 30.2/4/9,Taxes less subsidies on products,0.013,total impact
+255,Furniture,Taxes less subsidies on products,0.011,total impact
+256,Other manufactured goods,Taxes less subsidies on products,0.01,total impact
+257,Repair and maintenance of ships and boats,Taxes less subsidies on products,0.008,total impact
+258,Repair and maintenance of aircraft and spacecraft,Taxes less subsidies on products,0.008,total impact
+259,Rest of repair; Installation - 33.11-14/17/19/20,Taxes less subsidies on products,0.012,total impact
+260,"Electricity, transmission and distribution",Taxes less subsidies on products,0.027,total impact
+261,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Taxes less subsidies on products,0.019,total impact
+262,Natural water; water treatment and supply services,Taxes less subsidies on products,0.009,total impact
+263,Sewerage services; sewage sludge,Taxes less subsidies on products,0.019,total impact
+264,"Waste collection, treatment and disposal services; materials recovery services",Taxes less subsidies on products,0.089,total impact
+265,Remediation services and other waste management services,Taxes less subsidies on products,0.012,total impact
+266,Construction,Taxes less subsidies on products,0.037,total impact
+267,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Taxes less subsidies on products,0.01,total impact
+268,"Wholesale trade services, except of motor vehicles and motorcycles",Taxes less subsidies on products,0.021,total impact
+269,"Retail trade services, except of motor vehicles and motorcycles",Taxes less subsidies on products,0.012,total impact
+270,Rail transport services,Taxes less subsidies on products,0.013,total impact
+271,"Land transport services and transport services via pipelines, excluding rail transport",Taxes less subsidies on products,0.041,total impact
+272,Water transport services,Taxes less subsidies on products,0.036,total impact
+273,Air transport services,Taxes less subsidies on products,0.106,total impact
+274,Warehousing and support services for transportation,Taxes less subsidies on products,0.024,total impact
+275,Postal and courier services,Taxes less subsidies on products,0.049,total impact
+276,Accommodation services,Taxes less subsidies on products,0.031,total impact
+277,Food and beverage serving services,Taxes less subsidies on products,0.039,total impact
+278,Publishing services,Taxes less subsidies on products,0.008,total impact
+279,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Taxes less subsidies on products,0.008,total impact
+280,Telecommunications services,Taxes less subsidies on products,0.006,total impact
+281,"Computer programming, consultancy and related services",Taxes less subsidies on products,0.012,total impact
+282,Information services,Taxes less subsidies on products,0.01,total impact
+283,"Financial services, except insurance and pension funding",Taxes less subsidies on products,0.05,total impact
+284,"Insurance, reinsurance and pension funding services, except compulsory social security",Taxes less subsidies on products,0.068,total impact
+285,Services auxiliary to financial services and insurance services,Taxes less subsidies on products,0.047,total impact
+286,Real estate services on a fee or contract basis,Taxes less subsidies on products,0.014,total impact
+287,Owner-Occupiers' Housing Services,Taxes less subsidies on products,0.006,total impact
+288,"Real estate services, excluding on a fee or contract basis and imputed rent",Taxes less subsidies on products,0.02,total impact
+289,Legal services,Taxes less subsidies on products,0.006,total impact
+290,"Accounting, bookkeeping and auditing services; tax consulting services",Taxes less subsidies on products,0.006,total impact
+291,Services of head offices; management consulting services,Taxes less subsidies on products,0.014,total impact
+292,Architectural and engineering services; technical testing and analysis services,Taxes less subsidies on products,0.015,total impact
+293,Scientific research and development services,Taxes less subsidies on products,0.012,total impact
+294,Advertising and market research services,Taxes less subsidies on products,0.01,total impact
+295,"Other professional, scientific and technical services",Taxes less subsidies on products,0.014,total impact
+296,Veterinary services,Taxes less subsidies on products,0.007,total impact
+297,Rental and leasing services,Taxes less subsidies on products,0.012,total impact
+298,Employment services,Taxes less subsidies on products,0.005,total impact
+299,"Travel agency, tour operator and other reservation services and related services",Taxes less subsidies on products,0.048,total impact
+300,Security and investigation services,Taxes less subsidies on products,0.007,total impact
+301,Services to buildings and landscape,Taxes less subsidies on products,0.013,total impact
+302,"Office administrative, office support and other business support services",Taxes less subsidies on products,0.013,total impact
+303,Public administration and defence services; compulsory social security services,Taxes less subsidies on products,0.048,total impact
+304,Education services,Taxes less subsidies on products,0.026,total impact
+305,Human health services,Taxes less subsidies on products,0.044,total impact
+306,Residential Care  & Social Work Activities,Taxes less subsidies on products,0.045,total impact
+307,"Creative, arts and entertainment services",Taxes less subsidies on products,0.061,total impact
+308,"Libraries, archives, museums and other cultural services",Taxes less subsidies on products,0.012,total impact
+309,Gambling and betting services,Taxes less subsidies on products,0.025,total impact
+310,Sports services and amusement and recreation services,Taxes less subsidies on products,0.047,total impact
+311,Services furnished by membership organisations,Taxes less subsidies on products,0.015,total impact
+312,Repair services of computers and personal and household goods,Taxes less subsidies on products,0.007,total impact
+313,Other personal services,Taxes less subsidies on products,0.024,total impact
+314,Services of households as employers of domestic personnel,Taxes less subsidies on products,0.0,total impact
+315,"Products of agriculture, hunting and related services",Intermediate consumption at purchaser's prices,1.188,total impact
+316,"Products of forestry, logging and related services",Intermediate consumption at purchaser's prices,1.16,total impact
+317,Fish and other fishing products; aquaculture products; support services to fishing,Intermediate consumption at purchaser's prices,1.349,total impact
+318,Coal and lignite,Intermediate consumption at purchaser's prices,1.004,total impact
+319,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Intermediate consumption at purchaser's prices,0.692,total impact
+320,Other mining and quarrying products,Intermediate consumption at purchaser's prices,1.176,total impact
+321,Mining support services,Intermediate consumption at purchaser's prices,1.397,total impact
+322,Preserved meat and meat products,Intermediate consumption at purchaser's prices,1.611,total impact
+323,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Intermediate consumption at purchaser's prices,1.508,total impact
+324,Vegetable and animal oils and fats,Intermediate consumption at purchaser's prices,1.402,total impact
+325,Dairy products,Intermediate consumption at purchaser's prices,1.55,total impact
+326,"Grain mill products, starches and starch products",Intermediate consumption at purchaser's prices,1.555,total impact
+327,Bakery and farinaceous products,Intermediate consumption at purchaser's prices,1.214,total impact
+328,Other food products,Intermediate consumption at purchaser's prices,1.208,total impact
+329,Prepared animal feeds,Intermediate consumption at purchaser's prices,1.764,total impact
+330,Alcoholic beverages  & Tobacco products,Intermediate consumption at purchaser's prices,1.198,total impact
+331,Soft drinks,Intermediate consumption at purchaser's prices,1.173,total impact
+332,Textiles,Intermediate consumption at purchaser's prices,0.719,total impact
+333,Wearing apparel,Intermediate consumption at purchaser's prices,0.693,total impact
+334,Leather and related products,Intermediate consumption at purchaser's prices,0.981,total impact
+335,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Intermediate consumption at purchaser's prices,0.951,total impact
+336,Paper and paper products,Intermediate consumption at purchaser's prices,1.058,total impact
+337,Printing and recording services,Intermediate consumption at purchaser's prices,0.879,total impact
+338,Coke and refined petroleum products,Intermediate consumption at purchaser's prices,0.974,total impact
+339,"Paints, varnishes and similar coatings, printing ink and mastics",Intermediate consumption at purchaser's prices,1.056,total impact
+340,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Intermediate consumption at purchaser's prices,0.898,total impact
+341,Other chemical products,Intermediate consumption at purchaser's prices,1.027,total impact
+342,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Intermediate consumption at purchaser's prices,1.226,total impact
+343,Petrochemicals - 20.14/16/17/60,Intermediate consumption at purchaser's prices,1.323,total impact
+344,"Dyestuffs, agro-chemicals - 20.12/20",Intermediate consumption at purchaser's prices,0.837,total impact
+345,Basic pharmaceutical products and pharmaceutical preparations,Intermediate consumption at purchaser's prices,0.803,total impact
+346,Rubber and plastic products,Intermediate consumption at purchaser's prices,1.05,total impact
+347,"Cement, lime, plaster and articles of concrete, cement and plaster",Intermediate consumption at purchaser's prices,0.998,total impact
+348,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Intermediate consumption at purchaser's prices,1.049,total impact
+349,Basic iron and steel,Intermediate consumption at purchaser's prices,1.178,total impact
+350,Other basic metals and casting,Intermediate consumption at purchaser's prices,0.928,total impact
+351,Weapons and ammunition,Intermediate consumption at purchaser's prices,1.146,total impact
+352,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Intermediate consumption at purchaser's prices,0.774,total impact
+353,"Computer, electronic and optical products",Intermediate consumption at purchaser's prices,0.686,total impact
+354,Electrical equipment,Intermediate consumption at purchaser's prices,0.986,total impact
+355,Machinery and equipment n.e.c.,Intermediate consumption at purchaser's prices,0.92,total impact
+356,"Motor vehicles, trailers and semi-trailers",Intermediate consumption at purchaser's prices,1.088,total impact
+357,Ships and boats,Intermediate consumption at purchaser's prices,0.946,total impact
+358,Air and spacecraft and related machinery,Intermediate consumption at purchaser's prices,1.181,total impact
+359,Other transport equipment - 30.2/4/9,Intermediate consumption at purchaser's prices,1.176,total impact
+360,Furniture,Intermediate consumption at purchaser's prices,0.876,total impact
+361,Other manufactured goods,Intermediate consumption at purchaser's prices,0.766,total impact
+362,Repair and maintenance of ships and boats,Intermediate consumption at purchaser's prices,0.58,total impact
+363,Repair and maintenance of aircraft and spacecraft,Intermediate consumption at purchaser's prices,1.297,total impact
+364,Rest of repair; Installation - 33.11-14/17/19/20,Intermediate consumption at purchaser's prices,0.875,total impact
+365,"Electricity, transmission and distribution",Intermediate consumption at purchaser's prices,1.906,total impact
+366,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Intermediate consumption at purchaser's prices,1.841,total impact
+367,Natural water; water treatment and supply services,Intermediate consumption at purchaser's prices,0.584,total impact
+368,Sewerage services; sewage sludge,Intermediate consumption at purchaser's prices,0.352,total impact
+369,"Waste collection, treatment and disposal services; materials recovery services",Intermediate consumption at purchaser's prices,1.053,total impact
+370,Remediation services and other waste management services,Intermediate consumption at purchaser's prices,0.857,total impact
+371,Construction,Intermediate consumption at purchaser's prices,1.231,total impact
+372,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Intermediate consumption at purchaser's prices,0.742,total impact
+373,"Wholesale trade services, except of motor vehicles and motorcycles",Intermediate consumption at purchaser's prices,0.872,total impact
+374,"Retail trade services, except of motor vehicles and motorcycles",Intermediate consumption at purchaser's prices,0.688,total impact
+375,Rail transport services,Intermediate consumption at purchaser's prices,1.225,total impact
+376,"Land transport services and transport services via pipelines, excluding rail transport",Intermediate consumption at purchaser's prices,0.906,total impact
+377,Water transport services,Intermediate consumption at purchaser's prices,0.846,total impact
+378,Air transport services,Intermediate consumption at purchaser's prices,1.23,total impact
+379,Warehousing and support services for transportation,Intermediate consumption at purchaser's prices,1.007,total impact
+380,Postal and courier services,Intermediate consumption at purchaser's prices,0.767,total impact
+381,Accommodation services,Intermediate consumption at purchaser's prices,0.852,total impact
+382,Food and beverage serving services,Intermediate consumption at purchaser's prices,0.879,total impact
+383,Publishing services,Intermediate consumption at purchaser's prices,0.803,total impact
+384,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Intermediate consumption at purchaser's prices,0.91,total impact
+385,Telecommunications services,Intermediate consumption at purchaser's prices,0.566,total impact
+386,"Computer programming, consultancy and related services",Intermediate consumption at purchaser's prices,0.718,total impact
+387,Information services,Intermediate consumption at purchaser's prices,0.703,total impact
+388,"Financial services, except insurance and pension funding",Intermediate consumption at purchaser's prices,0.774,total impact
+389,"Insurance, reinsurance and pension funding services, except compulsory social security",Intermediate consumption at purchaser's prices,1.032,total impact
+390,Services auxiliary to financial services and insurance services,Intermediate consumption at purchaser's prices,0.714,total impact
+391,Real estate services on a fee or contract basis,Intermediate consumption at purchaser's prices,0.638,total impact
+392,Owner-Occupiers' Housing Services,Intermediate consumption at purchaser's prices,0.261,total impact
+393,"Real estate services, excluding on a fee or contract basis and imputed rent",Intermediate consumption at purchaser's prices,0.695,total impact
+394,Legal services,Intermediate consumption at purchaser's prices,0.39,total impact
+395,"Accounting, bookkeeping and auditing services; tax consulting services",Intermediate consumption at purchaser's prices,0.316,total impact
+396,Services of head offices; management consulting services,Intermediate consumption at purchaser's prices,0.781,total impact
+397,Architectural and engineering services; technical testing and analysis services,Intermediate consumption at purchaser's prices,0.986,total impact
+398,Scientific research and development services,Intermediate consumption at purchaser's prices,0.851,total impact
+399,Advertising and market research services,Intermediate consumption at purchaser's prices,0.731,total impact
+400,"Other professional, scientific and technical services",Intermediate consumption at purchaser's prices,1.013,total impact
+401,Veterinary services,Intermediate consumption at purchaser's prices,0.412,total impact
+402,Rental and leasing services,Intermediate consumption at purchaser's prices,0.595,total impact
+403,Employment services,Intermediate consumption at purchaser's prices,0.572,total impact
+404,"Travel agency, tour operator and other reservation services and related services",Intermediate consumption at purchaser's prices,1.153,total impact
+405,Security and investigation services,Intermediate consumption at purchaser's prices,0.686,total impact
+406,Services to buildings and landscape,Intermediate consumption at purchaser's prices,0.976,total impact
+407,"Office administrative, office support and other business support services",Intermediate consumption at purchaser's prices,0.795,total impact
+408,Public administration and defence services; compulsory social security services,Intermediate consumption at purchaser's prices,0.703,total impact
+409,Education services,Intermediate consumption at purchaser's prices,0.479,total impact
+410,Human health services,Intermediate consumption at purchaser's prices,0.629,total impact
+411,Residential Care  & Social Work Activities,Intermediate consumption at purchaser's prices,0.672,total impact
+412,"Creative, arts and entertainment services",Intermediate consumption at purchaser's prices,0.781,total impact
+413,"Libraries, archives, museums and other cultural services",Intermediate consumption at purchaser's prices,0.739,total impact
+414,Gambling and betting services,Intermediate consumption at purchaser's prices,0.661,total impact
+415,Sports services and amusement and recreation services,Intermediate consumption at purchaser's prices,0.734,total impact
+416,Services furnished by membership organisations,Intermediate consumption at purchaser's prices,0.734,total impact
+417,Repair services of computers and personal and household goods,Intermediate consumption at purchaser's prices,0.563,total impact
+418,Other personal services,Intermediate consumption at purchaser's prices,0.335,total impact
+419,Services of households as employers of domestic personnel,Intermediate consumption at purchaser's prices,0.0,total impact
+420,"Products of agriculture, hunting and related services",Compensation of employees,0.371,total impact
+421,"Products of forestry, logging and related services",Compensation of employees,0.577,total impact
+422,Fish and other fishing products; aquaculture products; support services to fishing,Compensation of employees,0.408,total impact
+423,Coal and lignite,Compensation of employees,0.457,total impact
+424,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Compensation of employees,0.247,total impact
+425,Other mining and quarrying products,Compensation of employees,0.386,total impact
+426,Mining support services,Compensation of employees,0.547,total impact
+427,Preserved meat and meat products,Compensation of employees,0.524,total impact
+428,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Compensation of employees,0.533,total impact
+429,Vegetable and animal oils and fats,Compensation of employees,0.384,total impact
+430,Dairy products,Compensation of employees,0.449,total impact
+431,"Grain mill products, starches and starch products",Compensation of employees,0.461,total impact
+432,Bakery and farinaceous products,Compensation of employees,0.567,total impact
+433,Other food products,Compensation of employees,0.498,total impact
+434,Prepared animal feeds,Compensation of employees,0.458,total impact
+435,Alcoholic beverages  & Tobacco products,Compensation of employees,0.416,total impact
+436,Soft drinks,Compensation of employees,0.411,total impact
+437,Textiles,Compensation of employees,0.461,total impact
+438,Wearing apparel,Compensation of employees,0.553,total impact
+439,Leather and related products,Compensation of employees,0.48,total impact
+440,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Compensation of employees,0.398,total impact
+441,Paper and paper products,Compensation of employees,0.448,total impact
+442,Printing and recording services,Compensation of employees,0.487,total impact
+443,Coke and refined petroleum products,Compensation of employees,0.062,total impact
+444,"Paints, varnishes and similar coatings, printing ink and mastics",Compensation of employees,0.477,total impact
+445,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Compensation of employees,0.427,total impact
+446,Other chemical products,Compensation of employees,0.35,total impact
+447,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Compensation of employees,0.294,total impact
+448,Petrochemicals - 20.14/16/17/60,Compensation of employees,0.304,total impact
+449,"Dyestuffs, agro-chemicals - 20.12/20",Compensation of employees,0.364,total impact
+450,Basic pharmaceutical products and pharmaceutical preparations,Compensation of employees,0.385,total impact
+451,Rubber and plastic products,Compensation of employees,0.413,total impact
+452,"Cement, lime, plaster and articles of concrete, cement and plaster",Compensation of employees,0.418,total impact
+453,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Compensation of employees,0.448,total impact
+454,Basic iron and steel,Compensation of employees,0.421,total impact
+455,Other basic metals and casting,Compensation of employees,0.331,total impact
+456,Weapons and ammunition,Compensation of employees,0.555,total impact
+457,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Compensation of employees,0.462,total impact
+458,"Computer, electronic and optical products",Compensation of employees,0.576,total impact
+459,Electrical equipment,Compensation of employees,0.482,total impact
+460,Machinery and equipment n.e.c.,Compensation of employees,0.443,total impact
+461,"Motor vehicles, trailers and semi-trailers",Compensation of employees,0.374,total impact
+462,Ships and boats,Compensation of employees,0.593,total impact
+463,Air and spacecraft and related machinery,Compensation of employees,0.46,total impact
+464,Other transport equipment - 30.2/4/9,Compensation of employees,0.473,total impact
+465,Furniture,Compensation of employees,0.519,total impact
+466,Other manufactured goods,Compensation of employees,0.464,total impact
+467,Repair and maintenance of ships and boats,Compensation of employees,0.544,total impact
+468,Repair and maintenance of aircraft and spacecraft,Compensation of employees,0.492,total impact
+469,Rest of repair; Installation - 33.11-14/17/19/20,Compensation of employees,0.49,total impact
+470,"Electricity, transmission and distribution",Compensation of employees,0.288,total impact
+471,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Compensation of employees,0.278,total impact
+472,Natural water; water treatment and supply services,Compensation of employees,0.302,total impact
+473,Sewerage services; sewage sludge,Compensation of employees,0.212,total impact
+474,"Waste collection, treatment and disposal services; materials recovery services",Compensation of employees,0.412,total impact
+475,Remediation services and other waste management services,Compensation of employees,0.392,total impact
+476,Construction,Compensation of employees,0.416,total impact
+477,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Compensation of employees,0.592,total impact
+478,"Wholesale trade services, except of motor vehicles and motorcycles",Compensation of employees,0.544,total impact
+479,"Retail trade services, except of motor vehicles and motorcycles",Compensation of employees,0.535,total impact
+480,Rail transport services,Compensation of employees,0.583,total impact
+481,"Land transport services and transport services via pipelines, excluding rail transport",Compensation of employees,0.571,total impact
+482,Water transport services,Compensation of employees,0.365,total impact
+483,Air transport services,Compensation of employees,0.312,total impact
+484,Warehousing and support services for transportation,Compensation of employees,0.604,total impact
+485,Postal and courier services,Compensation of employees,0.617,total impact
+486,Accommodation services,Compensation of employees,0.499,total impact
+487,Food and beverage serving services,Compensation of employees,0.577,total impact
+488,Publishing services,Compensation of employees,0.533,total impact
+489,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Compensation of employees,0.393,total impact
+490,Telecommunications services,Compensation of employees,0.453,total impact
+491,"Computer programming, consultancy and related services",Compensation of employees,0.602,total impact
+492,Information services,Compensation of employees,0.518,total impact
+493,"Financial services, except insurance and pension funding",Compensation of employees,0.442,total impact
+494,"Insurance, reinsurance and pension funding services, except compulsory social security",Compensation of employees,0.297,total impact
+495,Services auxiliary to financial services and insurance services,Compensation of employees,0.494,total impact
+496,Real estate services on a fee or contract basis,Compensation of employees,0.622,total impact
+497,Owner-Occupiers' Housing Services,Compensation of employees,0.058,total impact
+498,"Real estate services, excluding on a fee or contract basis and imputed rent",Compensation of employees,0.288,total impact
+499,Legal services,Compensation of employees,0.44,total impact
+500,"Accounting, bookkeeping and auditing services; tax consulting services",Compensation of employees,0.563,total impact
+501,Services of head offices; management consulting services,Compensation of employees,0.576,total impact
+502,Architectural and engineering services; technical testing and analysis services,Compensation of employees,0.613,total impact
+503,Scientific research and development services,Compensation of employees,0.529,total impact
+504,Advertising and market research services,Compensation of employees,0.454,total impact
+505,"Other professional, scientific and technical services",Compensation of employees,0.566,total impact
+506,Veterinary services,Compensation of employees,0.612,total impact
+507,Rental and leasing services,Compensation of employees,0.46,total impact
+508,Employment services,Compensation of employees,0.715,total impact
+509,"Travel agency, tour operator and other reservation services and related services",Compensation of employees,0.475,total impact
+510,Security and investigation services,Compensation of employees,0.543,total impact
+511,Services to buildings and landscape,Compensation of employees,0.508,total impact
+512,"Office administrative, office support and other business support services",Compensation of employees,0.496,total impact
+513,Public administration and defence services; compulsory social security services,Compensation of employees,0.568,total impact
+514,Education services,Compensation of employees,0.688,total impact
+515,Human health services,Compensation of employees,0.6,total impact
+516,Residential Care  & Social Work Activities,Compensation of employees,0.734,total impact
+517,"Creative, arts and entertainment services",Compensation of employees,0.399,total impact
+518,"Libraries, archives, museums and other cultural services",Compensation of employees,0.591,total impact
+519,Gambling and betting services,Compensation of employees,0.361,total impact
+520,Sports services and amusement and recreation services,Compensation of employees,0.574,total impact
+521,Services furnished by membership organisations,Compensation of employees,0.664,total impact
+522,Repair services of computers and personal and household goods,Compensation of employees,0.496,total impact
+523,Other personal services,Compensation of employees,0.303,total impact
+524,Services of households as employers of domestic personnel,Compensation of employees,1.0,total impact
+525,"Products of agriculture, hunting and related services",Gross operating surplus and mixed income,0.521,total impact
+526,"Products of forestry, logging and related services",Gross operating surplus and mixed income,0.281,total impact
+527,Fish and other fishing products; aquaculture products; support services to fishing,Gross operating surplus and mixed income,0.302,total impact
+528,Coal and lignite,Gross operating surplus and mixed income,0.426,total impact
+529,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Gross operating surplus and mixed income,0.653,total impact
+530,Other mining and quarrying products,Gross operating surplus and mixed income,0.285,total impact
+531,Mining support services,Gross operating surplus and mixed income,0.224,total impact
+532,Preserved meat and meat products,Gross operating surplus and mixed income,0.334,total impact
+533,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Gross operating surplus and mixed income,0.315,total impact
+534,Vegetable and animal oils and fats,Gross operating surplus and mixed income,0.253,total impact
+535,Dairy products,Gross operating surplus and mixed income,0.418,total impact
+536,"Grain mill products, starches and starch products",Gross operating surplus and mixed income,0.321,total impact
+537,Bakery and farinaceous products,Gross operating surplus and mixed income,0.27,total impact
+538,Other food products,Gross operating surplus and mixed income,0.277,total impact
+539,Prepared animal feeds,Gross operating surplus and mixed income,0.334,total impact
+540,Alcoholic beverages  & Tobacco products,Gross operating surplus and mixed income,0.407,total impact
+541,Soft drinks,Gross operating surplus and mixed income,0.424,total impact
+542,Textiles,Gross operating surplus and mixed income,0.295,total impact
+543,Wearing apparel,Gross operating surplus and mixed income,0.317,total impact
+544,Leather and related products,Gross operating surplus and mixed income,0.261,total impact
+545,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Gross operating surplus and mixed income,0.23,total impact
+546,Paper and paper products,Gross operating surplus and mixed income,0.211,total impact
+547,Printing and recording services,Gross operating surplus and mixed income,0.224,total impact
+548,Coke and refined petroleum products,Gross operating surplus and mixed income,0.107,total impact
+549,"Paints, varnishes and similar coatings, printing ink and mastics",Gross operating surplus and mixed income,0.195,total impact
+550,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Gross operating surplus and mixed income,0.361,total impact
+551,Other chemical products,Gross operating surplus and mixed income,0.256,total impact
+552,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Gross operating surplus and mixed income,0.218,total impact
+553,Petrochemicals - 20.14/16/17/60,Gross operating surplus and mixed income,0.219,total impact
+554,"Dyestuffs, agro-chemicals - 20.12/20",Gross operating surplus and mixed income,0.309,total impact
+555,Basic pharmaceutical products and pharmaceutical preparations,Gross operating surplus and mixed income,0.376,total impact
+556,Rubber and plastic products,Gross operating surplus and mixed income,0.17,total impact
+557,"Cement, lime, plaster and articles of concrete, cement and plaster",Gross operating surplus and mixed income,0.293,total impact
+558,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Gross operating surplus and mixed income,0.22,total impact
+559,Basic iron and steel,Gross operating surplus and mixed income,0.18,total impact
+560,Other basic metals and casting,Gross operating surplus and mixed income,0.234,total impact
+561,Weapons and ammunition,Gross operating surplus and mixed income,0.178,total impact
+562,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Gross operating surplus and mixed income,0.222,total impact
+563,"Computer, electronic and optical products",Gross operating surplus and mixed income,0.237,total impact
+564,Electrical equipment,Gross operating surplus and mixed income,0.206,total impact
+565,Machinery and equipment n.e.c.,Gross operating surplus and mixed income,0.264,total impact
+566,"Motor vehicles, trailers and semi-trailers",Gross operating surplus and mixed income,0.216,total impact
+567,Ships and boats,Gross operating surplus and mixed income,0.277,total impact
+568,Air and spacecraft and related machinery,Gross operating surplus and mixed income,0.254,total impact
+569,Other transport equipment - 30.2/4/9,Gross operating surplus and mixed income,0.288,total impact
+570,Furniture,Gross operating surplus and mixed income,0.225,total impact
+571,Other manufactured goods,Gross operating surplus and mixed income,0.257,total impact
+572,Repair and maintenance of ships and boats,Gross operating surplus and mixed income,0.386,total impact
+573,Repair and maintenance of aircraft and spacecraft,Gross operating surplus and mixed income,0.293,total impact
+574,Rest of repair; Installation - 33.11-14/17/19/20,Gross operating surplus and mixed income,0.254,total impact
+575,"Electricity, transmission and distribution",Gross operating surplus and mixed income,0.434,total impact
+576,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Gross operating surplus and mixed income,0.368,total impact
+577,Natural water; water treatment and supply services,Gross operating surplus and mixed income,0.583,total impact
+578,Sewerage services; sewage sludge,Gross operating surplus and mixed income,0.725,total impact
+579,"Waste collection, treatment and disposal services; materials recovery services",Gross operating surplus and mixed income,0.29,total impact
+580,Remediation services and other waste management services,Gross operating surplus and mixed income,0.535,total impact
+581,Construction,Gross operating surplus and mixed income,0.41,total impact
+582,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Gross operating surplus and mixed income,0.246,total impact
+583,"Wholesale trade services, except of motor vehicles and motorcycles",Gross operating surplus and mixed income,0.269,total impact
+584,"Retail trade services, except of motor vehicles and motorcycles",Gross operating surplus and mixed income,0.325,total impact
+585,Rail transport services,Gross operating surplus and mixed income,0.257,total impact
+586,"Land transport services and transport services via pipelines, excluding rail transport",Gross operating surplus and mixed income,0.224,total impact
+587,Water transport services,Gross operating surplus and mixed income,0.273,total impact
+588,Air transport services,Gross operating surplus and mixed income,0.185,total impact
+589,Warehousing and support services for transportation,Gross operating surplus and mixed income,0.227,total impact
+590,Postal and courier services,Gross operating surplus and mixed income,0.232,total impact
+591,Accommodation services,Gross operating surplus and mixed income,0.356,total impact
+592,Food and beverage serving services,Gross operating surplus and mixed income,0.257,total impact
+593,Publishing services,Gross operating surplus and mixed income,0.335,total impact
+594,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Gross operating surplus and mixed income,0.451,total impact
+595,Telecommunications services,Gross operating surplus and mixed income,0.377,total impact
+596,"Computer programming, consultancy and related services",Gross operating surplus and mixed income,0.252,total impact
+597,Information services,Gross operating surplus and mixed income,0.363,total impact
+598,"Financial services, except insurance and pension funding",Gross operating surplus and mixed income,0.352,total impact
+599,"Insurance, reinsurance and pension funding services, except compulsory social security",Gross operating surplus and mixed income,0.461,total impact
+600,Services auxiliary to financial services and insurance services,Gross operating surplus and mixed income,0.378,total impact
+601,Real estate services on a fee or contract basis,Gross operating surplus and mixed income,0.278,total impact
+602,Owner-Occupiers' Housing Services,Gross operating surplus and mixed income,0.916,total impact
+603,"Real estate services, excluding on a fee or contract basis and imputed rent",Gross operating surplus and mixed income,0.615,total impact
+604,Legal services,Gross operating surplus and mixed income,0.501,total impact
+605,"Accounting, bookkeeping and auditing services; tax consulting services",Gross operating surplus and mixed income,0.358,total impact
+606,Services of head offices; management consulting services,Gross operating surplus and mixed income,0.256,total impact
+607,Architectural and engineering services; technical testing and analysis services,Gross operating surplus and mixed income,0.225,total impact
+608,Scientific research and development services,Gross operating surplus and mixed income,0.309,total impact
+609,Advertising and market research services,Gross operating surplus and mixed income,0.39,total impact
+610,"Other professional, scientific and technical services",Gross operating surplus and mixed income,0.28,total impact
+611,Veterinary services,Gross operating surplus and mixed income,0.352,total impact
+612,Rental and leasing services,Gross operating surplus and mixed income,0.436,total impact
+613,Employment services,Gross operating surplus and mixed income,0.208,total impact
+614,"Travel agency, tour operator and other reservation services and related services",Gross operating surplus and mixed income,0.335,total impact
+615,Security and investigation services,Gross operating surplus and mixed income,0.38,total impact
+616,Services to buildings and landscape,Gross operating surplus and mixed income,0.376,total impact
+617,"Office administrative, office support and other business support services",Gross operating surplus and mixed income,0.292,total impact
+618,Public administration and defence services; compulsory social security services,Gross operating surplus and mixed income,0.281,total impact
+619,Education services,Gross operating surplus and mixed income,0.233,total impact
+620,Human health services,Gross operating surplus and mixed income,0.243,total impact
+621,Residential Care  & Social Work Activities,Gross operating surplus and mixed income,0.167,total impact
+622,"Creative, arts and entertainment services",Gross operating surplus and mixed income,0.46,total impact
+623,"Libraries, archives, museums and other cultural services",Gross operating surplus and mixed income,0.303,total impact
+624,Gambling and betting services,Gross operating surplus and mixed income,0.525,total impact
+625,Sports services and amusement and recreation services,Gross operating surplus and mixed income,0.278,total impact
+626,Services furnished by membership organisations,Gross operating surplus and mixed income,0.237,total impact
+627,Repair services of computers and personal and household goods,Gross operating surplus and mixed income,0.379,total impact
+628,Other personal services,Gross operating surplus and mixed income,0.595,total impact
+629,Services of households as employers of domestic personnel,Gross operating surplus and mixed income,0.0,total impact
+630,"Products of agriculture, hunting and related services",Taxes less subsidies on production,-0.074,total impact
+631,"Products of forestry, logging and related services",Taxes less subsidies on production,0.005,total impact
+632,Fish and other fishing products; aquaculture products; support services to fishing,Taxes less subsidies on production,0.011,total impact
+633,Coal and lignite,Taxes less subsidies on production,-0.025,total impact
+634,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Taxes less subsidies on production,0.007,total impact
+635,Other mining and quarrying products,Taxes less subsidies on production,0.018,total impact
+636,Mining support services,Taxes less subsidies on production,0.014,total impact
+637,Preserved meat and meat products,Taxes less subsidies on production,-0.016,total impact
+638,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Taxes less subsidies on production,-0.002,total impact
+639,Vegetable and animal oils and fats,Taxes less subsidies on production,-0.022,total impact
+640,Dairy products,Taxes less subsidies on production,-0.021,total impact
+641,"Grain mill products, starches and starch products",Taxes less subsidies on production,-0.008,total impact
+642,Bakery and farinaceous products,Taxes less subsidies on production,0.008,total impact
+643,Other food products,Taxes less subsidies on production,0.009,total impact
+644,Prepared animal feeds,Taxes less subsidies on production,-0.008,total impact
+645,Alcoholic beverages  & Tobacco products,Taxes less subsidies on production,0.004,total impact
+646,Soft drinks,Taxes less subsidies on production,0.003,total impact
+647,Textiles,Taxes less subsidies on production,0.009,total impact
+648,Wearing apparel,Taxes less subsidies on production,0.003,total impact
+649,Leather and related products,Taxes less subsidies on production,-0.026,total impact
+650,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Taxes less subsidies on production,0.01,total impact
+651,Paper and paper products,Taxes less subsidies on production,0.011,total impact
+652,Printing and recording services,Taxes less subsidies on production,0.012,total impact
+653,Coke and refined petroleum products,Taxes less subsidies on production,0.003,total impact
+654,"Paints, varnishes and similar coatings, printing ink and mastics",Taxes less subsidies on production,0.001,total impact
+655,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Taxes less subsidies on production,0.007,total impact
+656,Other chemical products,Taxes less subsidies on production,0.004,total impact
+657,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Taxes less subsidies on production,0.007,total impact
+658,Petrochemicals - 20.14/16/17/60,Taxes less subsidies on production,0.008,total impact
+659,"Dyestuffs, agro-chemicals - 20.12/20",Taxes less subsidies on production,-0.006,total impact
+660,Basic pharmaceutical products and pharmaceutical preparations,Taxes less subsidies on production,0.006,total impact
+661,Rubber and plastic products,Taxes less subsidies on production,0.012,total impact
+662,"Cement, lime, plaster and articles of concrete, cement and plaster",Taxes less subsidies on production,0.014,total impact
+663,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Taxes less subsidies on production,0.013,total impact
+664,Basic iron and steel,Taxes less subsidies on production,0.016,total impact
+665,Other basic metals and casting,Taxes less subsidies on production,0.005,total impact
+666,Weapons and ammunition,Taxes less subsidies on production,0.002,total impact
+667,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Taxes less subsidies on production,0.014,total impact
+668,"Computer, electronic and optical products",Taxes less subsidies on production,0.008,total impact
+669,Electrical equipment,Taxes less subsidies on production,0.01,total impact
+670,Machinery and equipment n.e.c.,Taxes less subsidies on production,0.01,total impact
+671,"Motor vehicles, trailers and semi-trailers",Taxes less subsidies on production,0.011,total impact
+672,Ships and boats,Taxes less subsidies on production,0.001,total impact
+673,Air and spacecraft and related machinery,Taxes less subsidies on production,0.008,total impact
+674,Other transport equipment - 30.2/4/9,Taxes less subsidies on production,-0.003,total impact
+675,Furniture,Taxes less subsidies on production,0.013,total impact
+676,Other manufactured goods,Taxes less subsidies on production,0.009,total impact
+677,Repair and maintenance of ships and boats,Taxes less subsidies on production,-0.019,total impact
+678,Repair and maintenance of aircraft and spacecraft,Taxes less subsidies on production,0.001,total impact
+679,Rest of repair; Installation - 33.11-14/17/19/20,Taxes less subsidies on production,0.009,total impact
+680,"Electricity, transmission and distribution",Taxes less subsidies on production,0.035,total impact
+681,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Taxes less subsidies on production,0.034,total impact
+682,Natural water; water treatment and supply services,Taxes less subsidies on production,0.057,total impact
+683,Sewerage services; sewage sludge,Taxes less subsidies on production,0.023,total impact
+684,"Waste collection, treatment and disposal services; materials recovery services",Taxes less subsidies on production,0.016,total impact
+685,Remediation services and other waste management services,Taxes less subsidies on production,0.003,total impact
+686,Construction,Taxes less subsidies on production,0.011,total impact
+687,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Taxes less subsidies on production,0.025,total impact
+688,"Wholesale trade services, except of motor vehicles and motorcycles",Taxes less subsidies on production,0.019,total impact
+689,"Retail trade services, except of motor vehicles and motorcycles",Taxes less subsidies on production,0.052,total impact
+690,Rail transport services,Taxes less subsidies on production,0.025,total impact
+691,"Land transport services and transport services via pipelines, excluding rail transport",Taxes less subsidies on production,0.02,total impact
+692,Water transport services,Taxes less subsidies on production,0.009,total impact
+693,Air transport services,Taxes less subsidies on production,0.004,total impact
+694,Warehousing and support services for transportation,Taxes less subsidies on production,0.029,total impact
+695,Postal and courier services,Taxes less subsidies on production,0.015,total impact
+696,Accommodation services,Taxes less subsidies on production,0.042,total impact
+697,Food and beverage serving services,Taxes less subsidies on production,0.033,total impact
+698,Publishing services,Taxes less subsidies on production,0.007,total impact
+699,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Taxes less subsidies on production,-0.03,total impact
+700,Telecommunications services,Taxes less subsidies on production,0.013,total impact
+701,"Computer programming, consultancy and related services",Taxes less subsidies on production,0.009,total impact
+702,Information services,Taxes less subsidies on production,0.003,total impact
+703,"Financial services, except insurance and pension funding",Taxes less subsidies on production,0.018,total impact
+704,"Insurance, reinsurance and pension funding services, except compulsory social security",Taxes less subsidies on production,0.013,total impact
+705,Services auxiliary to financial services and insurance services,Taxes less subsidies on production,0.009,total impact
+706,Real estate services on a fee or contract basis,Taxes less subsidies on production,0.036,total impact
+707,Owner-Occupiers' Housing Services,Taxes less subsidies on production,0.002,total impact
+708,"Real estate services, excluding on a fee or contract basis and imputed rent",Taxes less subsidies on production,-0.001,total impact
+709,Legal services,Taxes less subsidies on production,0.012,total impact
+710,"Accounting, bookkeeping and auditing services; tax consulting services",Taxes less subsidies on production,0.005,total impact
+711,Services of head offices; management consulting services,Taxes less subsidies on production,0.013,total impact
+712,Architectural and engineering services; technical testing and analysis services,Taxes less subsidies on production,0.013,total impact
+713,Scientific research and development services,Taxes less subsidies on production,0.006,total impact
+714,Advertising and market research services,Taxes less subsidies on production,0.002,total impact
+715,"Other professional, scientific and technical services",Taxes less subsidies on production,0.01,total impact
+716,Veterinary services,Taxes less subsidies on production,-0.018,total impact
+717,Rental and leasing services,Taxes less subsidies on production,0.014,total impact
+718,Employment services,Taxes less subsidies on production,0.009,total impact
+719,"Travel agency, tour operator and other reservation services and related services",Taxes less subsidies on production,0.01,total impact
+720,Security and investigation services,Taxes less subsidies on production,0.004,total impact
+721,Services to buildings and landscape,Taxes less subsidies on production,0.008,total impact
+722,"Office administrative, office support and other business support services",Taxes less subsidies on production,0.015,total impact
+723,Public administration and defence services; compulsory social security services,Taxes less subsidies on production,0.004,total impact
+724,Education services,Taxes less subsidies on production,0.007,total impact
+725,Human health services,Taxes less subsidies on production,0.005,total impact
+726,Residential Care  & Social Work Activities,Taxes less subsidies on production,0.009,total impact
+727,"Creative, arts and entertainment services",Taxes less subsidies on production,0.006,total impact
+728,"Libraries, archives, museums and other cultural services",Taxes less subsidies on production,0.011,total impact
+729,Gambling and betting services,Taxes less subsidies on production,0.017,total impact
+730,Sports services and amusement and recreation services,Taxes less subsidies on production,0.025,total impact
+731,Services furnished by membership organisations,Taxes less subsidies on production,0.012,total impact
+732,Repair services of computers and personal and household goods,Taxes less subsidies on production,0.008,total impact
+733,Other personal services,Taxes less subsidies on production,0.019,total impact
+734,Services of households as employers of domestic personnel,Taxes less subsidies on production,0.0,total impact
+735,"Products of agriculture, hunting and related services",Gross value added,0.818,total impact
+736,"Products of forestry, logging and related services",Gross value added,0.863,total impact
+737,Fish and other fishing products; aquaculture products; support services to fishing,Gross value added,0.722,total impact
+738,Coal and lignite,Gross value added,0.858,total impact
+739,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Gross value added,0.907,total impact
+740,Other mining and quarrying products,Gross value added,0.688,total impact
+741,Mining support services,Gross value added,0.786,total impact
+742,Preserved meat and meat products,Gross value added,0.842,total impact
+743,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Gross value added,0.846,total impact
+744,Vegetable and animal oils and fats,Gross value added,0.615,total impact
+745,Dairy products,Gross value added,0.846,total impact
+746,"Grain mill products, starches and starch products",Gross value added,0.774,total impact
+747,Bakery and farinaceous products,Gross value added,0.846,total impact
+748,Other food products,Gross value added,0.784,total impact
+749,Prepared animal feeds,Gross value added,0.784,total impact
+750,Alcoholic beverages  & Tobacco products,Gross value added,0.827,total impact
+751,Soft drinks,Gross value added,0.839,total impact
+752,Textiles,Gross value added,0.765,total impact
+753,Wearing apparel,Gross value added,0.873,total impact
+754,Leather and related products,Gross value added,0.716,total impact
+755,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Gross value added,0.639,total impact
+756,Paper and paper products,Gross value added,0.671,total impact
+757,Printing and recording services,Gross value added,0.723,total impact
+758,Coke and refined petroleum products,Gross value added,0.172,total impact
+759,"Paints, varnishes and similar coatings, printing ink and mastics",Gross value added,0.673,total impact
+760,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Gross value added,0.796,total impact
+761,Other chemical products,Gross value added,0.61,total impact
+762,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Gross value added,0.52,total impact
+763,Petrochemicals - 20.14/16/17/60,Gross value added,0.531,total impact
+764,"Dyestuffs, agro-chemicals - 20.12/20",Gross value added,0.668,total impact
+765,Basic pharmaceutical products and pharmaceutical preparations,Gross value added,0.767,total impact
+766,Rubber and plastic products,Gross value added,0.594,total impact
+767,"Cement, lime, plaster and articles of concrete, cement and plaster",Gross value added,0.726,total impact
+768,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Gross value added,0.681,total impact
+769,Basic iron and steel,Gross value added,0.617,total impact
+770,Other basic metals and casting,Gross value added,0.57,total impact
+771,Weapons and ammunition,Gross value added,0.735,total impact
+772,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Gross value added,0.698,total impact
+773,"Computer, electronic and optical products",Gross value added,0.821,total impact
+774,Electrical equipment,Gross value added,0.698,total impact
+775,Machinery and equipment n.e.c.,Gross value added,0.718,total impact
+776,"Motor vehicles, trailers and semi-trailers",Gross value added,0.601,total impact
+777,Ships and boats,Gross value added,0.872,total impact
+778,Air and spacecraft and related machinery,Gross value added,0.722,total impact
+779,Other transport equipment - 30.2/4/9,Gross value added,0.758,total impact
+780,Furniture,Gross value added,0.757,total impact
+781,Other manufactured goods,Gross value added,0.73,total impact
+782,Repair and maintenance of ships and boats,Gross value added,0.912,total impact
+783,Repair and maintenance of aircraft and spacecraft,Gross value added,0.787,total impact
+784,Rest of repair; Installation - 33.11-14/17/19/20,Gross value added,0.753,total impact
+785,"Electricity, transmission and distribution",Gross value added,0.758,total impact
+786,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Gross value added,0.679,total impact
+787,Natural water; water treatment and supply services,Gross value added,0.942,total impact
+788,Sewerage services; sewage sludge,Gross value added,0.96,total impact
+789,"Waste collection, treatment and disposal services; materials recovery services",Gross value added,0.717,total impact
+790,Remediation services and other waste management services,Gross value added,0.931,total impact
+791,Construction,Gross value added,0.838,total impact
+792,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Gross value added,0.863,total impact
+793,"Wholesale trade services, except of motor vehicles and motorcycles",Gross value added,0.832,total impact
+794,"Retail trade services, except of motor vehicles and motorcycles",Gross value added,0.912,total impact
+795,Rail transport services,Gross value added,0.864,total impact
+796,"Land transport services and transport services via pipelines, excluding rail transport",Gross value added,0.815,total impact
+797,Water transport services,Gross value added,0.648,total impact
+798,Air transport services,Gross value added,0.502,total impact
+799,Warehousing and support services for transportation,Gross value added,0.86,total impact
+800,Postal and courier services,Gross value added,0.863,total impact
+801,Accommodation services,Gross value added,0.897,total impact
+802,Food and beverage serving services,Gross value added,0.867,total impact
+803,Publishing services,Gross value added,0.875,total impact
+804,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Gross value added,0.815,total impact
+805,Telecommunications services,Gross value added,0.843,total impact
+806,"Computer programming, consultancy and related services",Gross value added,0.863,total impact
+807,Information services,Gross value added,0.884,total impact
+808,"Financial services, except insurance and pension funding",Gross value added,0.813,total impact
+809,"Insurance, reinsurance and pension funding services, except compulsory social security",Gross value added,0.771,total impact
+810,Services auxiliary to financial services and insurance services,Gross value added,0.881,total impact
+811,Real estate services on a fee or contract basis,Gross value added,0.935,total impact
+812,Owner-Occupiers' Housing Services,Gross value added,0.976,total impact
+813,"Real estate services, excluding on a fee or contract basis and imputed rent",Gross value added,0.902,total impact
+814,Legal services,Gross value added,0.954,total impact
+815,"Accounting, bookkeeping and auditing services; tax consulting services",Gross value added,0.927,total impact
+816,Services of head offices; management consulting services,Gross value added,0.845,total impact
+817,Architectural and engineering services; technical testing and analysis services,Gross value added,0.851,total impact
+818,Scientific research and development services,Gross value added,0.845,total impact
+819,Advertising and market research services,Gross value added,0.847,total impact
+820,"Other professional, scientific and technical services",Gross value added,0.856,total impact
+821,Veterinary services,Gross value added,0.945,total impact
+822,Rental and leasing services,Gross value added,0.911,total impact
+823,Employment services,Gross value added,0.933,total impact
+824,"Travel agency, tour operator and other reservation services and related services",Gross value added,0.82,total impact
+825,Security and investigation services,Gross value added,0.927,total impact
+826,Services to buildings and landscape,Gross value added,0.892,total impact
+827,"Office administrative, office support and other business support services",Gross value added,0.804,total impact
+828,Public administration and defence services; compulsory social security services,Gross value added,0.853,total impact
+829,Education services,Gross value added,0.928,total impact
+830,Human health services,Gross value added,0.849,total impact
+831,Residential Care  & Social Work Activities,Gross value added,0.91,total impact
+832,"Creative, arts and entertainment services",Gross value added,0.865,total impact
+833,"Libraries, archives, museums and other cultural services",Gross value added,0.905,total impact
+834,Gambling and betting services,Gross value added,0.903,total impact
+835,Sports services and amusement and recreation services,Gross value added,0.877,total impact
+836,Services furnished by membership organisations,Gross value added,0.913,total impact
+837,Repair services of computers and personal and household goods,Gross value added,0.883,total impact
+838,Other personal services,Gross value added,0.917,total impact
+839,Services of households as employers of domestic personnel,Gross value added,1.0,total impact
+840,"Products of agriculture, hunting and related services",Output,2.005,total impact
+841,"Products of forestry, logging and related services",Output,2.022,total impact
+842,Fish and other fishing products; aquaculture products; support services to fishing,Output,2.071,total impact
+843,Coal and lignite,Output,1.861,total impact
+844,Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,Output,1.599,total impact
+845,Other mining and quarrying products,Output,1.865,total impact
+846,Mining support services,Output,2.183,total impact
+847,Preserved meat and meat products,Output,2.453,total impact
+848,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables",Output,2.354,total impact
+849,Vegetable and animal oils and fats,Output,2.017,total impact
+850,Dairy products,Output,2.396,total impact
+851,"Grain mill products, starches and starch products",Output,2.329,total impact
+852,Bakery and farinaceous products,Output,2.06,total impact
+853,Other food products,Output,1.992,total impact
+854,Prepared animal feeds,Output,2.548,total impact
+855,Alcoholic beverages  & Tobacco products,Output,2.025,total impact
+856,Soft drinks,Output,2.012,total impact
+857,Textiles,Output,1.484,total impact
+858,Wearing apparel,Output,1.566,total impact
+859,Leather and related products,Output,1.697,total impact
+860,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",Output,1.59,total impact
+861,Paper and paper products,Output,1.729,total impact
+862,Printing and recording services,Output,1.602,total impact
+863,Coke and refined petroleum products,Output,1.146,total impact
+864,"Paints, varnishes and similar coatings, printing ink and mastics",Output,1.729,total impact
+865,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",Output,1.693,total impact
+866,Other chemical products,Output,1.637,total impact
+867,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15",Output,1.746,total impact
+868,Petrochemicals - 20.14/16/17/60,Output,1.854,total impact
+869,"Dyestuffs, agro-chemicals - 20.12/20",Output,1.505,total impact
+870,Basic pharmaceutical products and pharmaceutical preparations,Output,1.571,total impact
+871,Rubber and plastic products,Output,1.644,total impact
+872,"Cement, lime, plaster and articles of concrete, cement and plaster",Output,1.724,total impact
+873,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9",Output,1.73,total impact
+874,Basic iron and steel,Output,1.795,total impact
+875,Other basic metals and casting,Output,1.498,total impact
+876,Weapons and ammunition,Output,1.88,total impact
+877,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9",Output,1.472,total impact
+878,"Computer, electronic and optical products",Output,1.507,total impact
+879,Electrical equipment,Output,1.684,total impact
+880,Machinery and equipment n.e.c.,Output,1.637,total impact
+881,"Motor vehicles, trailers and semi-trailers",Output,1.688,total impact
+882,Ships and boats,Output,1.818,total impact
+883,Air and spacecraft and related machinery,Output,1.903,total impact
+884,Other transport equipment - 30.2/4/9,Output,1.934,total impact
+885,Furniture,Output,1.633,total impact
+886,Other manufactured goods,Output,1.496,total impact
+887,Repair and maintenance of ships and boats,Output,1.492,total impact
+888,Repair and maintenance of aircraft and spacecraft,Output,2.084,total impact
+889,Rest of repair; Installation - 33.11-14/17/19/20,Output,1.629,total impact
+890,"Electricity, transmission and distribution",Output,2.664,total impact
+891,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply,Output,2.521,total impact
+892,Natural water; water treatment and supply services,Output,1.526,total impact
+893,Sewerage services; sewage sludge,Output,1.312,total impact
+894,"Waste collection, treatment and disposal services; materials recovery services",Output,1.77,total impact
+895,Remediation services and other waste management services,Output,1.788,total impact
+896,Construction,Output,2.069,total impact
+897,Wholesale and retail trade and repair services of motor vehicles and motorcycles,Output,1.605,total impact
+898,"Wholesale trade services, except of motor vehicles and motorcycles",Output,1.704,total impact
+899,"Retail trade services, except of motor vehicles and motorcycles",Output,1.6,total impact
+900,Rail transport services,Output,2.089,total impact
+901,"Land transport services and transport services via pipelines, excluding rail transport",Output,1.722,total impact
+902,Water transport services,Output,1.493,total impact
+903,Air transport services,Output,1.731,total impact
+904,Warehousing and support services for transportation,Output,1.867,total impact
+905,Postal and courier services,Output,1.63,total impact
+906,Accommodation services,Output,1.748,total impact
+907,Food and beverage serving services,Output,1.746,total impact
+908,Publishing services,Output,1.678,total impact
+909,"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",Output,1.725,total impact
+910,Telecommunications services,Output,1.409,total impact
+911,"Computer programming, consultancy and related services",Output,1.581,total impact
+912,Information services,Output,1.587,total impact
+913,"Financial services, except insurance and pension funding",Output,1.586,total impact
+914,"Insurance, reinsurance and pension funding services, except compulsory social security",Output,1.803,total impact
+915,Services auxiliary to financial services and insurance services,Output,1.595,total impact
+916,Real estate services on a fee or contract basis,Output,1.573,total impact
+917,Owner-Occupiers' Housing Services,Output,1.237,total impact
+918,"Real estate services, excluding on a fee or contract basis and imputed rent",Output,1.597,total impact
+919,Legal services,Output,1.344,total impact
+920,"Accounting, bookkeeping and auditing services; tax consulting services",Output,1.243,total impact
+921,Services of head offices; management consulting services,Output,1.626,total impact
+922,Architectural and engineering services; technical testing and analysis services,Output,1.837,total impact
+923,Scientific research and development services,Output,1.696,total impact
+924,Advertising and market research services,Output,1.578,total impact
+925,"Other professional, scientific and technical services",Output,1.869,total impact
+926,Veterinary services,Output,1.357,total impact
+927,Rental and leasing services,Output,1.506,total impact
+928,Employment services,Output,1.505,total impact
+929,"Travel agency, tour operator and other reservation services and related services",Output,1.973,total impact
+930,Security and investigation services,Output,1.613,total impact
+931,Services to buildings and landscape,Output,1.869,total impact
+932,"Office administrative, office support and other business support services",Output,1.599,total impact
+933,Public administration and defence services; compulsory social security services,Output,1.556,total impact
+934,Education services,Output,1.407,total impact
+935,Human health services,Output,1.477,total impact
+936,Residential Care  & Social Work Activities,Output,1.582,total impact
+937,"Creative, arts and entertainment services",Output,1.646,total impact
+938,"Libraries, archives, museums and other cultural services",Output,1.644,total impact
+939,Gambling and betting services,Output,1.565,total impact
+940,Sports services and amusement and recreation services,Output,1.611,total impact
+941,Services furnished by membership organisations,Output,1.647,total impact
+942,Repair services of computers and personal and household goods,Output,1.447,total impact
+943,Other personal services,Output,1.252,total impact
+944,Services of households as employers of domestic personnel,Output,1.0,total impact
