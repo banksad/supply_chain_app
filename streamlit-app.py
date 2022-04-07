@@ -56,7 +56,7 @@ st.markdown('This section examines both domestically produced and imported produ
 combined_subset = combined[combined['output product']==combined_product]
 combined_subset = combined_subset[combined_subset['proportion']>0]
         
-st.markdown('##Imported and domestically produced products used in the domestic production of {} products##'.format(combined_product.lower()))
+st.markdown('##Imported and domestically produced products used in the domestic production of {} products'.format(combined_product.lower()))
 
 fig = px.treemap(combined_subset, path=['component','input product'], values='value',
                 color='value',color_continuous_scale='OrRd')
