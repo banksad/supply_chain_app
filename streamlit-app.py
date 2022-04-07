@@ -19,7 +19,7 @@ cpa_classification = pd.read_csv('data/cpa_classification.csv')
 
 st.sidebar.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
 st.sidebar.markdown('The dashboard uses publicly available information on the Input Output tables to understand the inputs into the production process.')
-st.sidebar.markdown('The text and charts automatically update depending on the product chosen in the sidebar.')
+st.sidebar.markdown('The text and charts automatically update depending on the options chosen in the selection boxes.')
 st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
 st.sidebar.markdown('')
@@ -40,7 +40,9 @@ st.subheader('Inputs into the production process')
 
 st.markdown('This section examines the types products that are used in the production process, and the degree to which these products are imported.')
 
-combined_product = st.selectbox('Search for a product that you wish to analyse',set(list(combined['output product'])))
+st.markdown('Search for a product that you wish to analyse')
+
+combined_product = st.selectbox('',set(list(combined['output product'])))
 
 # Calculations
 
@@ -48,7 +50,7 @@ total_inputs = combined[combined['output product']==combined_product]['value'].s
 domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()
 imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()
 
-st.markdown('The total production of {} products required **£{}m** of raw inputs in 2018. Of this, **£{}m** was domestically produced inputs (i.e. from other UK producers), while **£{}m** was imported from inputs'.format(
+st.markdown('The total production of {} products required **£{}m** of raw inputs in 2018. Of this, **£{}m** was domestically produced inputs (i.e. from other UK producers), while **£{}m** was imported inputs.'.format(
     combined_product.lower(),total_inputs,domestic_inputs,imported_inputs))
 
 # Total inputs
