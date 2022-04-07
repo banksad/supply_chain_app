@@ -110,7 +110,7 @@ st.markdown('The Input Output tables show the indirect and direct effects of an 
 
 multiplier_product = st.selectbox('Select a product',set(list(detailed_effects['product'])))
 
-number = st.number_input('Input change in demand for the product (£m)')
+change = st.number_input('Input change in demand for the product (£m)')
 
 # Calculations
 
