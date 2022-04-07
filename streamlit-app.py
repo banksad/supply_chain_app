@@ -124,8 +124,8 @@ total_coe = (effects_subset[(effects_subset['factor']=='total impact')&(effects_
 
 # Writing
 
-st.write('The change in gross value added is £', total_gva, 'm')
+st.write('The change in gross value added is £', round(total_gva, 2), 'm')
 
-st.write('This is because there is a corresponding change to imports of £', total_imports, 'm')
+st.write('This is because there is a corresponding change to imports of £', round(total_imports,2), 'm')
 
-st.write('Employee compensation would increase by', total_coe, 'm')
+st.write('Employee compensation would increase by', round(total_coe,2), 'm')
