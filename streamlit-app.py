@@ -140,7 +140,9 @@ else:
         
         st.markdown('*Imported and domestically produced products used in the domestic production of {} products*'.format(import_product.lower()))
         
-        fig = px.treemap(combined_subset, path=['component','input product'], values='value')
+        fig = px.treemap(combined_subset, path=['component','input product'], values='value',
+                        color='value', color_continuous_scale='RdBu',
+                        color_continuous_midpoint=np.average(df['weights']))
         st.plotly_chart(fig)
             
             
