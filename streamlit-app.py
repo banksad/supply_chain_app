@@ -2,7 +2,6 @@
 # author = Andy Banks
 """
 
-from math import prod
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
