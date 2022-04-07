@@ -50,11 +50,11 @@ total_inputs = combined[combined['output product']==combined_product]['value'].s
 domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()/1000
 imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()/1000
 
-st.write('The total production of ', combined_product.lower(), 'required £',total_inputs,'bn of raw inputs in 2018.')
+st.write('The total production of ', combined_product.lower(), 'required £',round(total_inputs,2),'bn of raw inputs in 2018.')
             
-st.write('Of this, £',domestic_inputs,'bn were domestically produced inputs (i.e. from other UK producers)')
+st.write('Of this, £',round(domestic_inputs,2),'bn were domestically produced inputs (i.e. from other UK producers)')
      
-st.write('By contrast, £',imported_inputs,'bn were imported inputs.')
+st.write('By contrast, £',round(imported_inputs,2),'bn were imported inputs.')
 
 # Total inputs
 
