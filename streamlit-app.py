@@ -87,13 +87,13 @@ else:
     
     if pct_choice =='Values (£m)':
         st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
-        fig = px.treemap(combined_subset, path='input product', values='value',
+        fig = px.treemap(combined_subset, path=['input product'], values='value',
                         color='value',color_continuous_scale='OrRd')
         st.plotly_chart(fig, use_container_width=True)
         
     else:
         st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
-        fig = px.treemap(combined_subset, path='input product', values='proportion',
+        fig = px.treemap(combined_subset, path=['input product'], values='proportion',
                         color='proportion',color_continuous_scale='OrRd')
         st.plotly_chart(fig, use_container_width=True)
         
