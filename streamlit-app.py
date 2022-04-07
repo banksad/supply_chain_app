@@ -73,7 +73,7 @@ if chart_choice == 'Domestic / Imported breakdown':
     
         st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
         fig = px.treemap(combined_subset, path=['component','input product'], values='value',
-                        color='value_sum',color_continuous_scale='OrRd')
+                        color='value',color_continuous_scale='OrRd')
         st.plotly_chart(fig, use_container_width=True)
 
     else:
@@ -88,7 +88,7 @@ else:
     if pct_choice =='Values (£m)':
         st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
         fig = px.treemap(combined_subset, path=['input product'], values='value',
-                        color='value_sum',color_continuous_scale='OrRd')
+                        color='value',color_continuous_scale='OrRd')
         st.plotly_chart(fig, use_container_width=True)
         
     else:
