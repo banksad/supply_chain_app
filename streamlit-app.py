@@ -13,12 +13,12 @@ st.set_page_config(layout="wide")
 # Data import
 
 combined = pd.read_csv('data/combined.csv')
+detailed_effects = pd.read_csv('data/detailed_effects.csv')
 cpa_classification = pd.read_csv('data/cpa_classification.csv')
 
 # Sidebar
 
 st.sidebar.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
-st.sidebar.markdown('The dashboard uses publicly available information on the Input Output tables to understand the inputs into the production process.')
 st.sidebar.markdown('The text and charts automatically update depending on the options chosen in the selection boxes.')
 st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
 
@@ -46,19 +46,22 @@ combined_product = st.selectbox('',set(list(combined['output product'])))
 
 # Calculations
 
-total_inputs = combined[combined['output product']==combined_product]['value'].sum()
-domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()
-imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()
+total_inputs = combined[combined['output product']==combined_product]['value'].sum()/1000
+domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()/1000
+imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()/1000
 
-st.markdown('The total production of {} products required **£{}m** of raw inputs in 2018. Of this, **£{}m** was domestically produced inputs (i.e. from other UK producers), while **£{}m** was imported inputs.'.format(
-    combined_product.lower(),total_inputs,domestic_inputs,imported_inputs))
+st.write('The total production of ', combined_product.lower(), 'required £',round(total_inputs,2),'bn of raw inputs in 2018.')
+            
+st.write('Of this, £',round(domestic_inputs,2),'bn were domestically produced inputs (i.e. from other UK producers)')
+     
+st.write('By contrast, £',round(imported_inputs,2),'bn were imported inputs.')
 
 # Total inputs
 
 combined_subset = combined[combined['output product']==combined_product]
 combined_subset = combined_subset[combined_subset['proportion']>0]
         
-st.markdown('Choose whether to view total inputs, or a breakdown of domestically produced and imported inputs')
+st.markdown('Choose whether to view total inputs, or a breakdown of domestically produced and imported inputs. You can also choose whether to view data in £m or proportions of total inputs.')
 
 col1, col2 = st.columns(2)
 
@@ -103,6 +106,38 @@ with see_import_data3:
                         
 # Effects of an increase in demand on whole economy output
 
-st.subheader('Effects of an increase in demand for {} on the economy'.format(combined_product.lower()))
+st.subheader('Effects of a change in demand for a product on the economy')
 
 st.markdown('The Input Output tables show the indirect and direct effects of an increase in demand for a product on the whole economy and employment income (compensation of employees)')
+
+multiplier_product = st.selectbox('Select a product',set(list(detailed_effects['product'])))
+
+change = st.number_input('Input change in demand for the product (£m)')
+
+# Calculations
+
+effects_subset = detailed_effects[detailed_effects['product']==multiplier_product]
+
+total_gva = (effects_subset[(effects_subset['factor']=='total impact')&(effects_subset['variable']=='Gross value added')]['value']*change).values[0]
+
+total_imports = (effects_subset[(effects_subset['factor']=='total impact')&(effects_subset['variable']=='Use of imported products, cif')]['value']*change).values[0]
+
+total_coe = (effects_subset[(effects_subset['factor']=='total impact')&(effects_subset['variable']=='Compensation of employees')]['value']*change).values[0]
+
+# Writing
+
+if change<0:
+    
+    st.write('The change in gross value added is -£', round(total_gva*-1, 2), 'm')
+
+    st.write('This is because there is a corresponding change to imports of -£', round(total_imports*-1,2), 'm')
+
+    st.write('Employee compensation would change by -£', round(total_coe*-1,2), 'm')
+    
+else:
+
+    st.write('The change in gross value added is £', round(total_gva, 2), 'm')
+
+    st.write('This is because there is a corresponding change to imports of £', round(total_imports,2), 'm')
+
+    st.write('Employee compensation would change by £', round(total_coe,2), 'm')

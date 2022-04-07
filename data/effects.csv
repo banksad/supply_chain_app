@@ -1,0 +1,106 @@
+product,Intermediate consumption at basic prices,"Use of imported products, cif",Taxes less subsidies on products,Intermediate consumption at purchaser's prices,Compensation of employees,Gross operating surplus and mixed income,Taxes less subsidies on production,Gross value added,Output
+"Products of agriculture, hunting and related services         ",1.005,0.151,0.031,1.188,0.371,0.521,-0.074,0.818,2.005
+"Products of forestry, logging and related services         ",1.022,0.106,0.031,1.160,0.577,0.281,0.005,0.863,2.022
+Fish and other fishing products; aquaculture products; support services to fishing     ,1.071,0.252,0.026,1.349,0.408,0.302,0.011,0.722,2.071
+Coal and lignite             ,0.861,0.126,0.016,1.004,0.457,0.426,-0.025,0.858,1.861
+Extraction Of Crude Petroleum And Natural Gas  & Mining Of Metal Ores,0.599,0.083,0.010,0.692,0.247,0.653,0.007,0.907,1.599
+Other mining and quarrying products           ,0.865,0.283,0.029,1.176,0.386,0.285,0.018,0.688,1.865
+Mining support services             ,1.183,0.200,0.014,1.397,0.547,0.224,0.014,0.786,2.183
+Preserved meat and meat products           ,1.453,0.139,0.018,1.611,0.524,0.334,-0.016,0.842,2.453
+"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables       ",1.354,0.137,0.017,1.508,0.533,0.315,-0.002,0.846,2.354
+Vegetable and animal oils and fats          ,1.017,0.372,0.013,1.402,0.384,0.253,-0.022,0.615,2.017
+Dairy products              ,1.396,0.134,0.020,1.550,0.449,0.418,-0.021,0.846,2.396
+"Grain mill products, starches and starch products         ",1.329,0.211,0.015,1.555,0.461,0.321,-0.008,0.774,2.329
+Bakery and farinaceous products            ,1.060,0.141,0.014,1.214,0.567,0.270,0.008,0.846,2.060
+Other food products             ,0.992,0.203,0.013,1.208,0.498,0.277,0.009,0.784,1.992
+Prepared animal feeds             ,1.548,0.197,0.019,1.764,0.458,0.334,-0.008,0.784,2.548
+Alcoholic beverages  & Tobacco products,1.025,0.137,0.036,1.198,0.416,0.407,0.004,0.827,2.025
+Soft drinks              ,1.012,0.148,0.013,1.173,0.411,0.424,0.003,0.839,2.012
+Textiles               ,0.484,0.227,0.008,0.719,0.461,0.295,0.009,0.765,1.484
+Wearing apparel              ,0.566,0.119,0.008,0.693,0.553,0.317,0.003,0.873,1.566
+Leather and related products            ,0.697,0.273,0.011,0.981,0.480,0.261,-0.026,0.716,1.697
+"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",0.590,0.350,0.012,0.951,0.398,0.230,0.010,0.639,1.590
+Paper and paper products            ,0.729,0.317,0.012,1.058,0.448,0.211,0.011,0.671,1.729
+Printing and recording services            ,0.602,0.269,0.008,0.879,0.487,0.224,0.012,0.723,1.602
+Coke and refined petroleum products           ,0.146,0.804,0.024,0.974,0.062,0.107,0.003,0.172,1.146
+"Paints, varnishes and similar coatings, printing ink and mastics       ",0.729,0.313,0.014,1.056,0.477,0.195,0.001,0.673,1.729
+"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations     ",0.693,0.195,0.009,0.898,0.427,0.361,0.007,0.796,1.693
+Other chemical products             ,0.637,0.377,0.014,1.027,0.350,0.256,0.004,0.610,1.637
+"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15      ",0.746,0.464,0.016,1.226,0.294,0.218,0.007,0.520,1.746
+Petrochemicals - 20.14/16/17/60             ,0.854,0.437,0.032,1.323,0.304,0.219,0.008,0.531,1.854
+"Dyestuffs, agro-chemicals - 20.12/20            ",0.505,0.322,0.010,0.837,0.364,0.309,-0.006,0.668,1.505
+Basic pharmaceutical products and pharmaceutical preparations          ,0.571,0.224,0.009,0.803,0.385,0.376,0.006,0.767,1.571
+Rubber and plastic products            ,0.644,0.393,0.013,1.050,0.413,0.170,0.012,0.594,1.644
+"Cement, lime, plaster and articles of concrete, cement and plaster ",0.724,0.252,0.023,0.998,0.418,0.293,0.014,0.726,1.724
+"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9   ",0.730,0.292,0.027,1.049,0.448,0.220,0.013,0.681,1.730
+Basic iron and steel            ,0.795,0.363,0.020,1.178,0.421,0.180,0.016,0.617,1.795
+Other basic metals and casting           ,0.498,0.421,0.009,0.928,0.331,0.234,0.005,0.570,1.498
+Weapons and ammunition             ,0.880,0.256,0.009,1.146,0.555,0.178,0.002,0.735,1.880
+"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9   ",0.472,0.292,0.009,0.774,0.462,0.222,0.014,0.698,1.472
+"Computer, electronic and optical products           ",0.507,0.173,0.006,0.686,0.576,0.237,0.008,0.821,1.507
+Electrical equipment              ,0.684,0.292,0.010,0.986,0.482,0.206,0.010,0.698,1.684
+Machinery and equipment n.e.c.            ,0.637,0.273,0.009,0.920,0.443,0.264,0.010,0.718,1.637
+"Motor vehicles, trailers and semi-trailers           ",0.688,0.389,0.010,1.088,0.374,0.216,0.011,0.601,1.688
+Ships and boats             ,0.818,0.113,0.015,0.946,0.593,0.277,0.001,0.872,1.818
+Air and spacecraft and related machinery          ,0.903,0.267,0.011,1.181,0.460,0.254,0.008,0.722,1.903
+Other transport equipment - 30.2/4/9           ,0.934,0.228,0.013,1.176,0.473,0.288,-0.003,0.758,1.934
+Furniture               ,0.633,0.232,0.011,0.876,0.519,0.225,0.013,0.757,1.633
+Other manufactured goods             ,0.496,0.260,0.010,0.766,0.464,0.257,0.009,0.730,1.496
+Repair and maintenance of ships and boats         ,0.492,0.080,0.008,0.580,0.544,0.386,-0.019,0.912,1.492
+Repair and maintenance of aircraft and spacecraft         ,1.084,0.205,0.008,1.297,0.492,0.293,0.001,0.787,2.084
+Rest of repair; Installation - 33.11-14/17/19/20          ,0.629,0.234,0.012,0.875,0.490,0.254,0.009,0.753,1.629
+"Electricity, transmission and distribution",1.664,0.216,0.027,1.906,0.288,0.434,0.035,0.758,2.664
+Gas; distribution of gaseous fuels through mains; steam and air conditioning supply    ,1.521,0.302,0.019,1.841,0.278,0.368,0.034,0.679,2.521
+Natural water; water treatment and supply services         ,0.526,0.049,0.009,0.584,0.302,0.583,0.057,0.942,1.526
+Sewerage services; sewage sludge            ,0.312,0.021,0.019,0.352,0.212,0.725,0.023,0.960,1.312
+"Waste collection, treatment and disposal services; materials recovery services       ",0.770,0.194,0.089,1.053,0.412,0.290,0.016,0.717,1.770
+Remediation services and other waste management services         ,0.788,0.057,0.012,0.857,0.392,0.535,0.003,0.931,1.788
+Construction,1.069,0.125,0.037,1.231,0.416,0.410,0.011,0.838,2.069
+Wholesale and retail trade and repair services of motor vehicles and motorcycles    ,0.605,0.126,0.010,0.742,0.592,0.246,0.025,0.863,1.605
+"Wholesale trade services, except of motor vehicles and motorcycles       ",0.704,0.147,0.021,0.872,0.544,0.269,0.019,0.832,1.704
+"Retail trade services, except of motor vehicles and motorcycles       ",0.600,0.075,0.012,0.688,0.535,0.325,0.052,0.912,1.600
+Rail transport services             ,1.089,0.123,0.013,1.225,0.583,0.257,0.025,0.864,2.089
+"Land transport services and transport services via pipelines, excluding rail transport     ",0.722,0.144,0.041,0.906,0.571,0.224,0.020,0.815,1.722
+Water transport services             ,0.493,0.316,0.036,0.846,0.365,0.273,0.009,0.648,1.493
+Air transport services             ,0.731,0.393,0.106,1.230,0.312,0.185,0.004,0.502,1.731
+Warehousing and support services for transportation          ,0.867,0.115,0.024,1.007,0.604,0.227,0.029,0.860,1.867
+Postal and courier services            ,0.630,0.088,0.049,0.767,0.617,0.232,0.015,0.863,1.630
+Accommodation services              ,0.748,0.072,0.031,0.852,0.499,0.356,0.042,0.897,1.748
+Food and beverage serving services           ,0.746,0.094,0.039,0.879,0.577,0.257,0.033,0.867,1.746
+Publishing services              ,0.678,0.117,0.008,0.803,0.533,0.335,0.007,0.875,1.678
+"Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities & Programming And Broadcasting Activities",0.725,0.178,0.008,0.910,0.393,0.451,-0.030,0.815,1.725
+Telecommunications services              ,0.409,0.151,0.006,0.566,0.453,0.377,0.013,0.843,1.409
+"Computer programming, consultancy and related services          ",0.581,0.125,0.012,0.718,0.602,0.252,0.009,0.863,1.581
+Information services              ,0.587,0.106,0.010,0.703,0.518,0.363,0.003,0.884,1.587
+"Financial services, except insurance and pension funding         ",0.586,0.137,0.050,0.774,0.442,0.352,0.018,0.813,1.586
+"Insurance, reinsurance and pension funding services, except compulsory social security",0.803,0.161,0.068,1.032,0.297,0.461,0.013,0.771,1.803
+Services auxiliary to financial services and insurance services        ,0.595,0.072,0.047,0.714,0.494,0.378,0.009,0.881,1.595
+Real estate services on a fee or contract basis       ,0.573,0.051,0.014,0.638,0.622,0.278,0.036,0.935,1.573
+Owner-Occupiers' Housing Services,0.237,0.018,0.006,0.261,0.058,0.916,0.002,0.976,1.237
+"Real estate services, excluding on a fee or contract basis and imputed rent   ",0.597,0.078,0.020,0.695,0.288,0.615,-0.001,0.902,1.597
+Legal services              ,0.344,0.041,0.006,0.390,0.440,0.501,0.012,0.954,1.344
+"Accounting, bookkeeping and auditing services; tax consulting services        ",0.243,0.068,0.006,0.316,0.563,0.358,0.005,0.927,1.243
+Services of head offices; management consulting services         ,0.626,0.141,0.014,0.781,0.576,0.256,0.013,0.845,1.626
+Architectural and engineering services; technical testing and analysis services       ,0.837,0.134,0.015,0.986,0.613,0.225,0.013,0.851,1.837
+Scientific research and development services           ,0.696,0.143,0.012,0.851,0.529,0.309,0.006,0.845,1.696
+Advertising and market research services           ,0.578,0.143,0.010,0.731,0.454,0.390,0.002,0.847,1.578
+"Other professional, scientific and technical services          ",0.869,0.130,0.014,1.013,0.566,0.280,0.010,0.856,1.869
+Veterinary services              ,0.357,0.048,0.007,0.412,0.612,0.352,-0.018,0.945,1.357
+Rental and leasing services            ,0.506,0.077,0.012,0.595,0.460,0.436,0.014,0.911,1.506
+Employment services              ,0.505,0.063,0.005,0.572,0.715,0.208,0.009,0.933,1.505
+"Travel agency, tour operator and other reservation services and related services     ",0.973,0.132,0.048,1.153,0.475,0.335,0.010,0.820,1.973
+Security and investigation services            ,0.613,0.066,0.007,0.686,0.543,0.380,0.004,0.927,1.613
+Services to buildings and landscape           ,0.869,0.095,0.013,0.976,0.508,0.376,0.008,0.892,1.869
+"Office administrative, office support and other business support services       ",0.599,0.183,0.013,0.795,0.496,0.292,0.015,0.804,1.599
+Public administration and defence services; compulsory social security services       ,0.556,0.099,0.048,0.703,0.568,0.281,0.004,0.853,1.556
+Education services              ,0.407,0.046,0.026,0.479,0.688,0.233,0.007,0.928,1.407
+Human health services             ,0.477,0.107,0.044,0.629,0.600,0.243,0.005,0.849,1.477
+Residential Care  & Social Work Activities,0.582,0.045,0.045,0.672,0.734,0.167,0.009,0.910,1.582
+"Creative, arts and entertainment services           ",0.646,0.074,0.061,0.781,0.399,0.460,0.006,0.865,1.646
+"Libraries, archives, museums and other cultural services         ",0.644,0.083,0.012,0.739,0.591,0.303,0.011,0.905,1.644
+Gambling and betting services            ,0.565,0.071,0.025,0.661,0.361,0.525,0.017,0.903,1.565
+Sports services and amusement and recreation services         ,0.611,0.076,0.047,0.734,0.574,0.278,0.025,0.877,1.611
+Services furnished by membership organisations           ,0.647,0.072,0.015,0.734,0.664,0.237,0.012,0.913,1.647
+Repair services of computers and personal and household goods       ,0.447,0.110,0.007,0.563,0.496,0.379,0.008,0.883,1.447
+Other personal services             ,0.252,0.059,0.024,0.335,0.303,0.595,0.019,0.917,1.252
+Services of households as employers of domestic personnel        ,0.000,0.000,0.000,0.000,1.000,0.000,0.000,1.000,1.000
