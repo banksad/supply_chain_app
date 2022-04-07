@@ -56,9 +56,11 @@ st.markdown('This section examines both domestically produced and imported produ
 combined_subset = combined[combined['output product']==combined_product]
 combined_subset = combined_subset[combined_subset['proportion']>0]
         
-st.markdown('## Imported and domestically produced products used in the domestic production of {} products'.format(combined_product.lower()))
+st.markdown('##### Inputs used in the domestic production of {} products'.format(combined_product.lower()))
 
-chart_choice = st.selectbox('Choose whether to view total inputs, or a breakdown of domestically produced and imported inputs',['Total inputs','Domestic / Imported breakdown'])
+st.markdown('Choose whether to view total inputs, or a breakdown of domestically produced and imported inputs')
+
+chart_choice = st.selectbox('',['Total inputs','Domestic / Imported breakdown'])
 
 if chart_choice == 'Domestic / Imported breakdown':
     
