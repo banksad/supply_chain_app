@@ -37,8 +37,8 @@ else:
 # Calculations
 
 total_inputs = combined[combined['output product']==combined_product]['value'].sum()
-domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='domestic use')]['value'].sum()
-imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='imports')]['value'].sum()
+domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()
+imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()
 
 # Inputs section
 
