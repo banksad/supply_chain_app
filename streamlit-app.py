@@ -13,6 +13,7 @@ st.set_page_config(layout="wide")
 # Data import
 
 combined = pd.read_csv('data/combined.csv')
+detailed_effects = pd.read_csv('data/detailed_effects.csv')
 cpa_classification = pd.read_csv('data/cpa_classification.csv')
 
 # Sidebar
@@ -107,6 +108,7 @@ st.subheader('Effects of a change in demand for a product on the economy')
 
 st.markdown('The Input Output tables show the indirect and direct effects of an increase in demand for a product on the whole economy and employment income (compensation of employees)')
 
+multiplier_product = st.selectbox('Select a product',set(list(detailed_effects['product'])))
 
 number = st.number_input('Input change in demand for the product')
 st.write('The current number is ', number)
