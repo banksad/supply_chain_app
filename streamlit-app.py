@@ -40,9 +40,7 @@ st.subheader('Inputs into the production process')
 
 st.markdown('This section examines the types products that are used in the production process, and the degree to which these products are imported.')
 
-st.markdown('Search for a product that you wish to analyse')
-
-combined_product = st.selectbox('',set(list(combined['output product'])))
+combined_product = st.selectbox('Search for a product that youn wish to analyse:',set(list(combined['output product'])))
 
 # Calculations
 
@@ -50,11 +48,11 @@ total_inputs = combined[combined['output product']==combined_product]['value'].s
 domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()/1000
 imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()/1000
 
-st.write('The total production of {} required £{}bn of raw inputs in 2018'.format(combined_product.lower(),round(total_inputs,2)))
+st.write('The total production of {} required £{}bn of raw inputs in 2018.'.format(combined_product.lower(),round(total_inputs,2)))
             
-st.write('Of this, £{}bn were domestically produced inputs (i.e. from other UK producers'.format(round(domestic_inputs,2)))
+st.write('Of this, £{}bn were domestically produced inputs (i.e. from other UK producers.'.format(round(domestic_inputs,2)))
      
-st.write('By contrast, £{}bn were imported inputs'.format(round(imported_inputs,2)))
+st.write('By contrast, £{}bn were imported inputs.'.format(round(imported_inputs,2)))
 
 # Total inputs
 
@@ -108,7 +106,7 @@ with see_import_data3:
 
 st.subheader('Effects of a change in demand for a product on the economy')
 
-st.markdown('The Input Output tables show the indirect and direct effects of an increase in demand for a product on the whole economy and employment income (compensation of employees)')
+st.markdown('The Input Output tables show the indirect and direct effects of an increase in demand for a product on the whole economy and employment income (compensation of employees).')
 
 multiplier_product = st.selectbox('Select a product',set(list(detailed_effects['product'])))
 
