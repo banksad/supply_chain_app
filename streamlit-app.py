@@ -58,15 +58,13 @@ st.write('By contrast, £{}bn were imported inputs.'.format(round(imported_input
 
 combined_subset = combined[combined['output product']==combined_product]
 combined_subset = combined_subset[combined_subset['proportion']>0]
-        
-st.markdown('Choose whether to view total inputs, or a breakdown of domestically produced and imported inputs. You can also choose whether to view data in £m or proportions of total inputs.')
 
 col1, col2 = st.columns(2)
 
 with col1:
-    chart_choice = st.selectbox('',['Total inputs','Domestic / Imported breakdown'])
+    chart_choice = st.selectbox('Choose whether to view total inputs, or a breakdown of domestically produced and imported inputs.',['Total inputs','Domestic / Imported breakdown'])
 with col2:
-    pct_choice = st.selectbox('',['Values (£m)','Percentage of total inputs'])
+    pct_choice = st.selectbox('Choose whether to view data in £m or proportions of total inputs.',['Values (£m)','Percentage of total inputs'])
 
 if chart_choice == 'Domestic / Imported breakdown':
     
