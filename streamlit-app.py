@@ -52,9 +52,9 @@ imported_inputs = combined[(combined['output product']==combined_product)&(combi
 
 st.write('The total production of {} required £{}bn of raw inputs in 2018'.format(combined_product.lower(),round(total_inputs,2)))
             
-st.write('Of this, £',round(domestic_inputs,2),'bn were domestically produced inputs (i.e. from other UK producers)')
+st.write('Of this, £{}bn were domestically produced inputs (i.e. from other UK producers'.format(round(domestic_inputs,2)))
      
-st.write('By contrast, £',round(imported_inputs,2),'bn were imported inputs.')
+st.write('By contrast, £{}bn were imported inputs'.format(round(imported_inputs,2)))
 
 # Total inputs
 
@@ -136,8 +136,8 @@ if change<0:
     
 else:
 
-    st.write('The change in gross value added is £', round(total_gva, 2), 'm')
+    st.write('The change in gross value added is £{}m'.format(round(total_gva, 2)))
 
-    st.write('This is because there is a corresponding change to imports of £', round(total_imports,2), 'm')
+    st.write('This is because there is a corresponding change to imports of £{}m'.format(round(total_imports,2)))
 
-    st.write('Employee compensation would change by £', round(total_coe,2), 'm')
+    st.write('Employee compensation would change by £{}m'.format(round(total_coe,2)))
