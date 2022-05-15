@@ -20,7 +20,7 @@ cpa_classification = pd.read_csv('data/cpa_classification.csv')
 
 st.sidebar.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
 st.sidebar.markdown('The text and charts automatically update depending on the options chosen in the selection boxes.')
-st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app). Feel free to do a pull request :smile:')
+st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app)')
 
 st.sidebar.markdown('')
 if st.sidebar.button('Click here to see the cpa product classification'):
@@ -50,7 +50,7 @@ total_inputs = combined[combined['output product']==combined_product]['value'].s
 domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()/1000
 imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()/1000
 
-st.write('The total production of ', combined_product.lower(), 'required £',round(total_inputs,2),'bn of raw inputs in 2018.')
+st.write('The total production of {} required £{}bn of raw inputs in 2018'.format(combined_product.lower(),round(total_inputs,2)))
             
 st.write('Of this, £',round(domestic_inputs,2),'bn were domestically produced inputs (i.e. from other UK producers)')
      
