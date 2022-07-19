@@ -18,7 +18,7 @@ st.subheader('Inputs into the production process')
 
 st.markdown('This section examines the products that are used in the production process, and the proportion of these products that are imported.')
 
-combined_product = st.selectbox('Search for a product that you wish to analyse:',set(sorted(list(combined['output product']))))
+combined_product = st.selectbox('Search for a product that you wish to analyse:',options=combined.sort_values(by='output product')['output product'].unique())
 
 # Calculations
 
@@ -35,12 +35,10 @@ st.write('Of these inputs, £{}m were produced in the UK, and £{}m were importe
 combined_subset = combined[combined['output product']==combined_product]
 combined_subset = combined_subset[combined_subset['proportion']>0]
 
-col1, col2 = st.columns(2)
+# Chart choice
 
-with col1:
-    chart_choice = st.selectbox('Choose whether to view total inputs, or a breakdown of domestically produced and imported inputs.',['Total inputs','Domestic / Imported breakdown'])
-with col2:
-    pct_choice = st.selectbox('Choose whether to view data in £m or proportions of total inputs.',['Values (£m)','Percentage of total inputs'])
+chart_choice = st.selectbox('Choose whether to view total inputs, or a breakdown of domestically produced and imported inputs.',['Total inputs','Domestic / Imported breakdown'])
+pct_choice = st.selectbox('Choose whether to view data in £m or proportions of total inputs.',['Values (£m)','Percentage of total inputs'])
 
 if chart_choice == 'Domestic / Imported breakdown':
     
