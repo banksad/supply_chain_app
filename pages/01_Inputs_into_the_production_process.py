@@ -43,22 +43,32 @@ combined_subset = combined_subset[combined_subset['proportion']>0]
 
 st.subheader('Chart')
 
-chart_choice = st.selectbox('Choose whether to view total inputs, or a breakdown of domestically produced and imported inputs.',['Total inputs','Domestic / Imported breakdown'])
-pct_choice = st.selectbox('Choose whether to view data in £m or proportions of total inputs.',['Values (£m)','Percentage of total inputs'])
+chart_choice = st.selectbox('Choose whether to view the breakdown of domestically produced and imported inputs, or a total that as grouped these together.',['Domestic / Imported breakdown','Total inputs'])
+pct_choice = st.selectbox('Choose whether to view data in £m or as proportions of total inputs needed to produce the product.',['Values (£m)','Percentage of total inputs'])
 
 if chart_choice == 'Domestic / Imported breakdown':
     
     if pct_choice == 'Values (£m)':
     
         st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
-        fig = px.bar(combined_subset, color='component', y='input product', x='value')
+        fig = px.bar(combined_subset, color='component', y='input product', x='value',
+                     labels={
+                         'component':'Category',
+                         'input product': 'Product',
+                         'value': 'Value (£m)'
+                     })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         st.plotly_chart(fig, use_container_width=True)
 
     else:
         
         st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
-        fig = px.bar(combined_subset, color='component', y='input product', x='proportion')
+        fig = px.bar(combined_subset, color='component', y='input product', x='proportion',
+                     labels={
+                         'component':'Category',
+                         'input product': 'Product',
+                         'value': 'Percentage of total inputs'
+                     })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         st.plotly_chart(fig, use_container_width=True)
 
@@ -66,13 +76,21 @@ else:
     
     if pct_choice =='Values (£m)':
         st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
-        fig = px.bar(combined_subset, y='input product', x='value')
+        fig = px.bar(combined_subset, y='input product', x='value',
+                     labels={
+                         'input product': 'Product',
+                         'value': 'Value (£m)'
+                     })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         st.plotly_chart(fig, use_container_width=True)
         
     else:
         st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
-        fig = px.bar(combined_subset, y='input product', x='proportion')
+        fig = px.bar(combined_subset, y='input product', x='proportion',
+                     labels={
+                         'input product': 'Product',
+                         'value': 'Percentage of total inputs'
+                     })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         st.plotly_chart(fig, use_container_width=True)
         
