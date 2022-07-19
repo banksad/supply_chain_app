@@ -1,3 +1,4 @@
+from re import X
 from matplotlib.axis import YAxis
 import streamlit as st
 import pandas as pd
@@ -50,15 +51,15 @@ if chart_choice == 'Domestic / Imported breakdown':
     if pct_choice == 'Values (£m)':
     
         st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
-        fig = px.treemap(combined_subset, path=['component','input product'], values='value',
-                        color='value',color_continuous_scale='OrRd')
+        fig = px.bar(combined_subset, color='component', y='input product', x='value')
+        fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         st.plotly_chart(fig, use_container_width=True)
 
     else:
         
         st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
-        fig = px.treemap(combined_subset, path=['component','input product'], values='proportion',
-                        color='proportion',color_continuous_scale='OrRd')
+        fig = px.bar(combined_subset, color='component', y='input product', x='proportion')
+        fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         st.plotly_chart(fig, use_container_width=True)
 
 else:
@@ -66,12 +67,13 @@ else:
     if pct_choice =='Values (£m)':
         st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
         fig = px.bar(combined_subset, y='input product', x='value')
-        fig.update_layout(barmode='stack',yaxis={'categoryorder':'total descending'})
+        fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         st.plotly_chart(fig, use_container_width=True)
         
     else:
         st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
         fig = px.bar(combined_subset, y='input product', x='proportion')
+        fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         st.plotly_chart(fig, use_container_width=True)
         
 see_import_data3 = st.expander('You can click here to see the raw data 👉')
