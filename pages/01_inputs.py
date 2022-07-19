@@ -1,34 +1,13 @@
 import streamlit as st
-
-st.markdown("# Inputs into the production process ")
-st.sidebar.markdown("# Page 2")
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
 
-st.set_page_config(layout="wide")
-
 # Data import
 
 combined = pd.read_csv('data/combined.csv')
 cpa_classification = pd.read_csv('data/cpa_classification.csv')
-
-# Sidebar
-
-st.sidebar.markdown('This is a prototype dashboard to present a range of publicly available information on supply chains.')
-st.sidebar.markdown('The text and charts automatically update depending on the options chosen in the selection boxes.')
-st.sidebar.markdown('You can find the source code [here](https://github.com/banksad/supply_chain_app)')
-
-st.sidebar.markdown('')
-if st.sidebar.button('Click here to see the cpa product classification'):
-    st.sidebar.dataframe(data=cpa_classification)
-else:
-    st.sidebar.write('')
-
-# Page design
-st.title('Supply Chain Analysis')
             
 # Input intensity of products
 # ----------------------------

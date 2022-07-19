@@ -1,14 +1,8 @@
 import streamlit as st
-
-st.markdown("# Page 3")
-st.sidebar.markdown("# Page 3")
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
-
-st.set_page_config(layout="wide")
 
 # Data import
 
