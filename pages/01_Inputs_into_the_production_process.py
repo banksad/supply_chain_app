@@ -94,6 +94,6 @@ else:
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         st.plotly_chart(fig, use_container_width=True)
         
-see_import_data3 = st.expander('You can click here to see the raw data 👉')
+see_import_data3 = st.expander('You can click here to see the raw data')
 with see_import_data3:
     st.dataframe(data=combined_subset[['component','input product','value','proportion']].sort_values(by='value',ascending=False))
