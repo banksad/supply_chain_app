@@ -18,7 +18,8 @@ st.subheader('Inputs into the production process')
 
 st.markdown('This section examines the products that are used in the production process, and the proportion of these products that are imported.')
 
-combined_product = st.selectbox('# Search for a product that you wish to analyse:',set(list(combined['output product'])))
+st.markdown('Search for a product you wish to analyse:')
+combined_product = st.selectbox('',set(sorted(list(combined['output product']))))
 
 # Calculations
 
