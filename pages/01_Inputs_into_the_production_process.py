@@ -14,7 +14,7 @@ cpa_classification = pd.read_csv('data/cpa_classification.csv')
 
 # Inputs section
 
-st.subheader('Inputs into the production process')
+st.header('Inputs into the production process')
 
 st.markdown('This section examines the products that are used in the production process, and the proportion of these products that are imported.')
 
@@ -26,6 +26,8 @@ total_inputs = combined[combined['output product']==combined_product]['value'].s
 domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()
 imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()
 
+st.subheader('Summary text')
+
 st.write('The total production of {} required £{}m of goods and services to produce in 2018.'.format(combined_product.lower(),round(total_inputs,0)))
             
 st.write('Of these inputs, £{}m were produced in the UK, and £{}m were imported.'.format(round(domestic_inputs,0),round(imported_inputs,0)))
@@ -36,6 +38,8 @@ combined_subset = combined[combined['output product']==combined_product]
 combined_subset = combined_subset[combined_subset['proportion']>0]
 
 # Chart choice
+
+st.subheader('Chart')
 
 chart_choice = st.selectbox('Choose whether to view total inputs, or a breakdown of domestically produced and imported inputs.',['Total inputs','Domestic / Imported breakdown'])
 pct_choice = st.selectbox('Choose whether to view data in £m or proportions of total inputs.',['Values (£m)','Percentage of total inputs'])
