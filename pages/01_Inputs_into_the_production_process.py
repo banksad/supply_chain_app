@@ -26,11 +26,9 @@ total_inputs = combined[combined['output product']==combined_product]['value'].s
 domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()
 imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()
 
-st.write('The total production of {} required £{}m of raw inputs in 2018.'.format(combined_product.lower(),round(total_inputs,0)))
+st.write('The total production of {} required £{}m of goods and services to produce in 2018.'.format(combined_product.lower(),round(total_inputs,0)))
             
-st.write('Of this, £{}m were domestically produced inputs (i.e. from other UK producers.'.format(round(domestic_inputs,0)))
-     
-st.write('By contrast, £{}m were imported inputs.'.format(round(imported_inputs,0)))
+st.write('Of these inputs, £{}m were produced in the UK, and £{}m were imported.'.format(round(domestic_inputs,0),round(imported_inputs,0)))
 
 # Total inputs
 
