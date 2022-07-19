@@ -18,8 +18,7 @@ st.subheader('Inputs into the production process')
 
 st.markdown('This section examines the products that are used in the production process, and the proportion of these products that are imported.')
 
-st.markdown('Search for a product you wish to analyse:')
-combined_product = st.selectbox('',set(sorted(list(combined['output product']))))
+combined_product = st.selectbox('Search for a product that you wish to analyse:',set(sorted(list(combined['output product']))))
 
 # Calculations
 
@@ -27,11 +26,11 @@ total_inputs = combined[combined['output product']==combined_product]['value'].s
 domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()
 imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()
 
-st.write('The total production of {} required £{}bn of raw inputs in 2018.'.format(combined_product.lower(),round(total_inputs/1000,1)))
+st.write('The total production of {} required £{}m of raw inputs in 2018.'.format(combined_product.lower(),round(total_inputs,0)))
             
-st.write('Of this, £{}bn were domestically produced inputs (i.e. from other UK producers.'.format(round(domestic_inputs/1000,1)))
+st.write('Of this, £{}m were domestically produced inputs (i.e. from other UK producers.'.format(round(domestic_inputs,0)))
      
-st.write('By contrast, £{}bn were imported inputs.'.format(round(imported_inputs/1000,1)))
+st.write('By contrast, £{}m were imported inputs.'.format(round(imported_inputs,0)))
 
 # Total inputs
 
