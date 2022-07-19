@@ -1,3 +1,4 @@
+from matplotlib.axis import YAxis
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -65,6 +66,7 @@ else:
     if pct_choice =='Values (£m)':
         st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
         fig = px.bar(combined_subset, y='input product', x='value')
+        fig.update_layout(barmode='stack',yaxis={'categoryorder':'total descending'})
         st.plotly_chart(fig, use_container_width=True)
         
     else:
