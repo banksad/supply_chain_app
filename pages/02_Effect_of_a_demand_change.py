@@ -46,10 +46,10 @@ if change<0:
     # Add chart
 
     st.markdown('##### Total effects of a change to final use of -£{:,}m for {}'.format(round(change*-1,2),multiplier_product.lower()))    
-    fig = px.bar(total_effects, y='total_effects', x='factor',
+    fig = px.bar(total_effects, y='total_effects', x='variable',
                     labels={
                         'total_effects':'Total effect',
-                        'factor': 'Component'
+                        'variable': 'Component'
                     })
     st.plotly_chart(fig, use_container_width=True)
     
@@ -64,10 +64,10 @@ else:
     # Add chart
 
     st.markdown('##### Total effects of a change to final use of £{:,}m for {}'.format(round(change,2),multiplier_product.lower()))    
-    fig = px.bar(total_effects, y='total_effects', x='factor',
+    fig = px.bar(total_effects, y='total_effects', x='variable',
                     labels={
                         'total_effects':'Total effect',
-                        'factor': 'Component'
+                        'variable': 'Component'
                     })
     st.plotly_chart(fig, use_container_width=True)
 
