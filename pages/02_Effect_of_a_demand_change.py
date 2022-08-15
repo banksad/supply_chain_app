@@ -39,14 +39,14 @@ if change<0:
     
     st.write('The change in gross value added is -£{:,}m'.format(round(total_gva*-1, 2)))
 
-    st.write('This is because domestic output changes by -£{:,}m, and there is a change in imports of -£{:,}m'.format(round(total_imports*-1,2),round(total_imports*-1,2)))
+    st.write('This is because domestic output changes by -£{:,}m, and there is a change in imports of -£{:,}m'.format(round(total_go*-1,2),round(total_imports*-1,2)))
 
     st.write('Employee compensation would change by -£{:,}m', round(total_coe*-1,2))
 
     # Add chart
 
     st.markdown('##### Total effects of a change to final use of -£{:,}m for {}'.format(round(change*-1,2),multiplier_product.lower()))    
-    fig = px.bar(total_effects, x='total_effects', y='factor',
+    fig = px.bar(total_effects, y='total_effects', x='factor',
                     labels={
                         'total_effects':'Total effect',
                         'factor': 'Component'
@@ -57,13 +57,13 @@ else:
 
     st.write('The change in gross value added is £{:,}m'.format(round(total_gva, 2)))
 
-    st.write('This is because domestic output changes by £{:,}m, and there is a change in imports of £{:,}m'.format(round(total_imports,2),round(total_imports,2)))
+    st.write('This is because domestic output changes by £{:,}m, and there is a change in imports of £{:,}m'.format(round(total_go,2),round(total_imports,2)))
 
     st.write('Employee compensation would change by £{:,}m'.format(round(total_coe,2)))
 
     # Add chart
 
-    st.markdown('##### Total effects of a change to final use of £{:,}m for {}'.format(round(change*-1,2),multiplier_product.lower()))    
+    st.markdown('##### Total effects of a change to final use of £{:,}m for {}'.format(round(change,2),multiplier_product.lower()))    
     fig = px.bar(total_effects, x='total_effects', y='factor',
                     labels={
                         'total_effects':'Total effect',
