@@ -32,16 +32,16 @@ total_coe = (effects_subset[(effects_subset['factor']=='total impact')&(effects_
 
 if change<0:
     
-    st.write('The change in gross value added is -£', round(total_gva*-1, 2), 'm')
+    st.write('The change in gross value added is -£{:,}m'.format(round(total_gva*-1, 2)))
 
-    st.write('This is because there is a corresponding change to imports of -£', round(total_imports*-1,2), 'm')
+    st.write('This is because there is a corresponding change to imports of -£{:,}m', round(total_imports*-1,2))
 
-    st.write('Employee compensation would change by -£', round(total_coe*-1,2), 'm')
+    st.write('Employee compensation would change by -£{:,}m', round(total_coe*-1,2))
     
 else:
 
-    st.write('The change in gross value added is £{}m'.format(round(total_gva, 2)))
+    st.write('The change in gross value added is £{:,}m'.format(round(total_gva, 2)))
 
-    st.write('This is because there is a corresponding change to imports of £{}m'.format(round(total_imports,2)))
+    st.write('This is because there is a corresponding change to imports of £{:,}m'.format(round(total_imports,2)))
 
-    st.write('Employee compensation would change by £{}m'.format(round(total_coe,2)))
+    st.write('Employee compensation would change by £{:,}m'.format(round(total_coe,2)))
