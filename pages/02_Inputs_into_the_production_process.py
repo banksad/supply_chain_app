@@ -1,5 +1,3 @@
-from re import X
-from matplotlib.axis import YAxis
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -67,7 +65,7 @@ if chart_choice == 'Domestic / Imported breakdown':
                      labels={
                          'component':'Category',
                          'input product': 'Product',
-                         'value': 'Percentage of total inputs'
+                         'proportion': 'Percentage of total inputs'
                      })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         st.plotly_chart(fig, use_container_width=True)
@@ -89,7 +87,7 @@ else:
         fig = px.bar(combined_subset, y='input product', x='proportion',
                      labels={
                          'input product': 'Product',
-                         'value': 'Percentage of total inputs'
+                         'proportion': 'Percentage of total inputs'
                      })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         st.plotly_chart(fig, use_container_width=True)
