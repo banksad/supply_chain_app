@@ -34,6 +34,7 @@ fig = px.bar(combined_subset, y='industry', x='proportion',
                     'proportion': 'Proportion of total intermediate consumption'
                 })
 fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
+fig.layout.xaxis.tickformat = ',.0%'
 st.plotly_chart(fig, use_container_width=True)
         
 see_import_data3 = st.expander('You can click here to see the raw data')
