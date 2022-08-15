@@ -39,7 +39,7 @@ if change<0:
     
     st.write('The change in gross value added is -£{:,}m'.format(round(total_gva*-1, 2)))
 
-    st.write('This is because domestic output changes by -£{:,}m, and there is a change in imports of -£{:,}m'.format(round(total_go*-1,2),round(total_imports*-1,2)))
+    st.write('There is a corresponding change in imports of -£{:,}m'.format(round(total_imports*-1,2)))
 
     st.write('Employee compensation would change by -£{:,}m', round(total_coe*-1,2))
 
@@ -57,7 +57,7 @@ else:
 
     st.write('The change in gross value added is £{:,}m'.format(round(total_gva, 2)))
 
-    st.write('This is because domestic output changes by £{:,}m, and there is a change in imports of £{:,}m'.format(round(total_go,2),round(total_imports,2)))
+    st.write('There is a corresponding change in imports of £{:,}m'.format(round(total_imports,2)))
 
     st.write('Employee compensation would change by £{:,}m'.format(round(total_coe,2)))
 
