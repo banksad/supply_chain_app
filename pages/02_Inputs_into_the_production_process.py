@@ -68,6 +68,7 @@ if chart_choice == 'Domestic / Imported breakdown':
                          'proportion': 'Percentage of total inputs'
                      })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
+        fig.layout.xaxis.tickformat = ',.0%'
         st.plotly_chart(fig, use_container_width=True)
 
 else:
@@ -90,6 +91,7 @@ else:
                          'proportion': 'Percentage of total inputs'
                      })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
+        fig.layout.xaxis.tickformat = ',.0%'
         st.plotly_chart(fig, use_container_width=True)
         
 see_import_data3 = st.expander('You can click here to see the raw data')
