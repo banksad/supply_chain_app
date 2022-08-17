@@ -20,7 +20,7 @@ change = st.number_input('Input change in demand for the product (£m)')
 
 # Total calculations
 
-effects_subset = detailed_effects[detailed_effects['product']==multiplier_product]
+effects_subset = detailed_effects[detailed_effects['Product']==multiplier_product]
 total_effects = effects_subset[effects_subset['factor']=='total impact']
 
 total_gva = (effects_subset[(effects_subset['factor']=='total impact')&(effects_subset['variable']=='Gross value added')]['value']*change).values[0]
