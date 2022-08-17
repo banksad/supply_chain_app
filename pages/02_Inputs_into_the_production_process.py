@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
 
-# Data imports
+# Data import
 
 combined = pd.read_csv('data/combined.csv')
 cpa_classification = pd.read_csv('data/cpa_classification.csv')
