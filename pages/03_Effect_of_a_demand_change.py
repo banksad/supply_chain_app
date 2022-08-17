@@ -14,7 +14,7 @@ st.subheader('Effects of a change in demand for a product on the economy')
 
 st.markdown('The Input Output tables show the indirect and direct effects of an increase in demand for a product on the whole economy and employment income (compensation of employees).')
 
-multiplier_product = st.selectbox('Select a product',options=detailed_effects.sort_values(by='product')['product'].unique())
+multiplier_product = st.selectbox('Select a product',options=detailed_effects.sort_values(by='Product')['Product'].unique())
 
 change = st.number_input('Input change in demand for the product (£m)')
 
