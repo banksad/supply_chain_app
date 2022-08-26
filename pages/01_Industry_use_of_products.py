@@ -52,9 +52,20 @@ config = {'displayModeBar': True}
 
 st.plotly_chart(fig, use_container_width=True, config=config)
         
-see_import_data3 = st.expander('You can click here to see the raw data')
+see_import_data3 = st.expander('You can click here to see the raw data. Data are currently ordered in descending order or proportion of total intermediate consumption attributable to a product. The industry and input product columns can be sorted by alphabetical order.')
 
 data_viewer = combined_subset.rename(columns={'industry':'Industry','input requirements':'Input Product','proportion':'Proportion of total intermediate consumption'})
 
 with see_import_data3:
-    st.dataframe(data=data_viewer[['Industry','Input Product','Proportion of total intermediate consumption']].sort_values(by='Proportion of total intermediate consumption',ascending=False))
+    # CSS to inject contained in a string
+    hide_table_row_index = """
+                <style>
+                thead tr th:first-child {display:none}
+                tbody th {display:none}
+                </style>
+                """
+
+    # Inject CSS with Markdown
+    st.markdown(hide_table_row_index, unsafe_allow_html=True)
+
+    st.table(data=data_viewer[['Industry','Input Product','Proportion of total intermediate consumption']].sort_values(by='Proportion of total intermediate consumption',ascending=False))
