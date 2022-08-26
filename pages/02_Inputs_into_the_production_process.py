@@ -123,4 +123,4 @@ with see_import_data3:
     # Inject CSS with Markdown
     st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
-    st.table(data=data_viewer[['component','input product','value','proportion']].sort_values(by='value',ascending=False))
+    st.table(data=data_viewer[['Component','Input Product','Value (£m)','Proportion']].sort_values(by='value',ascending=False))
