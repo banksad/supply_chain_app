@@ -39,8 +39,7 @@ fig.layout.xaxis.tickformat = ',.0%'
 fig.update_layout(
     yaxis = {
      'tickmode': 'array',
-     'tickvals': list(range(10)),
-     'ticktext': combined_subset['industry'].str.slice(-6).tolist(),
+     'ticktext': combined_subset['industry'].str.slice(10).tolist(),
     }
 )
 st.plotly_chart(fig, use_container_width=True)
