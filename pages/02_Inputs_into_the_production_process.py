@@ -37,6 +37,12 @@ st.write('Of these inputs, £{:,}m were produced in the UK, and £{:,}m were imp
 combined_subset = combined[combined['output product']==combined_product]
 combined_subset = combined_subset[combined_subset['proportion']>0]
 
+def truncate(x):
+
+    return x[:20]+'...'
+
+combined_subset['input_product_trun'] = combined_subset['input product'].apply(lambda x: truncate(x)) 
+
 # Chart choice
 
 st.subheader('Chart')
@@ -49,12 +55,18 @@ if chart_choice == 'Domestic / Imported breakdown':
     if pct_choice == 'Values (£m)':
     
         st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
-        fig = px.bar(combined_subset, color='component', y='input product', x='value',
+        fig = px.bar(combined_subset, color='component', y='input_product_trun', x='value',
                      labels={
                          'component':'Category',
                          'input product': 'Product',
                          'value': 'Value (£m)'
-                     })
+                     },
+                height=600,
+                hover_name='input product',
+                hover_data={'value':':.1f',
+                            'component':False,
+                            }
+                )
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
 
         config = {'displayModeBar': True}
