@@ -52,7 +52,7 @@ config = {'displayModeBar': True}
 
 st.plotly_chart(fig, use_container_width=True, config=config)
         
-see_import_data3 = st.expander('You can click here to see the raw data. Data are currently ordered in descending order or proportion of total intermediate consumption attributable to a product.')
+see_import_data3 = st.expander('You can click here to see the raw data. Data are currently ordered in descending order of the proportion of total intermediate consumption attributable to a product.')
 
 data_viewer = combined_subset.rename(columns={'industry':'Industry','input requirements':'Input Product','proportion':'Proportion of total intermediate consumption'})
 

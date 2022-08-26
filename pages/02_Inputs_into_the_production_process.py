@@ -106,6 +106,18 @@ else:
 
         st.plotly_chart(fig, use_container_width=True, config=config)
         
-see_import_data3 = st.expander('You can click here to see the raw data')
+see_import_data3 = st.expander('You can click here to see the raw data. Data are currently ordered in descending order of the proportion of inputs used in the production of a product.')
 with see_import_data3:
-    st.dataframe(data=combined_subset[['component','input product','value','proportion']].sort_values(by='value',ascending=False))
+
+        # CSS to inject contained in a string
+    hide_table_row_index = """
+                <style>
+                thead tr th:first-child {display:none}
+                tbody th {display:none}
+                </style>
+                """
+
+    # Inject CSS with Markdown
+    st.markdown(hide_table_row_index, unsafe_allow_html=True)
+
+    st.table(data=combined_subset[['component','input product','value','proportion']].sort_values(by='value',ascending=False))
