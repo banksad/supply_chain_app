@@ -39,9 +39,10 @@ fig = px.bar(combined_subset, y='industry_trun', x='proportion',
                     'industry_trun': 'Industry',
                     'proportion': 'Proportion of total intermediate consumption'
                 },
-                height=600)
+                height=600,
+                hover_name='industry')
 fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
-fig.layout.xaxis.tickformat = ',.00%'
+fig.layout.xaxis.tickformat = ',.0%'
 st.plotly_chart(fig, use_container_width=True)
         
 see_import_data3 = st.expander('You can click here to see the raw data')
