@@ -35,6 +35,14 @@ fig = px.bar(combined_subset, y='industry', x='proportion',
                 })
 fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
 fig.layout.xaxis.tickformat = ',.0%'
+# overwrite tick labels    
+fig.update_layout(
+    yaxis = {
+     'tickmode': 'array',
+     'tickvals': list(range(10)),
+     'ticktext': combined_subset['industry'].str.slice(-6).tolist(),
+    }
+)
 st.plotly_chart(fig, use_container_width=True)
         
 see_import_data3 = st.expander('You can click here to see the raw data')
