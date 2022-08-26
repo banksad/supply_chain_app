@@ -85,7 +85,7 @@ if chart_choice == 'Domestic / Imported breakdown':
                      },
                 height=600,
                 hover_name='input product',
-                hover_data={'Percentage of total inputs':':.1%',
+                hover_data={'proportion':':.1%',
                             'component':False,
                             'input_product_trun':False
                             })
@@ -126,7 +126,7 @@ else:
                      },
                 height=600,
                 hover_name='input product',
-                hover_data={'Percentage of total inputs':':.1%',
+                hover_data={'proportion':':.1%',
                             'component':False,
                             'input_product_trun':False
                             })
