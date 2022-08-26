@@ -23,25 +23,24 @@ combined_product = st.selectbox('Search for a product that you wish to analyse:'
 combined_subset = combined[combined['input requirements']==combined_product]
 combined_subset = combined_subset[combined_subset['proportion']>0]
 
+def truncate(x):
+
+    return x[:9]+'...'
+
+combined_subset['industry_trun'] = combined_subset['industry'].apply(lambda x: truncate(x)) 
+
 # Chart choice
 
 st.subheader('Chart')
     
 st.markdown('##### Proportion of total intermediate consumption from {} products '.format(combined_product.lower()))
-fig = px.bar(combined_subset, y='industry', x='proportion',
+fig = px.bar(combined_subset, y='industry_trun', x='proportion',
                 labels={
-                    'industry': 'Industry',
+                    'industry_trun': 'Industry',
                     'proportion': 'Proportion of total intermediate consumption'
                 })
 fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
 fig.layout.xaxis.tickformat = ',.0%'
-# overwrite tick labels    
-fig.update_layout(
-    yaxis = {
-     'tickmode': 'array',
-     'ticktext': combined_subset['industry'].str.slice(10).tolist(),
-    }
-)
 st.plotly_chart(fig, use_container_width=True)
         
 see_import_data3 = st.expander('You can click here to see the raw data')
