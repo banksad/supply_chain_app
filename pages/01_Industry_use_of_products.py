@@ -50,5 +50,8 @@ fig.layout.xaxis.tickformat = ',.0%'
 st.plotly_chart(fig, use_container_width=True)
         
 see_import_data3 = st.expander('You can click here to see the raw data')
+
+data_viewer = combined_subset.rename(columns={'industry':'Industry','input requirements':'Input Product','proportion':'Proportion of total intermediate consumption'})
+
 with see_import_data3:
-    st.dataframe(data=combined_subset[['industry','input requirements','proportion']].sort_values(by='proportion',ascending=False))
+    st.dataframe(data=data_viewer[['Industry','Input Product','Proportion of total intermediate consumption']].sort_values(by='Proportion of total intermediate consumption',ascending=False))
