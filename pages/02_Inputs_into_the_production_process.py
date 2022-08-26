@@ -58,13 +58,14 @@ if chart_choice == 'Domestic / Imported breakdown':
         fig = px.bar(combined_subset, color='component', y='input_product_trun', x='value',
                      labels={
                          'component':'Category',
-                         'input product': 'Product',
+                         'input_product_trun': 'Product',
                          'value': 'Value (£m)'
                      },
                 height=600,
                 hover_name='input product',
                 hover_data={'value':':.1f',
                             'component':False,
+                            'input_product_trun':False
                             }
                 )
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
@@ -76,12 +77,18 @@ if chart_choice == 'Domestic / Imported breakdown':
     else:
         
         st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
-        fig = px.bar(combined_subset, color='component', y='input product', x='proportion',
+        fig = px.bar(combined_subset, color='component', y='input_product_trun', x='proportion',
                      labels={
                          'component':'Category',
-                         'input product': 'Product',
+                         'input_product_trun': 'Product',
                          'proportion': 'Percentage of total inputs'
-                     })
+                     },
+                height=600,
+                hover_name='input product',
+                hover_data={'Percentage of total inputs':':.1%',
+                            'component':False,
+                            'input_product_trun':False
+                            })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         fig.layout.xaxis.tickformat = ',.0%'
 
@@ -93,11 +100,17 @@ else:
     
     if pct_choice =='Values (£m)':
         st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
-        fig = px.bar(combined_subset, y='input product', x='value',
+        fig = px.bar(combined_subset, y='input_product_trun', x='value',
                      labels={
-                         'input product': 'Product',
+                         'input_product_trun': 'Product',
                          'value': 'Value (£m)'
-                     })
+                     },
+                height=600,
+                hover_name='input product',
+                hover_data={'value':':.1f',
+                            'component':False,
+                            'input_product_trun':False
+                            })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
 
         config = {'displayModeBar': True}
@@ -108,9 +121,15 @@ else:
         st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
         fig = px.bar(combined_subset, y='input product', x='proportion',
                      labels={
-                         'input product': 'Product',
+                         'input_product_trun': 'Product',
                          'proportion': 'Percentage of total inputs'
-                     })
+                     },
+                height=600,
+                hover_name='input product',
+                hover_data={'proportion':':.1%',
+                            'component':False,
+                            'input_product_trun':False
+                            })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         fig.layout.xaxis.tickformat = ',.0%'
 
