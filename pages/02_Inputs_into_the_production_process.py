@@ -119,14 +119,14 @@ else:
         
     else:
         st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
-        fig = px.bar(combined_subset, y='input product', x='proportion',
+        fig = px.bar(combined_subset, y='input_product_trun', x='proportion',
                      labels={
                          'input_product_trun': 'Product',
                          'proportion': 'Percentage of total inputs'
                      },
                 height=600,
                 hover_name='input product',
-                hover_data={'proportion':':.1%',
+                hover_data={'Percentage of total inputs':':.1%',
                             'component':False,
                             'input_product_trun':False
                             })
