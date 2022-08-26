@@ -68,4 +68,4 @@ with see_import_data3:
     # Inject CSS with Markdown
     st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
-    st.table(data=data_viewer[['Industry','Input Product','Proportion of total intermediate consumption']].sort_values(by='Proportion of total intermediate consumption',ascending=False))
+    st.dataframe(data=data_viewer[['Industry','Input Product','Proportion of total intermediate consumption']].sort_values(by='Proportion of total intermediate consumption',ascending=False))
