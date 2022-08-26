@@ -41,7 +41,7 @@ fig = px.bar(combined_subset, y='industry_trun', x='proportion',
                 },
                 height=600,
                 hover_name='industry',
-                hover_data={'proportion':':.1f'}
+                hover_data={'proportion':':.1%'}
                 )
 fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
 fig.layout.xaxis.tickformat = ',.0%'
