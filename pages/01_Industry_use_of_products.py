@@ -41,7 +41,8 @@ fig = px.bar(combined_subset, y='industry_trun', x='proportion',
                 },
                 height=600,
                 hover_name='industry',
-                hover_data=['proportion'])
+                hover_data={'proportion':':.1f'}
+                )
 fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
 fig.layout.xaxis.tickformat = ',.0%'
 st.plotly_chart(fig, use_container_width=True)
