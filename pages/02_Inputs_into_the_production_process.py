@@ -108,7 +108,10 @@ else:
         
 see_import_data3 = st.expander('You can click here to see the raw data. Data are currently ordered in descending order of the proportion of inputs used in the production of a product.')
 
-data_viewer = combined_subset.rename(columns={'component':'Component','input product':'Input Product','value':'Value (£m)','proportion':'Proportion'})
+data_viewer = combined_subset.rename(columns={'component':'Component',
+                                              'input product':'Input Product',
+                                              'value':'Value (£m)',
+                                              'proportion':'Proportion'})
 
 with see_import_data3:
 
@@ -123,4 +126,4 @@ with see_import_data3:
     # Inject CSS with Markdown
     st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
-    st.table(data=data_viewer[['Component','Input Product','Value (£m)','Proportion']].sort_values(by='value',ascending=False))
+    st.table(data=data_viewer[['Component','Input Product','Value (£m)','Proportion']].sort_values(by='Value (£m)',ascending=False))
