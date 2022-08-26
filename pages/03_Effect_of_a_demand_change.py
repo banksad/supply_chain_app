@@ -51,7 +51,10 @@ if change<0:
                         'total_effects':'Total effect (£m)',
                         'variable': 'Component'
                     })
-    st.plotly_chart(fig, use_container_width=True)
+
+    config = {'displayModeBar': True}
+
+    st.plotly_chart(fig, use_container_width=True, config=config)
     
 else:
 
@@ -69,5 +72,8 @@ else:
                         'total_effects':'Total effect (£m)',
                         'variable': 'Component'
                     })
-    st.plotly_chart(fig, use_container_width=True)
+    
+    config = {'displayModeBar': True}
+
+    st.plotly_chart(fig, use_container_width=True, config=config)
 

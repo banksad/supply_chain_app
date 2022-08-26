@@ -56,7 +56,10 @@ if chart_choice == 'Domestic / Imported breakdown':
                          'value': 'Value (£m)'
                      })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
-        st.plotly_chart(fig, use_container_width=True)
+
+        config = {'displayModeBar': True}
+
+        st.plotly_chart(fig, use_container_width=True, config=config)
 
     else:
         
@@ -69,7 +72,10 @@ if chart_choice == 'Domestic / Imported breakdown':
                      })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         fig.layout.xaxis.tickformat = ',.0%'
-        st.plotly_chart(fig, use_container_width=True)
+
+        config = {'displayModeBar': True}
+
+        st.plotly_chart(fig, use_container_width=True, config=config)
 
 else:
     
@@ -81,7 +87,10 @@ else:
                          'value': 'Value (£m)'
                      })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
-        st.plotly_chart(fig, use_container_width=True)
+
+        config = {'displayModeBar': True}
+
+        st.plotly_chart(fig, use_container_width=True, config=config)
         
     else:
         st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
@@ -92,7 +101,10 @@ else:
                      })
         fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
         fig.layout.xaxis.tickformat = ',.0%'
-        st.plotly_chart(fig, use_container_width=True)
+
+        config = {'displayModeBar': True}
+
+        st.plotly_chart(fig, use_container_width=True, config=config)
         
 see_import_data3 = st.expander('You can click here to see the raw data')
 with see_import_data3:

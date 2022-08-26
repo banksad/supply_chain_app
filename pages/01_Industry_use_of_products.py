@@ -47,7 +47,10 @@ fig = px.bar(combined_subset, y='industry_trun', x='proportion',
                 )
 fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
 fig.layout.xaxis.tickformat = ',.0%'
-st.plotly_chart(fig, use_container_width=True)
+
+config = {'displayModeBar': True}
+
+st.plotly_chart(fig, use_container_width=True, config=config)
         
 see_import_data3 = st.expander('You can click here to see the raw data')
 
