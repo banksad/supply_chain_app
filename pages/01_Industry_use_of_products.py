@@ -25,7 +25,7 @@ combined_subset = combined_subset[combined_subset['proportion']>0]
 
 def truncate(x):
 
-    return x[:9]+'...'
+    return x[:20]+'...'
 
 combined_subset['industry_trun'] = combined_subset['industry'].apply(lambda x: truncate(x)) 
 
