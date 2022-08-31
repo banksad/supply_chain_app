@@ -14,9 +14,9 @@ cpa_classification = pd.read_csv('data/cpa_classification.csv')
 
 # Inputs section
 
-st.header('Inputs into the production process of products')
+st.header('Inputs into the production process of goods and services')
 
-st.markdown('This section examines what products need to be used in order to produce other products, and of these, what proportion are imported. This utilises the ONS product-by-product tables, which are part of the Input-Output tables.')
+st.markdown('This section examines what products (goods and services) need to be used in order to produce other products, and of these, what proportion are imported. This utilises the ONS product-by-product tables, which are part of the Input-Output tables.')
 
 combined_product = st.selectbox('Search for a product that you wish to analyse:',options=combined.sort_values(by='output product')['output product'].unique())
 
