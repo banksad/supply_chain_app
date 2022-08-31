@@ -51,7 +51,8 @@ if change<0:
                         'total_effects':'Total effect (£m)',
                         'variable': 'Component'
                     },
-                    hover_data={'total_effects':':.2f'})
+                    hover_data={'total_effects':':.2f',
+                                'variable':False})
 
     config = {'displayModeBar': True}
 
@@ -73,7 +74,8 @@ else:
                         'total_effects':'Total effect (£m)',
                         'variable': 'Component'
                     },
-                    hover_data={'total_effects':':.2f'})
+                    hover_data={'total_effects':':.2f',
+                                'variable':False})
     
     config = {'displayModeBar': True}
 
