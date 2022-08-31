@@ -49,8 +49,9 @@ if change<0:
     fig = px.bar(total_effects, y='total_effects', x='variable',
                     labels={
                         'total_effects':'Total effect (£m)',
-                        'variable': False
-                    })
+                        'variable': 'Component'
+                    },
+                    hover_data={'total_effects':':.2f'})
 
     config = {'displayModeBar': True}
 
@@ -70,8 +71,9 @@ else:
     fig = px.bar(total_effects, y='total_effects', x='variable',
                     labels={
                         'total_effects':'Total effect (£m)',
-                        'variable': False
-                    })
+                        'variable': 'Component'
+                    },
+                    hover_data={'total_effects':':.2f'})
     
     config = {'displayModeBar': True}
 
