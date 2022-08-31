@@ -9,6 +9,7 @@ st.markdown('Different pages can be clicked on in the sidebar. These each contai
 st.markdown(
 """
 Summaries of the three tabs are set out below:
+
 - **Industry use of goods and services**: This tab presents information on the extent to which different industries in the economy use specific goods and services in their production processes.
 
 - **Inputs into the production process**: This section examines what products (goods and services) need to be used in order to produce other products, and of these, what proportion are imported.
