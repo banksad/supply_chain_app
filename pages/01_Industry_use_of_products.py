@@ -14,11 +14,11 @@ cpa_classification = pd.read_csv('data/cpa_classification.csv')
 
 # Inputs section
 
-st.header('How much do different industries use of a given product?')
+st.header('How much do different industries use of goods and services in the production process?')
 
-st.markdown('This section examines the relative importance of a product to every industry.')
+st.markdown('This tab presents information on the extent to which industries in the economy use specific goods and services in their production processes. In choosing an industry, data on the amount of specific goods and services used in the industries production process are presented, as well as the extent to which these goods are imported or domestically produced.')
 
-combined_product = st.selectbox('Search for a product that you wish to analyse:',options=combined.sort_values(by='input requirements')['input requirements'].unique())
+combined_product = st.selectbox('Search for a product (goods and services) that you wish to analyse:',options=combined.sort_values(by='input requirements')['input requirements'].unique())
 
 combined_subset = combined[combined['input requirements']==combined_product]
 combined_subset = combined_subset[combined_subset['proportion']>0]
