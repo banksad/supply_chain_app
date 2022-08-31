@@ -14,9 +14,9 @@ cpa_classification = pd.read_csv('data/cpa_classification.csv')
 
 # Inputs section
 
-st.header('Inputs into the production process')
+st.header('Inputs into the production process of products')
 
-st.markdown('This section examines the products that are used in the production process, and the proportion of these products that are imported.')
+st.markdown('This section examines what products need to be used in order to produce other products, and of these, what proportion are imported. This utilises the ONS product-by-product tables, which are part of the Input-Output tables.')
 
 combined_product = st.selectbox('Search for a product that you wish to analyse:',options=combined.sort_values(by='output product')['output product'].unique())
 
@@ -47,7 +47,7 @@ combined_subset['input_product_trun'] = combined_subset['input product'].apply(l
 
 st.subheader('Chart')
 
-chart_choice = st.selectbox('Choose whether to view the breakdown of domestically produced and imported inputs, or a total that as grouped these together.',['Domestic / Imported breakdown','Total inputs'])
+chart_choice = st.selectbox('Choose whether to view the breakdown of domestically produced and imported inputs, or a total that has grouped these together.',['Domestic / Imported breakdown','Total inputs'])
 pct_choice = st.selectbox('Choose whether to view data in £m or as proportions of total inputs needed to produce the product.',['Values (£m)','Percentage of total inputs'])
 
 if chart_choice == 'Domestic / Imported breakdown':

@@ -12,7 +12,7 @@ detailed_effects = pd.read_csv('data/detailed_effects.csv')
 
 st.subheader('Effects of a change in demand for a product on the economy')
 
-st.markdown('The Input Output tables show the indirect and direct effects of an increase in demand for a product on the whole economy and employment income (compensation of employees).')
+st.markdown('This tab shows the effect of a change in final use for a product on the economy. It allows the user to retrieve the estimated impact on variables such as Gross Value Added (GVA) or imports')
 
 multiplier_product = st.selectbox('Select a product',options=detailed_effects.sort_values(by='Product')['Product'].unique())
 
@@ -41,7 +41,7 @@ if change<0:
 
     st.write('There is a corresponding change in imports of -£{:,}m'.format(round(total_imports*-1,2)))
 
-    st.write('Employee compensation would change by -£{:,}m', round(total_coe*-1,2))
+    st.write('Employee compensation would change by -£{:,}m'.format(round(total_coe*-1,2)))
 
     # Add chart
 
