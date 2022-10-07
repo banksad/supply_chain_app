@@ -16,7 +16,7 @@ cpa_classification = pd.read_csv('data/cpa_classification.csv')
 
 st.header('How do industries use goods and services in the production process?')
 
-st.markdown('This tab presents information on the extent to which different industries in the economy use specific goods and services in their production processes. In choosing a product, the chart will show how much that product makes up of an industries total input into its production process')
+st.markdown("""This tab presents information on the extent to which different industries in the economy use specific goods and services in their production processes. In choosing a product, the chart will show how much that product makes up of each industries' total input into its production process""")
 
 combined_product = st.selectbox('Search for a product (goods and services) that you wish to analyse:',options=combined.sort_values(by='input requirements')['input requirements'].unique())
 
