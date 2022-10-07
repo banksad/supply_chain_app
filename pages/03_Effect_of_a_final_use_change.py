@@ -14,7 +14,7 @@ st.subheader('Effects of a change in final use for a product on the economy')
 
 st.markdown("""
 
-To meet an increase in final use for a product, more of the inputs of that product need to be produced and / or imported. This effect continues up the supply chain, leading to a change in total use for products.
+To meet an increase in final use for a product, more of the inputs of that product need to be produced or imported. This effect continues up the supply chain, leading to a change in total use for products.
 
 This change in total output is captured by effects. They also capture changes to other inputs into the production process, such as compensation of employees and gross operating surplus.
 
