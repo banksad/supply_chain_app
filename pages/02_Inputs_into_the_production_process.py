@@ -41,51 +41,59 @@ combined_subset = combined_subset.sort_values(by='proportion',ascending=False).h
 
 # Chart choice
 
-st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
-fig = px.bar(combined_subset, color='component', y='input_product_trun', x='value',
-                labels={
-                    'component':'Category',
-                    'input_product_trun': 'Product',
-                    'value': 'Value (£m)'
-                },
-        height=600,
-        hover_name='input product',
-        hover_data={'value':':.1f',
-                    'component':False,
-                    'input_product_trun':False
-                    }
-        )
-fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
+st.subheader('Chart')
 
-config = {'displayModeBar': True}
+pct_choice = st.selectbox('Choose whether to view data in £m or as proportions of total inputs needed to produce the product.',['Values (£m)','Percentage of total inputs'])
+    
+if pct_choice == 'Values (£m)':
 
-st.plotly_chart(fig, use_container_width=True, config=config)
+    st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
+    fig = px.bar(combined_subset, color='component', y='input_product_trun', x='value',
+                    labels={
+                        'component':'Category',
+                        'input_product_trun': 'Product',
+                        'value': 'Value (£m)'
+                    },
+            height=600,
+            hover_name='input product',
+            hover_data={'value':':.1f',
+                        'component':False,
+                        'input_product_trun':False
+                        }
+            )
+    fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
 
-st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
-fig = px.histogram(combined_subset, 
-                    color='component',
-                    y='input_product_trun', 
-                    x='value',
-                    barnorm='percent',
-                        labels={
-                            'component':'Category',
-                            'input_product_trun':'Product',
-                            'sum of value (normalised as percent)': 'percentage of total inputs'
-                        },
-        height=600,
-        hover_name='input product',
-        hover_data={
-                    'component':False,
-                    'input_product_trun':False
-                    })
+    config = {'displayModeBar': True}
 
-fig.update_layout(yaxis={'categoryorder':'total ascending'},
-                    xaxis_title='Percentage of total inputs'
-                    )
+    st.plotly_chart(fig, use_container_width=True, config=config)
 
-config = {'displayModeBar': True}
+else:
+    
+    st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
+    fig = px.histogram(combined_subset, 
+                       color='component',
+                       y='input_product_trun', 
+                       x='value',
+                       barnorm='percent',
+                            labels={
+                                'component':'Category',
+                                'input_product_trun':'Product',
+                                'sum of value (normalised as percent)': 'percentage of total inputs'
+                            },
+            height=600,
+            hover_name='input product',
+            hover_data={
+                        'component':False,
+                        'input_product_trun':False
+                        })
 
-st.plotly_chart(fig, use_container_width=True, config=config)
+    fig.update_layout(yaxis={'categoryorder':'total ascending'},
+                      xaxis_title='Percentage of total inputs'
+                     )
+
+    config = {'displayModeBar': True}
+
+    st.plotly_chart(fig, use_container_width=True, config=config)
         
 see_import_data3 = st.expander('You can click here to see the raw data. Data are currently ordered in descending order of the proportion of inputs used in the production of a product.')
 
