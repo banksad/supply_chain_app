@@ -21,13 +21,8 @@ st.markdown('This tab presents information on the extent to which different indu
 combined_product = st.selectbox('Search for a product (goods and services) that you wish to analyse:',options=combined.sort_values(by='input requirements')['input requirements'].unique())
 
 combined_subset = combined[combined['input requirements']==combined_product]
-combined_subset = combined_subset[combined_subset['proportion']>0]
 
-def truncate(x):
-
-    return x[:20]+'...'
-
-combined_subset['industry_trun'] = combined_subset['industry'].apply(lambda x: truncate(x))
+combined_subset['industry_trun'] = combined_subset['industry'].apply(lambda x: x[:20]+'...')
 combined_subset = combined_subset.sort_values(by='proportion',ascending=False).head(10)
 
 # Chart choice

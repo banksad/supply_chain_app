@@ -35,13 +35,8 @@ st.write('Of these inputs, £{:,}m were produced in the UK, and £{:,}m were imp
 # Total inputs
 
 combined_subset = combined[combined['output product']==combined_product]
-combined_subset = combined_subset[combined_subset['proportion']>0]
 
-def truncate(x):
-
-    return x[:20]+'...'
-
-combined_subset['input_product_trun'] = combined_subset['input product'].apply(lambda x: truncate(x)) 
+combined_subset['input_product_trun'] = combined_subset['input product'].apply(lambda x: x[:20]+'...') 
 combined_subset = combined_subset.sort_values(by='proportion',ascending=False).head(10)
 
 # Chart choice
