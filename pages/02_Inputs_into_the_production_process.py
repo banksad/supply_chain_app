@@ -40,7 +40,6 @@ combined_subset['input_product_trun'] = combined_subset['input product'].apply(l
 combined_subset = combined_subset.sort_values(by='proportion',ascending=False).head(10)
 
 y_array = combined_subset.groupby('input product')['value'].sum().head(10)
-print(y_array)
 
 # Chart choice
 
@@ -64,7 +63,10 @@ if pct_choice == 'Values (£m)':
                         'input_product_trun':False
                         }
             )
-    fig.update_layout(barmode='stack')
+    fig.update_layout(barmode='stack',
+                      yaxis={'categoryorder':'array',
+                             'categoryarray':y_array}
+                      )
 
     config = {'displayModeBar': True}
 
