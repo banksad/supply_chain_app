@@ -75,7 +75,11 @@ if pct_choice == 'Values (£m)':
 else:
     
     st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
-    fig = px.histogram(combined_subset, color='component', y='input_product_trun', x='value')
+    fig = px.histogram(combined_subset, 
+                       color='component',
+                       y='input_product_trun', 
+                       x='value',
+                       barnorm='percent')
 
     config = {'displayModeBar': True}
 
