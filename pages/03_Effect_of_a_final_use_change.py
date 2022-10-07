@@ -12,7 +12,21 @@ detailed_effects = pd.read_csv('data/detailed_effects.csv')
 
 st.subheader('Effects of a change in final use for a product on the economy')
 
-st.markdown('This tab shows the effect of a change in final use for a product on the economy. It allows the user to retrieve the estimated impact on variables such as Gross Value Added (GVA) or imports')
+st.markdown("""
+
+To meet an increase in final use for a product, more of the inputs of that product need to be produced and / or imported. This effect continues up the supply chain, leading to a change in total use for products.
+
+This change in total output is captured by effects. They also capture changes to other inputs into the production process, such as compensation of employees and gross operating surplus.
+
+The tab allows the user to model the total effect of a change in final use on the economy.
+
+The effects published by ONS are sometimes referred to a Type 1. They include the impact on production of a change in final use (direct impact) and the supply chain impacts stemming from the initial change in final use (indirect impact).
+
+However, they do not include induced impacts (i.e. Type 2 effects), which cover changes to a households spending from employment changes linked to a change in final use. In addition, the model assumes that the structure of the economy doesn't changes and that any additional inputs are available.
+
+The results of the model are therefore most robust with relatively small changes to final use.
+
+""")
 
 multiplier_product = st.selectbox('Select a product',options=detailed_effects.sort_values(by='Product')['Product'].unique())
 
