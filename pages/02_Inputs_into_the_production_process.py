@@ -79,7 +79,14 @@ else:
                        color='component',
                        y='input_product_trun', 
                        x='value',
-                       barnorm='percent')
+                       barnorm='percent',
+                            labels={
+                                'component':'Category',
+                                'input_product_trun':'Product',
+                                'sum of value (normalised as percent)': 'percentage of total inputs'
+                            })
+
+    fig.update_layout(yaxis={'categoryorder':'total ascending'})
 
     config = {'displayModeBar': True}
 
