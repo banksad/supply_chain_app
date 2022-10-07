@@ -18,7 +18,11 @@ st.header('Inputs into the production process of goods and services')
 
 st.markdown('This section examines what products (goods and services) need to be used in order to produce other products, and of these, what proportion are domestically produced and which imported. This utilises the ONS product-by-product tables, which are part of the Input-Output tables.')
 
-combined_product = st.selectbox('Search for a product that you wish to analyse:',options=combined.sort_values(by='output product')['output product'].unique())
+with st.form(key='product_form'):
+    combined_product = st.selectbox('Search for a product that you wish to analyse:',options=combined.sort_values(by='output product')['output product'].unique())
+    pct_choice = st.selectbox('Choose whether to view data in £m or as proportions of total inputs needed to produce the product.',['Values (£m)','Percentage of total inputs'])
+    
+    submit_button = st.form_submit_button(label='Submit')
 
 # Calculations
 
@@ -43,8 +47,6 @@ combined_subset = combined_subset.sort_values(by='proportion',ascending=False).h
 
 st.subheader('Chart')
 
-pct_choice = st.selectbox('Choose whether to view data in £m or as proportions of total inputs needed to produce the product.',['Values (£m)','Percentage of total inputs'])
-    
 if pct_choice == 'Values (£m)':
 
     st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
