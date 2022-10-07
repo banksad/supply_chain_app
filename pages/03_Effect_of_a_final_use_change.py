@@ -28,9 +28,11 @@ The results of the model are therefore most robust with relatively small changes
 
 """)
 
-multiplier_product = st.selectbox('Select a product',options=detailed_effects.sort_values(by='Product')['Product'].unique())
+with st.form(key='effects_form'):
+    multiplier_product = st.selectbox('Select a product',options=detailed_effects.sort_values(by='Product')['Product'].unique())
+    change = st.number_input('Input change in final use for the product (£m)')
 
-change = st.number_input('Input change in final use for the product (£m)')
+    submit_button = st.form_submit_button(label='Submit')
 
 # Total calculations
 
