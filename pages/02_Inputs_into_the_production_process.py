@@ -61,7 +61,7 @@ if pct_choice == 'Values (£m)':
                         'input_product_trun':False
                         }
             )
-    fig.update_layout(barmode='stack',yaxis={'categoryorder':'sum ascending'})
+    fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
 
     config = {'displayModeBar': True}
 
@@ -95,7 +95,7 @@ else:
 
     st.plotly_chart(fig, use_container_width=True, config=config)
         
-see_import_data3 = st.expander('You can click here to see the raw data. Data are currently ordered in descending order of the proportion of inputs used in the production of a product.')
+see_import_data3 = st.expander('You can click here to see the raw data. Data are currently ordered in descending order of the value of inputs used in the production of a product.')
 
 data_viewer = combined_subset.rename(columns={'component':'Component',
                                               'input product':'Input Product',
