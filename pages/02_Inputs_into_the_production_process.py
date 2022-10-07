@@ -42,6 +42,7 @@ def truncate(x):
     return x[:20]+'...'
 
 combined_subset['input_product_trun'] = combined_subset['input product'].apply(lambda x: truncate(x)) 
+combined_subset = combined_subset.sort_values(by='proportion',ascending=False).head(10)
 
 # Chart choice
 
