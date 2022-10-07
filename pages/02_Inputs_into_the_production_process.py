@@ -75,7 +75,7 @@ if pct_choice == 'Values (£m)':
 else:
     
     st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
-    fig = px.bar(combined_subset, color='component', y='input_product_trun', x='proportion',
+    fig = px.bar(combined_subset, color='component', y='input_product_trun', x='value',
                     labels={
                         'component':'Category',
                         'input_product_trun': 'Product',
@@ -87,7 +87,7 @@ else:
                         'component':False,
                         'input_product_trun':False
                         })
-    fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
+    fig.update_layout(barmode='relative',yaxis={'categoryorder':'total ascending'})
     fig.layout.xaxis.tickformat = ',.0%'
 
     config = {'displayModeBar': True}
