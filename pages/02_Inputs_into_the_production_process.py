@@ -39,6 +39,9 @@ combined_subset = combined[combined['output product']==combined_product]
 combined_subset['input_product_trun'] = combined_subset['input product'].apply(lambda x: x[:20]+'...') 
 combined_subset = combined_subset.sort_values(by='proportion',ascending=False).head(10)
 
+y_array = combined_subset.groupby('input product')['value'].sum().head(10)
+print(y_array)
+
 # Chart choice
 
 st.subheader('Chart')
@@ -61,7 +64,7 @@ if pct_choice == 'Values (£m)':
                         'input_product_trun':False
                         }
             )
-    fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
+    fig.update_layout(barmode='stack')
 
     config = {'displayModeBar': True}
 
@@ -87,15 +90,13 @@ else:
                         'input_product_trun':False
                         })
 
-    fig.update_layout(yaxis={'categoryorder':'total ascending'},
-                      xaxis_title='Percentage of total inputs'
-                     )
+    fig.update_layout(xaxis_title='Percentage of total inputs')
 
     config = {'displayModeBar': True}
 
     st.plotly_chart(fig, use_container_width=True, config=config)
         
-see_import_data3 = st.expander('You can click here to see the raw data. Data are currently ordered in descending order of the proportion of inputs used in the production of a product.')
+see_import_data3 = st.expander('You can click here to see the raw data. Data are currently ordered in descending order of the value of inputs used in the production of a product.')
 
 data_viewer = combined_subset.rename(columns={'component':'Component',
                                               'input product':'Input Product',
