@@ -39,7 +39,7 @@ combined_subset = combined[combined['output product']==combined_product]
 combined_subset['input_product_trun'] = combined_subset['input product'].apply(lambda x: x[:20]+'...') 
 combined_subset = combined_subset.sort_values(by='proportion',ascending=False).head(10)
 
-y_array = combined_subset.groupby('input product')['value'].sum().head(10)
+y_array = list(combined_subset.groupby('input product')['value'].sum().head(10))
 
 # Chart choice
 
