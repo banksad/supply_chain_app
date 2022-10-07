@@ -10,13 +10,13 @@ detailed_effects = pd.read_csv('data/detailed_effects.csv')
 
 # Effects of an increase in demand on whole economy output
 
-st.subheader('Effects of a change in demand for a product on the economy')
+st.subheader('Effects of a change in final use for a product on the economy')
 
 st.markdown('This tab shows the effect of a change in final use for a product on the economy. It allows the user to retrieve the estimated impact on variables such as Gross Value Added (GVA) or imports')
 
 multiplier_product = st.selectbox('Select a product',options=detailed_effects.sort_values(by='Product')['Product'].unique())
 
-change = st.number_input('Input change in demand for the product (£m)')
+change = st.number_input('Input change in final use for the product (£m)')
 
 # Total calculations
 
