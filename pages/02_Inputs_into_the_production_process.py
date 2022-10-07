@@ -48,95 +48,51 @@ combined_subset = combined_subset.sort_values(by='proportion',ascending=False).h
 
 st.subheader('Chart')
 
-chart_choice = st.selectbox('Choose whether to view the breakdown of domestically produced and imported inputs, or a total that has grouped these together.',['Domestic / Imported breakdown','Total inputs'])
 pct_choice = st.selectbox('Choose whether to view data in £m or as proportions of total inputs needed to produce the product.',['Values (£m)','Percentage of total inputs'])
-
-if chart_choice == 'Domestic / Imported breakdown':
     
-    if pct_choice == 'Values (£m)':
-    
-        st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
-        fig = px.bar(combined_subset, color='component', y='input_product_trun', x='value',
-                     labels={
-                         'component':'Category',
-                         'input_product_trun': 'Product',
-                         'value': 'Value (£m)'
-                     },
-                height=600,
-                hover_name='input product',
-                hover_data={'value':':.1f',
-                            'component':False,
-                            'input_product_trun':False
-                            }
-                )
-        fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
+if pct_choice == 'Values (£m)':
 
-        config = {'displayModeBar': True}
+    st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
+    fig = px.bar(combined_subset, color='component', y='input_product_trun', x='value',
+                    labels={
+                        'component':'Category',
+                        'input_product_trun': 'Product',
+                        'value': 'Value (£m)'
+                    },
+            height=600,
+            hover_name='input product',
+            hover_data={'value':':.1f',
+                        'component':False,
+                        'input_product_trun':False
+                        }
+            )
+    fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
 
-        st.plotly_chart(fig, use_container_width=True, config=config)
+    config = {'displayModeBar': True}
 
-    else:
-        
-        st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
-        fig = px.bar(combined_subset, color='component', y='input_product_trun', x='proportion',
-                     labels={
-                         'component':'Category',
-                         'input_product_trun': 'Product',
-                         'proportion': 'Percentage of total inputs'
-                     },
-                height=600,
-                hover_name='input product',
-                hover_data={'proportion':':.1%',
-                            'component':False,
-                            'input_product_trun':False
-                            })
-        fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
-        fig.layout.xaxis.tickformat = ',.0%'
-
-        config = {'displayModeBar': True}
-
-        st.plotly_chart(fig, use_container_width=True, config=config)
+    st.plotly_chart(fig, use_container_width=True, config=config)
 
 else:
     
-    if pct_choice =='Values (£m)':
-        st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
-        fig = px.bar(combined_subset, y='input_product_trun', x='value',
-                     labels={
-                         'input_product_trun': 'Product',
-                         'value': 'Value (£m)'
-                     },
-                height=600,
-                hover_name='input product',
-                hover_data={'value':':.1f',
-                            'component':False,
-                            'input_product_trun':False
-                            })
-        fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
+    st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
+    fig = px.bar(combined_subset, color='component', y='input_product_trun', x='proportion',
+                    labels={
+                        'component':'Category',
+                        'input_product_trun': 'Product',
+                        'proportion': 'Percentage of total inputs'
+                    },
+            height=600,
+            hover_name='input product',
+            hover_data={'proportion':':.1%',
+                        'component':False,
+                        'input_product_trun':False
+                        })
+    fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
+    fig.layout.xaxis.tickformat = ',.0%'
 
-        config = {'displayModeBar': True}
+    config = {'displayModeBar': True}
 
-        st.plotly_chart(fig, use_container_width=True, config=config)
-        
-    else:
-        st.markdown('##### Total inputs used in the domestic production of {} products'.format(combined_product.lower()))
-        fig = px.bar(combined_subset, y='input_product_trun', x='proportion',
-                     labels={
-                         'input_product_trun': 'Product',
-                         'proportion': 'Percentage of total inputs'
-                     },
-                height=600,
-                hover_name='input product',
-                hover_data={'proportion':':.1%',
-                            'component':False,
-                            'input_product_trun':False
-                            })
-        fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
-        fig.layout.xaxis.tickformat = ',.0%'
-
-        config = {'displayModeBar': True}
-
-        st.plotly_chart(fig, use_container_width=True, config=config)
+    st.plotly_chart(fig, use_container_width=True, config=config)
         
 see_import_data3 = st.expander('You can click here to see the raw data. Data are currently ordered in descending order of the proportion of inputs used in the production of a product.')
 
