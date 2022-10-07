@@ -92,7 +92,9 @@ else:
                         'input_product_trun':False
                         })
 
-    fig.update_layout(yaxis={'categoryorder':'total ascending'})
+    fig.update_layout(yaxis={'categoryorder':'total ascending'},
+                      xaxis_title='percentage of total inputs'
+                     )
 
     config = {'displayModeBar': True}
 
