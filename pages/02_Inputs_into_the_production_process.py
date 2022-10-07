@@ -61,7 +61,7 @@ if pct_choice == 'Values (£m)':
                         'input_product_trun':False
                         }
             )
-    fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
+    fig.update_layout(barmode='stack',yaxis={'categoryorder':'sum ascending'})
 
     config = {'displayModeBar': True}
 
