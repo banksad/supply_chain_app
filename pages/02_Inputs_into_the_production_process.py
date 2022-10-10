@@ -53,18 +53,18 @@ if pct_choice == 'Values (£m)':
 
     st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
     fig = px.bar(combined_subset, color='component', y='input_product_trun', x='value',
-                    labels={
-                        'component':'Category',
-                        'input_product_trun': 'Product',
-                        'value': 'Value (£m)'
-                    },
-            height=600,
-            hover_name='input product',
-            hover_data={'value':':.1f',
-                        'component':False,
-                        'input_product_trun':False
-                        }
-            )
+                        labels={
+                            'component':'Category',
+                            'input_product_trun': 'Product',
+                            'value': 'Value (£m)'
+                        },
+                height=600,
+                hover_name='input product',
+                hover_data={'value':':.1f',
+                            'component':False,
+                            'input_product_trun':False
+                            }
+                )
     fig.update_layout(barmode='stack')
 
     fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
@@ -77,10 +77,10 @@ else:
     
     st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
     fig = px.histogram(combined_subset, 
-                       color='component',
-                       y='input_product_trun', 
-                       x='value',
-                       barnorm='percent',
+                        color='component',
+                        y='input_product_trun', 
+                        x='value',
+                        barnorm='percent',
                             labels={
                                 'component':'Category',
                                 'input_product_trun':'Product',
@@ -96,8 +96,6 @@ else:
     fig.update_layout(xaxis_title='Percentage of total inputs')
 
     fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
-
-    config = {'displayModeBar': True}
 
     st.plotly_chart(fig, use_container_width=True, config=config)
         
