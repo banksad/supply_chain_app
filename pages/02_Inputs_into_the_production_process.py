@@ -97,6 +97,8 @@ else:
 
     fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
 
+    config = {'displayModeBar': True}
+
     st.plotly_chart(fig, use_container_width=True, config=config)
         
 see_import_data3 = st.expander('You can click here to see the raw data. Data are currently ordered in descending order of the value of inputs used in the production of a product.')
