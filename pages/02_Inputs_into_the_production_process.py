@@ -42,7 +42,6 @@ combined_subset = combined[combined['output product']==combined_product]
 combined_subset['input_product_trun'] = combined_subset['input product'].apply(lambda x: x[:20]+'...') 
 
 yarray = combined_subset.groupby('input_product_trun')['value'].sum().sort_values(ascending=True).head(10).index.tolist()
-combined_subset = combined_subset[combined_subset['input_product_trun'].isin(yarray)]
 
 # Chart choice
 
