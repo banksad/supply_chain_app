@@ -40,7 +40,9 @@ st.write('Of these inputs, £{:,}m were produced in the UK, and £{:,}m were imp
 combined_subset = combined[combined['output product']==combined_product]
 
 combined_subset['input_product_trun'] = combined_subset['input product'].apply(lambda x: x[:20]+'...') 
-combined_subset = combined_subset.sort_values(by='proportion',ascending=False).head(10)
+
+yarray = combined_subset.groupby('input_product_trun')['value'].sum().sort_values(ascending=True).head(10).index.tolist()
+combined_subset = combined_subset[combined_subset['input_product_trun'].isin(yarray)]
 
 # Chart choice
 
@@ -88,9 +90,9 @@ else:
                         'input_product_trun':False
                         })
 
-    fig.update_layout(yaxis={'categoryorder':'total ascending'},
-                      xaxis_title='Percentage of total inputs'
-                     )
+    fig.update_layout(xaxis_title='Percentage of total inputs')
+
+    fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
 
     config = {'displayModeBar': True}
 
