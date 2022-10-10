@@ -43,6 +43,8 @@ combined_subset['input_product_trun'] = combined_subset['input product'].apply(l
 
 yarray = combined_subset.groupby('input_product_trun')['value'].sum().sort_values(ascending=True).head(10).index.tolist()
 
+combined_subset = combined_subset[combined_subset['input_product_trun'].isin(yarray)]
+
 # Chart choice
 
 st.subheader('Chart')
@@ -63,7 +65,9 @@ if pct_choice == 'Values (£m)':
                         'input_product_trun':False
                         }
             )
-    fig.update_layout(barmode='stack',yaxis={'categoryorder':'total ascending'})
+    fig.update_layout(barmode='stack')
+
+    fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
 
     config = {'displayModeBar': True}
 
