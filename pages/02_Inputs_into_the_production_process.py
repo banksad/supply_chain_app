@@ -41,15 +41,15 @@ combined_subset = combined[combined['output product']==combined_product]
 
 combined_subset['input_product_trun'] = combined_subset['input product'].apply(lambda x: x[:20]+'...') 
 
-yarray = combined_subset.groupby('input_product_trun')['value'].sum().sort_values(ascending=False).head(20).index.tolist()
-
-combined_subset = combined_subset[combined_subset['input_product_trun'].isin(yarray)]
-
 # Chart choice
 
 st.subheader('Chart')
 
 if pct_choice == 'Values (£m)':
+
+    yarray = combined_subset.groupby('input_product_trun')['value'].sum().sort_values(ascending=False).head(20).index.tolist()
+
+    combined_subset = combined_subset[combined_subset['input_product_trun'].isin(yarray)]
 
     st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product))    
     fig = px.bar(combined_subset, color='component', y='input_product_trun', x='value',
@@ -75,13 +75,16 @@ if pct_choice == 'Values (£m)':
     st.plotly_chart(fig, use_container_width=True, config=config)
 
 else:
+
+    yarray = combined_subset.groupby('input_product_trun')['proportion'].sum().sort_values(ascending=False).head(20).index.tolist()
+
+    combined_subset = combined_subset[combined_subset['input_product_trun'].isin(yarray)]
     
     st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product))    
     fig = px.histogram(combined_subset, 
                         color='component',
                         y='input_product_trun', 
-                        x='value',
-                        barnorm='percent',
+                        x='proportion',
                             labels={
                                 'component':'Category',
                                 'input_product_trun':'Product',
