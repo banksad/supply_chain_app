@@ -102,6 +102,8 @@ data_viewer = combined_subset.rename(columns={'component':'Component',
                                               'industry_trun':'Industry',
                                               'value':'Value (£m)'})
 
+data_viewer = data_viewer.astype({'Value (£m)':'int'})
+
 with see_import_data3:
 
         # CSS to inject contained in a string
