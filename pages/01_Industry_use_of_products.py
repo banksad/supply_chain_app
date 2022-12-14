@@ -95,11 +95,13 @@ else:
             height=600,
             hover_name='industry',
             hover_data={
+                        'proportion_total':':.1f',
                         'component':False,
                         'industry_trun':False
                         })
 
-    fig.update_layout(barmode='stack',xaxis_title='Percentage of total intermediate consumption',
+    fig.update_layout(barmode='stack',
+                      xaxis_title='Percentage of total intermediate consumption',
                       margin=dict(l=200))
 
     fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
