@@ -89,7 +89,7 @@ else:
                             labels={
                                 'component':'Category',
                                 'input_product_trun':'Product',
-                                'proportion_total': 'percentage of total inputs'
+                                'proportion_total': 'Percentage of total inputs'
                             },
             height=600,
             hover_name='input product',
@@ -100,7 +100,6 @@ else:
                         })
 
     fig.update_layout(barmode='stack',
-                      xaxis_title='Percentage of total inputs',
                       margin=dict(l=200))
 
     fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
