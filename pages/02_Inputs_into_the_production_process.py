@@ -51,7 +51,7 @@ st.subheader('Chart')
 
 if pct_choice == 'Values (£m)':
 
-    st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
+    st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product))    
     fig = px.bar(combined_subset, color='component', y='input_product_trun', x='value',
                         labels={
                             'component':'Category',
@@ -75,7 +75,7 @@ if pct_choice == 'Values (£m)':
 
 else:
     
-    st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product.lower()))    
+    st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product))    
     fig = px.histogram(combined_subset, 
                         color='component',
                         y='input_product_trun', 
