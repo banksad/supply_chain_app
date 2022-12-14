@@ -111,6 +111,10 @@ data_viewer = combined_subset.rename(columns={'component':'Component',
                                               'value':'Value (£m)',
                                               'proportion':'Proportion'})
 
+data_viewer = data_viewer.round({'Value (£m)':1})
+data_viewer = data_viewer[['Component','Input Product','Output Product','Value (£m)']].sort_values(by='Value (£m)',ascending=False)
+data_viewer = data_viewer.astype({'Value (£m)':'str'})
+
 with see_import_data3:
 
         # CSS to inject contained in a string
@@ -124,4 +128,4 @@ with see_import_data3:
     # Inject CSS with Markdown
     st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
-    st.table(data=data_viewer[['Component','Input Product','Output Product','Value (£m)']].sort_values(by='Value (£m)',ascending=False))
+    st.table(data=data_viewer)
