@@ -115,4 +115,4 @@ with see_import_data3:
     # Inject CSS with Markdown
     st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
-    st.table(data=data_viewer[['Component','Intermediate Consumption','Value (£m)']].sort_values(by='Value (£m)',ascending=False))
+    st.table(data=data_viewer[['Component','Intermediate Consumption','Industry','Value (£m)']].sort_values(by='Value (£m)',ascending=False))
