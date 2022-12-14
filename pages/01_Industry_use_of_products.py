@@ -94,6 +94,7 @@ else:
             height=600,
             hover_name='industry',
             hover_data={
+                        'sum of value (normalised as percent)':False,
                         'component':False,
                         'industry_trun':False
                         })
