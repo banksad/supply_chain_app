@@ -45,7 +45,7 @@ st.subheader('Chart')
 
 if pct_choice == 'Values (£m)':
 
-    st.markdown('##### Total intermediate consumption of {} products'.format(combined_product.lower()))    
+    st.markdown('##### Total intermediate consumption of {} products'.format(combined_product))    
     fig = px.bar(combined_subset, color='component', y='industry_trun', x='value',
                         labels={
                             'component':'Category',
@@ -69,7 +69,7 @@ if pct_choice == 'Values (£m)':
 
 else:
     
-    st.markdown('##### Intermediate consumption of {} products: percentage domestically produced and imported'.format(combined_product.lower()))    
+    st.markdown('##### Intermediate consumption of {} products: percentage domestically produced and imported'.format(combined_product))    
     fig = px.histogram(combined_subset, 
                         color='component',
                         y='industry_trun', 
@@ -108,7 +108,7 @@ data_viewer = data_viewer.astype({'Value (£m)':'str'})
 
 with see_import_data3:
 
-        # CSS to inject contained in a string
+    # CSS to inject contained in a string
     hide_table_row_index = """
                 <style>
                 thead tr th:first-child {display:none}
