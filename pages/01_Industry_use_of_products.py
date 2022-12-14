@@ -83,8 +83,7 @@ else:
     fig = px.histogram(combined_subset, 
                         color='component',
                         y='industry_trun', 
-                        x='value',
-                        barnorm='percent',
+                        x='proportion',
                             labels={
                                 'component':'Category',
                                 'industry_trun':'Industry',
