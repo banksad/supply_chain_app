@@ -80,6 +80,7 @@ else:
 
     yarray = combined_subset.groupby('industry_trun')['proportion_total'].sum().sort_values(ascending=False).head(20).index.tolist()
     combined_subset = combined_subset[combined_subset['industry_trun'].isin(yarray)]
+    combined_subset['proportion_total'] = combined_subset['proportion_total']*100
     
     st.markdown('##### Intermediate consumption of {} products: percentage domestically produced and imported'.format(combined_product))    
     fig = px.histogram(combined_subset, 
@@ -89,17 +90,16 @@ else:
                             labels={
                                 'component':'Category',
                                 'industry_trun':'Industry',
-                                'sum of value (normalised as percent)': 'percentage of total inputs'
+                                'proportion_total': 'percentage of total inputs'
                             },
             height=600,
             hover_name='industry',
             hover_data={
-                        'sum of value (normalised as percent)':False,
                         'component':False,
                         'industry_trun':False
                         })
 
-    fig.update_layout(xaxis_title='Percentage of total intermediate consumption',
+    fig.update_layout(barmode='stack',xaxis_title='Percentage of total intermediate consumption',
                       margin=dict(l=200))
 
     fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
