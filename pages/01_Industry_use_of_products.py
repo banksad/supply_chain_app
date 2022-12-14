@@ -103,6 +103,7 @@ data_viewer = combined_subset.rename(columns={'component':'Component',
                                               'value':'Value (£m)'})
 
 data_viewer = data_viewer.round({'Value (£m)':1})
+data_viewer = data_viewer.astype({'Value (£m)':'str'})
 
 with see_import_data3:
 
