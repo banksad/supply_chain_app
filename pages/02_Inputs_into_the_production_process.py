@@ -65,7 +65,8 @@ if pct_choice == 'Values (£m)':
                             'input_product_trun':False
                             }
                 )
-    fig.update_layout(barmode='stack')
+    fig.update_layout(barmode='stack',
+                      margin=dict(l=50))
 
     fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
 
