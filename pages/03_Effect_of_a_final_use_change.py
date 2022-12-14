@@ -76,11 +76,7 @@ if change<0:
     
 else:
 
-    st.write('The change in gross value added is £{:,}m'.format(round(total_gva, 2)))
-
-    st.write('There is a corresponding change in imports of £{:,}m'.format(round(total_imports,2)))
-
-    st.write('Employee compensation would change by £{:,}m'.format(round(total_coe,2)))
+    st.write('The change in gross value added is £{:,}m. There is a corresponding change in imports of £{:,}m, and employee compensation would change by £{:,}m'.format(round(total_gva, 2),round(total_imports,2),round(total_coe,2))
 
     # Add chart
 
