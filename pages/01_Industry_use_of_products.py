@@ -35,7 +35,7 @@ combined_subset = combined[combined['input requirements']==combined_product]
 
 combined_subset['industry_trun'] = combined_subset['industry'].apply(lambda x: x[:20]+'...') 
 
-yarray = combined_subset.groupby('industry_trun')['value'].sum().sort_values(ascending=False).head(10).index.tolist()
+yarray = combined_subset.groupby('industry_trun')['value'].sum().sort_values(ascending=False).head(20).index.tolist()
 
 combined_subset = combined_subset[combined_subset['industry_trun'].isin(yarray)]
 
