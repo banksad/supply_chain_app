@@ -94,7 +94,8 @@ else:
                         'input_product_trun':False
                         })
 
-    fig.update_layout(xaxis_title='Percentage of total inputs')
+    fig.update_layout(xaxis_title='Percentage of total inputs',
+                      margin=dict(l=200))
 
     fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
 

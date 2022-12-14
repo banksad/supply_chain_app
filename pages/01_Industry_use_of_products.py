@@ -59,7 +59,8 @@ if pct_choice == 'Values (£m)':
                             'industry_trun':False
                             }
                 )
-    fig.update_layout(barmode='stack')
+    fig.update_layout(barmode='stack',
+                      margin=dict(l=200))
 
     fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
 
@@ -87,7 +88,8 @@ else:
                         'industry_trun':False
                         })
 
-    fig.update_layout(xaxis_title='Percentage of total intermediate consumption')
+    fig.update_layout(xaxis_title='Percentage of total intermediate consumption',
+                      margin=dict(l=200))
 
     fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
 
