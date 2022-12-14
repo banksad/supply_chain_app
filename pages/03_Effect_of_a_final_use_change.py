@@ -61,8 +61,8 @@ if change<0:
 
     # Add chart
 
-    st.markdown('##### Total effects of a change to final use of -£{:,}m for {}'.format(round(change*-1,2),multiplier_product.lower()))    
-    fig = px.bar(total_effects, y='total_effects', x='variable',
+    st.markdown('##### Total effects of a change to final use of -£{:,}m for {}'.format(round(change*-1,2),multiplier_product))    
+    fig = px.bar(total_effects, y='variable', x='total_effects',
                     labels={
                         'total_effects':'Total effect (£m)',
                         'variable': 'Component'
@@ -84,8 +84,8 @@ else:
 
     # Add chart
 
-    st.markdown('##### Total effects of a change to final use of £{:,}m for {}'.format(round(change,2),multiplier_product.lower()))    
-    fig = px.bar(total_effects, y='total_effects', x='variable',
+    st.markdown('##### Total effects of a change to final use of £{:,}m for {}'.format(round(change,2),multiplier_product))    
+    fig = px.bar(total_effects, y='variable', x='total_effects',
                     labels={
                         'total_effects':'Total effect (£m)',
                         'variable': 'Component'
