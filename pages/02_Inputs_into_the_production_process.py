@@ -66,7 +66,7 @@ if pct_choice == 'Values (£m)':
                             }
                 )
     fig.update_layout(barmode='stack',
-                      margin=dict(l=50))
+                      margin=dict(l=100))
 
     fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
 
