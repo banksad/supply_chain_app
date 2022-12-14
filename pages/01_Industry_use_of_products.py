@@ -35,10 +35,6 @@ combined_subset = combined[combined['input requirements']==combined_product]
 
 combined_subset['industry_trun'] = combined_subset['industry'].apply(lambda x: x[:20]+'...') 
 
-yarray = combined_subset.groupby('industry_trun')['value'].sum().sort_values(ascending=False).head(20).index.tolist()
-
-combined_subset = combined_subset[combined_subset['industry_trun'].isin(yarray)]
-
 # Summary text
 
 st.subheader('Summary text')
@@ -53,6 +49,9 @@ st.write('Of these inputs, £{:,}m were produced in the UK, and £{:,}m were imp
 st.subheader('Chart')
 
 if pct_choice == 'Values (£m)':
+
+    yarray = combined_subset.groupby('industry_trun')['value'].sum().sort_values(ascending=False).head(20).index.tolist()
+    combined_subset = combined_subset[combined_subset['industry_trun'].isin(yarray)]
 
     st.markdown('##### Total intermediate consumption of {} products'.format(combined_product))    
     fig = px.bar(combined_subset, color='component', y='industry_trun', x='value',
@@ -78,6 +77,9 @@ if pct_choice == 'Values (£m)':
     st.plotly_chart(fig, use_container_width=True, config=config)
 
 else:
+
+    yarray = combined_subset.groupby('industry_trun')['proportion'].sum().sort_values(ascending=False).head(20).index.tolist()
+    combined_subset = combined_subset[combined_subset['industry_trun'].isin(yarray)]
     
     st.markdown('##### Intermediate consumption of {} products: percentage domestically produced and imported'.format(combined_product))    
     fig = px.histogram(combined_subset, 
