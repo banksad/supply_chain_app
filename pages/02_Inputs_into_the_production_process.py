@@ -94,12 +94,13 @@ else:
             height=600,
             hover_name='input product',
             hover_data={
-                        'proportion_total':':.1f',
+                        'proportion_total':False,
                         'component':False,
                         'input_product_trun':False
                         })
 
     fig.update_layout(barmode='stack',
+                      xaxis_title='Percentage of total inputs',
                       margin=dict(l=200))
 
     fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
