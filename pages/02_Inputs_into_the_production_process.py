@@ -76,7 +76,7 @@ if pct_choice == 'Values (£m)':
 
 else:
 
-    yarray = combined_subset.groupby('input_product_trun')['proportion'].sum().sort_values(ascending=False).head(20).index.tolist()
+    yarray = combined_subset.groupby('input_product_trun')['proportion_total'].sum().sort_values(ascending=False).head(20).index.tolist()
 
     combined_subset = combined_subset[combined_subset['input_product_trun'].isin(yarray)]
     
@@ -84,7 +84,7 @@ else:
     fig = px.histogram(combined_subset, 
                         color='component',
                         y='input_product_trun', 
-                        x='proportion',
+                        x='proportion_total',
                             labels={
                                 'component':'Category',
                                 'input_product_trun':'Product',

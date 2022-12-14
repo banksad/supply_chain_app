@@ -78,14 +78,14 @@ if pct_choice == 'Values (£m)':
 
 else:
 
-    yarray = combined_subset.groupby('industry_trun')['proportion'].sum().sort_values(ascending=False).head(20).index.tolist()
+    yarray = combined_subset.groupby('industry_trun')['proportion_total'].sum().sort_values(ascending=False).head(20).index.tolist()
     combined_subset = combined_subset[combined_subset['industry_trun'].isin(yarray)]
     
     st.markdown('##### Intermediate consumption of {} products: percentage domestically produced and imported'.format(combined_product))    
     fig = px.histogram(combined_subset, 
                         color='component',
                         y='industry_trun', 
-                        x='proportion',
+                        x='proportion_total',
                             labels={
                                 'component':'Category',
                                 'industry_trun':'Industry',
