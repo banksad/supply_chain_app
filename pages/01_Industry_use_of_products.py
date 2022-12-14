@@ -99,6 +99,7 @@ see_import_data3 = st.expander('You can click here to see the raw data. Data are
 
 data_viewer = combined_subset.rename(columns={'component':'Component',
                                               'input requirements':'Intermediate Consumption',
+                                              'industry_trun':'Industry',
                                               'value':'Value (£m)'})
 
 with see_import_data3:
