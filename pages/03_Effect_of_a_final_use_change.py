@@ -70,7 +70,7 @@ if change<0:
                     hover_data={'total_effects':':.2f',
                                 'variable':False})
 
-    fig.update_layout(margin=dict(l=200))
+    fig.update_layout(margin=dict(l=300))
 
     config = {'displayModeBar': True}
 
@@ -91,8 +91,8 @@ else:
                     hover_data={'total_effects':':.2f',
                                 'variable':False})
     
-    fig.update_layout(margin=dict(l=200))
-    
+    fig.update_layout(margin=dict(l=300))
+
     config = {'displayModeBar': True}
 
     st.plotly_chart(fig, use_container_width=True, config=config)
