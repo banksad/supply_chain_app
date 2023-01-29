@@ -74,7 +74,7 @@ if change<0:
                   'Intermediate consumption at basic prices',
                   'Taxes less subsidies on products']
 
-    fig.update_yaxes(categoryorder='array', categoryarray=orderarray)
+    fig.update_yaxes(categoryorder='array', categoryarray=orderarray[::-1])
     
     fig.update_layout(margin=dict(l=300))
 
@@ -107,7 +107,7 @@ else:
                   'Intermediate consumption at basic prices',
                   'Taxes less subsidies on products']
 
-    fig.update_yaxes(categoryorder='array', categoryarray=orderarray)
+    fig.update_yaxes(categoryorder='array', categoryarray=orderarray[::-1])
 
     fig.update_layout(margin=dict(l=300))
 
