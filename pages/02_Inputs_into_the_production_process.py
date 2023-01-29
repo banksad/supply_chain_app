@@ -19,7 +19,7 @@ st.markdown('This section examines what products (goods and services) need to be
 
 with st.form(key='product_form'):
     combined_product = st.selectbox('Search for a product that you wish to analyse:',options=combined.sort_values(by='output product')['output product'].unique())
-    pct_choice = st.selectbox('Choose whether to view data in £m or as proportions of total inputs needed to produce the product.',['Values (£m)','Percentage of total inputs'])
+    pct_choice = st.selectbox('Choose whether to view data in £m or as proportions of total intermediate consumption needed to produce the product.',['Values (£m)','Percentage of total inputs'])
     
     submit_button = st.form_submit_button(label='Submit')
 
@@ -80,19 +80,19 @@ else:
     combined_subset['proportion_total'] = combined_subset['proportion_total']*100
     
     st.markdown('##### Domestically produced and imported inputs used in the domestic production of {} products'.format(combined_product))    
-    fig = px.histogram(combined_subset, 
+    fig = px.bar(combined_subset, 
                         color='component',
                         y='input_product_trun', 
                         x='proportion_total',
                             labels={
                                 'component':'Category',
                                 'input_product_trun':'Product',
-                                'proportion_total': 'Percentage of total inputs'
+                                'proportion_total': 'Percentage of total intermediate consumption'
                             },
             height=600,
             hover_name='input product',
             hover_data={
-                        'proportion_total':False,
+                        'proportion_total':':.1f',
                         'component':False,
                         'input_product_trun':False
                         })
