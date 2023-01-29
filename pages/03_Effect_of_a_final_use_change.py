@@ -64,6 +64,18 @@ if change<0:
                     hover_data={'total_effects':':.1f',
                                 'variable':False})
 
+    orderarray = ['Gross value added',
+                  'Output',
+                  'Compensation of employees',
+                  'Gross operating surplus and mixed income',
+                  'Use of imported products, cif',
+                  'Taxes less subsidies on production',
+                  "Intermediate consumption at purchaser's prices",
+                  'Intermediate consumption at basic prices',
+                  'Taxes less subsidies on products']
+
+    fig.update_yaxes(categoryorder='array', categoryarray=orderarray)
+    
     fig.update_layout(margin=dict(l=300))
 
     config = {'displayModeBar': True}
@@ -85,6 +97,18 @@ else:
                     hover_data={'total_effects':':.1f',
                                 'variable':False})
     
+    orderarray = ['Gross value added',
+                  'Output',
+                  'Compensation of employees',
+                  'Gross operating surplus and mixed income',
+                  'Use of imported products, cif',
+                  'Taxes less subsidies on production',
+                  "Intermediate consumption at purchaser's prices",
+                  'Intermediate consumption at basic prices',
+                  'Taxes less subsidies on products']
+
+    fig.update_yaxes(categoryorder='array', categoryarray=orderarray)
+
     fig.update_layout(margin=dict(l=300))
 
     config = {'displayModeBar': True}
