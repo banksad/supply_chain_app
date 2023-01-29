@@ -31,10 +31,8 @@ imported_inputs = combined[(combined['output product']==combined_product)&(combi
 
 st.subheader('Summary text')
 
-st.write('The total production of {} required £{:,}m of goods and services to produce in 2018.'.format(combined_product,round(total_inputs,2)))
+st.write('The total production of {} required £{:,}m of goods and services to produce in 2018.'.format(combined_product,round(total_inputs,1)))
             
-st.write('Of these inputs, £{:,}m were produced in the UK, and £{:,}m were imported.'.format(round(domestic_inputs,2),round(imported_inputs,2)))
-
 # Total inputs
 
 combined_subset = combined[combined['output product']==combined_product]
