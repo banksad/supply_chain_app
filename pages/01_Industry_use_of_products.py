@@ -95,7 +95,7 @@ else:
             height=600,
             hover_name='Industry',
             hover_data={
-                        'Percentage of total intermediate consumption':':.1f',
+                        'proportion_trun':':.1f',
                         'component':False,
                         'industry_trun':False
                         })
