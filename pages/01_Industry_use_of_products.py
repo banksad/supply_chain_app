@@ -83,7 +83,7 @@ else:
     combined_subset['proportion_total'] = combined_subset['proportion_total']*100
     
     st.markdown('##### Intermediate consumption of {} products: percentage domestically produced and imported'.format(combined_product))    
-    fig = px.histogram(combined_subset, 
+    fig = px.bar(combined_subset, 
                         color='component',
                         y='industry_trun', 
                         x='proportion_total',
