@@ -95,7 +95,7 @@ else:
             height=600,
             hover_name='Industry',
             hover_data={
-                        'proportion_trun':':.1f',
+                        'proportion_total':':.1f',
                         'component':False,
                         'industry_trun':False
                         })
