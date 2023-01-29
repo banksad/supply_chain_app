@@ -86,7 +86,19 @@ else:
     fig = px.histogram(combined_subset, 
                         color='component',
                         y='industry_trun', 
-                        x='proportion_total')
+                        x='proportion_total',
+                            labels={
+                                'component':'Category',
+                                'industry_trun':'Industry',
+                                'proportion_total': 'Percentage of total intermediate consumption'
+                            },
+            height=600,
+            hover_name='Industry',
+            hover_data={
+                        'Percentage of total intermediate consumption':':.1f',
+                        'component':False,
+                        'industry_trun':False
+                        })
 
     fig.update_layout(barmode='stack',
                       xaxis_title='Percentage of total intermediate consumption',
