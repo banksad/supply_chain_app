@@ -51,7 +51,7 @@ total_effects['total_effects'] = total_effects['value'] * change
 
 if change<0:
     
-    st.write('The change in gross value added is -£{:,}m'.format(round(total_gva*-1, 1)))
+    st.write('The change in gross value added is -£{:.1f}m'.format(round(total_gva*-1, 1)))
 
     st.write('There is a corresponding change in imports of -£{:,}m'.format(round(total_imports*-1,1)))
 
