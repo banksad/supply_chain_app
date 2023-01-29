@@ -13,7 +13,7 @@ combined = pd.read_csv('data/combined.csv')
 
 st.title('Inputs into the production process of goods and services')
 
-st.subheader('Overview')
+st.header('Overview')
 
 st.markdown('This section examines what products (goods and services) need to be used in order to produce other products, and of these, what proportion are domestically produced and which imported. This utilises the ONS product-by-product tables, which are part of the Input-Output tables.')
 
@@ -29,7 +29,7 @@ total_inputs = combined[combined['output product']==combined_product]['value'].s
 domestic_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Domestically produced inputs')]['value'].sum()
 imported_inputs = combined[(combined['output product']==combined_product)&(combined['component']=='Imported inputs')]['value'].sum()
 
-st.subheader('Summary text')
+st.header('Summary text')
 
 st.write('The total production of {} required £{:,}m of goods and services to produce in 2018.'.format(combined_product,round(total_inputs,1)))
             
@@ -41,7 +41,7 @@ combined_subset['input_product_trun'] = combined_subset['input product'].apply(l
 
 # Chart choice
 
-st.subheader('Chart')
+st.header('Chart')
 
 if pct_choice == 'Values (£m)':
 

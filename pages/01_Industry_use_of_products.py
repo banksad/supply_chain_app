@@ -13,7 +13,7 @@ combined = pd.read_csv('data/combined_pi.csv')
 
 st.title('How do industries use goods and services in the production process?')
 
-st.subheader('Overview')
+st.header('Overview')
 
 st.markdown("""This tab presents information on the extent to which different industries in the economy use specific goods and services in their production processes. In choosing a product, the chart will show how much that product makes up of each industry's total input into its production process.""")
 
@@ -46,7 +46,7 @@ st.write('Of these inputs, £{:,}m were produced in the UK, and £{:,}m were imp
 
 # Chart choice
 
-st.subheader('Chart')
+st.header('Chart')
 
 if pct_choice == 'Values (£m)':
 

@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title('Input Output Analytical Tables (IOATs) Dashboard')
 
-st.subheader("Overview")
+st.header("Overview")
 
 # Sidebar
 
