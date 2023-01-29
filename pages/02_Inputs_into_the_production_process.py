@@ -98,7 +98,7 @@ else:
                         })
 
     fig.update_layout(barmode='stack',
-                      xaxis_title='Percentage of total inputs',
+                      xaxis_title='Percentage of total intermediate consumption',
                       margin=dict(l=200))
 
     fig.update_yaxes(categoryorder='array', categoryarray=yarray[::-1])
