@@ -51,11 +51,7 @@ total_effects['total_effects'] = total_effects['value'] * change
 
 if change<0:
     
-    st.write('The change in gross value added is -£{:.1f}m'.format(total_gva*-1))
-
-    st.write('There is a corresponding change in imports of -£{:.1f}m'.format(total_imports*-1))
-
-    st.write('Employee compensation would change by -£{:.1f}m'.format(total_coe*-1))
+    st.write('The change in gross value added from the selected change in final use is -£{:.1f}m. There is a corresponding change in imports of -£{:.1f}m, and employee compensation would change by -£{:.1f}m'.format(total_gva*-1,total_imports*-1,total_coe*-1))
 
     # Add chart
 
