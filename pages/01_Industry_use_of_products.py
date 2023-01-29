@@ -93,12 +93,7 @@ else:
                                 'proportion_total': 'Percentage of total intermediate consumption'
                             },
             height=600,
-            hover_name='Industry',
-            hover_data={
-                        'proportion_total':':.1f',
-                        'component':False,
-                        'industry_trun':False
-                        })
+            hover_name='Industry')
 
     fig.update_layout(barmode='stack',
                       xaxis_title='Percentage of total intermediate consumption',
