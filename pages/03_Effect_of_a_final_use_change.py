@@ -68,11 +68,12 @@ if change<0:
                   'Output',
                   'Compensation of employees',
                   'Gross operating surplus and mixed income',
-                  'Use of imported products, cif',
                   'Taxes less subsidies on production',
                   "Intermediate consumption at purchaser's prices",
-                  'Intermediate consumption at basic prices',
-                  'Taxes less subsidies on products']
+                  'Use of imported products, cif',
+                  'Taxes less subsidies on products',
+                  'Intermediate consumption at basic prices']
+]
 
     fig.update_yaxes(categoryorder='array', categoryarray=orderarray[::-1])
     
@@ -101,12 +102,12 @@ else:
                   'Output',
                   'Compensation of employees',
                   'Gross operating surplus and mixed income',
-                  'Use of imported products, cif',
                   'Taxes less subsidies on production',
                   "Intermediate consumption at purchaser's prices",
-                  'Intermediate consumption at basic prices',
-                  'Taxes less subsidies on products']
-
+                  'Use of imported products, cif',
+                  'Taxes less subsidies on products',
+                  'Intermediate consumption at basic prices']
+                  
     fig.update_yaxes(categoryorder='array', categoryarray=orderarray[::-1])
 
     fig.update_layout(margin=dict(l=300))
