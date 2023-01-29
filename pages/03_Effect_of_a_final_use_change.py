@@ -30,7 +30,7 @@ The results of the model are therefore most robust with relatively small changes
 
 with st.form(key='effects_form'):
     multiplier_product = st.selectbox('Select a product',options=detailed_effects.sort_values(by='Product')['Product'].unique())
-    change = st.number_input('Input change in final use for the product (£m)')
+    change = st.number_input('Input change in final use for the product (£m)', format='%d')
 
     submit_button = st.form_submit_button(label='Submit')
 
@@ -88,7 +88,7 @@ else:
                         'total_effects':'Total effect (£m)',
                         'variable': 'Component'
                     },
-                    hover_data={'total_effects':':.2f',
+                    hover_data={'total_effects':':.1f',
                                 'variable':False})
     
     fig.update_layout(margin=dict(l=300))

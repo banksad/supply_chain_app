@@ -19,7 +19,7 @@ st.markdown("""This tab presents information on the extent to which different in
 
 with st.form(key='product_form'):
     combined_product = st.selectbox('Search for a product that you wish to analyse:',options=combined.sort_values(by='input requirements')['input requirements'].unique())
-    pct_choice = st.selectbox('Choose whether to view data in £m or as proportions of total inputs needed to produce the product.',['Values (£m)','Percentage of total inputs'])
+    pct_choice = st.selectbox('Choose whether to view data in £m or as proportions of total intermediate consumption needed to produce the product.',['Values (£m)','Percentage of total inputs'])
     
     submit_button = st.form_submit_button(label='Submit')
 
