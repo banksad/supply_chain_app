@@ -51,15 +51,15 @@ total_effects['total_effects'] = total_effects['value'] * change
 
 if change<0:
     
-    st.write('The change in gross value added is -£{:.1f}m'.format(round(total_gva*-1, 1)))
+    st.write('The change in gross value added is -£{:.1f}m'.format(total_gva*-1))
 
-    st.write('There is a corresponding change in imports of -£{:,}m'.format(round(total_imports*-1,1)))
+    st.write('There is a corresponding change in imports of -£{:.1f}m'.format(total_imports*-1))
 
-    st.write('Employee compensation would change by -£{:,}m'.format(round(total_coe*-1,1)))
+    st.write('Employee compensation would change by -£{:.1f}m'.format(total_coe*-1))
 
     # Add chart
 
-    st.markdown('##### Total effects of a change to final use of -£{:,}m for {}'.format(round(change*-1,1),multiplier_product))    
+    st.markdown('##### Total effects of a change to final use of -£{:.1f}m for {}'.format(change*-1,multiplier_product))    
     fig = px.bar(total_effects, y='variable', x='total_effects',
                     labels={
                         'total_effects':'Total effect (£m)',
@@ -76,11 +76,11 @@ if change<0:
     
 else:
 
-    st.write('The change in gross value added from the selected change in final use is £{:,}m. There is a corresponding change in imports of £{:,}m, and employee compensation would change by £{:,}m'.format(round(total_gva, 2),round(total_imports,2),round(total_coe,2)))
+    st.write('The change in gross value added from the selected change in final use is £{:.1f}m. There is a corresponding change in imports of £{:.1f}m, and employee compensation would change by £{:.1f}m'.format(total_gva,total_imports,total_coe))
 
     # Add chart
 
-    st.markdown('##### Total effects of a change to final use of £{:,}m for {}'.format(round(change,1),multiplier_product))    
+    st.markdown('##### Total effects of a change to final use of £{:.1f}m for {}'.format(change,multiplier_product))   
     fig = px.bar(total_effects, y='variable', x='total_effects',
                     labels={
                         'total_effects':'Total effect (£m)',
