@@ -51,21 +51,21 @@ total_effects['total_effects'] = total_effects['value'] * change
 
 if change<0:
     
-    st.write('The change in gross value added is -£{:,}m'.format(round(total_gva*-1, 2)))
+    st.write('The change in gross value added is -£{:,}m'.format(round(total_gva*-1, 1)))
 
-    st.write('There is a corresponding change in imports of -£{:,}m'.format(round(total_imports*-1,2)))
+    st.write('There is a corresponding change in imports of -£{:,}m'.format(round(total_imports*-1,1)))
 
-    st.write('Employee compensation would change by -£{:,}m'.format(round(total_coe*-1,2)))
+    st.write('Employee compensation would change by -£{:,}m'.format(round(total_coe*-1,1)))
 
     # Add chart
 
-    st.markdown('##### Total effects of a change to final use of -£{:,}m for {}'.format(round(change*-1,2),multiplier_product))    
+    st.markdown('##### Total effects of a change to final use of -£{:,}m for {}'.format(round(change*-1,1),multiplier_product))    
     fig = px.bar(total_effects, y='variable', x='total_effects',
                     labels={
                         'total_effects':'Total effect (£m)',
                         'variable': 'Component'
                     },
-                    hover_data={'total_effects':':.2f',
+                    hover_data={'total_effects':':.1f',
                                 'variable':False})
 
     fig.update_layout(margin=dict(l=300))
@@ -80,7 +80,7 @@ else:
 
     # Add chart
 
-    st.markdown('##### Total effects of a change to final use of £{:,}m for {}'.format(round(change,2),multiplier_product))    
+    st.markdown('##### Total effects of a change to final use of £{:,}m for {}'.format(round(change,1),multiplier_product))    
     fig = px.bar(total_effects, y='variable', x='total_effects',
                     labels={
                         'total_effects':'Total effect (£m)',
