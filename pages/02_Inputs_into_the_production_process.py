@@ -11,7 +11,9 @@ combined = pd.read_csv('data/combined.csv')
 
 # Inputs section
 
-st.header('Inputs into the production process of goods and services')
+st.title('Inputs into the production process of goods and services')
+
+st.subheader('Overview')
 
 st.markdown('This section examines what products (goods and services) need to be used in order to produce other products, and of these, what proportion are domestically produced and which imported. This utilises the ONS product-by-product tables, which are part of the Input-Output tables.')
 
