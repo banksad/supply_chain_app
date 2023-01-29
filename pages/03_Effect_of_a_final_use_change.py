@@ -18,11 +18,11 @@ To meet an increase in final use for a product, more of the inputs of that produ
 
 This change in total output is captured by effects. They also capture changes to other inputs into the production process, such as compensation of employees and gross operating surplus.
 
-The tab allows the user to model the total effect of a change in final use on the economy.
+This tab allows the user to model the total effect of a change in final use on the economy.
 
-The effects published by ONS are sometimes referred to a Type 1. They include the impact on production of a change in final use (direct impact) and the supply chain impacts stemming from the initial change in final use (indirect impact).
+The effects published by ONS are sometimes referred to as Type 1. They include the impact on production of a change in final use (direct impact) and the supply chain impacts stemming from the initial change in final use (indirect impact).
 
-However, they do not include induced impacts (i.e. Type 2 effects), which cover changes to a households spending from employment changes linked to a change in final use. In addition, the model assumes that the structure of the economy doesn't changes and that any additional inputs are available.
+However, they do not include induced impacts (i.e. Type 2 effects), which cover changes to a households spending from employment changes linked to a change in final use. In addition, the model assumes that the structure of the economy doesn't change and that any additional inputs are available.
 
 The results of the model are therefore most robust with relatively small changes to final use.
 
