@@ -39,7 +39,7 @@ combined_subset['industry_trun'] = combined_subset['industry'].apply(lambda x: x
 
 st.subheader('Summary text')
 
-st.write('In 2018, £{:,}m of {} were used in the production of goods and services across all UK industries.'.format(round(total_inputs,2),combined_product))
+st.write('In 2019, £{:,}m of {} were used in the production of goods and services across all UK industries.'.format(round(total_inputs,2),combined_product))
             
 st.write('Of these inputs, £{:,}m were produced in the UK, and £{:,}m were imported.'.format(round(domestic_inputs,2),round(imported_inputs,2)))
 
