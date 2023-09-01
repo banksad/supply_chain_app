@@ -21,4 +21,4 @@ A summary of the three tabs is set out below:
 - **Effect of a final use change**: This tab shows the effect of a change in final use for a product on the economy. It allows the user to retrieve the estimated impact on variables such as Gross Value Added (GVA) or imports.
 """
 )
-st.markdown('The text and charts within each page will automatically update depending on the options chosen in the selection boxes. The data refer to 2018.')
+st.markdown('The text and charts within each page will automatically update depending on the options chosen in the selection boxes. The data refer to 2019.')
