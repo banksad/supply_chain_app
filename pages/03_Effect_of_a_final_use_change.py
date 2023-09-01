@@ -8,7 +8,9 @@ detailed_effects = pd.read_csv('data/detailed_effects.csv')
 
 # Effects of an increase in demand on whole economy output
 
-st.subheader('Effects of a change in final use for a product on the economy')
+st.title('Effects of a change in final use for a product on the economy')
+
+st.header('Overview')
 
 st.markdown("""
 
@@ -50,10 +52,14 @@ total_effects['total_effects'] = total_effects['value'] * change
 # Writing
 
 if change<0:
+
+    st.header('Summary text')
     
     st.write('The change in gross value added from the selected change in final use is -£{:.1f}m. There is a corresponding change in imports of -£{:.1f}m, and employee compensation would change by -£{:.1f}m'.format(total_gva*-1,total_imports*-1,total_coe*-1))
 
     # Add chart
+
+    st.header('Chart')
 
     st.markdown('##### Total effects of a change to final use of -£{:.1f}m for {}'.format(change*-1,multiplier_product))    
     fig = px.bar(total_effects, y='variable', x='total_effects',
@@ -84,9 +90,13 @@ if change<0:
     
 else:
 
+    st.header('Summary text')
+    
     st.write('The change in gross value added from the selected change in final use is £{:.1f}m. There is a corresponding change in imports of £{:.1f}m, and employee compensation would change by £{:.1f}m'.format(total_gva,total_imports,total_coe))
 
     # Add chart
+
+    st.header('Chart')
 
     st.markdown('##### Total effects of a change to final use of £{:.1f}m for {}'.format(change,multiplier_product))   
     fig = px.bar(total_effects, y='variable', x='total_effects',
